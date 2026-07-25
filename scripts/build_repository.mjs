@@ -8,7 +8,11 @@ const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'catalogue.json'), 
 const privateJwkRaw = process.env.MODULE_REPOSITORY_SIGNING_JWK;
 if (!privateJwkRaw) throw new Error('MODULE_REPOSITORY_SIGNING_JWK is required');
 const privateKey = crypto.createPrivateKey({ key: JSON.parse(privateJwkRaw), format: 'jwk' });
-const publishedAtMs = Number(process.env.PUBLISHED_AT_MS || Date.now());
+const existingIndexPath = path.join(root, 'repository.json');
+const existingPublishedAtMs = fs.existsSync(existingIndexPath)
+  ? JSON.parse(fs.readFileSync(existingIndexPath, 'utf8')).publishedAtMs
+  : null;
+const publishedAtMs = Number(process.env.PUBLISHED_AT_MS || existingPublishedAtMs || Date.now());
 const releaseBase = 'https://github.com/kas021/Synthetiq-Modules/releases/download';
 
 function sha256(file) {

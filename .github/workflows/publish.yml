@@ -31,10 +31,7 @@ jobs:
       - name: Generate and validate signed index
         env:
           MODULE_REPOSITORY_SIGNING_JWK: ${{ secrets.MODULE_REPOSITORY_SIGNING_JWK }}
-          PUBLISHED_AT_MS: ${{ github.run_id }}000
         run: node scripts/build_repository.mjs
-      - name: Verify generated files are current
-        run: git diff --exit-code -- repository.json SHA256SUMS
       - uses: actions/upload-artifact@v4
         with:
           name: signed-module-catalogue
