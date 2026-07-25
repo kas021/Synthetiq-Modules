@@ -9,9 +9,10 @@ const privateJwkRaw = process.env.MODULE_REPOSITORY_SIGNING_JWK;
 if (!privateJwkRaw) throw new Error('MODULE_REPOSITORY_SIGNING_JWK is required');
 const privateKey = crypto.createPrivateKey({ key: JSON.parse(privateJwkRaw), format: 'jwk' });
 const existingIndexPath = path.join(root, 'repository.json');
-const existingPublishedAtMs = fs.existsSync(existingIndexPath)
-  ? JSON.parse(fs.readFileSync(existingIndexPath, 'utf8')).publishedAtMs
+const existingIndex = fs.existsSync(existingIndexPath)
+  ? JSON.parse(fs.readFileSync(existingIndexPath, 'utf8'))
   : null;
+const existingPublishedAtMs = existingIndex?.publishedAtMs ?? null;
 const publishedAtMs = Number(process.env.PUBLISHED_AT_MS || existingPublishedAtMs || Date.now());
 const releaseBase = 'https://github.com/kas021/Synthetiq-Modules/releases/download';
 
@@ -63,6 +64,17 @@ function versionOf(manifest) {
 
 function valueOf(manifest, key) {
   return manifest[key] ?? manifest.config?.[key];
+}
+
+function compareVersions(left, right) {
+  const a = String(left).split(/[^0-9]+/).filter(Boolean).map(Number);
+  const b = String(right).split(/[^0-9]+/).filter(Boolean).map(Number);
+  const length = Math.max(a.length, b.length);
+  for (let i = 0; i < length; i += 1) {
+    const difference = (a[i] ?? 0) - (b[i] ?? 0);
+    if (difference !== 0) return Math.sign(difference);
+  }
+  return 0;
 }
 
 function packagePath(tag, file) {
@@ -138,6 +150,18 @@ const index = {
   },
   modules,
 };
+if (existingIndex) {
+  if (Number(catalogue.bundleVersion) < Number(existingIndex.bundle.version)) {
+    throw new Error(`Bundle version downgrade rejected: ${existingIndex.bundle.version} -> ${catalogue.bundleVersion}`);
+  }
+  const previousById = new Map(existingIndex.modules.map((module) => [module.moduleId, module]));
+  for (const module of modules) {
+    const previous = previousById.get(module.moduleId);
+    if (previous && compareVersions(module.version, previous.version) < 0) {
+      throw new Error(`Module version downgrade rejected for ${module.moduleId}: ${previous.version} -> ${module.version}`);
+    }
+  }
+}
 const indexMessage = [String(index.schemaVersion), index.repositoryId, index.name,
   String(index.enabled), String(index.publishedAtMs), index.bundle.signature,
   ...index.modules.map((module) => module.signature)].join('\n');
