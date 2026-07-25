@@ -3,8 +3,8 @@
   "repositoryId": "synthetiq-official-modules",
   "name": "Synthetiq Modules",
   "enabled": true,
-  "bundleVersion": 80,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-80.zip",
+  "bundleVersion": 81,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-81.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {"file":"modules/AnimeHeaven-4.0.4.zip","changelog":["Bundle 80 certified release"]},
@@ -18,6 +18,7 @@
     {"file":"modules/Anikoto-4.0.2.zip","changelog":["Bundle 80 certified release"]},
     {"file":"modules/Senshi-4.0.1-streaming-only.zip","changelog":["Bundle 80 certified release"]},
     {"file":"modules/Synthetiq-One-1.2.9.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/Dulo-4.0.14.zip","changelog":["Bundle 80 certified release"]}
+    {"file":"modules/Dulo-4.0.14.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/Repository-Update-Test-1.0.0.zip","changelog":["Test-only module for validating repository updates"]}
   ]
 }
