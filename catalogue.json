@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "repositoryId": "synthetiq-official-modules",
+  "name": "Synthetiq Modules",
+  "enabled": true,
+  "bundleVersion": 80,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-80.zip",
+  "minAppVersion": "8.0.0",
+  "modules": [
+    {"file":"modules/AnimeHeaven-4.0.4.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/WeebCentral-4.0.0.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/10_miruro_v3.0.15.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/ToonTales-3.0.0.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/Monochrome-Music-4.0.2.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/Atsu-4.0.3.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/One-Pace-3.0.1-index-test.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/DramaFun-3.0.2.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/Anikoto-4.0.2.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/Senshi-4.0.1-streaming-only.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/Synthetiq-One-1.2.9.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/Dulo-4.0.14.zip","changelog":["Bundle 80 certified release"]}
+  ]
+}

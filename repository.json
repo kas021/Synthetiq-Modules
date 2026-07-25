@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "repositoryId": "synthetiq-official-modules",
+  "name": "Synthetiq Modules",
+  "enabled": true,
+  "publishedAtMs": 1784986932868,
+  "bundle": {
+    "version": 80,
+    "minAppVersion": "8.0.0",
+    "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/bundle-80/Synthetiq-Module-Bundle-80.zip",
+    "packagePath": "/kas021/Synthetiq-Modules/releases/download/bundle-80/Synthetiq-Module-Bundle-80.zip",
+    "sha256": "0b56422c6d8a2fab735e0eac36556682e592e16595eca282024e2f49f9e6b786",
+    "signature": "XgoqiczEBT2+x+2vrQ2dQUcwaZ1D6YzcTcgemNce3aCqIbVbKJc6miz5dKYQu8NTo+iLZefdiPQ04jI9jAPtbQ=="
+  },
+  "modules": [
+    {
+      "moduleId": "animeheaven-v2-1",
+      "moduleFamilyId": "animeheaven_v2",
+      "moduleIdentity": "SP-VID-003-ANIMEHEAVEN",
+      "moduleIdentityNumber": 3,
+      "contentType": "video",
+      "version": "4.0.4",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-animeheaven-v2-1-v4.0.4/AnimeHeaven-4.0.4.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-animeheaven-v2-1-v4.0.4/AnimeHeaven-4.0.4.zip",
+      "sha256": "0e73c4e287193f7bf585822e8beef98acd5eb54fe5e1da672b668063cfbdf7b0",
+      "signature": "h/nhfoGfx6X6Us9vxfNXcBmEucdBW5n98bN0sd0m5RZ1cGBFkm0CRkHeUwgaJxHAqOBNBOFecZvEh6z0No6hZg==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "weebcentral-v2",
+      "moduleFamilyId": "weebcentral-v2",
+      "moduleIdentity": "SP-IMG-1004-WEEBCENTRAL",
+      "moduleIdentityNumber": 1004,
+      "contentType": "image",
+      "version": "4.0.0",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-weebcentral-v2-v4.0.0/WeebCentral-4.0.0.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-weebcentral-v2-v4.0.0/WeebCentral-4.0.0.zip",
+      "sha256": "4e875a2ffea4da5dbe2f2dfac1a4fac551da09e9cb4ad72d214ec26e855bac5b",
+      "signature": "qBQqE0FjCiPpg1AYpRQU1BjFr8QNzafxEDerc1zXb5vsD21/4Xu0sQs3ewubK3SvgUOq85nGLK330NfePZoQ9Q==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "miruro-v3",
+      "moduleFamilyId": "miruro",
+      "moduleIdentity": "SP-VID-010-MIRURO",
+      "moduleIdentityNumber": 10,
+      "contentType": "video",
+      "version": "3.0.15",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-miruro-v3-v3.0.15/10_miruro_v3.0.15.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-miruro-v3-v3.0.15/10_miruro_v3.0.15.zip",
+      "sha256": "795338218f31339f94ca5ee06135e79fac3784265a08b73e76d86fb7356ce465",
+      "signature": "VhM5qfUCFQt23YDiiMbhyXuxJksjkMOtK2FfLp5yE9+rVPawWlhZrPTgLebviMdk0XPiuESdrVKahWNn5V8zDQ==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "toontales-v1",
+      "moduleFamilyId": "toontales-v1",
+      "moduleIdentity": "SP-VID-026-TOONTALES",
+      "moduleIdentityNumber": 26,
+      "contentType": "video",
+      "version": "3.0.0",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-toontales-v1-v3.0.0/ToonTales-3.0.0.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-toontales-v1-v3.0.0/ToonTales-3.0.0.zip",
+      "sha256": "4ebd27f47b1ba587a5b5723598f7f2c3966335c336e44a55b2224a33561e2a1a",
+      "signature": "dJHwtC7gvl/o3D3b7T8HxLOFwzQMj1HrHMi6kwt2bcB27K8ID5AborONBVwy12mqtCz73gE22+wz71FGvzelXA==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "monochrome-music-v3",
+      "moduleFamilyId": "monochrome_music",
+      "moduleIdentity": "SP-MUS-3001-MONOCHROME",
+      "moduleIdentityNumber": 3001,
+      "contentType": "music",
+      "version": "4.0.2",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-monochrome-music-v3-v4.0.2/Monochrome-Music-4.0.2.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-monochrome-music-v3-v4.0.2/Monochrome-Music-4.0.2.zip",
+      "sha256": "ae07bb48d82834406b1f6f8548c09fc8107456d8d696882c360295bc67d875ea",
+      "signature": "Q928hr/YHzru7XHBYQun4i10OyPZ1usWImtvhOpsbiOYCE/0quomTCyraPOUBQ2qVj97R5p4gzyfR+cddF6Zmg==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "atsu-v3",
+      "moduleFamilyId": "atsu",
+      "moduleIdentity": "SP-IMG-1031-ATSU",
+      "moduleIdentityNumber": 1031,
+      "contentType": "image",
+      "version": "4.0.3",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-atsu-v3-v4.0.3/Atsu-4.0.3.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-atsu-v3-v4.0.3/Atsu-4.0.3.zip",
+      "sha256": "e3a46f4cc12861069361871d2c7eee462791411c45acac30307bdc841cc078e1",
+      "signature": "tgKQmrWGHkbLKQHde8HYVMCha0gTU++aTehstiUGMEnXGvTTFqryORuiTx5NUvtmNWEBofWMlM6LO4LDRf5lXg==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "onepace-v3",
+      "moduleFamilyId": "onepace-v3",
+      "moduleIdentity": "SP-VID-033-ONEPACE",
+      "moduleIdentityNumber": 33,
+      "contentType": "video",
+      "version": "3.0.1",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-onepace-v3-v3.0.1/One-Pace-3.0.1-index-test.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-onepace-v3-v3.0.1/One-Pace-3.0.1-index-test.zip",
+      "sha256": "aa4c5db22e55ea1cbaf025501c5c27729886a1c6bcc37ec22ec338abf424782e",
+      "signature": "35r6xESHkQP8zOj1UCarQo+Hhj98U8uCUh75PvwlgiV8jnz+ip/xK+ZVi61yMAFFs1vU+YvY/i4VHMlOo+hS1A==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "dramafun-v3",
+      "moduleFamilyId": "dramafun-v3",
+      "moduleIdentity": "SP-VID-035-DRAMAFUN",
+      "moduleIdentityNumber": 35,
+      "contentType": "video",
+      "version": "3.0.2",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-dramafun-v3-v3.0.2/DramaFun-3.0.2.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-dramafun-v3-v3.0.2/DramaFun-3.0.2.zip",
+      "sha256": "bb617b51dbf12a1241c90df86f63de51fd0cd1209d980e6e657b7207251da477",
+      "signature": "MPgAQvIC7s9okdv0scG7liqnygcw/BqRHxYENgPSnfYvbFxB+9cpobqckeIx9EOEUiOjgx+ptA8js6QQXAopIw==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "anikoto-v4",
+      "moduleFamilyId": "anikoto-v3",
+      "moduleIdentity": "SP-VID-036-ANIKOTO",
+      "moduleIdentityNumber": 36,
+      "contentType": "video",
+      "version": "4.0.2",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-anikoto-v4-v4.0.2/Anikoto-4.0.2.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-anikoto-v4-v4.0.2/Anikoto-4.0.2.zip",
+      "sha256": "8ecdc175f587a91bc722df79f91a4b20efc858b990cd6dee0dde4b823505c690",
+      "signature": "dQtO0bwZmVS+lhb9PNP2/mRaQBviqVgMxrvXrK8M220ZfylGFEvAalfNHi1/FKt2FgJWseeiHDcCmqs3ulMt+w==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "senshi-v1",
+      "moduleFamilyId": "senshi-v1",
+      "moduleIdentity": "SP-VID-043-SENSHI",
+      "moduleIdentityNumber": 43,
+      "contentType": "video",
+      "version": "4.0.1",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-senshi-v1-v4.0.1/Senshi-4.0.1-streaming-only.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-senshi-v1-v4.0.1/Senshi-4.0.1-streaming-only.zip",
+      "sha256": "0c6e2cf116aa33ce032571955fb7bd4344a8cc853985e5f781bd03d81459a282",
+      "signature": "SUeTN1n2mUY0mhwz4SMVkEN142JI8oNjpxFiG2ikNQdMfTNP50LfS8c69gujrHDeMQo0xx3e4co+TlLH8Syo1A==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "synthetiq-one-v1",
+      "moduleFamilyId": "synthetiq-one",
+      "moduleIdentity": "SP-VID-100-SYNTHETIQ-ONE",
+      "moduleIdentityNumber": 100,
+      "contentType": "video",
+      "version": "1.2.9",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-synthetiq-one-v1-v1.2.9/Synthetiq-One-1.2.9.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-synthetiq-one-v1-v1.2.9/Synthetiq-One-1.2.9.zip",
+      "sha256": "8cef184d62bd5153f711f94dc86295cd65a669f45654d1ee4c8dcaa10033740e",
+      "signature": "6di1kzpWrt/m0vM715EHdrrdJDXPke2KfPoOAdLHTEsW6hRVwvDSZppYg61ZAZlkKGpDdmFTOENinbuFkkUnFQ==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "moduleId": "dulo-v1",
+      "moduleFamilyId": "dulo-v1",
+      "moduleIdentity": "SP-VID-040-DULO",
+      "moduleIdentityNumber": 40,
+      "contentType": "video",
+      "version": "4.0.14",
+      "minAppVersion": "8.0.0",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-dulo-v1-v4.0.14/Dulo-4.0.14.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-dulo-v1-v4.0.14/Dulo-4.0.14.zip",
+      "sha256": "a9358a3004dfd89b955eb85a6d8aec5dd0e09076924eea897cd773655548e2bf",
+      "signature": "vlxsDpoLoh3HPtqIt5+zhCgayt+p7KioKjzUSYJard2h8/M32XhNGlATwrygmlW1mQaGGM5BFBwvj/6TU0f8Bg==",
+      "publishedAtMs": 1784986932868,
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    }
+  ],
+  "signature": "t95FihB/dtyejyXSoUaFqQpr7l2yZNJNjjyJNnMhVsOXFSsdenzOcKA+qyx30aSxSuyL0FNp9GCf4i95LKFgnQ=="
+}
