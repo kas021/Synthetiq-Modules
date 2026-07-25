@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: module-catalogue-publish
+  cancel-in-progress: false
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -32,6 +36,20 @@ jobs:
         env:
           MODULE_REPOSITORY_SIGNING_JWK: ${{ secrets.MODULE_REPOSITORY_SIGNING_JWK }}
         run: node scripts/build_repository.mjs
+      - name: Publish immutable versioned release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/publish_releases.mjs
+      - name: Publish signed index to the default branch
+        run: |
+          if git diff --quiet -- repository.json SHA256SUMS; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add repository.json SHA256SUMS
+          git commit -m "Publish signed module catalogue [skip ci]"
+          git push
       - uses: actions/upload-artifact@v4
         with:
           name: signed-module-catalogue
