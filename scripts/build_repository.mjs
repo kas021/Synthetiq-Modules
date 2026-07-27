@@ -128,6 +128,23 @@ const modules = catalogue.modules.map((item) => {
   };
 });
 
+const defaultModules = Object.fromEntries(
+  Object.entries(catalogue.defaultModules ?? {})
+    .map(([mode, moduleId]) => [String(mode).trim().toLowerCase(), String(moduleId).trim()]),
+);
+for (const [mode, moduleId] of Object.entries(defaultModules)) {
+  if (!['video', 'image', 'music'].includes(mode)) {
+    throw new Error(`Unsupported default module mode: ${mode}`);
+  }
+  const module = modules.find((candidate) => candidate.moduleId === moduleId);
+  const validType = mode === 'image'
+    ? module && ['image', 'text'].includes(module.contentType)
+    : module?.contentType === mode;
+  if (!validType) {
+    throw new Error(`Default ${mode} module is missing or has the wrong content type: ${moduleId}`);
+  }
+}
+
 const bundleAbsolute = path.join(root, catalogue.bundleFile);
 const bundleHash = sha256(bundleAbsolute);
 const bundleTag = `bundle-${catalogue.bundleVersion}`;
@@ -150,6 +167,12 @@ const index = {
   },
   modules,
 };
+if (Object.keys(defaultModules).length > 0) {
+  index.defaultModules = defaultModules;
+  const defaultsMessage = [index.repositoryId, String(index.publishedAtMs),
+    defaultModules.video ?? '', defaultModules.image ?? '', defaultModules.music ?? ''].join('\n');
+  index.defaultModulesSignature = sign(defaultsMessage);
+}
 if (existingIndex) {
   if (Number(catalogue.bundleVersion) < Number(existingIndex.bundle.version)) {
     throw new Error(`Bundle version downgrade rejected: ${existingIndex.bundle.version} -> ${catalogue.bundleVersion}`);

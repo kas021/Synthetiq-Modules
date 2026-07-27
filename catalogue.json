@@ -3,6 +3,10 @@
   "repositoryId": "synthetiq-official-modules",
   "name": "Synthetiq Modules",
   "enabled": true,
+  "defaultModules": {
+    "video": "anikoto-v4",
+    "image": "weebcentral-v2"
+  },
   "bundleVersion": 81,
   "bundleFile": "bundles/Synthetiq-Module-Bundle-81.zip",
   "minAppVersion": "8.0.0",
