@@ -10,7 +10,7 @@
     "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/bundle-81/Synthetiq-Module-Bundle-81.zip",
     "packagePath": "/kas021/Synthetiq-Modules/releases/download/bundle-81/Synthetiq-Module-Bundle-81.zip",
     "sha256": "edd1818d7c0d71870a4914c7e38db10b3b6d1726fb5ddf7618795e03a1aa259d",
-    "signature": "hv3WJnzsj1E8ybc5llSdA3cTgDOzUi17TfT0yeROMleG5yqaEc5a56b7/n1kggiWu2al2UrsRKpHKFZhEgaNTg=="
+    "signature": "QSq7ROeMuXQk4zT9EYeuph/yus3ZXme5a7BXAKnh8KnndXT1Cq1ieb764qTICzn5Ff1ryOHmqAEfRq3I8N9YxA=="
   },
   "modules": [
     {
@@ -24,7 +24,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-animeheaven-v2-1-v4.0.4/AnimeHeaven-4.0.4.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-animeheaven-v2-1-v4.0.4/AnimeHeaven-4.0.4.zip",
       "sha256": "0e73c4e287193f7bf585822e8beef98acd5eb54fe5e1da672b668063cfbdf7b0",
-      "signature": "KnwMNlJQ+mbCaCUIvtZWYdoucUyDfLM9Mg1zosMnHhfZEWhzkLdLNevmg5iwLyCUvGgLpCH4fcxPDppVwLZ5xw==",
+      "signature": "6v264UYxkTU5f4ezBmjXikTqRbwvDivMIe9pcppbVmqotlKy/EAjeh8hfdZGn+fpzMCKIMWXjfCq9FFHadJYgw==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -41,7 +41,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-weebcentral-v2-v4.0.0/WeebCentral-4.0.0.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-weebcentral-v2-v4.0.0/WeebCentral-4.0.0.zip",
       "sha256": "4e875a2ffea4da5dbe2f2dfac1a4fac551da09e9cb4ad72d214ec26e855bac5b",
-      "signature": "5YOTf8B+rH2AIdtRrXn29GGdOehUwmBZ9aVmYOTeTvcLfwZguYh7XwoKrPKC4EQWKsS8bKXywzD6ckOWp0FPfg==",
+      "signature": "t/iJ1upf/GqIuwtbC6lFxg1385MqmhYzhB5c8vxsd1/KBjSxkD15Kkys3dzT0ZbR7LdffzdkeWXTPuyuBmsxig==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -58,7 +58,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-miruro-v3-v3.0.15/10_miruro_v3.0.15.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-miruro-v3-v3.0.15/10_miruro_v3.0.15.zip",
       "sha256": "795338218f31339f94ca5ee06135e79fac3784265a08b73e76d86fb7356ce465",
-      "signature": "Lp2AWYv/vEvYKMYU25EYnyfSkBaPRqkvO7aErwIgkYGqRBw0F2zmQmE600eOLtI5sN5vsQuxeiHKhB8XbHz9OQ==",
+      "signature": "TI3O5IzMgKcg7OmjZ+qbScwcdNPkBM1aZe8DFM80qlvHxMLttZ6bqHBPRp0SO1Yl2FkF0FpXC0HWrydT0DZxUw==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -75,24 +75,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-toontales-v1-v3.0.0/ToonTales-3.0.0.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-toontales-v1-v3.0.0/ToonTales-3.0.0.zip",
       "sha256": "4ebd27f47b1ba587a5b5723598f7f2c3966335c336e44a55b2224a33561e2a1a",
-      "signature": "+WAcImFPdVtw+0BCMa0tp4MsPBrb8TXblPJ3l1tx5siG4+kCNWzNABi2mQKqVoenJ6eapBcRGC8zsNFdA6TAiw==",
-      "publishedAtMs": 1784986932868,
-      "changelog": [
-        "Bundle 80 certified release"
-      ]
-    },
-    {
-      "moduleId": "monochrome-music-v3",
-      "moduleFamilyId": "monochrome_music",
-      "moduleIdentity": "SP-MUS-3001-MONOCHROME",
-      "moduleIdentityNumber": 3001,
-      "contentType": "music",
-      "version": "4.0.2",
-      "minAppVersion": "8.0.0",
-      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-monochrome-music-v3-v4.0.2/Monochrome-Music-4.0.2.zip",
-      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-monochrome-music-v3-v4.0.2/Monochrome-Music-4.0.2.zip",
-      "sha256": "ae07bb48d82834406b1f6f8548c09fc8107456d8d696882c360295bc67d875ea",
-      "signature": "kO79ilDWJn4MrkMou8KwNKDhI8EbYqx9ZwZkHTlTzZgwaFJfhlbn5Jk4Sca/iEwGA0ZHrpEW9IZVy3JYFsJ4KA==",
+      "signature": "CLhv1NdudDRM0QqtFVOeNaYSwxzXg++qYfiT90nvKhjfJMpxj2XQ3CfnjZFT+J2MmRbhocXuEvNv/GbTxyqVxQ==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -109,7 +92,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-atsu-v3-v4.0.3/Atsu-4.0.3.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-atsu-v3-v4.0.3/Atsu-4.0.3.zip",
       "sha256": "e3a46f4cc12861069361871d2c7eee462791411c45acac30307bdc841cc078e1",
-      "signature": "uEYVNuI0kEDoAwb5y2zG+cbyBJ2ESI1PSaBnivtxCHVOJVBsvkoAVPXJ8khGLo+1Iz5QVSJ2ISKFamvwZwu9cA==",
+      "signature": "/qUa/JkNzChSmw3z2Et/jeOvp4a64JtL3e9oJivDbRXJ8LrNCZVWJ9A9f8qrBt+plCOk2DfYAi+rWMSSOhpsIQ==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -126,7 +109,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-onepace-v3-v3.0.1/One-Pace-3.0.1-index-test.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-onepace-v3-v3.0.1/One-Pace-3.0.1-index-test.zip",
       "sha256": "aa4c5db22e55ea1cbaf025501c5c27729886a1c6bcc37ec22ec338abf424782e",
-      "signature": "LIrF3XSx/rSjjyKXA+Tz71JGPHN996makBHwsS1cy7OLKJ33zK6ig9e4GnQapP79Ve8pAI57/uid9FHZTqlF5g==",
+      "signature": "9HrHAzlaAGCeCnHitwej1cKTlppoLiMNuuRyeTcU4IhzvfGBoPtmJxKRjQIS21w3nB8to93aUGPuUpbG5lr+rg==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -143,7 +126,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-dramafun-v3-v3.0.2/DramaFun-3.0.2.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-dramafun-v3-v3.0.2/DramaFun-3.0.2.zip",
       "sha256": "bb617b51dbf12a1241c90df86f63de51fd0cd1209d980e6e657b7207251da477",
-      "signature": "m5NW2aSNuuAFtBPgwVXfbR3zlxXxNenwjJEF9qSBkU1GTOMwhTooeWdQfvgQlFjpJ4m5Zom8ujdxXACBtbSGUw==",
+      "signature": "Uyq6hoxyVfebPMZHCEMF1Fv15QSZP/vHFC7TEjuwIkkCHgIzhdFbpij2oI6RrmS8DjwEZ4RueMb5jy8PiEFe4A==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -160,7 +143,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-anikoto-v4-v4.0.2/Anikoto-4.0.2.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-anikoto-v4-v4.0.2/Anikoto-4.0.2.zip",
       "sha256": "8ecdc175f587a91bc722df79f91a4b20efc858b990cd6dee0dde4b823505c690",
-      "signature": "nLSRiGjcyrrfMvXz56Prbb+DeCW22KCvWuUc1JojUqtEf9zgWEuc/0aYkHMxhakyqMwlQJyEorzhjrs6kqaqAg==",
+      "signature": "+VUZLhULh4obUR0pJvUpoigGZpzZ0gsm6/QMQSbeSZAsons4ajhdRYQdmJ5tu0P2tq5xuoQMALSyyOsM7qyYoQ==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -177,7 +160,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-senshi-v1-v4.0.1/Senshi-4.0.1-streaming-only.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-senshi-v1-v4.0.1/Senshi-4.0.1-streaming-only.zip",
       "sha256": "0c6e2cf116aa33ce032571955fb7bd4344a8cc853985e5f781bd03d81459a282",
-      "signature": "PfanI0ollGxGCzPnP6hrQa7Ng/DkA0VBnozAlzEfKif7sE3gCmCwj3UxHtRya9FHGiFAfDP+KAutXJqFlHt7qQ==",
+      "signature": "n329epyI9PcKso+e2OVTz82QE0FvIfDaLbMhdaoJweY0FId9NXvSpBEo5FIbDNsWUx9Dr7qI0V1eaBuRFY4SiQ==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -194,7 +177,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-synthetiq-one-v1-v1.2.9/Synthetiq-One-1.2.9.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-synthetiq-one-v1-v1.2.9/Synthetiq-One-1.2.9.zip",
       "sha256": "8cef184d62bd5153f711f94dc86295cd65a669f45654d1ee4c8dcaa10033740e",
-      "signature": "U0Rb7nw/X27pjldUHdgG/Wsktfu4gxdXAs+ud19uycEo+G1IVkwqwWpvWtruASDquo/8ak7Y+iG2AALmAqcwIA==",
+      "signature": "GXRkMNV5nXI44ueCjUvtpSNI6OAs3yqoIL9VTizjxFfkHIxambcIQonv9YDKcSmjiQO+je4DtGCQBur0vwABKw==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -211,7 +194,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-dulo-v1-v4.0.14/Dulo-4.0.14.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-dulo-v1-v4.0.14/Dulo-4.0.14.zip",
       "sha256": "a9358a3004dfd89b955eb85a6d8aec5dd0e09076924eea897cd773655548e2bf",
-      "signature": "thdObkMOiIy4DpQBXzBH473pOXPHAQrI0kTLiKucYUh3eOJDp4D46gP1VjiNxNDrN4NdzTO3HuDCkiUX3CqNbg==",
+      "signature": "RKcxRcTvppiIBXHp5pFbDcrPcZRbyJEVw5E2wOWXgdN0J3CR4U0vB30zGmVtfY+wEddBAt0jlf9ZxVFoHgDR0w==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -228,7 +211,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-repository-update-test-v1-v1.0.5/Repository-Update-Test-1.0.5.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-repository-update-test-v1-v1.0.5/Repository-Update-Test-1.0.5.zip",
       "sha256": "19a30586838dbe10f0e366a5ba14b5508bd0cc3b2c991e8f6bebb8f60d85ee9b",
-      "signature": "sPn/dtOViAPjXwrkBur+d2KaWiAju6PoRED9zfDCpF4+V+XXjlrTfsV3t8CMIYJdftC6OhP7d6QS6ugdTQqnEQ==",
+      "signature": "1otnxhPGktdUgDm/Zrd4ylUlm3n+TzTHxj3PbNmbDQkfoMlHZ9gcyC7m2VQCHYKnIthqSYJ7+vj5BQDLqAN9xg==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Manual-check test: TEST 5 is now TEST 6"
@@ -239,6 +222,6 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "defaultModulesSignature": "KAzHQ2MW65Bdf7Tkcbhc/uXu3mLpssR6fGPhmpfqcaLjU9V/waJ3fJtyIr3IZPJNZ2i5gnVscoMyF+mkhrMEAw==",
-  "signature": "LH1z+sosDJ0y1a8pXM20qxlo5xEViQP2ZgVUJcBW7Sr7und1nfYv0wzXSSe8pxGEsQcuFl/vYBXWr0+fpvaUBw=="
+  "defaultModulesSignature": "yYT9Vf3u1WrVi3zIeNKGIUOSAPcWJetOx/KYUeimqYSl1V+a0Glop4h5WY26hcKwX07vWlTSNwtBpwO99XQjFg==",
+  "signature": "4ZxKQMxS11gAUaBMxLRMkiCAeuMznjVCMjJkaZdmkWgYPmw6Xyw4DjDefBsdOsL99VY6eHOPoJSKkc0yQ41HYA=="
 }
