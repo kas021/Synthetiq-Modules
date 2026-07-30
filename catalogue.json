@@ -23,7 +23,6 @@
     {"file":"modules/Senshi-4.0.1-streaming-only.zip","changelog":["Bundle 80 certified release"]},
     {"file":"modules/Synthetiq-One-1.2.9.zip","changelog":["Bundle 80 certified release"]},
     {"file":"modules/Dulo-4.0.14.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/Repository-Update-Test-1.0.5.zip","changelog":["Manual-check test: TEST 5 is now TEST 6"]},
-    {"file":"modules/Synthetiq-Music-Hub-1.0.1.zip","changelog":["Repository update: link and install Music Hub through the signed update flow."]}
+    {"file":"modules/Repository-Update-Test-1.0.5.zip","changelog":["Manual-check test: TEST 5 is now TEST 6"]}
   ]
 }
