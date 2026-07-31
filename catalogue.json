@@ -27,6 +27,7 @@
     {"file":"modules/ToonTales-3.0.0.zip","changelog":["Bundle 80 certified release"]},
     {"file":"modules/Ev01-1.0.4.zip","changelog":["Added Synthetiq One English subtitle fallback for supported TMDB titles","Preserved verified media and download routes","Handles parsed JSON consistently in the Flutter module runtime"]},
     {"file":"modules/X-Stream-1.1.1.zip","changelog":["Added verified English subtitle fallback through Synthetiq One","Improved high-quality stream selection and black-frame rejection","Removed provider subtitle tracks with unreliable language labels"]},
+    {"file":"modules/Aniworld-1.0.1.zip","changelog":["Added Aniworld German anime catalogue (search, seasons, episodes, discovery)","VidMoly HLS with Deutsch / EN-Sub / DE-Sub audio routes","Search fallback forms for apostrophe and alternate-wording title misses","Passed Study Anime 98.5% (Grade A): TOP 30/30, MED 10/10, LOW 9/10"]},
     {"file":"modules/Repository-Update-Test-1.0.5.zip","changelog":["Manual-check test: TEST 5 is now TEST 6"]}
   ]
 }
