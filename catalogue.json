@@ -16,7 +16,7 @@
     {"file":"modules/Anikoto-4.0.2.zip","changelog":["Bundle 80 certified release"]},
     {"file":"modules/10_miruro_v3.0.15.zip","changelog":["Bundle 80 certified release"]},
     {"file":"modules/AnimeHeaven-4.0.4.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/One-Pace-3.0.1-index-test.zip","changelog":["Bundle 80 certified release"]},
+    {"file":"modules/One-Pace-3.0.2-index-test.zip","changelog":["Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue","Preserved compatibility with previously saved onepace-index episode links","Retained sub/dub metadata and multi-quality stream resolution"]},
     {"file":"modules/Anime-Sama-1.0.2.zip","changelog":["Added VOSTFR and VF anime catalogue support","Passed S2 Standard runtime, signed MP4, download, language, and iOS Simulator playback checks"]},
     {"file":"modules/WeebCentral-4.0.2.zip","changelog":["Fixed Android Home discovery timing out and falling back to incomplete cards","Removed false Cloudflare challenge detection and duplicate Home requests","Preserved the four-section reader discovery UI across Android and iOS","Passed the module tester and real Flutter image runtime"]},
     {"file":"modules/Synthetiq-Manga-1.0.2.zip","changelog":["Added Synthetiq Manga to the official catalogue","Added the Fastest catalogue label","Stores and resolves page links only; it does not host images"]},
