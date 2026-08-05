@@ -12,22 +12,126 @@
   "bundleFile": "bundles/Synthetiq-Module-Bundle-87.zip",
   "minAppVersion": "8.0.0",
   "modules": [
-    {"file":"modules/Synthetiq-One-1.3.0.zip","changelog":["Added the Fastest catalogue label","Runtime remains unchanged from 1.2.9"]},
-    {"file":"modules/Anikoto-4.0.2.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/10_miruro_v3.0.15.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/AnimeHeaven-4.0.4.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/One-Pace-3.0.2-index-test.zip","changelog":["Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue","Preserved compatibility with previously saved onepace-index episode links","Retained sub/dub metadata and multi-quality stream resolution"]},
-    {"file":"modules/Anime-Sama-1.0.2.zip","changelog":["Added VOSTFR and VF anime catalogue support","Passed S2 Standard runtime, signed MP4, download, language, and iOS Simulator playback checks"]},
-    {"file":"modules/WeebCentral-4.0.2.zip","changelog":["Fixed Android Home discovery timing out and falling back to incomplete cards","Removed false Cloudflare challenge detection and duplicate Home requests","Preserved the four-section reader discovery UI across Android and iOS","Passed the module tester and real Flutter image runtime"]},
-    {"file":"modules/Synthetiq-Manga-1.0.2.zip","changelog":["Added Synthetiq Manga to the official catalogue","Added the Fastest catalogue label","Stores and resolves page links only; it does not host images"]},
-    {"file":"modules/Synthetiq-Music-Hub-1.1.0.zip","changelog":["Improved exact artist and track matching","Added verified full-length audio resolution and download support"]},
-    {"file":"modules/Atsu-4.0.3.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/DramaFun-3.0.2.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/Senshi-4.0.1-streaming-only.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/ToonTales-3.0.0.zip","changelog":["Bundle 80 certified release"]},
-    {"file":"modules/Ev01-1.0.4.zip","changelog":["Added Synthetiq One English subtitle fallback for supported TMDB titles","Preserved verified media and download routes","Handles parsed JSON consistently in the Flutter module runtime"]},
-    {"file":"modules/X-Stream-1.1.1.zip","changelog":["Added verified English subtitle fallback through Synthetiq One","Improved high-quality stream selection and black-frame rejection","Removed provider subtitle tracks with unreliable language labels"]},
-    {"file":"modules/Aniworld-1.0.1.zip","changelog":["Added Aniworld German anime catalogue (search, seasons, episodes, discovery)","VidMoly HLS with Deutsch / EN-Sub / DE-Sub audio routes","Search fallback forms for apostrophe and alternate-wording title misses","Passed Study Anime 98.5% (Grade A): TOP 30/30, MED 10/10, LOW 9/10"]},
-    {"file":"modules/Repository-Update-Test-1.0.5.zip","changelog":["Manual-check test: TEST 5 is now TEST 6"]}
+    {
+      "file": "modules/Synthetiq-One-1.3.0.zip",
+      "changelog": [
+        "Added the Fastest catalogue label",
+        "Runtime remains unchanged from 1.2.9"
+      ]
+    },
+    {
+      "file": "modules/Anikoto-4.0.2.zip",
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "file": "modules/10_miruro_v3.0.15.zip",
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "file": "modules/AnimeHeaven-4.0.4.zip",
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "file": "modules/One-Pace-3.0.2-index-test.zip",
+      "changelog": [
+        "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
+        "Preserved compatibility with previously saved onepace-index episode links",
+        "Retained sub/dub metadata and multi-quality stream resolution"
+      ]
+    },
+    {
+      "file": "modules/Anime-Sama-1.0.2.zip",
+      "changelog": [
+        "Added VOSTFR and VF anime catalogue support",
+        "Passed S2 Standard runtime, signed MP4, download, language, and iOS Simulator playback checks"
+      ]
+    },
+    {
+      "file": "modules/WeebCentral-4.0.2.zip",
+      "changelog": [
+        "Fixed Android Home discovery timing out and falling back to incomplete cards",
+        "Removed false Cloudflare challenge detection and duplicate Home requests",
+        "Preserved the four-section reader discovery UI across Android and iOS",
+        "Passed the module tester and real Flutter image runtime"
+      ]
+    },
+    {
+      "file": "modules/Synthetiq-Manga-1.0.2.zip",
+      "changelog": [
+        "Added Synthetiq Manga to the official catalogue",
+        "Added the Fastest catalogue label",
+        "Stores and resolves page links only; it does not host images"
+      ]
+    },
+    {
+      "file": "modules/Synthetiq-Music-Hub-1.1.0.zip",
+      "changelog": [
+        "Improved exact artist and track matching",
+        "Added verified full-length audio resolution and download support"
+      ]
+    },
+    {
+      "file": "modules/Atsu-4.0.3.zip",
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "file": "modules/DramaFun-3.0.2.zip",
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "file": "modules/Senshi-4.0.1-streaming-only.zip",
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "file": "modules/ToonTales-3.0.0.zip",
+      "changelog": [
+        "Bundle 80 certified release"
+      ]
+    },
+    {
+      "file": "modules/Ev01-1.0.4.zip",
+      "changelog": [
+        "Added Synthetiq One English subtitle fallback for supported TMDB titles",
+        "Preserved verified media and download routes",
+        "Handles parsed JSON consistently in the Flutter module runtime"
+      ]
+    },
+    {
+      "file": "modules/X-Stream-1.1.2.zip",
+      "changelog": [
+        "1.1.2: segment-level softProbe \u2014 CF/403/timeout Videasy HLS marked dead",
+        "Drops dead Videasy/moon/ironwallnet routes when LookMovie/refligns work (fixes StreamRace picking broken 1080p)",
+        "Score reliable backups higher; demote fragile Videasy hosts until probe OK",
+        "TMDB multi-search fallback when freehost search flakes",
+        "Study gate: 30/30 movies returned playable primary segments (typically 480p reliable path)"
+      ]
+    },
+    {
+      "file": "modules/Aniworld-1.0.1.zip",
+      "changelog": [
+        "Added Aniworld German anime catalogue (search, seasons, episodes, discovery)",
+        "VidMoly HLS with Deutsch / EN-Sub / DE-Sub audio routes",
+        "Search fallback forms for apostrophe and alternate-wording title misses",
+        "Passed Study Anime 98.5% (Grade A): TOP 30/30, MED 10/10, LOW 9/10"
+      ]
+    },
+    {
+      "file": "modules/Repository-Update-Test-1.0.5.zip",
+      "changelog": [
+        "Manual-check test: TEST 5 is now TEST 6"
+      ]
+    }
   ]
 }
