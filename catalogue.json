@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 87,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-87.zip",
+  "bundleVersion": 88,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-88.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -111,7 +111,7 @@
     {
       "file": "modules/X-Stream-1.1.2.zip",
       "changelog": [
-        "1.1.2: segment-level softProbe \u2014 CF/403/timeout Videasy HLS marked dead",
+        "1.1.2: segment-level softProbe — CF/403/timeout Videasy HLS marked dead",
         "Drops dead Videasy/moon/ironwallnet routes when LookMovie/refligns work (fixes StreamRace picking broken 1080p)",
         "Score reliable backups higher; demote fragile Videasy hosts until probe OK",
         "TMDB multi-search fallback when freehost search flakes",
@@ -131,6 +131,16 @@
       "file": "modules/Repository-Update-Test-1.0.5.zip",
       "changelog": [
         "Manual-check test: TEST 5 is now TEST 6"
+      ]
+    },
+    {
+      "file": "modules/STCine-1.0.1.zip",
+      "changelog": [
+        "STCine movies and TV (TMDB catalogue + Videasy multi-quality HLS)",
+        "Featured hero and Top 10 home sections",
+        "Seek-friendly stream ladder: 1080p default, 4K as backup",
+        "Search via STCine API with TMDB fallback",
+        "Trial release for all users — free-player streams may vary by title"
       ]
     }
   ]
