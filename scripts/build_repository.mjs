@@ -125,6 +125,7 @@ const modules = catalogue.modules.map((item) => {
     signature: sign(signedMessage),
     publishedAtMs,
     changelog: item.changelog ?? [],
+    ...(item.presentation ? { presentation: item.presentation } : {}),
   };
 });
 
