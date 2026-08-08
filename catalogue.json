@@ -133,13 +133,12 @@
       ]
     },
     {
-      "file": "modules/STCine-1.0.1.zip",
+      "file": "modules/STCine-1.0.2.zip",
       "changelog": [
-        "STCine movies and TV (TMDB catalogue + Videasy multi-quality HLS)",
-        "Featured hero and Top 10 home sections",
-        "Seek-friendly stream ladder: 1080p default, 4K as backup",
-        "Search via STCine API with TMDB fallback",
-        "Trial release for all users \u2014 free-player streams may vary by title"
+        "1.0.2: fix movie layout (isMovie / no fake Episode 1)",
+        "Reject fake Videasy HLS (.jpg/.html segments) that fail playback",
+        "LookMovie real .ts fallback for titles like John Wick 2 / Murder 2",
+        "HD-first when clean streams exist; empty rather than broken fakes"
       ]
     }
   ]
