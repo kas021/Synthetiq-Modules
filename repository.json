@@ -10,7 +10,7 @@
     "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/bundle-88/Synthetiq-Module-Bundle-88.zip",
     "packagePath": "/kas021/Synthetiq-Modules/releases/download/bundle-88/Synthetiq-Module-Bundle-88.zip",
     "sha256": "400287e0691e888cdbbffbdfece2b6bd7d8067158b9cc12313f7050320a89b9a",
-    "signature": "22UKIhDXZNKxPH11vfyVhFUEFFfkmpD1FLZ0ADvx80TDR5uoGNubLJm0MLXEqIEJd7l3vH9uGRk0er1yLOVL6g=="
+    "signature": "QSe0PlFkWWF/BmHB1mwKgQufytIlbUcrdBsPY2IMf13Sg44ARVEiMLWWI4fHjBbhKsFVYsr4B+84xmL+ya8b8A=="
   },
   "modules": [
     {
@@ -24,7 +24,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-synthetiq-one-v1-v1.3.0/Synthetiq-One-1.3.0.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-synthetiq-one-v1-v1.3.0/Synthetiq-One-1.3.0.zip",
       "sha256": "55e643d626811e328ef87d40d67a2e0d3434f750aaff6659f8685c5bddb5f5c3",
-      "signature": "SdnNzc5RtCS2F6AQ5BnVphU0x1VU0/Hu/XLj+phNEfaq0lEtjXBTukbeuUR2mFS1vLVnXOefwzl2E63CG3+R0w==",
+      "signature": "sBVrQngs8Gn2KfJZxRNt1j5uFH0lkQlOIwfgbQJqVJKhM9Ck7BjLsso7/b6BozHOD2YiNAkUmzsBD9ffRjLPBQ==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Added the Fastest catalogue label",
@@ -42,7 +42,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-anikoto-v4-v4.0.2/Anikoto-4.0.2.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-anikoto-v4-v4.0.2/Anikoto-4.0.2.zip",
       "sha256": "8ecdc175f587a91bc722df79f91a4b20efc858b990cd6dee0dde4b823505c690",
-      "signature": "YOvOQ7Altg5W2X48DB4PvWGa52Jk88jTj5i5+igZDbun8njtmLR9SaduFRitovxADB5O1ybswcmDyecZ4GBZ5Q==",
+      "signature": "Gic0VZ7yWBjK3Uj5jWT1Wre1dYnvM/3MvTOcDGUHfSQQS4fpxmnkzDYo4sP2E3bssd1hIBXLAM045iiKIuPdCg==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -59,7 +59,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-miruro-v3-v3.0.15/10_miruro_v3.0.15.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-miruro-v3-v3.0.15/10_miruro_v3.0.15.zip",
       "sha256": "795338218f31339f94ca5ee06135e79fac3784265a08b73e76d86fb7356ce465",
-      "signature": "gneH7N97CvwfwGHmHWGYqVIpOnEmgv0+hNi97QaAXiStZ8dGwcrIM9Fk2deq3+sWvWwWHKSJ/yZegKSVf+slEw==",
+      "signature": "ivRxvAcdNcbdEASRdGKn5DJ41j3VWHoaFlQQ/xrarllgluK1TnudhqjV7Pg/tt1gbnk1Xypk/9AzfDuSghvtYA==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -76,7 +76,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-animeheaven-v2-1-v4.0.4/AnimeHeaven-4.0.4.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-animeheaven-v2-1-v4.0.4/AnimeHeaven-4.0.4.zip",
       "sha256": "0e73c4e287193f7bf585822e8beef98acd5eb54fe5e1da672b668063cfbdf7b0",
-      "signature": "3zcBKfuVQZfjaDnyP1biofv4iuNmAOHXfpgbiQD9FZFFiUK8LI/gIM56eMCC/Bqwsh0yN89SxvZSCvbEve3OCw==",
+      "signature": "W986uXgCQgCsV+c7RPhGkZcPCbPxYCewHpgUzIyGpMgIoFIRdX6N9J4Lha/snysFHmOuHrLGvE/WCO0Va3FX7A==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -93,7 +93,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2-index-test.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-onepace-v3-v3.0.2/One-Pace-3.0.2-index-test.zip",
       "sha256": "573e7e88928b528c16506806a22b99fd9e8ae2566b517a448c426e077d435886",
-      "signature": "JlqZpDTN1edQ7x6ckJ9R6b/7aUyjK7C1ufo0/bXDdgxUBTRc5Ztc7kenA79oIgFlsJioEW6T1JeYTdW3eTtiTg==",
+      "signature": "TPGrHWRnRtqFj137Xtji6dpwN+Mw9NXnu8kQ4Zjo1IiPslP6fY7gOY4Xc/eaLEf0A415arMgP/n03O3sp0Ix9w==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue",
@@ -112,7 +112,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-anime-sama-v1-v1.0.2/Anime-Sama-1.0.2.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-anime-sama-v1-v1.0.2/Anime-Sama-1.0.2.zip",
       "sha256": "5587a5feea8b78bdf5cbd49185f6eabf2ed521b74807159718f53d06574f9d33",
-      "signature": "QBa5+/1qgdG5FaN52+fmVUbFiOLaM0Cf7Q4SXyf5i0yJFgy7YWT3hbB3cbhEdNMSQsd0+JRYI6g5V9aiPRZKRg==",
+      "signature": "y3qNHrtMdVDOe4oXFjc+Ft2hlOilz77WvLKtVaDQpopWr7vA9Nu3S9Yc8R2A2S6kwPU7r7HxXp+98ZqLioCLcA==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Added VOSTFR and VF anime catalogue support",
@@ -130,7 +130,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-weebcentral-v2-v4.0.2/WeebCentral-4.0.2.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-weebcentral-v2-v4.0.2/WeebCentral-4.0.2.zip",
       "sha256": "5569980aca914d4e31a7205c1997d58f912f602ebd906cb7fb445b397476e6c2",
-      "signature": "tojDcGiyirx9rTIutVTkmQ1UgxXCbYr7gDAsrP+QSFxsGJRi1KdEHJXF5J1K54noHzCoWkKVsp/FJMT8hxeTrw==",
+      "signature": "1i3UD61itvi7oPefOz5Gw1x5w+urOznVPfgSBlUQdtK45sHBXacSjyFvsTGae9RpEM+3UMJEgC0UW/dXN2GXtA==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Fixed Android Home discovery timing out and falling back to incomplete cards",
@@ -150,7 +150,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-synthetiq-manga-v1-v1.0.2/Synthetiq-Manga-1.0.2.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-synthetiq-manga-v1-v1.0.2/Synthetiq-Manga-1.0.2.zip",
       "sha256": "b9141d27a88eea20c48a299434ebe3f5d40abb410baa1ad778449e88e0c7c6bd",
-      "signature": "99gsEHqP1aTo81fjPZrzu4dW6PGwcMDk6mjH13Y1IW0t2lpBaL6F+XPwB1mvDc6I3FLIJFLVIFePJnMnLHHs5A==",
+      "signature": "4HOKmR/k+CYLNqgK7IaiZRoJ9hbIKzXT+WXUj0zuSgNWT0ex0h1pNSlvtBd/PHMgFbT4ALD8cR3FiFxbHdiicQ==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Added Synthetiq Manga to the official catalogue",
@@ -169,7 +169,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-synthetiq-music-hub-v1-v1.1.0/Synthetiq-Music-Hub-1.1.0.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-synthetiq-music-hub-v1-v1.1.0/Synthetiq-Music-Hub-1.1.0.zip",
       "sha256": "a1e755a9b5be89ebd654d5490927a4cae8268d22b092459ff1ae78977544d5cb",
-      "signature": "OmpscGSN/jefu0JIiCaYS+2arEtoZXJJBfSgkRLr/qNG9E5fofm4riRvqYBeFZj+rlcbJ+o7VZxENMnRQGaiCA==",
+      "signature": "X7Ulj8iPnrvolma+oiPIyG0+cjwrsKcmSBmNIzNIBd56XW9fs69Q66W2b5hnrF4m1GmZbwGI5FdpwuvvOJCW7Q==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Improved exact artist and track matching",
@@ -187,7 +187,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-atsu-v3-v4.0.3/Atsu-4.0.3.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-atsu-v3-v4.0.3/Atsu-4.0.3.zip",
       "sha256": "e3a46f4cc12861069361871d2c7eee462791411c45acac30307bdc841cc078e1",
-      "signature": "awEDjclb570WQX2px21DwDzN6ySwIsEKJyQBThFjTNofBfk8apfKrJCK09VG+OnMkBHyNi5KEB3kC3vaBk6f0w==",
+      "signature": "PT647GwosrviLztnzj6SB0DV40FETnfoxicu5zdVVu43GamIujfHHkPM5KXti2HyXQF7gjXp39lMxppPxMUVKQ==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -204,7 +204,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-dramafun-v3-v3.0.2/DramaFun-3.0.2.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-dramafun-v3-v3.0.2/DramaFun-3.0.2.zip",
       "sha256": "bb617b51dbf12a1241c90df86f63de51fd0cd1209d980e6e657b7207251da477",
-      "signature": "HESFBHYgCbdLxWpqh0f/0885oVR2wrTW20DD3sO88BUQ/f8nwRhvWktq6Ro6Ms1Ct/Y5Yk7/1cX2yIw850icLg==",
+      "signature": "nOZo7n3lj3YrWzQeSf5/2kL++Yj3qdxYJ/54O2AMDfk6Iww1qhOjtKAWsxN3P/8Q7ZyLnKCC4KL279ICufasjw==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -221,7 +221,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-senshi-v1-v4.0.1/Senshi-4.0.1-streaming-only.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-senshi-v1-v4.0.1/Senshi-4.0.1-streaming-only.zip",
       "sha256": "0c6e2cf116aa33ce032571955fb7bd4344a8cc853985e5f781bd03d81459a282",
-      "signature": "Cf28kVjPKZZBHlPwpfF4vCIM61ya0vhTY9K9QPEev3x4qxZDn37I+t0yy+skLNGbQCaOWgRR0SRZzvfEoUvGqw==",
+      "signature": "POgvmf4LHijHgoe2IY/AQXAbcC3j1BJX+7OV+G73NQYGQIMcqRO0R3BTlmGLMDqdQdNiS+6fhb7u4WrNA1O3aA==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -238,7 +238,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-toontales-v1-v3.0.0/ToonTales-3.0.0.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-toontales-v1-v3.0.0/ToonTales-3.0.0.zip",
       "sha256": "4ebd27f47b1ba587a5b5723598f7f2c3966335c336e44a55b2224a33561e2a1a",
-      "signature": "4UKEQu38wxWBCb9+kV7U2vyAJ3powaPerEHWCrEzdMRfVbwxtLhLxNosQR6tQ3vF72C9Ph9Cl6rqWlXWMRkVyQ==",
+      "signature": "S983hi3zWKrEluFFlSQvFk6YW2vxTgtbSdfeHluCx17klPFHRZ2DxqyPp8bFNUzuurGbkKGa+ae65HLP+q+jBw==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Bundle 80 certified release"
@@ -255,7 +255,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-ev01-v1-v1.0.4/Ev01-1.0.4.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-ev01-v1-v1.0.4/Ev01-1.0.4.zip",
       "sha256": "2ef024dd533ab3107c4862559937ce9338f5ac59ba904e38e375a83271281572",
-      "signature": "vjAn3p7ccMl8Lo86/75RS5QyPCUzeg0Y+0I6pdxJBJKFVpuxM7zsqZ2wNOFe5E3P3GZTptf00XxDmhLoaiLKHw==",
+      "signature": "K2PxsmtVVkKSDAqeuQKsq9u7Q0zaVMlzeOKpnj1ToDs77l4kfDrXnXBWLtkTrYur9iLQtOS1Pg1AE5+PmNaC6A==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Added Synthetiq One English subtitle fallback for supported TMDB titles",
@@ -269,18 +269,18 @@
       "moduleIdentity": "SP-VID-048-XSTREAM",
       "moduleIdentityNumber": 48,
       "contentType": "video",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "minAppVersion": "8.0.0",
-      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-xstream-v1-v1.1.4/X-Stream-1.1.4.zip",
-      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-xstream-v1-v1.1.4/X-Stream-1.1.4.zip",
-      "sha256": "ffad47da3f730768b27322a051d98464111d7de9eed549fab196bf5ed87699c6",
-      "signature": "XrNgopv0/irysw+ot8zJxmyerlTE0LIjfr8nzMasPmuONeavltBvy8a4po2p3nHh4BUzIK+B5ttrPYPWuXMfrg==",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-xstream-v1-v1.1.5/X-Stream-1.1.5.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-xstream-v1-v1.1.5/X-Stream-1.1.5.zip",
+      "sha256": "481652c16d0c0647904cffbb493eb8b5d27897cce54ca8e19079d5d11db5d675",
+      "signature": "7OUG6VK5TeGSx0wdTKHKQyuJ0tMWkzgPkJBARh/DKi1RxaI1TAwQyl6divBp5gXXJvjQSQZWqLv8gOei/nA3yw==",
       "publishedAtMs": 1784986932868,
       "changelog": [
-        "1.1.4: default 720–1080 when available (HD-first ranking)",
-        "Clean Videasy 1080/720 preferred over LookMovie 480",
-        "If only jpeg-TS Videasy HD exists, still return 720/1080 (labeled may seek poorly) with LM 480 backup",
-        "1.1.3: absolute multi-season episode numbers; LookMovie binary soft-probe fix"
+        "1.1.5: prefer clean LookMovie over jpeg-TS fake HD primaries",
+        "Gate: set A 8/8 playable real media (was 6/8 with FAKE 1080)",
+        "TV: Breaking Bad falls back to real LM 480 when Videasy is junk",
+        "1.1.4: HD-first ranking when clean Videasy works"
       ]
     },
     {
@@ -294,7 +294,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-aniworld-v1-v1.0.1/Aniworld-1.0.1.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-aniworld-v1-v1.0.1/Aniworld-1.0.1.zip",
       "sha256": "cf28c27c114c7c8ee68618e70752da74a1e80d45fd87b86625826a6b1c227583",
-      "signature": "NO4jqWfmkzD1gEaCtJcSLgv+jRJm/4OEcklmnpurFVKnTGF/AGymSNxVT+Y/tBgGdjShuz5SRs6Os83NnVSJ1g==",
+      "signature": "EXIiLeEO+Hnvl2D4twQVkjeFy58zaISVVq/Yx0gHNlvT/kYwyzFNepj7+rnMGe8S4q2K0zOcoyLb8BcfBYEoow==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Added Aniworld German anime catalogue (search, seasons, episodes, discovery)",
@@ -314,7 +314,7 @@
       "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-repository-update-test-v1-v1.0.5/Repository-Update-Test-1.0.5.zip",
       "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-repository-update-test-v1-v1.0.5/Repository-Update-Test-1.0.5.zip",
       "sha256": "19a30586838dbe10f0e366a5ba14b5508bd0cc3b2c991e8f6bebb8f60d85ee9b",
-      "signature": "EJ/OMrs5qFr8rlnC5XdgckXRyp91uUQVkHzd+ynIZidlgmRPamjfjbOWtP5HQf8zK81BqDxc3YIwQzxOo/8ouA==",
+      "signature": "jep/fEBKbV5feF2VkQ+If1A8AMsGphRQH+oUK265UkvlFxuKaZsuRQHZlT280XJJO0n3WGAH6LA8GtRdmgIhNQ==",
       "publishedAtMs": 1784986932868,
       "changelog": [
         "Manual-check test: TEST 5 is now TEST 6"
@@ -326,18 +326,17 @@
       "moduleIdentity": "SP-VID-056-STCINE",
       "moduleIdentityNumber": 56,
       "contentType": "video",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "minAppVersion": "8.0.0",
-      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-stcine-v1-v1.0.2/STCine-1.0.2.zip",
-      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-stcine-v1-v1.0.2/STCine-1.0.2.zip",
-      "sha256": "fea5974f284aaf7ceee90a5f37b5191f05a90f57e9931a67a4b5daefb9546a0a",
-      "signature": "rP1Oy/Hyq98i00mMY5wlnzpueXhfTIfeiOLI8LbUKPqRFMbqhmWb9O1OEg20lOLaaefUYALuv878r7QQ/jpdOw==",
+      "packageUrl": "https://github.com/kas021/Synthetiq-Modules/releases/download/module-stcine-v1-v1.0.3/STCine-1.0.3.zip",
+      "packagePath": "/kas021/Synthetiq-Modules/releases/download/module-stcine-v1-v1.0.3/STCine-1.0.3.zip",
+      "sha256": "b93b07c04c494f5769f593cd1ede5314d0e26388164a7018fcea45f5d6d39fa7",
+      "signature": "95zxrEkDYS0SQ2jI7VOEnCROQtT88RyFOPdR8GXaB8Uf3UEP/ppBKg+vFDSnuOE9H9lQicfUCG/K++X7e66euw==",
       "publishedAtMs": 1784986932868,
       "changelog": [
-        "1.0.2: fix movie layout (isMovie / no fake Episode 1)",
-        "Reject fake Videasy HLS (.jpg/.html segments) that fail playback",
-        "LookMovie real .ts fallback for titles like John Wick 2 / Murder 2",
-        "HD-first when clean streams exist; empty rather than broken fakes"
+        "1.0.3: LookMovie TV episode path (Breaking Bad etc.)",
+        "Gate: TV playable 2/3 (was 1/3); movies stay 8/8 real media",
+        "1.0.2: isMovie layout; drop fake Videasy; movie LookMovie fallback"
       ]
     }
   ],
@@ -346,6 +345,6 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "defaultModulesSignature": "t1LYSkSebbQHdSu0e37C3xt6v04nUG+l9XpcSRTGo9bXrK0NOrM2XpGrLK6gAqJ31GZkpswe7/PCg+H+5ea/Gg==",
-  "signature": "t9j2o/P/5jE1tl33b1fV3uCdlslUf5pMOnOApwOcsynipSEw4AkvB355s2yr4RdbzF0z4rX20zVq4BjHs8Y/QQ=="
+  "defaultModulesSignature": "YQO7cCQAV8b4rbEJp/YQW40XMJl5QScGkA21mrGCtilfF6PoMnsM/4olakpgmSWERRUD5rMAYjtOGyfNJmrKsQ==",
+  "signature": "p7CjkVWzvwtSPNWkExu+NB+WmfJNkIh7nSmETFw18UyMoJ83OQsV9CPcXJrw+guyfVTy8f4O7A6Yx4QZts3+qA=="
 }
