@@ -109,13 +109,12 @@
       ]
     },
     {
-      "file": "modules/X-Stream-1.1.2.zip",
+      "file": "modules/X-Stream-1.1.4.zip",
       "changelog": [
-        "1.1.2: segment-level softProbe — CF/403/timeout Videasy HLS marked dead",
-        "Drops dead Videasy/moon/ironwallnet routes when LookMovie/refligns work (fixes StreamRace picking broken 1080p)",
-        "Score reliable backups higher; demote fragile Videasy hosts until probe OK",
-        "TMDB multi-search fallback when freehost search flakes",
-        "Study gate: 30/30 movies returned playable primary segments (typically 480p reliable path)"
+        "1.1.4: default 720\u20131080 when available (HD-first ranking)",
+        "Clean Videasy 1080/720 preferred over LookMovie 480",
+        "If only jpeg-TS Videasy HD exists, still return 720/1080 (labeled may seek poorly) with LM 480 backup",
+        "1.1.3: absolute multi-season episode numbers; LookMovie binary soft-probe fix"
       ]
     },
     {
@@ -140,7 +139,7 @@
         "Featured hero and Top 10 home sections",
         "Seek-friendly stream ladder: 1080p default, 4K as backup",
         "Search via STCine API with TMDB fallback",
-        "Trial release for all users — free-player streams may vary by title"
+        "Trial release for all users \u2014 free-player streams may vary by title"
       ]
     }
   ]
