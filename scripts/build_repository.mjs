@@ -81,10 +81,41 @@ function packagePath(tag, file) {
   return `/kas021/Synthetiq-Modules/releases/download/${tag}/${encodeURIComponent(path.basename(file))}`;
 }
 
+function validatePresentation(item) {
+  if (!item.presentation) return;
+  if (typeof item.presentation !== 'object' || Array.isArray(item.presentation)) {
+    throw new Error(`${item.file} has invalid presentation metadata`);
+  }
+  const iconUrl = text(item.presentation.iconUrl);
+  if (!iconUrl) return;
+  let parsed;
+  try {
+    parsed = new URL(iconUrl);
+  } catch (_) {
+    throw new Error(`${item.file} has an invalid presentation icon URL`);
+  }
+  if (parsed.protocol !== 'https:' || parsed.username || parsed.password || parsed.port) {
+    throw new Error(`${item.file} presentation icon must use plain HTTPS`);
+  }
+  const prefix = '/kas021/Synthetiq-Modules/main/assets/module-icons/';
+  if (parsed.hostname !== 'raw.githubusercontent.com' || !parsed.pathname.startsWith(prefix)) {
+    throw new Error(`${item.file} presentation icon must be hosted in this repository`);
+  }
+  const relative = parsed.pathname.slice('/kas021/Synthetiq-Modules/main/'.length);
+  const iconPath = path.join(root, relative);
+  if (!fs.existsSync(iconPath)) throw new Error(`${item.file} is missing ${relative}`);
+  const bytes = fs.readFileSync(iconPath);
+  const pngMagic = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
+  if (bytes.length > 256 * 1024 || !bytes.subarray(0, 8).equals(pngMagic)) {
+    throw new Error(`${relative} must be a PNG no larger than 256 KB`);
+  }
+}
+
 const ids = new Set();
 const identities = new Set();
 const identityNumbers = new Set();
 const modules = catalogue.modules.map((item) => {
+  validatePresentation(item);
   const absolute = path.join(root, item.file);
   if (!fs.existsSync(absolute)) throw new Error(`Missing ${item.file}`);
   if (fs.statSync(absolute).size > 15 * 1024 * 1024) throw new Error(`${item.file} exceeds 15 MB`);
