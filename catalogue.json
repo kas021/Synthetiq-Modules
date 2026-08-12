@@ -13,9 +13,9 @@
   "minAppVersion": "8.0.0",
   "modules": [
     {
-      "file": "modules/Anikoto-4.0.2.zip",
+      "file": "modules/Anikoto-4.0.5.zip",
       "presentation": {"category": "Anime", "purpose": "Anime", "recommended": true},
-      "changelog": ["Bundle 80 certified release"]
+      "changelog": ["Reject fake image-based HLS and invalid media before playback", "Add exact-title and exact-episode fallback for unavailable Anikoto streams", "Preserve requested sub or dub language without cross-show substitution"]
     },
     {
       "file": "modules/Synthetiq-One-1.3.0.zip",
