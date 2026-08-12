@@ -14,87 +14,87 @@
   "modules": [
     {
       "file": "modules/Anikoto-4.0.5.zip",
-      "presentation": {"category": "Anime", "purpose": "Anime", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png"},
+      "presentation": {"category": "Anime", "purpose": "Anime", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png?v=20260812-2"},
       "changelog": ["Reject fake image-based HLS and invalid media before playback", "Add exact-title and exact-episode fallback for unavailable Anikoto streams", "Preserve requested sub or dub language without cross-show substitution"]
     },
     {
       "file": "modules/Synthetiq-One-1.3.0.zip",
-      "presentation": {"category": "Anime", "purpose": "Fastest Anime", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq.png"},
+      "presentation": {"category": "Anime", "purpose": "Fastest Anime", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq.png?v=20260812-2"},
       "changelog": ["Added the Fastest catalogue label", "Runtime remains unchanged from 1.2.9"]
     },
     {
       "file": "modules/One-Pace-3.0.2-index-test.zip",
-      "presentation": {"category": "Specialist", "purpose": "One Piece", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/one-pace.png"},
+      "presentation": {"category": "Specialist", "purpose": "One Piece", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/one-pace.png?v=20260812-2"},
       "changelog": ["Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue", "Preserved compatibility with previously saved onepace-index episode links", "Retained sub/dub metadata and multi-quality stream resolution"]
     },
     {
       "file": "modules/AnimeHeaven-4.0.4.zip",
-      "presentation": {"category": "Anime", "purpose": "Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeheaven.png"},
+      "presentation": {"category": "Anime", "purpose": "Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeheaven.png?v=20260812-2"},
       "changelog": ["Bundle 80 certified release"]
     },
     {
       "file": "modules/X-Stream-1.1.5.zip",
-      "presentation": {"category": "Movies & TV", "purpose": "Movies & TV", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"},
+      "presentation": {"category": "Movies & TV", "purpose": "Movies & TV", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png?v=20260812-2"},
       "changelog": ["1.1.5: prefer clean LookMovie over jpeg-TS fake HD primaries", "Gate: set A 8/8 playable real media (was 6/8 with FAKE 1080)", "TV: Breaking Bad falls back to real LM 480 when Videasy is junk", "1.1.4: HD-first ranking when clean Videasy works"]
     },
     {
       "file": "modules/STCine-1.0.4.zip",
-      "presentation": {"category": "Movies & TV", "purpose": "Movies & TV", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/stcine.png"},
+      "presentation": {"category": "Movies & TV", "purpose": "Movies & TV", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/stcine.png?v=20260812-2"},
       "changelog": ["1.0.4: bounded parallel provider resolution and concurrent media probing", "Prefer verified LookMovie routes and reject explicitly non-English HLS audio", "Gate: Flutter runtime, real media decode, iOS Simulator playback and English audio detection passed"]
     },
     {
       "file": "modules/10_miruro_v3.0.15.zip",
-      "presentation": {"category": "Anime", "purpose": "Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/miruro.png"},
+      "presentation": {"category": "Anime", "purpose": "Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/miruro.png?v=20260812-2"},
       "changelog": ["Bundle 80 certified release"]
     },
     {
       "file": "modules/Anime-Sama-1.0.2.zip",
-      "presentation": {"category": "Anime", "purpose": "French Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anime-sama.png"},
+      "presentation": {"category": "Anime", "purpose": "French Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anime-sama.png?v=20260812-2"},
       "changelog": ["Added VOSTFR and VF anime catalogue support", "Passed S2 Standard runtime, signed MP4, download, language, and iOS Simulator playback checks"]
     },
     {
       "file": "modules/DramaFun-3.0.2.zip",
-      "presentation": {"category": "Movies & TV", "purpose": "Spanish Drama", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/dramafun.png"},
+      "presentation": {"category": "Movies & TV", "purpose": "Spanish Drama", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/dramafun.png?v=20260812-2"},
       "changelog": ["Bundle 80 certified release"]
     },
     {
       "file": "modules/Senshi-4.0.1-streaming-only.zip",
-      "presentation": {"category": "Anime", "purpose": "Anime Streaming", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/senshi.png"},
+      "presentation": {"category": "Anime", "purpose": "Anime Streaming", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/senshi.png?v=20260812-2"},
       "changelog": ["Bundle 80 certified release"]
     },
     {
       "file": "modules/ToonTales-3.0.0.zip",
-      "presentation": {"category": "Specialist", "purpose": "Cartoons", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/toontales.png"},
+      "presentation": {"category": "Specialist", "purpose": "Cartoons", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/toontales.png?v=20260812-2"},
       "changelog": ["Bundle 80 certified release"]
     },
     {
       "file": "modules/Ev01-1.0.4.zip",
-      "presentation": {"category": "Movies & TV", "purpose": "Movies", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/ev01.png"},
+      "presentation": {"category": "Movies & TV", "purpose": "Movies", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/ev01.png?v=20260812-2"},
       "changelog": ["Added Synthetiq One English subtitle fallback for supported TMDB titles", "Preserved verified media and download routes", "Handles parsed JSON consistently in the Flutter module runtime"]
     },
     {
       "file": "modules/Aniworld-1.0.1.zip",
-      "presentation": {"category": "Anime", "purpose": "German Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/aniworld.png"},
+      "presentation": {"category": "Anime", "purpose": "German Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/aniworld.png?v=20260812-2"},
       "changelog": ["Added Aniworld German anime catalogue (search, seasons, episodes, discovery)", "VidMoly HLS with Deutsch / EN-Sub / DE-Sub audio routes", "Search fallback forms for apostrophe and alternate-wording title misses", "Passed Study Anime 98.5% (Grade A): TOP 30/30, MED 10/10, LOW 9/10"]
     },
     {
       "file": "modules/WeebCentral-4.0.2.zip",
-      "presentation": {"category": "Manga", "purpose": "Manga", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/weebcentral.png"},
+      "presentation": {"category": "Manga", "purpose": "Manga", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/weebcentral.png?v=20260812-2"},
       "changelog": ["Fixed Android Home discovery timing out and falling back to incomplete cards", "Removed false Cloudflare challenge detection and duplicate Home requests", "Preserved the four-section reader discovery UI across Android and iOS", "Passed the module tester and real Flutter image runtime"]
     },
     {
       "file": "modules/Synthetiq-Manga-1.0.2.zip",
-      "presentation": {"category": "Manga", "purpose": "Fastest Manga", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq.png"},
+      "presentation": {"category": "Manga", "purpose": "Fastest Manga", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq.png?v=20260812-2"},
       "changelog": ["Added Synthetiq Manga to the official catalogue", "Added the Fastest catalogue label", "Stores and resolves page links only; it does not host images"]
     },
     {
       "file": "modules/Atsu-4.0.3.zip",
-      "presentation": {"category": "Manga", "purpose": "Manga", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/atsu.png"},
+      "presentation": {"category": "Manga", "purpose": "Manga", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/atsu.png?v=20260812-2"},
       "changelog": ["Bundle 80 certified release"]
     },
     {
       "file": "modules/Synthetiq-Music-Hub-1.1.0.zip",
-      "presentation": {"category": "Music", "purpose": "Music", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq.png"},
+      "presentation": {"category": "Music", "purpose": "Music", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq.png?v=20260812-2"},
       "changelog": ["Improved exact artist and track matching", "Added verified full-length audio resolution and download support"]
     }
   ]
