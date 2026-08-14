@@ -33,9 +33,9 @@
       "changelog": ["Bundle 80 certified release"]
     },
     {
-      "file": "modules/X-Stream-1.1.5.zip",
+      "file": "modules/X-Stream-1.2.0.zip",
       "presentation": {"category": "Movies & TV", "purpose": "Movies & TV", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png?v=20260812-2"},
-      "changelog": ["1.1.5: prefer clean LookMovie over jpeg-TS fake HD primaries", "Gate: set A 8/8 playable real media (was 6/8 with FAKE 1080)", "TV: Breaking Bad falls back to real LM 480 when Videasy is junk", "1.1.4: HD-first ranking when clean Videasy works"]
+      "changelog": ["1.2.0: replaced the suspended catalogue host with TMDB-backed home, search, discovery and endless feeds", "1.2.0: preserved the existing multi-provider real-media playback and subtitle pipeline", "1.1.5: prefer clean LookMovie over jpeg-TS fake HD primaries", "Gate: set A 8/8 playable real media (was 6/8 with FAKE 1080)", "TV: Breaking Bad falls back to real LM 480 when Videasy is junk", "1.1.4: HD-first ranking when clean Videasy works"]
     },
     {
       "file": "modules/STCine-1.0.4.zip",
