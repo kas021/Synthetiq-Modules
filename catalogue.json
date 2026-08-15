@@ -55,7 +55,7 @@
     {
       "file": "modules/AnimeAV1-1.1.1.zip",
       "presentation": {"category": "Anime", "purpose": "Spanish Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"},
-      "changelog": ["1.1.1: drop Cloudflare-blocked Zilla HLS and prefer verified MP4Upload/YourUpload files", "1.1.1: keep Spanish SUB/DUB only when the episode actually provides that variant", "Added Spanish anime catalogue, search, details, and discovery", "Added complete episode extraction with Spanish sub and dub variants when available"]}
+      "changelog": ["1.1.1: drop Cloudflare-blocked Zilla HLS and prefer verified MP4Upload/YourUpload files", "1.1.1: keep Spanish SUB/DUB only when the episode actually provides that variant", "Added Spanish anime catalogue, search, details, and discovery", "Added complete episode extraction with Spanish sub and dub variants when available"]
     },
     {
       "file": "modules/DramaFun-3.0.2.zip",
