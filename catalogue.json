@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 89,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-89.zip",
+  "bundleVersion": 90,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-90.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -83,9 +83,9 @@
       "changelog": ["Added Aniworld German anime catalogue (search, seasons, episodes, discovery)", "VidMoly HLS with Deutsch / EN-Sub / DE-Sub audio routes", "Search fallback forms for apostrophe and alternate-wording title misses", "Passed Study Anime 98.5% (Grade A): TOP 30/30, MED 10/10, LOW 9/10"]
     },
     {
-      "file": "modules/WeebCentral-4.0.2.zip",
+      "file": "modules/WeebCentral-4.1.10.zip",
       "presentation": {"category": "Manga", "purpose": "Manga", "recommended": true, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/weebcentral.png?v=20260812-2"},
-      "changelog": ["Fixed Android Home discovery timing out and falling back to incomplete cards", "Removed false Cloudflare challenge detection and duplicate Home requests", "Preserved the four-section reader discovery UI across Android and iOS", "Passed the module tester and real Flutter image runtime"]
+      "changelog": ["Restored complete chapter lists through the Flutter JavaScript runtime", "Keeps Home discovery on recently active titles with chapter-bearing exact IDs", "Sorts Chapter and Act labels numerically, including decimal chapters", "Verified Nura, Chainsaw Man and One Piece through the real Flutter image runtime"]
     },
     {
       "file": "modules/Synthetiq-Manga-1.0.2.zip",
