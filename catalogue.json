@@ -53,9 +53,9 @@
       "changelog": ["Added VOSTFR and VF anime catalogue support", "Passed S2 Standard runtime, signed MP4, download, language, and iOS Simulator playback checks"]
     },
     {
-      "file": "modules/AnimeAV1-1.1.0.zip",
+      "file": "modules/AnimeAV1-1.1.1.zip",
       "presentation": {"category": "Anime", "purpose": "Spanish Anime", "recommended": false, "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"},
-      "changelog": ["Added Spanish anime catalogue, search, details, and discovery", "Added complete episode extraction with Spanish sub and dub variants when available", "Verified HLS media playback and seeking through the Flutter runtime and iOS Simulator"]
+      "changelog": ["1.1.1: drop Cloudflare-blocked Zilla HLS and prefer verified MP4Upload/YourUpload files", "1.1.1: keep Spanish SUB/DUB only when the episode actually provides that variant", "Added Spanish anime catalogue, search, details, and discovery", "Added complete episode extraction with Spanish sub and dub variants when available"]}
     },
     {
       "file": "modules/DramaFun-3.0.2.zip",
