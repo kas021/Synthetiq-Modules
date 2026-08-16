@@ -111,6 +111,22 @@
       "file": "modules/Synthetiq-Music-Hub-1.1.0.zip",
       "presentation": {"category": "Music", "purpose": "Music", "recommended": true, "language": "Multi-language", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq.png?v=20260812-2"},
       "changelog": ["Improved exact artist and track matching", "Added verified full-length audio resolution and download support"]
+    },
+    {
+      "file": "modules/AnimeUnity-1.0.0.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Italian Anime",
+        "recommended": false,
+        "language": "Italian (Sub / Dub)",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeunity.png"
+      },
+      "changelog": [
+        "1.0.0: Added AnimeUnity Italian anime streaming library",
+        "1.0.0: Complete Italian subbed and dubbed anime series and movies",
+        "1.0.0: Multi-quality 1080p/720p/480p HLS playback and direct MP4 downloads",
+        "1.0.0: Comprehensive episode support (1100+ episodes) and discovery feeds"
+      ]
     }
   ]
 }
