@@ -58,9 +58,9 @@
       "changelog": ["1.0.8: Pre-resolve direct physical Sibnet storage CDN endpoints with followRedirects:false for instant MP4 downloads", "1.0.8: Added Vidmoly HLS multi-host fallback for full series stream coverage", "1.0.8: Official vertical portrait title covers and horizontal background banners for all anime"]
     },
     {
-      "file": "modules/AnimeAV1-1.1.1.zip",
-      "presentation": {"category": "Anime", "purpose": "Spanish Anime", "recommended": false, "language": "Spanish", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"},
-      "changelog": ["1.1.1: drop Cloudflare-blocked Zilla HLS and prefer verified MP4Upload/YourUpload files", "1.1.1: keep Spanish SUB/DUB only when the episode actually provides that variant", "Added Spanish anime catalogue, search, details, and discovery", "Added complete episode extraction with Spanish sub and dub variants when available"]
+      "file": "modules/AnimeAV1-1.2.0.zip",
+      "presentation": {"category": "Anime", "purpose": "Spanish Anime", "recommended": false, "language": "Spanish (Castellano / Latino / VOSE)", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"},
+      "changelog": ["1.2.0: Accurate Spanish Audio (DUB) and Spanish Subtitles (VOSE) separation and labelling", "1.2.0: Symmetrical stream resolution with graceful fallback preventing empty stream errors", "1.2.0: High-speed direct MP4Upload, YourUpload, and fMP4 Zilla HLS streams", "1.2.0: Official vertical portrait covers and horizontal background banners for all anime"]
     },
     {
       "file": "modules/DramaFun-3.0.2.zip",
