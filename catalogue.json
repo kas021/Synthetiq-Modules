@@ -113,7 +113,7 @@
       "changelog": ["Improved exact artist and track matching", "Added verified full-length audio resolution and download support"]
     },
     {
-      "file": "modules/AnimeUnity-1.0.2.zip",
+      "file": "modules/AnimeUnity-1.0.3.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Italian Anime",
@@ -122,6 +122,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeunity.png"
       },
       "changelog": [
+        "1.0.3: Strict DUB availability verification ensuring genuine Italian voice audio and blocking false fallback to Japanese audio",
         "1.0.2: Ultra-low-latency HLS adaptive streaming enabling instant seeking and zero stutter on pause/resume",
         "1.0.2: Dynamic SUB and Italian DUB companion switching with true Italian audio",
         "1.0.1: Resolved Flutter JsService nativeHttp JSON body decoding for home discovery and search",
