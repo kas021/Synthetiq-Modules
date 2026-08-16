@@ -58,9 +58,9 @@
       "changelog": ["1.0.8: Pre-resolve direct physical Sibnet storage CDN endpoints with followRedirects:false for instant MP4 downloads", "1.0.8: Added Vidmoly HLS multi-host fallback for full series stream coverage", "1.0.8: Official vertical portrait title covers and horizontal background banners for all anime"]
     },
     {
-      "file": "modules/AnimeAV1-1.2.2.zip",
+      "file": "modules/AnimeAV1-1.2.3.zip",
       "presentation": {"category": "Anime", "purpose": "Spanish Anime", "recommended": false, "language": "Spanish (Castellano / Latino / VOSE)", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"},
-      "changelog": ["1.2.2: Return per-stream Referer headers for YourUpload direct downloads (418 MB full MP4)", "1.2.2: Clean quality labels (1080p Audio Español / 1080p Sub Español) without empty brackets", "1.2.2: Drop segmented HLS from download choices when direct MP4 is available to prevent 0-second text playlist downloads", "1.2.2: Full anime movie support with Episode 0 detection and stream extraction"]
+      "changelog": ["1.2.3: Multi-host failover with verified H.264 direct MP4 and backup HLS stream resolution", "1.2.3: Per-stream Referer headers for YourUpload direct downloads (418 MB full MP4)", "1.2.3: Clean quality labels (1080p Audio Español / 1080p Sub Español) without empty brackets", "1.2.3: Full anime movie support with Episode 0 detection and stream extraction"]
     },
     {
       "file": "modules/DramaFun-3.0.2.zip",
