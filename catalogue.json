@@ -53,9 +53,9 @@
       "changelog": ["4.0.0: Rebuilt on-device anime stream pipeline resolving Cloudflare bot walls and broken downloads", "Direct multi-provider video stream resolution with verified MPEG-TS segments for seamless playback and downloads", "Fast AniList GraphQL search, discovery feeds, and complete episode mapping with sub & dub support"]
     },
     {
-      "file": "modules/Anime-Sama-1.0.7.zip",
+      "file": "modules/Anime-Sama-1.0.8.zip",
       "presentation": {"category": "Anime", "purpose": "French Anime", "recommended": false, "language": "French (VOSTFR / VF)", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anime-sama.png"},
-      "changelog": ["1.0.7: Pre-resolve direct physical Sibnet storage CDN endpoints with followRedirects:false to eliminate 400 Bad Request and 403 errors", "1.0.7: Instant download start with verified MP4 byte ranges", "1.0.7: Official vertical portrait title covers and horizontal background banners for all anime"]
+      "changelog": ["1.0.8: Pre-resolve direct physical Sibnet storage CDN endpoints with followRedirects:false for instant MP4 downloads", "1.0.8: Added Vidmoly HLS multi-host fallback for full series stream coverage", "1.0.8: Official vertical portrait title covers and horizontal background banners for all anime"]
     },
     {
       "file": "modules/AnimeAV1-1.1.1.zip",
