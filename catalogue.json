@@ -113,7 +113,7 @@
       "changelog": ["Improved exact artist and track matching", "Added verified full-length audio resolution and download support"]
     },
     {
-      "file": "modules/AnimeUnity-1.0.0.zip",
+      "file": "modules/AnimeUnity-1.0.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Italian Anime",
@@ -122,10 +122,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeunity.png"
       },
       "changelog": [
-        "1.0.0: Added AnimeUnity Italian anime streaming library",
-        "1.0.0: Complete Italian subbed and dubbed anime series and movies",
-        "1.0.0: Multi-quality 1080p/720p/480p HLS playback and direct MP4 downloads",
-        "1.0.0: Comprehensive episode support (1100+ episodes) and discovery feeds"
+        "1.0.1: Resolved Flutter JsService nativeHttp JSON body decoding for home discovery and instant search results",
+        "1.0.0: Added AnimeUnity Italian anime streaming library with complete Italian subbed and dubbed anime series and movies",
+        "1.0.0: Multi-quality 1080p/720p/480p HLS playback and direct MP4 downloads"
       ]
     }
   ]
