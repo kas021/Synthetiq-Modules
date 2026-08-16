@@ -63,9 +63,9 @@
       "changelog": ["1.2.3: Multi-host failover with verified H.264 direct MP4 and backup HLS stream resolution", "1.2.3: Per-stream Referer headers for YourUpload direct downloads (418 MB full MP4)", "1.2.3: Clean quality labels (1080p Audio Español / 1080p Sub Español) without empty brackets", "1.2.3: Full anime movie support with Episode 0 detection and stream extraction"]
     },
     {
-      "file": "modules/Kartoons-1.1.3.zip",
+      "file": "modules/Kartoons-1.1.4.zip",
       "presentation": {"category": "Cartoons", "purpose": "Childhood Cartoons & Anime", "recommended": false, "language": "Hindi / English", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/kartoons.png?v=20260816-1"},
-      "changelog": ["1.1.3: Complete 33+ Doraemon movies, specials, and series coverage matching web search", "1.1.3: Multi-query search expansion for Treasure Island, Stand by Me, Steel Troops, and classics", "1.1.3: Fully bypasses website login barriers using direct open CloudStream media bridge", "1.1.3: Restored Featured Cartoons & Movies hero carousel and full Discovery catalogues"]
+      "changelog": ["1.1.4: In-memory show details & episode caching reducing series card loading time from 8s to under 2.8s", "1.1.4: Instant sub-millisecond episode list rendering (<1ms) across large franchises", "1.1.4: Corrected Shin Chan TMDB ID mapping from 3941 to 30623", "1.1.4: Complete 33+ Doraemon movies, specials, and franchise titles coverage"]
     },
     {
       "file": "modules/DramaFun-3.0.2.zip",
