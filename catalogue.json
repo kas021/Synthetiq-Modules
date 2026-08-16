@@ -33,9 +33,10 @@
       "changelog": ["Bundle 80 certified release"]
     },
     {
-      "file": "modules/X-Stream-1.2.1.zip",
+      "file": "modules/X-Stream-1.2.2.zip",
       "presentation": {"category": "Movies & TV", "purpose": "Movies & TV", "recommended": false, "language": "English", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"},
       "changelog": [
+        "1.2.2: English audio enforcement rejecting foreign & Spanish dub stream ladders and inspecting HLS audio track languages",
         "1.2.1: ultra-fast parallel stream & quality resolution with in-flight request deduplication",
         "1.2.1: verified 1080p/4K HLS and genuine media validation across Videasy, LookMovie, Vidzee, Hubcloud, and MoviesAPI",
         "1.2.1: robust LookMovie 480p and subtitle fallback for titles with expired CDN storage",
