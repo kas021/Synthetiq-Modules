@@ -23,6 +23,11 @@
       "changelog": ["Added the Fastest catalogue label", "Runtime remains unchanged from 1.2.9"]
     },
     {
+      "file": "modules/Synthetiq-Movies-1.1.0.zip",
+      "presentation": {"category": "Movies & TV", "purpose": "Most Reliable Movies", "recommended": true, "language": "English", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"},
+      "changelog": ["1.1.0: Production OVH-backed movie and TV streams with VideoEasy then STCine kitchens", "Hide TMDB episodes that have not aired yet so unreleased rows are not playable", "Faster season lists and home/search that no longer stall on one slow TMDB call"]
+    },
+    {
       "file": "modules/One-Pace-3.0.2-index-test.zip",
       "presentation": {"category": "Specialist", "purpose": "One Piece", "recommended": false, "language": "English Subtitles", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/one-pace.png?v=20260812-2"},
       "changelog": ["Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue", "Preserved compatibility with previously saved onepace-index episode links", "Retained sub/dub metadata and multi-quality stream resolution"]
