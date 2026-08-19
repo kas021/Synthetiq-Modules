@@ -28,9 +28,14 @@
       "changelog": ["1.1.1: Return every offered VideoEasy audio language, English first", "Do not invent languages when a title only has one verified source", "1.1.0: Production OVH-backed movie and TV streams with VideoEasy then STCine kitchens"]
     },
     {
-      "file": "modules/One-Pace-3.0.2-index-test.zip",
-      "presentation": {"category": "Specialist", "purpose": "One Piece", "recommended": false, "language": "English Subtitles", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/one-pace.png?v=20260812-2"},
-      "changelog": ["Replaced the fixed 54-episode placeholder with the complete ordered One Pace watch-list catalogue", "Preserved compatibility with previously saved onepace-index episode links", "Retained sub/dub metadata and multi-quality stream resolution"]
+      "file": "modules/One-Pace-3.0.3-index-test.zip",
+      "presentation": {"category": "Specialist", "purpose": "One Piece", "recommended": false, "language": "English Sub/Dub", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/one-pace.png?v=20260812-2"},
+      "changelog": [
+        "Reject DUB requests when an episode has no verified DUB route instead of silently playing subtitles",
+        "Prefer explicit language tags from individual files while preserving the existing episode catalogue",
+        "Preserved compatibility with previously saved onepace-index episode links",
+        "Retained separate sub/dub availability flags and multi-quality stream resolution"
+      ]
     },
     {
       "file": "modules/AnimeHeaven-4.0.4.zip",
