@@ -180,6 +180,11 @@
       ]
     },
     {
+      "file": "modules/Latanime-1.0.3.zip",
+      "presentation": {"category": "Anime", "purpose": "Spanish & Catalan Anime", "recommended": false, "language": "Spanish / Catalan", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/latanime.png"},
+      "changelog": ["1.0.3: Added Latanime Spanish and Catalan anime catalogue", "Returns dubbed audio only; unavailable subtitles fail clearly instead of substituting audio", "Flutter runtime, media decoding, and Spanish audio verification passed"]
+    },
+    {
       "file": "modules/Kartoons-1.1.6.zip",
       "presentation": {
         "category": "Cartoons",
