@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 95,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-95.zip",
+  "bundleVersion": 96,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-96.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -359,6 +359,21 @@
         "1.0.2: Dynamic SUB and Italian DUB companion switching with true Italian audio",
         "1.0.1: Resolved Flutter JsService nativeHttp JSON body decoding for home discovery and search",
         "1.0.0: Initial AnimeUnity Italian anime streaming library release"
+      ]
+    },
+    {
+      "file": "modules/AnimeKai-4.0.0.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "English Anime",
+        "recommended": false,
+        "language": "English Sub/Dub",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animekai.webp"
+      },
+      "changelog": [
+        "4.0.0: Added AnimeKai English anime source",
+        "Live media routes probed across a broad catalogue sweep",
+        "Published as a beta source; availability remains dependent on the upstream site"
       ]
     }
   ]
