@@ -368,7 +368,7 @@
         "purpose": "English Anime",
         "recommended": false,
         "language": "English Sub/Dub",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animekai.webp"
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animekai.png"
       },
       "changelog": [
         "4.0.0: Added AnimeKai English anime source",
