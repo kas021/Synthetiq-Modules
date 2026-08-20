@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 94,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-94.zip",
+  "bundleVersion": 95,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-95.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -172,17 +172,27 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"
       },
       "changelog": [
-        "1.2.5: DUB and SUB never substitute for each other \u2014 missing language fails closed instead of playing the other track",
+        "1.2.5: DUB and SUB never substitute for each other — missing language fails closed instead of playing the other track",
         "1.2.3: Multi-host failover with verified H.264 direct MP4 and backup HLS stream resolution",
         "1.2.3: Per-stream Referer headers for YourUpload direct downloads (418 MB full MP4)",
-        "1.2.3: Clean quality labels (1080p Audio Espa\u00f1ol / 1080p Sub Espa\u00f1ol) without empty brackets",
+        "1.2.3: Clean quality labels (1080p Audio Español / 1080p Sub Español) without empty brackets",
         "1.2.3: Full anime movie support with Episode 0 detection and stream extraction"
       ]
     },
     {
       "file": "modules/Latanime-1.0.3.zip",
-      "presentation": {"category": "Anime", "purpose": "Spanish & Catalan Anime", "recommended": false, "language": "Spanish / Catalan", "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/latanime.png"},
-      "changelog": ["1.0.3: Added Latanime Spanish and Catalan anime catalogue", "Returns dubbed audio only; unavailable subtitles fail clearly instead of substituting audio", "Flutter runtime, media decoding, and Spanish audio verification passed"]
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Spanish & Catalan Anime",
+        "recommended": false,
+        "language": "Spanish / Catalan",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/latanime.png"
+      },
+      "changelog": [
+        "1.0.3: Added Latanime Spanish and Catalan anime catalogue",
+        "Returns dubbed audio only; unavailable subtitles fail clearly instead of substituting audio",
+        "Flutter runtime, media decoding, and Spanish audio verification passed"
+      ]
     },
     {
       "file": "modules/Kartoons-1.1.6.zip",
@@ -349,22 +359,6 @@
         "1.0.2: Dynamic SUB and Italian DUB companion switching with true Italian audio",
         "1.0.1: Resolved Flutter JsService nativeHttp JSON body decoding for home discovery and search",
         "1.0.0: Initial AnimeUnity Italian anime streaming library release"
-      ]
-    },
-    {
-      "file": "modules/KickAssAnime-4.0.3.zip",
-      "presentation": {
-        "category": "Anime",
-        "purpose": "English Anime",
-        "recommended": false,
-        "language": "English Sub/Dub"
-      },
-      "changelog": [
-        "4.0.3: Official KickAssAnime (kaa.lt) English sub/dub catalogue",
-        "4.0.3: DUB is only shown when an English player or English HLS audio track exists",
-        "4.0.3: Japanese-only CatStream is never labeled as DUB (One Piece is SUB-only)",
-        "4.0.2: Featured home row, season duplicate collapse, subtitle URL repair",
-        "4.0.1: Full episode lists via fsearch and ja-JP/en-US APIs"
       ]
     }
   ]
