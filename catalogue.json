@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 93,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-93.zip",
+  "bundleVersion": 94,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-94.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
