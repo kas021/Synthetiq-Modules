@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 98,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-98.zip",
+  "bundleVersion": 99,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-99.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Movies-1.1.1.zip",
+      "file": "modules/Synthetiq-Movies-1.1.2.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Most Reliable Movies",
@@ -51,6 +51,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"
       },
       "changelog": [
+        "1.1.2: Attach English subtitles when a real caption file exists",
         "1.1.1: Return every offered VideoEasy audio language, English first",
         "Do not invent languages when a title only has one verified source",
         "1.1.0: Production OVH-backed movie and TV streams with VideoEasy then STCine kitchens"
@@ -174,11 +175,11 @@
       "changelog": [
         "1.2.6: Prefer StreamTape HTTPS MP4 (port 443) and drop Cloudflare-blocked Zilla .html HLS segments",
         "1.2.6: Probe MP4 bytes before return; DUB and SUB stay separate; Spanish DUB is advertised when the episode has it",
-        "1.2.5: DUB and SUB never substitute for each other — missing language fails closed instead of playing the other track",
+        "1.2.5: DUB and SUB never substitute for each other \u2014 missing language fails closed instead of playing the other track",
         "1.2.3: Multi-host failover with verified H.264 direct MP4 and backup HLS stream resolution",
         "1.2.3: Multi-host failover with verified H.264 direct MP4 and backup HLS stream resolution",
         "1.2.3: Per-stream Referer headers for YourUpload direct downloads (418 MB full MP4)",
-        "1.2.3: Clean quality labels (1080p Audio Español / 1080p Sub Español) without empty brackets",
+        "1.2.3: Clean quality labels (1080p Audio Espa\u00f1ol / 1080p Sub Espa\u00f1ol) without empty brackets",
         "1.2.3: Full anime movie support with Episode 0 detection and stream extraction"
       ]
     },
