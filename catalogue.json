@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 97,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-97.zip",
+  "bundleVersion": 98,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-98.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -377,6 +377,22 @@
         "4.0.0: Added AnimeKai English anime source",
         "Live media routes probed across a broad catalogue sweep",
         "Published as a beta source; availability remains dependent on the upstream site"
+      ]
+    },
+    {
+      "file": "modules/KickAssAnime-4.0.3.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "English Anime",
+        "recommended": false,
+        "language": "English Sub/Dub"
+      },
+      "changelog": [
+        "4.0.3: Official KickAssAnime (kaa.lt) English sub/dub catalogue",
+        "4.0.3: DUB is only shown when an English player or English HLS audio track exists",
+        "4.0.3: Japanese-only CatStream is never labeled as DUB (One Piece is SUB-only)",
+        "4.0.2: Featured home row, season duplicate collapse, subtitle URL repair",
+        "4.0.1: Full episode lists via fsearch and ja-JP/en-US APIs"
       ]
     }
   ]
