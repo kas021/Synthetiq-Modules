@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "repositoryId": "synthetiq-music-gateway-staging",
+  "name": "Synthetiq Music Gateway staging",
+  "modules": [
+    {
+      "file": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/codex/music-gateway-staging/modules/Synthetiq-Music-Hub-1.2.1-staging.zip",
+      "contentType": "music",
+      "sha256": "0bd56a78c0b461ab08fdc98a22b642e4cccf64cb0ef21631b0ab00189f2d82b5"
+    }
+  ]
+}
