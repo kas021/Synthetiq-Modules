@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 101,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-101.zip",
+  "bundleVersion": 102,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-102.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -401,6 +401,22 @@
         "4.0.3: Japanese-only CatStream is never labeled as DUB (One Piece is SUB-only)",
         "4.0.2: Featured home row, season duplicate collapse, subtitle URL repair",
         "4.0.1: Full episode lists via fsearch and ja-JP/en-US APIs"
+      ]
+    },
+    {
+      "file": "modules/Shahiid-2.0.0.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Arabic Anime",
+        "recommended": false,
+        "language": "Arabic Sub/Dub",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/shahiid.png"
+      },
+      "changelog": [
+        "2.0.0: Full overhaul for restructured series, seasons, and dubbed seasons catalogue hierarchy",
+        "2.0.0: High-speed multi-mirror resolver with verified 1080p MP4 and master HLS streaming",
+        "2.0.0: Strict language isolation between Arabic subtitled and Arabic dubbed episodes",
+        "2.0.0: Full movie and standalone special extraction with season archive auto-recovery"
       ]
     }
   ]
