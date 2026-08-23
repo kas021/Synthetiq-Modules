@@ -76,7 +76,7 @@
       ]
     },
     {
-      "file": "modules/AnimeHeaven-4.0.4.zip",
+      "file": "modules/AnimeHeaven-4.0.5.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -85,6 +85,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeheaven.png?v=20260812-2"
       },
       "changelog": [
+        "4.0.5: Episode lists restored for all titles after an AnimeHeaven markup change (Dandadan, A Wild Last Boss Appeared!, and more)",
+        "4.0.5: Decimal and special episode numbers supported, duplicates rejected, numeric ordering preserved",
+        "4.0.5: Clear upstream error messages when a title or stream is unavailable instead of silent empty results",
         "Bundle 80 certified release"
       ]
     },
