@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 100,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-100.zip",
+  "bundleVersion": 101,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-101.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "file": "modules/AnimeAV1-1.2.6.zip",
+      "file": "modules/AnimeAV1-1.2.7.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Spanish Anime",
@@ -178,10 +178,12 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"
       },
       "changelog": [
+        "1.2.7: Decimal and special episode support (e.g. 13.5, OVA 0.5) without truncation",
+        "1.2.7: Automatic retry with exponential backoff for transient CDN socket disconnects",
+        "1.2.7: Quote-agnostic embed unescaping and broad media format verification",
         "1.2.6: Prefer StreamTape HTTPS MP4 (port 443) and drop Cloudflare-blocked Zilla .html HLS segments",
         "1.2.6: Probe MP4 bytes before return; DUB and SUB stay separate; Spanish DUB is advertised when the episode has it",
         "1.2.5: DUB and SUB never substitute for each other \u2014 missing language fails closed instead of playing the other track",
-        "1.2.3: Multi-host failover with verified H.264 direct MP4 and backup HLS stream resolution",
         "1.2.3: Multi-host failover with verified H.264 direct MP4 and backup HLS stream resolution",
         "1.2.3: Per-stream Referer headers for YourUpload direct downloads (418 MB full MP4)",
         "1.2.3: Clean quality labels (1080p Audio Espa\u00f1ol / 1080p Sub Espa\u00f1ol) without empty brackets",
