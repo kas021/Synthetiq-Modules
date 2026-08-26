@@ -421,7 +421,7 @@
       ]
     },
     {
-      "file": "modules/Mugiwara-1.0.0.zip",
+      "file": "modules/Mugiwara-1.0.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "French Anime",
@@ -430,6 +430,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mugiwara.png"
       },
       "changelog": [
+        "1.0.1: Fixed homepage discovery & search JSON decoding on mobile Flutter runtime",
         "1.0.0: Official Mugiwara French anime streaming catalogue (VOSTFR / VF)",
         "1.0.0: High-speed Sibnet physical storage CDN resolution for direct MP4 playback and downloads",
         "1.0.0: Prioritized playable language tracks and complete multi-season episode mapping"
