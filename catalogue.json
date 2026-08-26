@@ -42,7 +42,7 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Movies-1.1.4.zip",
+      "file": "modules/Synthetiq-Movies-1.2.0.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Most Reliable Movies",
@@ -51,11 +51,11 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"
       },
       "changelog": [
-        "1.1.4: Filter explicitly adult catalogue entries and reject blocked title identifiers",
+        "1.2.0: English-first subtitles now include ALL available languages - Arabic, Spanish, German, French, Hindi and more (12-language fan-out)",
+        "1.2.0: app auto-picks English while the picker lists every subtitle language the source has",
+        "1.2.0: fixed subtitle hydration dropping all tracks after the first three",
+        "1.2.0: discovery hero section capped at 8 items (contract compliance)",
         "Keep ordinary anime and mature-rated films available",
-        "1.1.3: Embed English captions in the stream so they show on the player, not only in the picker",
-        "1.1.2: Attach English subtitles when a real caption file exists",
-        "1.1.1: Return every offered VideoEasy audio language, English first",
         "Do not invent languages when a title only has one verified source"
       ]
     },
