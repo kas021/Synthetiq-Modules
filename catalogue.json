@@ -421,7 +421,7 @@
       ]
     },
     {
-      "file": "modules/Mugiwara-1.0.1.zip",
+      "file": "modules/Mugiwara-1.0.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "French Anime",
@@ -430,10 +430,13 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mugiwara.png"
       },
       "changelog": [
+        "1.0.2: Clean canonical portrait posters across all anime (fixed One Piece heroines cover)",
+        "1.0.2: Synchronized dual SUB/DUB episode mapping starting at Episode 1 with zero offset",
+        "1.0.2: Full anime movies / films support (Her Blue Sky, Your Name, Look Back, Suzume, etc.)",
+        "1.0.2: Multi-mirror stream resolver with automatic fallback failover for deleted video hosts",
+        "1.0.2: Featured hero carousel and continuous endless scrolling across all discovery feeds",
         "1.0.1: Fixed homepage discovery & search JSON decoding on mobile Flutter runtime",
-        "1.0.0: Official Mugiwara French anime streaming catalogue (VOSTFR / VF)",
-        "1.0.0: High-speed Sibnet physical storage CDN resolution for direct MP4 playback and downloads",
-        "1.0.0: Prioritized playable language tracks and complete multi-season episode mapping"
+        "1.0.0: Official Mugiwara French anime streaming catalogue (VOSTFR / VF)"
       ]
     }
   ]
