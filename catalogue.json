@@ -419,6 +419,21 @@
         "2.0.0: Strict language isolation between Arabic subtitled and Arabic dubbed episodes",
         "2.0.0: Full movie and standalone special extraction with season archive auto-recovery"
       ]
+    },
+    {
+      "file": "modules/Mugiwara-1.0.0.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "French Anime",
+        "recommended": false,
+        "language": "French (VOSTFR / VF)",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mugiwara.png"
+      },
+      "changelog": [
+        "1.0.0: Official Mugiwara French anime streaming catalogue (VOSTFR / VF)",
+        "1.0.0: High-speed Sibnet physical storage CDN resolution for direct MP4 playback and downloads",
+        "1.0.0: Prioritized playable language tracks and complete multi-season episode mapping"
+      ]
     }
   ]
 }
