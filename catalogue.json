@@ -352,7 +352,7 @@
       ]
     },
     {
-      "file": "modules/AnimeUnity-1.0.6.zip",
+      "file": "modules/AnimeUnity-1.0.7.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Italian Anime",
@@ -361,6 +361,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeunity.png"
       },
       "changelog": [
+        "1.0.7: Fixed title resolution on Home / In Evidenza hero carousel (fixed undefined [ITA SUB] title display bug)",
         "1.0.6: Keeps Italian SUB and genuine Italian DUB routes separate per title and never substitutes SUB for unavailable DUB",
         "1.0.6: Improves exact title, season and media-type matching and treats unreleased or missing titles as unavailable",
         "1.0.5: Rebuilt VixCloud adaptive HLS playlist resolution using the current player parameters and verified media segments",
