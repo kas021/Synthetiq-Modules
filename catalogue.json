@@ -441,7 +441,7 @@
       ]
     },
     {
-      "file": "modules/ReAnime-1.0.3.zip",
+      "file": "modules/ReAnime-1.0.4.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (SUB / DUB)",
@@ -450,10 +450,11 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/reanime.png"
       },
       "changelog": [
-        "1.0.3: Fixed mobile Flutter fetchv2 JSON bridge decoding for search and stream endpoints",
-        "1.0.3: Official FlixCloud WebAssembly & AES Master HLS stream resolver with live HTTP 200 verification",
-        "1.0.3: Synchronized dual SUB/DUB audio tracks, subtitles, and chapter markers",
-        "1.0.3: Continuous endless scrolling and Hero featured discovery carousel"
+        "1.0.4: Added complete strict Contract V2/V4 config.caps and config.runtime objects",
+        "1.0.4: Fixed mobile Flutter fetchv2 JSON bridge decoding for search and stream endpoints",
+        "1.0.4: Official FlixCloud WebAssembly & AES Master HLS stream resolver with live HTTP 200 verification",
+        "1.0.4: Synchronized dual SUB/DUB audio tracks, subtitles, and chapter markers",
+        "1.0.4: Continuous endless scrolling and Hero featured discovery carousel"
       ]
     }
   ]
