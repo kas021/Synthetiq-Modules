@@ -457,6 +457,22 @@
         "1.0.6: Synchronized dual SUB/DUB audio tracks, subtitles, and chapter markers",
         "1.0.6: Continuous endless scrolling and Hero featured discovery carousel"
       ]
+    },
+    {
+      "file": "modules/Anikage-1.0.0.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "English Anime (SUB / DUB)",
+        "recommended": true,
+        "language": "English Sub/Dub",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikage.png"
+      },
+      "changelog": [
+        "1.0.0: Official Anikage (anikage.cc) comprehensive anime streaming catalogue with adaptive HD HLS resolution",
+        "1.0.0: Dual audio synchronization for SUB and DUB tracks with multi-provider failover",
+        "1.0.0: Full WebVTT subtitle tracks and auto-skip intro/outro timestamps",
+        "1.0.0: Endless scrolling discovery feeds for Trending, Most Popular, and Top Rated anime"
+      ]
     }
   ]
 }
