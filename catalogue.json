@@ -441,16 +441,19 @@
       ]
     },
     {
-      "file": "modules/ReAnime-1.0.0.zip",
+      "file": "modules/ReAnime-1.0.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime",
         "recommended": false,
-        "language": "English Sub/Dub"
+        "language": "English Sub/Dub",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/reanime.png"
       },
       "changelog": [
         "1.0.0: Added ReAnime catalogue with English SUB/DUB episode mapping",
-        "1.0.0: Added current FlixCloud WebAssembly, PBKDF2, and AES-CBC stream resolver"
+        "1.0.0: Added current FlixCloud WebAssembly, PBKDF2, and AES-CBC stream resolver",
+        "1.0.1: Added homepage discovery sections and paginated latest feed",
+        "1.0.1: Added repository-hosted ReAnime module icon"
       ]
     }
   ]
