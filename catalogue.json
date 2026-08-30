@@ -441,7 +441,7 @@
       ]
     },
     {
-      "file": "modules/ReAnime-1.0.5.zip",
+      "file": "modules/ReAnime-1.0.6.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (SUB / DUB)",
@@ -450,11 +450,12 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/reanime.png"
       },
       "changelog": [
-        "1.0.5: Bundled pure JavaScript CryptoJS cryptographic engine for flawless mobile playback across iOS and Android",
-        "1.0.5: Fixed WebCrypto dependency for FlixCloud AES-CBC and PBKDF2 stream decryption",
-        "1.0.5: Added complete strict Contract V2/V4 config.caps and config.runtime objects",
-        "1.0.5: Synchronized dual SUB/DUB audio tracks, subtitles, and chapter markers",
-        "1.0.5: Continuous endless scrolling and Hero featured discovery carousel"
+        "1.0.6: Replaced atob and Buffer dependencies with pure CryptoJS Base64 decoding for iOS JavaScriptCore",
+        "1.0.6: Bundled pure JavaScript CryptoJS cryptographic engine for flawless mobile playback across iOS and Android",
+        "1.0.6: Fixed WebCrypto dependency for FlixCloud AES-CBC and PBKDF2 stream decryption",
+        "1.0.6: Added complete strict Contract V2/V4 config.caps and config.runtime objects",
+        "1.0.6: Synchronized dual SUB/DUB audio tracks, subtitles, and chapter markers",
+        "1.0.6: Continuous endless scrolling and Hero featured discovery carousel"
       ]
     }
   ]
