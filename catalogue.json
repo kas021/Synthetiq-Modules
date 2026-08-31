@@ -441,7 +441,7 @@
       ]
     },
     {
-      "file": "modules/Anikage-1.0.1.zip",
+      "file": "modules/Anikage-1.0.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (SUB / DUB)",
@@ -450,6 +450,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikage.png"
       },
       "changelog": [
+        "1.0.2: Built-in automatic HTTP 429 exponential backoff retry engine for flawless rapid browsing",
         "1.0.1: Optimized browser session headers and Referer routing to prevent rate-limiting",
         "1.0.1: Added full Contract V4 discoveryHome and extractHome exports for discovery carousels",
         "1.0.1: Multi-provider failover across koto, kiwi, neko, wave, and megg stream hosts",
