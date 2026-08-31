@@ -123,7 +123,7 @@
       ]
     },
     {
-      "file": "modules/STCine-1.0.4.zip",
+      "file": "modules/STCine-1.0.5.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -131,9 +131,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/stcine.png?v=20260812-2"
       },
       "changelog": [
-        "1.0.4: bounded parallel provider resolution and concurrent media probing",
-        "Prefer verified LookMovie routes and reject explicitly non-English HLS audio",
-        "Gate: Flutter runtime, real media decode, iOS Simulator playback and English audio detection passed"
+        "1.0.5: Filter future-dated catalogue records and restore released home-feed coverage",
+        "1.0.5: Add exact-title and compatible-year matching to prevent wrong provider titles",
+        "1.0.5: Preserve verified provider stream resolution and movie episode mapping"
       ]
     },
     {
