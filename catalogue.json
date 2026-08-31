@@ -473,6 +473,24 @@
         "1.0.0: Full WebVTT subtitle tracks and auto-skip intro/outro timestamps",
         "1.0.0: Endless scrolling discovery feeds for Trending, Most Popular, and Top Rated anime"
       ]
+    },
+    {
+      "file": "modules/JustAnime-1.0.0.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "English Anime (SUB / DUB)",
+        "recommended": true,
+        "language": "English Sub/Dub",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/justanime.png"
+      },
+      "changelog": [
+        "1.0.0: Official JustAnime (justanime.to) comprehensive anime streaming catalogue with high-speed direct MP4 and HLS video playback",
+        "1.0.0: Dual audio synchronization for SUB and DUB tracks across multiple resolvers (AnimeGG, AniNeko, MegaPlay)",
+        "1.0.0: AniList metadata integration, rich synopsis, episode descriptions, and thumbnails",
+        "1.0.0: Complete WebVTT subtitle tracks and chapter skip markers",
+        "1.0.0: Discovery feeds for Trending, Popular, and Recent anime releases"
+      ]
     }
   ]
 }
+
