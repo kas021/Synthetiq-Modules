@@ -441,7 +441,7 @@
       ]
     },
     {
-      "file": "modules/Anikage-1.0.0.zip",
+      "file": "modules/Anikage-1.0.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (SUB / DUB)",
@@ -450,10 +450,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikage.png"
       },
       "changelog": [
-        "1.0.0: Official Anikage (anikage.cc) comprehensive anime streaming catalogue with adaptive HD HLS resolution",
-        "1.0.0: Dual audio synchronization for SUB and DUB tracks with multi-provider failover",
-        "1.0.0: Full WebVTT subtitle tracks and auto-skip intro/outro timestamps",
-        "1.0.0: Endless scrolling discovery feeds for Trending, Most Popular, and Top Rated anime"
+        "1.0.1: Optimized browser session headers and Referer routing to prevent rate-limiting",
+        "1.0.1: Added full Contract V4 discoveryHome and extractHome exports for discovery carousels",
+        "1.0.1: Multi-provider failover across koto, kiwi, neko, wave, and megg stream hosts",
+        "1.0.0: Official Anikage (anikage.cc) comprehensive anime streaming catalogue with adaptive HD HLS resolution"
       ]
     },
     {
