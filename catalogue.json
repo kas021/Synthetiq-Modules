@@ -450,7 +450,7 @@
       ]
     },
     {
-      "file": "modules/StreamingUnity-1.0.3.zip",
+      "file": "modules/StreamingUnity-1.0.4.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "StreamingUnity Movies & TV",
@@ -458,6 +458,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/streamingunity.png"
       },
       "changelog": [
+        "1.0.4: Fixed episode routing by using the current title ID plus episode ID iframe endpoint",
+        "1.0.4: Prevented unrelated Gravitas Ventures or Paramount media from being returned for One Piece episodes",
+        "1.0.4: Verified distinct episode 1 and episode 2 HLS routes for SUB and DUB",
         "1.0.3: Added StreamingUnity movie and TV catalogue with home discovery, search, title details, and multi-season episode mapping",
         "1.0.3: Added adaptive VixCloud HLS resolution with English SUB and verified Italian DUB routing",
         "1.0.3: Exposed provider subtitle and audio-track metadata while preserving required playback headers"
