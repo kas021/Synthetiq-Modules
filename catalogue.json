@@ -472,6 +472,21 @@
         "1.0.0: Complete WebVTT subtitle tracks and chapter skip markers",
         "1.0.0: Discovery feeds for Trending, Popular, and Recent anime releases"
       ]
+    },
+    {
+      "file": "modules/StreamingUnity-1.0.3.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "StreamingUnity Movies & TV",
+        "recommended": false,
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/streamingunity.png"
+      },
+      "changelog": [
+        "1.0.3: Added StreamingUnity movie and TV catalogue with home discovery, search, title details, and multi-season episode mapping",
+        "1.0.3: Added adaptive VixCloud HLS resolution with English SUB and verified Italian DUB routing",
+        "1.0.3: Exposed provider subtitle and audio-track metadata while preserving required playback headers"
+      ]
     }
   ]
 }
