@@ -137,7 +137,7 @@
       ]
     },
     {
-      "file": "modules/Miruro-4.0.0.zip",
+      "file": "modules/Miruro-4.0.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -145,6 +145,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/miruro.png"
       },
       "changelog": [
+        "4.0.1: Preserve the correct HLS or MP4 type and required headers for each resolved stream",
         "4.0.0: Rebuilt on-device anime stream pipeline resolving Cloudflare bot walls and broken downloads",
         "Direct multi-provider video stream resolution with verified MPEG-TS segments for seamless playback and downloads",
         "Fast AniList GraphQL search, discovery feeds, and complete episode mapping with sub & dub support"
@@ -165,7 +166,7 @@
       ]
     },
     {
-      "file": "modules/An1me-1.0.10.zip",
+      "file": "modules/An1me-1.0.11.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Greek Anime",
@@ -173,6 +174,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/an1me.png?v=20260819-1"
       },
       "changelog": [
+        "1.0.11: Improve search fallback parsing, exact title ranking, aliases, pagination, and cover image extraction",
         "1.0.10: Official Greek sub/dub anime catalogue from An1me.to",
         "1.0.10: Latest One Piece episodes play when An1/Google are missing by keeping a probed WeTransfer file as last resort",
         "1.0.10: Streams are labeled Greek (el); Google MP4 is preferred when it exists"
@@ -237,18 +239,6 @@
         "purpose": "Spanish Drama",
         "language": "Spanish",
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/dramafun.png?v=20260812-2"
-      },
-      "changelog": [
-        "Bundle 80 certified release"
-      ]
-    },
-    {
-      "file": "modules/Senshi-4.0.1-streaming-only.zip",
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Anime Streaming",
-        "language": "English Sub/Dub",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/senshi.png?v=20260812-2"
       },
       "changelog": [
         "Bundle 80 certified release"
