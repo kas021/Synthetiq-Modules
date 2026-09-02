@@ -181,7 +181,7 @@
       ]
     },
     {
-      "file": "modules/AnimeAV1-1.2.7.zip",
+      "file": "modules/AnimeAV1-1.2.8.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Spanish Anime",
@@ -189,6 +189,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"
       },
       "changelog": [
+        "1.2.8: Reject non-standard port 183 MP4Upload URLs that cause 60-second player timeouts on mobile/iOS",
+        "1.2.8: High-speed multi-source Spanish anime fallback with seekable HLS and multi-language subtitle tracks",
         "1.2.7: Decimal and special episode support (e.g. 13.5, OVA 0.5) without truncation",
         "1.2.7: Automatic retry with exponential backoff for transient CDN socket disconnects",
         "1.2.7: Quote-agnostic embed unescaping and broad media format verification",
