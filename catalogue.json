@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 103,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-103.zip",
+  "bundleVersion": 104,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-104.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Movies-1.2.0.zip",
+      "file": "modules/Synthetiq-Movies-1.2.2.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Most Reliable Movies",
@@ -68,10 +68,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"
       },
       "changelog": [
-        "1.2.0: English-first subtitles now include ALL available languages - Arabic, Spanish, German, French, Hindi and more (12-language fan-out)",
-        "1.2.0: app auto-picks English while the picker lists every subtitle language the source has",
-        "1.2.0: fixed subtitle hydration dropping all tracks after the first three",
-        "1.2.0: discovery hero section capped at 8 items (contract compliance)",
+        "1.2.2: English, Spanish, Arabic and German are selectable without downloading every language",
+        "1.2.2: non-English subtitles are fetched only after the viewer selects a language",
+        "1.2.2: subtitle requests remain bounded to one verified track per language",
+        "1.2.2: discovery hero section remains capped at 8 items (contract compliance)",
         "Keep ordinary anime and mature-rated films available",
         "Do not invent languages when a title only has one verified source"
       ]
