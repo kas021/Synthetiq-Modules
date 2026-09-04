@@ -13,7 +13,7 @@
   "minAppVersion": "8.0.0",
   "modules": [
     {
-      "file": "modules/DramaCool-1.0.0.zip",
+      "file": "modules/DramaCool-1.0.1.zip",
       "presentation": {
         "category": "Drama",
         "purpose": "Asian Drama (Korean / Chinese / Japanese)",
@@ -22,9 +22,26 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/dramacool.png"
       },
       "changelog": [
+        "1.0.1: Fixed multi-server stream extraction (KissKH, VidHide, VidBasic, Vidmoly) for 2026 dramas",
+        "1.0.1: Scoped episode parsing and prevented genre leaks across all drama series",
         "1.0.0: Official DramaCool (dramacool9.com.ro) Asian dramas, movies, and shows with English subtitles",
-        "1.0.0: Full Contract V4 discoveryHome and discoveryFeed support with carousels and paginated feeds",
-        "1.0.0: High-definition multi-server streaming with Vidmoly, VidHide, and MegaPlay"
+        "1.0.0: Full Contract V4 discoveryHome and discoveryFeed support with carousels and paginated feeds"
+      ]
+    },
+    {
+      "file": "modules/YFlix-1.0.0.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Movies & TV Shows (HD Streams)",
+        "recommended": true,
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yflix.png"
+      },
+      "changelog": [
+        "1.0.0: Official yFlix (yflix.ws) movies and TV series with adaptive 1080p/4K/720p HLS playback",
+        "1.0.0: Full Contract V4 discoveryHome with 7 carousels and paginated discoveryFeed",
+        "1.0.0: Relevance-boosted search engine with TV series and anime prioritization",
+        "1.0.0: Multi-season episode listings with sub & dub stream resolvers"
       ]
     },
     {
