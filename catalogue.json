@@ -13,6 +13,21 @@
   "minAppVersion": "8.0.0",
   "modules": [
     {
+      "file": "modules/DramaCool-1.0.0.zip",
+      "presentation": {
+        "category": "Drama",
+        "purpose": "Asian Drama (Korean / Chinese / Japanese)",
+        "recommended": true,
+        "language": "Korean / Asian",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/dramacool.png"
+      },
+      "changelog": [
+        "1.0.0: Official DramaCool (dramacool9.com.ro) Asian dramas, movies, and shows with English subtitles",
+        "1.0.0: Full Contract V4 discoveryHome and discoveryFeed support with carousels and paginated feeds",
+        "1.0.0: High-definition multi-server streaming with Vidmoly, VidHide, and MegaPlay"
+      ]
+    },
+    {
       "file": "modules/Anikoto-4.0.5.zip",
       "presentation": {
         "category": "Anime",
@@ -294,7 +309,7 @@
         "purpose": "German Movies & Series",
         "recommended": false,
         "language": "German",
-        "iconUrl": "https://megakino18.com/favicon.ico"
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/megakino.png"
       },
       "changelog": [
         "1.0.3: German movie and series catalogue with GXPlayer and VOE adaptive HLS stream resolution",
