@@ -288,6 +288,21 @@
       ]
     },
     {
+      "file": "modules/MegaKino-1.0.3.zip",
+      "presentation": {
+        "category": "Movies",
+        "purpose": "German Movies & Series",
+        "recommended": false,
+        "language": "German",
+        "iconUrl": "https://megakino18.com/favicon.ico"
+      },
+      "changelog": [
+        "1.0.3: German movie and series catalogue with GXPlayer and VOE adaptive HLS stream resolution",
+        "1.0.3: Discovery homepage with featured films and latest series carousels",
+        "1.0.3: German-dubbed audio stream validation and offline download support"
+      ]
+    },
+    {
       "file": "modules/WeebCentral-4.1.10.zip",
       "presentation": {
         "category": "Manga",
