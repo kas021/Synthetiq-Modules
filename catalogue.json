@@ -45,7 +45,7 @@
       ]
     },
     {
-      "file": "modules/Anikoto-4.0.6.zip",
+      "file": "modules/Anikoto-4.0.7.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -54,6 +54,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png?v=20260812-2"
       },
       "changelog": [
+        "4.0.7: Enabled seamless playback for dub-only titles without manual audio track switching",
         "4.0.6: Prioritized VidPlay and VidTube streams with 3000ms probe timeouts to eliminate player stalls from offline MegaPlay origins",
         "4.0.5: Reject fake image-based HLS and invalid media before playback",
         "4.0.5: Add exact-title and exact-episode fallback for unavailable Anikoto streams",
