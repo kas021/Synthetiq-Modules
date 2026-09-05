@@ -459,7 +459,7 @@
       ]
     },
     {
-      "file": "modules/Mugiwara-1.0.2.zip",
+      "file": "modules/Mugiwara-1.0.3.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "French Anime",
@@ -467,6 +467,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mugiwara.png"
       },
       "changelog": [
+        "1.0.3: Restored missing titles across entire 1200+ catalogue in search and browse (e.g. Orb: On the Movements of the Earth)",
+        "1.0.3: Restored all anime poster cover images using official Mugiwara static CDN",
         "1.0.2: Clean canonical portrait posters across all anime (fixed One Piece heroines cover)",
         "1.0.2: Synchronized dual SUB/DUB episode mapping starting at Episode 1 with zero offset",
         "1.0.2: Full anime movies / films support (Her Blue Sky, Your Name, Look Back, Suzume, etc.)",
