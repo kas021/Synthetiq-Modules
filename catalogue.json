@@ -76,7 +76,7 @@
       ]
     },
     {
-      "file": "modules/Anikage-1.0.3.zip",
+      "file": "modules/Anikage-1.0.4.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (SUB / DUB)",
@@ -85,6 +85,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikage.png"
       },
       "changelog": [
+        "1.0.4: Added direct Otaku/Vidplay/Playmogo p.a.c.k.e.r embed deobfuscator & direct 1080p CDN HLS resolver with segment validation, fixing playback on Tower of God and other series",
         "1.0.3: Prioritized Neko 1080p Backblaze B2 streams with live segment range probe validation",
         "1.0.2: Built-in automatic HTTP 429 exponential backoff retry engine for flawless rapid browsing",
         "1.0.1: Optimized browser session headers and Referer routing to prevent rate-limiting",
