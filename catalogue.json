@@ -45,7 +45,7 @@
       ]
     },
     {
-      "file": "modules/Anikoto-4.0.7.zip",
+      "file": "modules/Anikoto-4.0.8.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -54,6 +54,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png?v=20260812-2"
       },
       "changelog": [
+        "4.0.8: Fixed One Piece Episode 1 and legacy title playback with automatic multi-provider fallback engine",
+        "4.0.8: Supported /stream/getSourcesNew endpoint with TikTok fake-image HLS detection",
         "4.0.7: Enabled seamless playback for dub-only titles without manual audio track switching",
         "4.0.6: Prioritized VidPlay and VidTube streams with 3000ms probe timeouts to eliminate player stalls from offline MegaPlay origins",
         "4.0.5: Reject fake image-based HLS and invalid media before playback",
