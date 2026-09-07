@@ -97,7 +97,7 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Movies-1.2.2.zip",
+      "file": "modules/Synthetiq-Movies-1.2.3.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Most Reliable Movies",
@@ -106,6 +106,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"
       },
       "changelog": [
+        "1.2.3: Added direct stream variant ladder resolution for Stream Unity HLS playlists",
+        "1.2.3: Upgraded fallback resolver integration with OVH VideoEasy 4K brain cache",
         "1.2.2: English, Spanish, Arabic and German are selectable without downloading every language",
         "1.2.2: non-English subtitles are fetched only after the viewer selects a language",
         "1.2.2: subtitle requests remain bounded to one verified track per language",
