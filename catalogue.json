@@ -13,6 +13,21 @@
   "minAppVersion": "8.0.0",
   "modules": [
     {
+      "file": "modules/YASTREAM-1.0.0.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Asian Movies & TV (Beta)",
+        "recommended": false,
+        "language": "Original audio / Subtitles",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yastream.png"
+      },
+      "changelog": [
+        "1.0.0 beta: YASTREAM Asian catalogues, search, details, episodes, HLS streams and subtitles.",
+        "Flutter runtime and sampled live extraction verified. Full playback certification remains incomplete; device feedback requested.",
+        "Original audio with subtitles; dubbed streams are not supported."
+      ]
+    },
+    {
       "file": "modules/DramaCool-1.0.1.zip",
       "presentation": {
         "category": "Drama",
