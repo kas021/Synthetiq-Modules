@@ -36,6 +36,8 @@ jobs:
               exit 1
             fi
           done
+      - name: Test publication guard
+        run: node --test scripts/public_release_guard.test.mjs
       - name: Generate and validate signed index
         env:
           MODULE_REPOSITORY_SIGNING_JWK: ${{ secrets.MODULE_REPOSITORY_SIGNING_JWK }}
