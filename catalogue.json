@@ -13,55 +13,6 @@
   "minAppVersion": "8.0.0",
   "modules": [
     {
-      "file": "modules/YASTREAM-1.0.0.zip",
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Asian Movies & TV (Beta)",
-        "recommended": false,
-        "language": "Original audio / Subtitles",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yastream.png"
-      },
-      "changelog": [
-        "1.0.0 beta: YASTREAM Asian catalogues, search, details, episodes, HLS streams and subtitles.",
-        "Flutter runtime and sampled live extraction verified. Full playback certification remains incomplete; device feedback requested.",
-        "Original audio with subtitles; dubbed streams are not supported."
-      ]
-    },
-    {
-      "file": "modules/DramaCool-1.0.1.zip",
-      "presentation": {
-        "category": "Drama",
-        "purpose": "Asian Drama (Korean / Chinese / Japanese)",
-        "recommended": true,
-        "language": "Korean / Asian",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/dramacool.png"
-      },
-      "changelog": [
-        "1.0.1: Fixed multi-server stream extraction (KissKH, VidHide, VidBasic, Vidmoly) for 2026 dramas",
-        "1.0.1: Scoped episode parsing and prevented genre leaks across all drama series",
-        "1.0.0: Official DramaCool (dramacool9.com.ro) Asian dramas, movies, and shows with English subtitles",
-        "1.0.0: Full Contract V4 discoveryHome and discoveryFeed support with carousels and paginated feeds"
-      ]
-    },
-    {
-      "file": "modules/YFlix-1.1.0.zip",
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Movies & TV Shows (HD Streams)",
-        "recommended": true,
-        "language": "English",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yflix.png"
-      },
-      "changelog": [
-        "1.1.0: Owner-approved beta.1 source unchanged; fresh playback links, episode ID fixes and provider-specific server/caption metadata.",
-        "1.1.0: Quality choices stay within the initial provider; other providers are available through Servers. Availability varies by title.",
-        "1.0.0: Official yFlix (yflix.ws) movies and TV series with adaptive 1080p/4K/720p HLS playback",
-        "1.0.0: Full Contract V4 discoveryHome with 7 carousels and paginated discoveryFeed",
-        "1.0.0: Relevance-boosted search engine with TV series and anime prioritization",
-        "1.0.0: Multi-season episode listings with sub & dub stream resolvers"
-      ]
-    },
-    {
       "file": "modules/Anikoto-5.0.0.zip",
       "presentation": {
         "category": "Anime",
@@ -98,6 +49,44 @@
       ]
     },
     {
+      "file": "modules/Synthetiq-Anime-1.0.2.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "English Anime",
+        "recommended": true,
+        "language": "English Sub/Dub",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-anime-1.0.2.png"
+      },
+      "changelog": [
+        "1.0.2: Owner-approved public promotion of 1.0.1-beta.5, with the supplied Synthetiq Anime artwork; playback JavaScript unchanged.",
+        "Fresh provider links, available server alternatives, and provider captions with language labels.",
+        "Short probes decoded 30/30 Sub and 29/30 Dub samples. These are not full-device playback or spoken-language certification.",
+        "Known issues remain: Spy x Family episode 1 Dub returned Japanese audio; Naruto episode 1 Dub failed one seeked media sample. See the release QA notes."
+      ]
+    },
+    {
+      "file": "modules/Synthetiq-Movies-1.2.5.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Most Reliable Movies",
+        "recommended": true,
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"
+      },
+      "changelog": [
+        "1.2.5: Owner-approved beta.5 playback code promoted unchanged",
+        "English StreamUnity routing with available server alternatives",
+        "Cinejoy-first subtitles with Wyzie fallback and bounded on-demand caching",
+        "Available Arabic and other subtitle languages appear in the normal player list",
+        "Reject obvious non-English script mismatches in English subtitle candidates",
+        "Background cross-provider 4K enrichment is not included"
+      ]
+    },
+    {
       "file": "modules/Anikage-1.1.1.zip",
       "presentation": {
         "category": "Anime",
@@ -120,21 +109,52 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Movies-1.2.5.zip",
+      "file": "modules/YFlix-1.1.0.zip",
       "presentation": {
         "category": "Movies & TV",
-        "purpose": "Most Reliable Movies",
+        "purpose": "Movies & TV Shows (HD Streams)",
         "recommended": true,
         "language": "English",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yflix.png"
       },
       "changelog": [
-        "1.2.5: Owner-approved beta.5 playback code promoted unchanged",
-        "English StreamUnity routing with available server alternatives",
-        "Cinejoy-first subtitles with Wyzie fallback and bounded on-demand caching",
-        "Available Arabic and other subtitle languages appear in the normal player list",
-        "Reject obvious non-English script mismatches in English subtitle candidates",
-        "Background cross-provider 4K enrichment is not included"
+        "1.1.0: Owner-approved beta.1 source unchanged; fresh playback links, episode ID fixes and provider-specific server/caption metadata.",
+        "1.1.0: Quality choices stay within the initial provider; other providers are available through Servers. Availability varies by title.",
+        "1.0.0: Official yFlix (yflix.ws) movies and TV series with adaptive 1080p/4K/720p HLS playback",
+        "1.0.0: Full Contract V4 discoveryHome with 7 carousels and paginated discoveryFeed",
+        "1.0.0: Relevance-boosted search engine with TV series and anime prioritization",
+        "1.0.0: Multi-season episode listings with sub & dub stream resolvers"
+      ]
+    },
+    {
+      "file": "modules/DramaCool-1.0.1.zip",
+      "presentation": {
+        "category": "Drama",
+        "purpose": "Asian Drama (Korean / Chinese / Japanese)",
+        "recommended": true,
+        "language": "Korean / Asian",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/dramacool.png"
+      },
+      "changelog": [
+        "1.0.1: Fixed multi-server stream extraction (KissKH, VidHide, VidBasic, Vidmoly) for 2026 dramas",
+        "1.0.1: Scoped episode parsing and prevented genre leaks across all drama series",
+        "1.0.0: Official DramaCool (dramacool9.com.ro) Asian dramas, movies, and shows with English subtitles",
+        "1.0.0: Full Contract V4 discoveryHome and discoveryFeed support with carousels and paginated feeds"
+      ]
+    },
+    {
+      "file": "modules/YASTREAM-1.0.0.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Asian Movies & TV (Beta)",
+        "recommended": false,
+        "language": "Original audio / Subtitles",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yastream.png"
+      },
+      "changelog": [
+        "1.0.0 beta: YASTREAM Asian catalogues, search, details, episodes, HLS streams and subtitles.",
+        "Flutter runtime and sampled live extraction verified. Full playback certification remains incomplete; device feedback requested.",
+        "Original audio with subtitles; dubbed streams are not supported."
       ]
     },
     {
@@ -545,26 +565,6 @@
         "1.0.3: Added StreamingUnity movie and TV catalogue with home discovery, search, title details, and multi-season episode mapping",
         "1.0.3: Added adaptive VixCloud HLS resolution with English SUB and verified Italian DUB routing",
         "1.0.3: Exposed provider subtitle and audio-track metadata while preserving required playback headers"
-      ]
-    },
-    {
-      "file": "modules/Synthetiq-Anime-1.0.2.zip",
-      "presentation": {
-        "category": "Anime",
-        "purpose": "English Anime",
-        "recommended": false,
-        "language": "English Sub/Dub",
-        "languages": [
-          "sub",
-          "dub"
-        ],
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-anime-1.0.2.png"
-      },
-      "changelog": [
-        "1.0.2: Owner-approved public promotion of 1.0.1-beta.5, with the supplied Synthetiq Anime artwork; playback JavaScript unchanged.",
-        "Fresh provider links, available server alternatives, and provider captions with language labels.",
-        "Short probes decoded 30/30 Sub and 29/30 Dub samples. These are not full-device playback or spoken-language certification.",
-        "Known issues remain: Spy x Family episode 1 Dub returned Japanese audio; Naruto episode 1 Dub failed one seeked media sample. See the release QA notes."
       ]
     }
   ]
