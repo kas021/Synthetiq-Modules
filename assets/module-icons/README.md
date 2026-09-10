@@ -25,3 +25,7 @@ upstream sites and has no single source-site identity.
 `scripts/build_repository.mjs` requires every catalogue `iconUrl` to use HTTPS
 and point back to this directory in the official repository. Older app builds
 ignore the optional field and continue using their existing generic icon.
+
+Synthetiq Anime 1.0.2 uses the owner's supplied black-and-white artwork from
+2026-09-10. Its full original is retained under `originals/synthetiq-anime.png`;
+`synthetiq-anime-1.0.2.png` is a proportional 384 px icon without cropping.

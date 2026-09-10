@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 111,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-111.zip",
+  "bundleVersion": 112,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-112.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "file": "modules/An1me-1.0.11.zip",
+      "file": "modules/An1me-1.1.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Greek Anime",
@@ -241,10 +241,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/an1me.png?v=20260819-1"
       },
       "changelog": [
-        "1.0.11: Improve search fallback parsing, exact title ranking, aliases, pagination, and cover image extraction",
-        "1.0.10: Official Greek sub/dub anime catalogue from An1me.to",
-        "1.0.10: Latest One Piece episodes play when An1/Google are missing by keeping a probed WeTransfer file as last resort",
-        "1.0.10: Streams are labeled Greek (el); Google MP4 is preferred when it exists"
+        "1.1.1: Owner-approved public promotion of 1.1.0-beta.4; playback JavaScript unchanged.",
+        "Declare title audio availability so Sub-only titles such as Death Note do not offer unavailable Dub; preserve available server alternatives.",
+        "Standalone startup probes decoded 9/10 attempted audio modes across 8/10 selected titles.",
+        "Known issues remain: Pokemon XY returned no link, Gintama season 4 returned no episodes, and the Flutter Death Note stream check failed. See the release QA notes."
       ]
     },
     {
@@ -545,6 +545,26 @@
         "1.0.3: Added StreamingUnity movie and TV catalogue with home discovery, search, title details, and multi-season episode mapping",
         "1.0.3: Added adaptive VixCloud HLS resolution with English SUB and verified Italian DUB routing",
         "1.0.3: Exposed provider subtitle and audio-track metadata while preserving required playback headers"
+      ]
+    },
+    {
+      "file": "modules/Synthetiq-Anime-1.0.2.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "English Anime",
+        "recommended": false,
+        "language": "English Sub/Dub",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-anime-1.0.2.png"
+      },
+      "changelog": [
+        "1.0.2: Owner-approved public promotion of 1.0.1-beta.5, with the supplied Synthetiq Anime artwork; playback JavaScript unchanged.",
+        "Fresh provider links, available server alternatives, and provider captions with language labels.",
+        "Short probes decoded 30/30 Sub and 29/30 Dub samples. These are not full-device playback or spoken-language certification.",
+        "Known issues remain: Spy x Family episode 1 Dub returned Japanese audio; Naruto episode 1 Dub failed one seeked media sample. See the release QA notes."
       ]
     }
   ]
