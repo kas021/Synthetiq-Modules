@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 106,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-106.zip",
+  "bundleVersion": 107,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-107.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Movies-1.2.3.zip",
+      "file": "modules/Synthetiq-Movies-1.2.5.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Most Reliable Movies",
@@ -127,14 +127,12 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"
       },
       "changelog": [
-        "1.2.3: Added direct stream variant ladder resolution for Stream Unity HLS playlists",
-        "1.2.3: Upgraded fallback resolver integration with OVH VideoEasy 4K brain cache",
-        "1.2.2: English, Spanish, Arabic and German are selectable without downloading every language",
-        "1.2.2: non-English subtitles are fetched only after the viewer selects a language",
-        "1.2.2: subtitle requests remain bounded to one verified track per language",
-        "1.2.2: discovery hero section remains capped at 8 items (contract compliance)",
-        "Keep ordinary anime and mature-rated films available",
-        "Do not invent languages when a title only has one verified source"
+        "1.2.5: Owner-approved beta.5 playback code promoted unchanged",
+        "English StreamUnity routing with available server alternatives",
+        "Cinejoy-first subtitles with Wyzie fallback and bounded on-demand caching",
+        "Available Arabic and other subtitle languages appear in the normal player list",
+        "Reject obvious non-English script mismatches in English subtitle candidates",
+        "Background cross-provider 4K enrichment is not included"
       ]
     },
     {
