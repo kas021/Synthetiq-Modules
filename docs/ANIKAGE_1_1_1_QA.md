@@ -46,7 +46,7 @@ No speculative server reorder or seek fix is included.
 - Device playback, native long-distance seeking and switching mid-playback
   are not certified by HTTP probes or independent FFmpeg decoding.
 
-## Standard release gate: FAIL, not published
+## Standard release gate: FAIL; explicit owner override
 
 Run: `2026-09-10T01-37-17-542Z_s2_anikage-v1_1b6d968d`.
 
@@ -57,8 +57,10 @@ Run: `2026-09-10T01-37-17-542Z_s2_anikage-v1_1b6d968d`.
 - Simulator timed out with no playback summary. This is missing native evidence,
   not proof of a native player defect or successful seeking.
 - Overall S2 result: FAIL (`STREAM_DECODE_FAILED`, `SIMULATOR_TIMEOUT`,
-  `SIMULATOR_SUMMARY_MISSING`). The release gate therefore remains closed.
+  `SIMULATOR_SUMMARY_MISSING`). This is not a certified release.
 
-Official catalogue and bundle changes in this branch are prepared only, NOT
-published. The existing public testing package remains available. The owner's
-acceptance of slow seeking does not establish playback for the failing sample.
+After receiving the failed-check summary and confirming the exact package was
+already in testing, the owner explicitly requested: "push module to main repo".
+This publication follows that explicit override and does not change the failed
+test result. Acceptance does not establish playback for the failing sample.
+The package bytes and beta label remain unchanged.
