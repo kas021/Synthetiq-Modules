@@ -1,0 +1,1119 @@
+{
+  "startedAt": "2026-09-10T12:10:32.507Z",
+  "scope": "30 search/details/episodes/stream flows in Node fetchv2 shim plus primary ffprobe. NOT 30 native playback tests or audio-language/content identity proof.",
+  "selection": "20 fixed, 10 randomly selected at run time from recorded pools",
+  "pools": {
+    "moviePool": [
+      "Coco",
+      "Up",
+      "WALL-E",
+      "Inside Out",
+      "The Batman",
+      "Alien",
+      "Aliens",
+      "Arrival",
+      "Whiplash",
+      "Dunkirk"
+    ],
+    "tvPool": [
+      "The Office",
+      "Friends",
+      "House of the Dragon",
+      "The Bear",
+      "Fallout",
+      "Stranger Things",
+      "The Boys",
+      "Wednesday",
+      "Sherlock",
+      "Lost"
+    ]
+  },
+  "cases": [
+    {
+      "query": "Inception",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "The Matrix",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Moana 2",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Interstellar",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "The Dark Knight",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Dune",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Avatar",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Titanic",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "The Godfather",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Parasite",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Oppenheimer",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Barbie",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Gladiator",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "The Shawshank Redemption",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Finding Nemo",
+      "type": "movie",
+      "random": false
+    },
+    {
+      "query": "Silo",
+      "type": "tv",
+      "random": false
+    },
+    {
+      "query": "Breaking Bad",
+      "type": "tv",
+      "random": false
+    },
+    {
+      "query": "Severance",
+      "type": "tv",
+      "random": false
+    },
+    {
+      "query": "Game of Thrones",
+      "type": "tv",
+      "random": false
+    },
+    {
+      "query": "The Last of Us",
+      "type": "tv",
+      "random": false
+    },
+    {
+      "query": "Inside Out",
+      "type": "movie",
+      "random": true
+    },
+    {
+      "query": "Up",
+      "type": "movie",
+      "random": true
+    },
+    {
+      "query": "Arrival",
+      "type": "movie",
+      "random": true
+    },
+    {
+      "query": "WALL-E",
+      "type": "movie",
+      "random": true
+    },
+    {
+      "query": "Coco",
+      "type": "movie",
+      "random": true
+    },
+    {
+      "query": "The Office",
+      "type": "tv",
+      "random": true
+    },
+    {
+      "query": "Friends",
+      "type": "tv",
+      "random": true
+    },
+    {
+      "query": "Lost",
+      "type": "tv",
+      "random": true
+    },
+    {
+      "query": "Stranger Things",
+      "type": "tv",
+      "random": true
+    },
+    {
+      "query": "Fallout",
+      "type": "tv",
+      "random": true
+    }
+  ],
+  "results": [
+    {
+      "query": "Inception",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Inception",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1061,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "eng"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 1892
+    },
+    {
+      "query": "The Matrix",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "The Matrix",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1018,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "eng",
+        "bul",
+        "cat",
+        "cze",
+        "dan",
+        "und",
+        "spa",
+        "fin",
+        "fre",
+        "hrv",
+        "hun",
+        "ice",
+        "lit",
+        "lav",
+        "mac",
+        "nob",
+        "dut",
+        "pol",
+        "por",
+        "rum",
+        "rus",
+        "slo",
+        "slv",
+        "srp",
+        "swe"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 1596
+    },
+    {
+      "query": "Moana 2",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Moana 2",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1224,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "eng",
+        "und",
+        "spa"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 1791
+    },
+    {
+      "query": "Interstellar",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Interstellar",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1193,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "eng"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2584,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 1789
+    },
+    {
+      "query": "The Dark Knight",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "The Dark Knight",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1389,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "en"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2592,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 2228
+    },
+    {
+      "query": "Dune",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Dune",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 3663,
+      "resolved": true,
+      "servers": 5,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2540,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 4407
+    },
+    {
+      "query": "Avatar",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Avatar",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1328,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 1895
+    },
+    {
+      "query": "Titanic",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Titanic",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 5233,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto HLS"
+      ],
+      "subtitleLanguages": [],
+      "failureStage": "media",
+      "error": "No result, transport failure or timeout; inspect locally without publishing stream credentials",
+      "totalMs": 6506
+    },
+    {
+      "query": "The Godfather",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "The Godfather",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1477,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "eng"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 2031
+    },
+    {
+      "query": "Parasite",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Parasite",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 4405,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto HLS"
+      ],
+      "subtitleLanguages": [],
+      "failureStage": "media",
+      "error": "No result, transport failure or timeout; inspect locally without publishing stream credentials",
+      "totalMs": 5556
+    },
+    {
+      "query": "Oppenheimer",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Oppenheimer",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 3487,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "en"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 4112
+    },
+    {
+      "query": "Barbie",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Barbie",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1481,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "360p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 2057
+    },
+    {
+      "query": "Gladiator",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Gladiator",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 4091,
+      "resolved": true,
+      "servers": 4,
+      "qualities": [
+        "1080p",
+        "720p",
+        "360p"
+      ],
+      "subtitleLanguages": [],
+      "failureStage": "media",
+      "error": "No result, transport failure or timeout; inspect locally without publishing stream credentials",
+      "totalMs": 24096
+    },
+    {
+      "query": "The Shawshank Redemption",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "The Shawshank Redemption",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1368,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "eng"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 2193
+    },
+    {
+      "query": "Finding Nemo",
+      "type": "movie",
+      "random": false,
+      "matchedTitle": "Finding Nemo",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1545,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 2161
+    },
+    {
+      "query": "Silo",
+      "type": "tv",
+      "random": false,
+      "matchedTitle": "Silo",
+      "episodeCount": 30,
+      "season": 2,
+      "episode": 2,
+      "loadMs": 1213,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "en",
+        "und",
+        "pt",
+        "es",
+        "ar",
+        "nl",
+        "fr",
+        "fa"
+      ],
+      "failureStage": "media",
+      "error": "No result, transport failure or timeout; inspect locally without publishing stream credentials",
+      "totalMs": 1338
+    },
+    {
+      "query": "Breaking Bad",
+      "type": "tv",
+      "random": false,
+      "matchedTitle": "Breaking Bad",
+      "episodeCount": 62,
+      "season": 2,
+      "episode": 2,
+      "loadMs": 1512,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 2090
+    },
+    {
+      "query": "Severance",
+      "type": "tv",
+      "random": false,
+      "failureStage": "search",
+      "error": "No result, transport failure or timeout; inspect locally without publishing stream credentials",
+      "totalMs": 407
+    },
+    {
+      "query": "Game of Thrones",
+      "type": "tv",
+      "random": false,
+      "matchedTitle": "Game of Thrones",
+      "episodeCount": 73,
+      "season": 2,
+      "episode": 2,
+      "loadMs": 1302,
+      "resolved": true,
+      "servers": 5,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "en"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 2219
+    },
+    {
+      "query": "The Last of Us",
+      "type": "tv",
+      "random": false,
+      "matchedTitle": "The Last of Us",
+      "episodeCount": 16,
+      "season": 2,
+      "episode": 2,
+      "loadMs": 4684,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 5425
+    },
+    {
+      "query": "Inside Out",
+      "type": "movie",
+      "random": true,
+      "matchedTitle": "Inside Out",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 3582,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "en"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 4435
+    },
+    {
+      "query": "Up",
+      "type": "movie",
+      "random": true,
+      "matchedTitle": "Up",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 2077,
+      "resolved": true,
+      "servers": 5,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 2672
+    },
+    {
+      "query": "Arrival",
+      "type": "movie",
+      "random": true,
+      "matchedTitle": "Arrival",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 1495,
+      "resolved": true,
+      "servers": 6,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2588,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 2373
+    },
+    {
+      "query": "WALL-E",
+      "type": "movie",
+      "random": true,
+      "failureStage": "search",
+      "error": "No result, transport failure or timeout; inspect locally without publishing stream credentials",
+      "totalMs": 695
+    },
+    {
+      "query": "Coco",
+      "type": "movie",
+      "random": true,
+      "matchedTitle": "Coco",
+      "episodeCount": 1,
+      "season": 1,
+      "episode": 1,
+      "loadMs": 12933,
+      "resolved": true,
+      "servers": 5,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [
+        "en"
+      ],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 13662
+    },
+    {
+      "query": "The Office",
+      "type": "tv",
+      "random": true,
+      "matchedTitle": "The Office",
+      "episodeCount": 14,
+      "season": 2,
+      "episode": 2,
+      "loadMs": 1961,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto HLS"
+      ],
+      "subtitleLanguages": [],
+      "failureStage": "media",
+      "error": "No result, transport failure or timeout; inspect locally without publishing stream credentials",
+      "totalMs": 3010
+    },
+    {
+      "query": "Friends",
+      "type": "tv",
+      "random": true,
+      "matchedTitle": "Friends",
+      "episodeCount": 234,
+      "season": 2,
+      "episode": 2,
+      "loadMs": 2262,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto"
+      ],
+      "subtitleLanguages": [
+        "en",
+        "und",
+        "tr",
+        "es",
+        "ar",
+        "de",
+        "ru",
+        "fa",
+        "zh-cn"
+      ],
+      "media": [],
+      "videoAndAudio": false,
+      "totalMs": 2582
+    },
+    {
+      "query": "Lost",
+      "type": "tv",
+      "random": true,
+      "matchedTitle": "Lost",
+      "episodeCount": 122,
+      "season": 2,
+      "episode": 2,
+      "loadMs": 14374,
+      "resolved": true,
+      "servers": 3,
+      "qualities": [
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 15139
+    },
+    {
+      "query": "Stranger Things",
+      "type": "tv",
+      "random": true,
+      "matchedTitle": "Stranger Things",
+      "episodeCount": 42,
+      "season": 2,
+      "episode": 2,
+      "loadMs": 13739,
+      "resolved": true,
+      "servers": 5,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 14276
+    },
+    {
+      "query": "Fallout",
+      "type": "tv",
+      "random": true,
+      "matchedTitle": "Fallout",
+      "episodeCount": 16,
+      "season": 2,
+      "episode": 2,
+      "loadMs": 16220,
+      "resolved": true,
+      "servers": 5,
+      "qualities": [
+        "1080p",
+        "2160p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2592,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "totalMs": 16896
+    }
+  ],
+  "summary": {
+    "tested": 30,
+    "resolved": 28,
+    "videoAndAudio": 22,
+    "withSubtitles": 13,
+    "failures": 8
+  }
+}

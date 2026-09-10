@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 107,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-107.zip",
+  "bundleVersion": 108,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-108.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "file": "modules/YFlix-1.0.0.zip",
+      "file": "modules/YFlix-1.1.0.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV Shows (HD Streams)",
@@ -53,6 +53,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yflix.png"
       },
       "changelog": [
+        "1.1.0: Owner-approved beta.1 source unchanged; fresh playback links, episode ID fixes and provider-specific server/caption metadata.",
+        "1.1.0: Quality choices stay within the initial provider; other providers are available through Servers. Availability varies by title.",
         "1.0.0: Official yFlix (yflix.ws) movies and TV series with adaptive 1080p/4K/720p HLS playback",
         "1.0.0: Full Contract V4 discoveryHome with 7 carousels and paginated discoveryFeed",
         "1.0.0: Relevance-boosted search engine with TV series and anime prioritization",
