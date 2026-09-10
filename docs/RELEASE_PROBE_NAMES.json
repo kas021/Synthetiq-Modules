@@ -1,0 +1,258 @@
+{
+  "startedAt": "2026-09-10T18:19:02.959Z",
+  "version": "4.1.0-beta.3",
+  "sha256": "80e644d418c75a9004d39095be6247ec31cdd45b6c7c1c62f670fd93adc6608d",
+  "seed": 20260910,
+  "scope": "30-title resolver and two-second FFmpeg video/audio decode probes. Not native-device or spoken-language certification.",
+  "selection": "Supplemental probes of three catalogue identities confirmed by live module searches after initial naming mismatches; original failures remain in RELEASE_PROBE_30.json.",
+  "selected": [
+    {
+      "group": "confirmed-name",
+      "title": "Naruto Shippuden",
+      "href": "naruto-shippuden-43fe",
+      "originalIndex": 6
+    },
+    {
+      "group": "confirmed-name",
+      "title": "Hunter x Hunter (2011)",
+      "href": "hunter-x-hunter-2-4de4",
+      "originalIndex": 11
+    },
+    {
+      "group": "confirmed-name",
+      "title": "Demon Slayer",
+      "href": "demon-slayer-kimetsu-no-yaiba-f28b",
+      "originalIndex": 12
+    }
+  ],
+  "results": [
+    {
+      "index": 7,
+      "title": "Naruto Shippuden",
+      "group": "confirmed-name",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "failed",
+          "resolveMs": 1473,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            }
+          ],
+          "audioMetadata": [],
+          "failure": "Video/audio decode failed or timed out",
+          "totalMs": 2904
+        },
+        {
+          "lang": "dub",
+          "status": "failed",
+          "resolveMs": 1355,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            }
+          ],
+          "audioMetadata": [],
+          "failure": "Video/audio decode failed or timed out",
+          "totalMs": 3173
+        }
+      ],
+      "detailsTitle": "Naruto Shippuden",
+      "episodeCount": 500,
+      "episodeNumber": 1,
+      "episodeId": "/naruto-shippuden-43fe/ep-1-e708d2?ja=e708d2&en=ce3843"
+    },
+    {
+      "index": 12,
+      "title": "Hunter x Hunter (2011)",
+      "group": "confirmed-name",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1373,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "ms",
+              "label": "Bahasa Melayu"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 6808
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Hunter x Hunter (2011)",
+      "episodeCount": 148,
+      "episodeNumber": 148,
+      "episodeId": "/hunter-x-hunter-2-4de4/ep-148-d28381?ja=d28381"
+    },
+    {
+      "index": 13,
+      "title": "Demon Slayer",
+      "group": "confirmed-name",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1416,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "pol",
+              "label": "Polish"
+            },
+            {
+              "language": "tur",
+              "label": "Turkish"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "ara",
+              "label": "Arabic"
+            }
+          ],
+          "audioMetadata": [
+            "por",
+            "eng",
+            "spa",
+            "fre",
+            "ger",
+            "rus",
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 9070
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1441,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "pol",
+              "label": "Polish"
+            },
+            {
+              "language": "tur",
+              "label": "Turkish"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "ara",
+              "label": "Arabic"
+            }
+          ],
+          "audioMetadata": [
+            "por",
+            "eng",
+            "spa",
+            "fre",
+            "ger",
+            "rus",
+            "jpn"
+          ],
+          "decode": true,
+          "totalMs": 7290
+        }
+      ],
+      "detailsTitle": "Demon Slayer",
+      "episodeCount": 26,
+      "episodeNumber": 1,
+      "episodeId": "/demon-slayer-kimetsu-no-yaiba-f28b/ep-1-d98437?ja=d98437&en=b57a51"
+    }
+  ],
+  "summary": {
+    "titles": 3,
+    "titlesWithSubPass": 2,
+    "attemptedRoutes": 5,
+    "passedRoutes": 3,
+    "routePercent": 60,
+    "selectionFailures": 0
+  },
+  "finishedAt": "2026-09-10T18:19:37.744Z"
+}

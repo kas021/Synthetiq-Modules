@@ -1,0 +1,1825 @@
+{
+  "startedAt": "2026-09-10T18:13:51.761Z",
+  "version": "4.1.0-beta.3",
+  "sha256": "80e644d418c75a9004d39095be6247ec31cdd45b6c7c1c62f670fd93adc6608d",
+  "seed": 20260910,
+  "scope": "30-title resolver and two-second FFmpeg video/audio decode probes. Not native-device or spoken-language certification.",
+  "selection": "20 fixed searches plus 10 seeded selections from discovery browse pages 1-3. Episode first/middle/latest rotates by title index. Missing advertised routes count as failures. No automatic retries.",
+  "selected": [
+    {
+      "group": "fixed",
+      "query": "Attack on Titan",
+      "title": "Attack on Titan",
+      "href": "attack-on-titan-fa99",
+      "image": "https://kaa.lt/image/poster/attack-on-titan-4d5b-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Death Note",
+      "title": "Death Note",
+      "href": "death-note-aa92",
+      "image": "https://kaa.lt/image/poster/death-note-b936-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "One Piece",
+      "title": "One Piece",
+      "href": "one-piece-0948",
+      "image": "https://kaa.lt/image/poster/one-piece-2056-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Bungo Stray Dogs 5",
+      "title": "Bungo Stray Dogs 5",
+      "href": "bungo-stray-dogs-5-af88",
+      "image": "https://kaa.lt/image/poster/bungo-stray-dogs-5-3e66-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Tomo-chan Is a Girl!",
+      "title": "Tomo-chan Is a Girl!",
+      "href": "tomo-chan-is-a-girl-e94d",
+      "image": "https://kaa.lt/image/poster/tomo-chan-is-a-girl-c461-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Naruto",
+      "title": "Naruto",
+      "href": "naruto-f3cf",
+      "image": "https://kaa.lt/image/poster/naruto-4ab6-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Naruto: Shippuden",
+      "selectionFailure": "No exact title match"
+    },
+    {
+      "group": "fixed",
+      "query": "Bleach",
+      "title": "Bleach",
+      "href": "bleach-f24c",
+      "image": "https://kaa.lt/image/poster/bleach-7798-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Dragon Ball Z",
+      "title": "Dragon Ball Z",
+      "href": "dragon-ball-z-b62e",
+      "image": "https://kaa.lt/image/poster/dragon-ball-z-b2dd-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Fullmetal Alchemist: Brotherhood",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "href": "fullmetal-alchemist-brotherhood-2fe4",
+      "image": "https://kaa.lt/image/poster/fullmetal-alchemist-brotherhood-8ed1-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Steins;Gate",
+      "title": "Steins;Gate",
+      "href": "steinsgate-a4cf",
+      "image": "https://kaa.lt/image/poster/steinsgate-24a6-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Hunter x Hunter",
+      "selectionFailure": "No exact title match"
+    },
+    {
+      "group": "fixed",
+      "query": "Demon Slayer: Kimetsu no Yaiba",
+      "selectionFailure": "No exact title match"
+    },
+    {
+      "group": "fixed",
+      "query": "Jujutsu Kaisen",
+      "title": "Jujutsu Kaisen",
+      "href": "jujutsu-kaisen-650f",
+      "image": "https://kaa.lt/image/poster/jujutsu-kaisen-2836-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Spy x Family",
+      "title": "Spy x Family",
+      "href": "spy-x-family-cd02",
+      "image": "https://kaa.lt/image/poster/spy-x-family-e250-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Chainsaw Man",
+      "title": "Chainsaw Man",
+      "href": "chainsaw-man-fad3",
+      "image": "https://kaa.lt/image/poster/chainsaw-man-cc98-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "My Hero Academia",
+      "title": "My Hero Academia",
+      "href": "my-hero-academia-feb8",
+      "image": "https://kaa.lt/image/poster/my-hero-academia-5441-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "One Punch Man",
+      "title": "One Punch Man",
+      "href": "one-punch-man-fff4",
+      "image": "https://kaa.lt/image/poster/one-punch-man-95c5-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Cowboy Bebop",
+      "title": "Cowboy Bebop",
+      "href": "cowboy-bebop-bf60",
+      "image": "https://kaa.lt/image/poster/cowboy-bebop-3e96-hq.webp"
+    },
+    {
+      "group": "fixed",
+      "query": "Frieren: Beyond Journey's End",
+      "title": "Frieren: Beyond Journey's End",
+      "href": "sousou-no-frieren-2d15",
+      "image": "https://kaa.lt/image/poster/sousou-no-frieren-f6d4-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "Rowdy Sumo Wrestler Matsutaro!!",
+      "href": "rowdy-sumo-wrestler-matsutaro-7713",
+      "image": "https://kaa.lt/image/poster/rowdy-sumo-wrestler-matsutaro-3da9-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "2.43: Seiin High School Boys Volleyball Team",
+      "href": "243-seiin-high-school-boys-volleyball-team-355e",
+      "image": "https://kaa.lt/image/poster/243-seiin-high-school-boys-volleyball-team-ada7-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "Africa Salaryman",
+      "href": "africa-salaryman-20a3",
+      "image": "https://kaa.lt/image/poster/africa-salaryman-376c-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "Amanchu! Advance",
+      "href": "amanchu-advance-7c8c",
+      "image": "https://kaa.lt/image/poster/amanchu-advance-7375-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "The Quintessential Quintuplets: No Coincidences in This Summer Break",
+      "href": "the-quintessential-quintuplets-3-a593",
+      "image": "https://kaa.lt/image/poster/the-quintessential-quintuplets-3-ef20-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "The Quintessential Quintuplets",
+      "href": "the-quintessential-quintuplets-c28e",
+      "image": "https://kaa.lt/image/poster/the-quintessential-quintuplets-ee6d-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "Allison & Lillia",
+      "href": "allison-lillia-a5da",
+      "image": "https://kaa.lt/image/poster/allison-lillia-2692-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "ACCA: 13-Territory Inspection Dept.",
+      "href": "acca-13-territory-inspection-dept-9b43",
+      "image": "https://kaa.lt/image/poster/acca-13-territory-inspection-dept-cb2d-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "HEAD START A BIRTH",
+      "href": "head-start-at-birth-e1b4",
+      "image": "https://kaa.lt/image/poster/head-start-at-birth-2cb7-hq.webp"
+    },
+    {
+      "group": "random",
+      "title": "The Gene of AI",
+      "href": "the-gene-of-ai-f5b8",
+      "image": "https://kaa.lt/image/poster/the-gene-of-ai-4a8e-hq.webp"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Attack on Titan",
+      "group": "fixed",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1534,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            }
+          ],
+          "audioMetadata": [
+            "eng",
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 5800
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1421,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            }
+          ],
+          "audioMetadata": [
+            "eng",
+            "jpn"
+          ],
+          "decode": true,
+          "totalMs": 4934
+        }
+      ],
+      "detailsTitle": "Attack on Titan",
+      "episodeCount": 26,
+      "episodeNumber": 1,
+      "episodeId": "/attack-on-titan-fa99/ep-1-ae06ac?ja=ae06ac&en=f8dbec"
+    },
+    {
+      "index": 2,
+      "title": "Death Note",
+      "group": "fixed",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1427,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng",
+            "spa"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 6409
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1475,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng",
+            "spa"
+          ],
+          "decode": true,
+          "totalMs": 5710
+        }
+      ],
+      "detailsTitle": "Death Note",
+      "episodeCount": 37,
+      "episodeNumber": 19,
+      "episodeId": "/death-note-aa92/ep-19-c44331?ja=c44331&en=175f30"
+    },
+    {
+      "index": 3,
+      "title": "One Piece",
+      "group": "fixed",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1546,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 4834
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "One Piece",
+      "episodeCount": 1195,
+      "episodeNumber": 1177,
+      "episodeId": "/one-piece-0948/ep-1177-82a18d?ja=82a18d"
+    },
+    {
+      "index": 4,
+      "title": "Bungo Stray Dogs 5",
+      "group": "fixed",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1338,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "ita",
+              "label": "Italian"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "ara",
+              "label": "Arabic"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 4686
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1263,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "ita",
+              "label": "Italian"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "ara",
+              "label": "Arabic"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng"
+          ],
+          "decode": true,
+          "totalMs": 4398
+        }
+      ],
+      "detailsTitle": "Bungo Stray Dogs 5",
+      "episodeCount": 11,
+      "episodeNumber": 1,
+      "episodeId": "/bungo-stray-dogs-5-af88/ep-1-ecbaee?ja=ecbaee&en=e43da5"
+    },
+    {
+      "index": 5,
+      "title": "Tomo-chan Is a Girl!",
+      "group": "fixed",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "failed",
+          "resolveMs": 1365,
+          "failure": "No stream returned",
+          "totalMs": 1365
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Tomo-chan Is a Girl!",
+      "episodeCount": 13,
+      "episodeNumber": 7,
+      "episodeId": "/tomo-chan-is-a-girl-e94d/ep-7-c2f730?ja=c2f730&en=26f72b"
+    },
+    {
+      "index": 6,
+      "title": "Naruto",
+      "group": "fixed",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1448,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "ms",
+              "label": "Bahasa Melayu"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 10077
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Naruto",
+      "episodeCount": 220,
+      "episodeNumber": 220,
+      "episodeId": "/naruto-f3cf/ep-220-6c2795?ja=6c2795"
+    },
+    {
+      "index": 7,
+      "title": "Naruto: Shippuden",
+      "group": "fixed",
+      "episodePosition": "first",
+      "routes": [],
+      "failure": "No exact title match"
+    },
+    {
+      "index": 8,
+      "title": "Bleach",
+      "group": "fixed",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 3244,
+          "servers": 2,
+          "captions": [
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng",
+            "spa"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 13197
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1573,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng",
+            "spa"
+          ],
+          "decode": true,
+          "totalMs": 5611
+        }
+      ],
+      "detailsTitle": "Bleach",
+      "episodeCount": 366,
+      "episodeNumber": 184,
+      "episodeId": "/bleach-f24c/ep-184-99f71c?ja=99f71c&en=bb7e5b"
+    },
+    {
+      "index": 9,
+      "title": "Dragon Ball Z",
+      "group": "fixed",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1607,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 5730
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Dragon Ball Z",
+      "episodeCount": 291,
+      "episodeNumber": 291,
+      "episodeId": "/dragon-ball-z-b62e/ep-291-fc67f8?ja=fc67f8&en=048a57"
+    },
+    {
+      "index": 10,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "group": "fixed",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1452,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "zh-hans",
+              "label": "中文（简体）"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 4238
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Fullmetal Alchemist: Brotherhood",
+      "episodeCount": 64,
+      "episodeNumber": 1,
+      "episodeId": "/fullmetal-alchemist-brotherhood-2fe4/ep-1-95145d?ja=95145d&en=eb2a47"
+    },
+    {
+      "index": 11,
+      "title": "Steins;Gate",
+      "group": "fixed",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 2836,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "zh-hans",
+              "label": "中文（简体）"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 9745
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Steins;Gate",
+      "episodeCount": 25,
+      "episodeNumber": 13,
+      "episodeId": "/steinsgate-a4cf/ep-13-8288ec?ja=8288ec"
+    },
+    {
+      "index": 12,
+      "title": "Hunter x Hunter",
+      "group": "fixed",
+      "episodePosition": "latest",
+      "routes": [],
+      "failure": "No exact title match"
+    },
+    {
+      "index": 13,
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "group": "fixed",
+      "episodePosition": "first",
+      "routes": [],
+      "failure": "No exact title match"
+    },
+    {
+      "index": 14,
+      "title": "Jujutsu Kaisen",
+      "group": "fixed",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1535,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "ita",
+              "label": "Italian"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "ara",
+              "label": "Arabic"
+            }
+          ],
+          "audioMetadata": [
+            "eng",
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 7151
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1365,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "ita",
+              "label": "Italian"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "ara",
+              "label": "Arabic"
+            }
+          ],
+          "audioMetadata": [
+            "eng",
+            "jpn"
+          ],
+          "decode": true,
+          "totalMs": 4962
+        }
+      ],
+      "detailsTitle": "Jujutsu Kaisen",
+      "episodeCount": 24,
+      "episodeNumber": 13,
+      "episodeId": "/jujutsu-kaisen-650f/ep-13-b25d31?ja=b25d31&en=7b25da"
+    },
+    {
+      "index": 15,
+      "title": "Spy x Family",
+      "group": "fixed",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "failed",
+          "resolveMs": 1144,
+          "failure": "No stream returned",
+          "totalMs": 1144
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Spy x Family",
+      "episodeCount": 12,
+      "episodeNumber": 12,
+      "episodeId": "/spy-x-family-cd02/ep-12-1dfbe6?ja=1dfbe6&en=14c76c"
+    },
+    {
+      "index": 16,
+      "title": "Chainsaw Man",
+      "group": "fixed",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1500,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "ms",
+              "label": "Bahasa Melayu"
+            },
+            {
+              "language": "zh-hans",
+              "label": "中文（简体）"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 5504
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Chainsaw Man",
+      "episodeCount": 12,
+      "episodeNumber": 1,
+      "episodeId": "/chainsaw-man-fad3/ep-1-e0468d?ja=e0468d&en=e01e17"
+    },
+    {
+      "index": 17,
+      "title": "My Hero Academia",
+      "group": "fixed",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1450,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "zh-hans",
+              "label": "中文（简体）"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 4957
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "My Hero Academia",
+      "episodeCount": 13,
+      "episodeNumber": 7,
+      "episodeId": "/my-hero-academia-feb8/ep-7-a13a96?ja=a13a96&en=ef036a"
+    },
+    {
+      "index": 18,
+      "title": "One Punch Man",
+      "group": "fixed",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1350,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "ar",
+              "label": "Arabic"
+            },
+            {
+              "language": "fr",
+              "label": "French"
+            },
+            {
+              "language": "it",
+              "label": "Italian"
+            },
+            {
+              "language": "de",
+              "label": "German"
+            },
+            {
+              "language": "en",
+              "label": "English"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 8678
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1377,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "ar",
+              "label": "Arabic"
+            },
+            {
+              "language": "fr",
+              "label": "French"
+            },
+            {
+              "language": "it",
+              "label": "Italian"
+            },
+            {
+              "language": "de",
+              "label": "German"
+            },
+            {
+              "language": "en",
+              "label": "English"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng"
+          ],
+          "decode": true,
+          "totalMs": 4845
+        }
+      ],
+      "detailsTitle": "One Punch Man",
+      "episodeCount": 12,
+      "episodeNumber": 12,
+      "episodeId": "/one-punch-man-fff4/ep-12-0c9b4b?ja=0c9b4b&en=393697"
+    },
+    {
+      "index": 19,
+      "title": "Cowboy Bebop",
+      "group": "fixed",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1296,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "english",
+            "japanese"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 4999
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Cowboy Bebop",
+      "episodeCount": 26,
+      "episodeNumber": 1,
+      "episodeId": "/cowboy-bebop-bf60/ep-1-aa2f46?ja=aa2f46&en=3a2781"
+    },
+    {
+      "index": 20,
+      "title": "Frieren: Beyond Journey's End",
+      "group": "fixed",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1392,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "ara",
+              "label": "Arabic"
+            },
+            {
+              "language": "deu",
+              "label": "German"
+            },
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "fra",
+              "label": "French"
+            },
+            {
+              "language": "ita",
+              "label": "Italian"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "tam",
+              "label": "Tamil"
+            },
+            {
+              "language": "hin",
+              "label": "Hindi"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "eng",
+            "jpn",
+            "hin",
+            "tam",
+            "fra",
+            "ita",
+            "spa",
+            "por",
+            "deu"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 13989
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1381,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "ara",
+              "label": "Arabic"
+            },
+            {
+              "language": "deu",
+              "label": "German"
+            },
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "fra",
+              "label": "French"
+            },
+            {
+              "language": "ita",
+              "label": "Italian"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "tam",
+              "label": "Tamil"
+            },
+            {
+              "language": "hin",
+              "label": "Hindi"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "eng",
+            "jpn",
+            "hin",
+            "tam",
+            "fra",
+            "ita",
+            "spa",
+            "por",
+            "deu"
+          ],
+          "decode": true,
+          "totalMs": 8571
+        }
+      ],
+      "detailsTitle": "Frieren: Beyond Journey's End",
+      "episodeCount": 28,
+      "episodeNumber": 15,
+      "episodeId": "/sousou-no-frieren-2d15/ep-15-ae2ef1?ja=ae2ef1&en=eea0d8"
+    },
+    {
+      "index": 21,
+      "title": "Rowdy Sumo Wrestler Matsutaro!!",
+      "group": "random",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "failed",
+          "resolveMs": 524,
+          "failure": "No stream returned",
+          "totalMs": 525
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Rowdy Sumo Wrestler Matsutaro!!",
+      "episodeCount": 23,
+      "episodeNumber": 24,
+      "episodeId": "/rowdy-sumo-wrestler-matsutaro-7713/ep-24-7119d2?ja=7119d2"
+    },
+    {
+      "index": 22,
+      "title": "2.43: Seiin High School Boys Volleyball Team",
+      "group": "random",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1451,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "zh-hans",
+              "label": "中文（简体）"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 7295
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "2.43: Seiin High School Boys Volleyball Team",
+      "episodeCount": 12,
+      "episodeNumber": 1,
+      "episodeId": "/243-seiin-high-school-boys-volleyball-team-355e/ep-1-cbaeed?ja=cbaeed&en=03bccd"
+    },
+    {
+      "index": 23,
+      "title": "Africa Salaryman",
+      "group": "random",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1432,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 10129
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Africa Salaryman",
+      "episodeCount": 12,
+      "episodeNumber": 7,
+      "episodeId": "/africa-salaryman-20a3/ep-7-45d0cc?ja=45d0cc&en=21614e"
+    },
+    {
+      "index": 24,
+      "title": "Amanchu! Advance",
+      "group": "random",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "failed",
+          "resolveMs": 606,
+          "failure": "No stream returned",
+          "totalMs": 606
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Amanchu! Advance",
+      "episodeCount": 12,
+      "episodeNumber": 12,
+      "episodeId": "/amanchu-advance-7c8c/ep-12-d47442?ja=d47442"
+    },
+    {
+      "index": 25,
+      "title": "The Quintessential Quintuplets: No Coincidences in This Summer Break",
+      "group": "random",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1374,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "ita",
+              "label": "Italian"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 5794
+        },
+        {
+          "lang": "dub",
+          "status": "probe-pass",
+          "resolveMs": 1376,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "ger",
+              "label": "German"
+            },
+            {
+              "language": "spa",
+              "label": "Spanish"
+            },
+            {
+              "language": "fre",
+              "label": "French"
+            },
+            {
+              "language": "ita",
+              "label": "Italian"
+            },
+            {
+              "language": "por",
+              "label": "Portuguese"
+            },
+            {
+              "language": "rus",
+              "label": "Russian"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn",
+            "eng"
+          ],
+          "decode": true,
+          "totalMs": 4863
+        }
+      ],
+      "detailsTitle": "The Quintessential Quintuplets: No Coincidences in This Summer Break",
+      "episodeCount": 2,
+      "episodeNumber": 1,
+      "episodeId": "/the-quintessential-quintuplets-3-a593/ep-1-84fe0e?ja=84fe0e&en=1ff39f"
+    },
+    {
+      "index": 26,
+      "title": "The Quintessential Quintuplets",
+      "group": "random",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1500,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "zh-hans",
+              "label": "中文（简体）"
+            },
+            {
+              "language": "zh-hant",
+              "label": "中文（繁体）"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 5195
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "The Quintessential Quintuplets",
+      "episodeCount": 12,
+      "episodeNumber": 7,
+      "episodeId": "/the-quintessential-quintuplets-c28e/ep-7-7ec41d?ja=7ec41d&en=3a3b4c"
+    },
+    {
+      "index": 27,
+      "title": "Allison & Lillia",
+      "group": "random",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1670,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "zh-hans",
+              "label": "中文（简体）"
+            },
+            {
+              "language": "zh-hant",
+              "label": "中文（繁体）"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 10345
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "Allison & Lillia",
+      "episodeCount": 26,
+      "episodeNumber": 26,
+      "episodeId": "/allison-lillia-a5da/ep-26-030f42?ja=030f42"
+    },
+    {
+      "index": 28,
+      "title": "ACCA: 13-Territory Inspection Dept.",
+      "group": "random",
+      "episodePosition": "first",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1471,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "zh-hans",
+              "label": "中文（简体）"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 5218
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "ACCA: 13-Territory Inspection Dept.",
+      "episodeCount": 12,
+      "episodeNumber": 1,
+      "episodeId": "/acca-13-territory-inspection-dept-9b43/ep-1-3fc28b?ja=3fc28b&en=4dbe6e"
+    },
+    {
+      "index": 29,
+      "title": "HEAD START A BIRTH",
+      "group": "random",
+      "episodePosition": "middle",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1386,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "eng",
+              "label": "English"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 5761
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "HEAD START A BIRTH",
+      "episodeCount": 12,
+      "episodeNumber": 7,
+      "episodeId": "/head-start-at-birth-e1b4/ep-7-294f21?ja=294f21"
+    },
+    {
+      "index": 30,
+      "title": "The Gene of AI",
+      "group": "random",
+      "episodePosition": "latest",
+      "routes": [
+        {
+          "lang": "sub",
+          "status": "probe-pass",
+          "resolveMs": 1488,
+          "servers": 1,
+          "captions": [
+            {
+              "language": "en",
+              "label": "English"
+            },
+            {
+              "language": "th",
+              "label": "ภาษาไทย"
+            },
+            {
+              "language": "vi",
+              "label": "Tiếng Việt"
+            },
+            {
+              "language": "id",
+              "label": "Bahasa Indonesia"
+            },
+            {
+              "language": "zh-hans",
+              "label": "中文（简体）"
+            },
+            {
+              "language": "und",
+              "label": "Unknown language"
+            }
+          ],
+          "audioMetadata": [
+            "jpn"
+          ],
+          "decode": true,
+          "englishCaption": true,
+          "totalMs": 10789
+        },
+        {
+          "lang": "dub",
+          "status": "not-advertised"
+        }
+      ],
+      "detailsTitle": "The Gene of AI",
+      "episodeCount": 12,
+      "episodeNumber": 12,
+      "episodeId": "/the-gene-of-ai-f5b8/ep-12-14282f?ja=14282f"
+    }
+  ],
+  "randomPoolSize": 90,
+  "summary": {
+    "titles": 30,
+    "titlesWithSubPass": 23,
+    "attemptedRoutes": 35,
+    "passedRoutes": 31,
+    "routePercent": 88.57142857142857,
+    "selectionFailures": 3
+  },
+  "finishedAt": "2026-09-10T18:18:25.040Z"
+}

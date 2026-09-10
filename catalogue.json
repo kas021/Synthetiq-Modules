@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 110,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-110.zip",
+  "bundleVersion": 111,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-111.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -459,13 +459,16 @@
       ]
     },
     {
-      "file": "modules/KickAssAnime-4.0.3.zip",
+      "file": "modules/KickAssAnime-4.1.0.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime",
         "language": "English Sub/Dub"
       },
       "changelog": [
+        "4.1.0: Correct provider subtitle language labels, including wrapped metadata; unknown tracks are no longer labelled English",
+        "4.1.0: Expose usable server alternatives with matching captions and headers; preserve audio-safe Auto quality",
+        "4.1.0: Bounded primary recovery and alternate episode-page fallback; 25/30 sampled titles passed media probes, known unavailable titles documented",
         "4.0.3: Official KickAssAnime (kaa.lt) English sub/dub catalogue",
         "4.0.3: DUB is only shown when an English player or English HLS audio track exists",
         "4.0.3: Japanese-only CatStream is never labeled as DUB (One Piece is SUB-only)",
