@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 108,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-108.zip",
+  "bundleVersion": 109,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-109.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "file": "modules/Miruro-4.0.1.zip",
+      "file": "modules/Miruro-4.1.0.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -207,6 +207,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/miruro.png"
       },
       "changelog": [
+        "4.1.0: Owner-approved beta.1 source unchanged; no silent Dub-to-Sub fallback, fresh retry links and exact episode lookup.",
+        "4.1.0: Provider-specific server/caption metadata and valid supplied markers; availability depends on the source. Burned-in subtitles are not selectable tracks.",
         "4.0.1: Preserve the correct HLS or MP4 type and required headers for each resolved stream",
         "4.0.0: Rebuilt on-device anime stream pipeline resolving Cloudflare bot walls and broken downloads",
         "Direct multi-provider video stream resolution with verified MPEG-TS segments for seamless playback and downloads",

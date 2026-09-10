@@ -1,0 +1,1473 @@
+{
+  "startedAt": "2026-09-10T12:37:01.151Z",
+  "scope": "10 exact AniList identities, episode 1, SUB and available DUB. Node module flow and primary ffprobe; not 20 native playback/language tests.",
+  "results": [
+    {
+      "query": "Attack on Titan",
+      "id": 16498,
+      "title": "Attack on Titan",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 1043,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 2858
+    },
+    {
+      "query": "Attack on Titan",
+      "id": 16498,
+      "title": "Attack on Titan",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 997,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 2692
+    },
+    {
+      "query": "Death Note",
+      "id": 1535,
+      "title": "Death Note",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 978,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1496
+    },
+    {
+      "query": "Death Note",
+      "id": 1535,
+      "title": "Death Note",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 1048,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1670
+    },
+    {
+      "query": "Naruto",
+      "id": 20,
+      "title": "Naruto",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 1002,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1559
+    },
+    {
+      "query": "Naruto",
+      "id": 20,
+      "title": "Naruto",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 1030,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1462
+    },
+    {
+      "query": "ONE PIECE",
+      "id": 21,
+      "title": "ONE PIECE",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 1497,
+      "resolved": true,
+      "servers": 4,
+      "qualities": [
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 4,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1749
+    },
+    {
+      "query": "ONE PIECE",
+      "id": 21,
+      "title": "ONE PIECE",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 1031,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 4,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 2800
+    },
+    {
+      "query": "Bleach",
+      "id": 269,
+      "title": "Bleach",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 1041,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 2780
+    },
+    {
+      "query": "Bleach",
+      "id": 269,
+      "title": "Bleach",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 1007,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1522
+    },
+    {
+      "query": "JUJUTSU KAISEN",
+      "id": 113415,
+      "title": "JUJUTSU KAISEN",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 1031,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 2767
+    },
+    {
+      "query": "JUJUTSU KAISEN",
+      "id": 113415,
+      "title": "JUJUTSU KAISEN",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 1076,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 2983
+    },
+    {
+      "query": "Demon Slayer",
+      "id": 101922,
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 1002,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1532
+    },
+    {
+      "query": "Demon Slayer",
+      "id": 101922,
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 950,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1571
+    },
+    {
+      "query": "Chainsaw Man",
+      "id": 127230,
+      "title": "Chainsaw Man",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 1024,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1441
+    },
+    {
+      "query": "Chainsaw Man",
+      "id": 127230,
+      "title": "Chainsaw Man",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 1004,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1762
+    },
+    {
+      "query": "Fullmetal Alchemist Brotherhood",
+      "id": 5114,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 952,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1466
+    },
+    {
+      "query": "Fullmetal Alchemist Brotherhood",
+      "id": 5114,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 1010,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1425
+    },
+    {
+      "query": "Hunter x Hunter 2011",
+      "id": 11061,
+      "title": "Hunter x Hunter (2011)",
+      "episode": 1,
+      "lang": "sub",
+      "resolveMs": 997,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 2727
+    },
+    {
+      "query": "Hunter x Hunter 2011",
+      "id": 11061,
+      "title": "Hunter x Hunter (2011)",
+      "episode": 1,
+      "lang": "dub",
+      "resolveMs": 1046,
+      "resolved": true,
+      "servers": 1,
+      "qualities": [
+        "Auto (HLS)"
+      ],
+      "subtitleLanguages": [],
+      "media": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "videoAndAudio": true,
+      "providers": [
+        {
+          "kind": "serverList",
+          "status": 200,
+          "sub": 3,
+          "dub": 3
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "play.echovideo.ru",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "play.echovideo.ru",
+          "status": 200,
+          "embedHost": null,
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "gn1r5n.org",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        },
+        {
+          "kind": "source",
+          "host": "hianimes.ru",
+          "status": 200,
+          "embedHost": "myvidplay.com",
+          "tracks": 0,
+          "subtitles": 0,
+          "hasSources": true
+        }
+      ],
+      "totalMs": 1471
+    }
+  ],
+  "summary": {
+    "cases": 20,
+    "resolved": 20,
+    "videoAndAudio": 20,
+    "unavailable": 0,
+    "errors": 0
+  }
+}
