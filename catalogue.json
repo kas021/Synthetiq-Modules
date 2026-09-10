@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 109,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-109.zip",
+  "bundleVersion": 110,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-110.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "file": "modules/AnimeHeaven-4.0.6.zip",
+      "file": "modules/AnimeHeaven-4.1.0.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -161,6 +161,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeheaven.png?v=20260812-2"
       },
       "changelog": [
+        "4.1.0: Owner-approved server alternatives with media probing, duplicate filtering and required headers.",
+        "4.1.0: Reject unavailable Dub and failed media routes; preserve burned-in subtitles. No invented quality options.",
+        "4.1.0: Include module icon metadata. Playback code unchanged from owner-tested beta.3; see release QA limitations.",
         "4.0.6: Fixed episode list parsing for whitespace attribute variations and updated site markup",
         "4.0.5: Episode lists restored for all titles after an AnimeHeaven markup change (Dandadan, A Wild Last Boss Appeared!, and more)",
         "4.0.5: Decimal and special episode numbers supported, duplicates rejected, numeric ordering preserved",
