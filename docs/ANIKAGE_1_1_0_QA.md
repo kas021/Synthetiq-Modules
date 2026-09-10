@@ -34,6 +34,10 @@ but a previously issued request can still finish after the resolver returns.
   passed; first/middle/latest media probes passed; English-caption language
   detection passed (confidence 0.911). Overall FAIL: simulator build timed out
   before any native playback test ran. This is not a native playback pass.
+- Retry `2026-09-10T00-17-20-582Z_s2_anikage-v1_32642e55` again passed the
+  runtime, three media probes and caption validation, but returned the same
+  overall FAIL (SIMULATOR_TIMEOUT / SIMULATOR_SUMMARY_MISSING). Do not erase
+  this failed release gate or reinterpret it as successful native playback.
 - Targeted fresh checks: Attack on Titan S1 episodes 1, 13, 25, each requested
   as Sub and Dub. All six resolved with two or three checked server options;
   all six English caption GETs returned HTTP 200 and parsed cues (250-365).
@@ -56,5 +60,13 @@ The previous 1.0.4 package remains immutable. Bundle 106 preserves all 26 ZIPs
 from Bundle 105 byte-for-byte and adds AniKage 1.1.0; no other module package
 is changed. Signed-index publication must pass public URL/size/SHA-256 checks.
 
-Publication is pending final QA review. Do not describe this document as proof
-of full certification or of a completed rollout.
+The candidate was pushed only to `codex/anikage-1.1.0-metadata` for the owner's
+explicit phone test request. No stable release asset, signed index, or main
+branch was updated. Normal in-app update checks therefore still see 1.0.4.
+The owner can download the branch ZIP and import it as a module ZIP (not as a
+repository URL). Broad publication remains gated on native QA and approval.
+
+Public candidate download verified anonymously: HTTP 200, 8518 bytes,
+SHA-256 `8c043a4e7df8416dd5c996a2548bd782e88f5bf8cfc5c1850da9ae60e0b4e985`.
+Test first: Attack on Titan S1E1 Sub and Dub, English captions, then each shown
+server. Report the selected server and mode if either captions or playback fail.
