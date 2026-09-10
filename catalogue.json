@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 105,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-105.zip",
+  "bundleVersion": 106,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-106.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "file": "modules/Anikage-1.0.4.zip",
+      "file": "modules/Anikage-1.1.0.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (SUB / DUB)",
@@ -105,6 +105,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikage.png"
       },
       "changelog": [
+        "1.1.0: Recover actual caption URLs from embed metadata instead of constructing broken URLs from opaque tokens; preserve available languages and per-server captions.",
+        "1.1.0: Expose distinct checked alternatives from the selected provider in the server picker, with bounded concurrent resolution and provider fallback.",
+        "1.1.0: Validate episode identity, language metadata and marker ranges; retain the legacy primary stream fields for older apps. Quality remains Auto when no checked ladder is supplied.",
+        "1.1.0: Targeted runtime, media and caption checks only; broad title coverage, spoken-language verification and native-device seek certification remain incomplete. Owner device testing requested.",
         "1.0.4: Added direct Otaku/Vidplay/Playmogo p.a.c.k.e.r embed deobfuscator & direct 1080p CDN HLS resolver with segment validation, fixing playback on Tower of God and other series",
         "1.0.3: Prioritized Neko 1080p Backblaze B2 streams with live segment range probe validation",
         "1.0.2: Built-in automatic HTTP 429 exponential backoff retry engine for flawless rapid browsing",
