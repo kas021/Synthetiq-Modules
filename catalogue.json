@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 113,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-113.zip",
+  "bundleVersion": 114,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-114.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "file": "modules/One-Pace-3.0.3-index-test.zip",
+      "file": "modules/One-Pace-3.0.5.zip",
       "presentation": {
         "category": "Specialist",
         "purpose": "One Piece",
@@ -170,6 +170,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/one-pace.png?v=20260812-2"
       },
       "changelog": [
+        "3.0.5: Owner-approved promotion of 3.0.4-beta.1; playback code unchanged. Version advances past beta numbering for updater compatibility.",
+        "CC routes are English Dub with Closed Captions, never a Japanese Sub fallback. Refresh expired list metadata and support parsed JSON responses.",
+        "42/42 sampled quality routes decoded; 16/16 independent seek probes passed. Reported iPhone repeated-seek crash remains unresolved; native simulator build timed out before tests. See docs/ONE_PACE_3_0_5_QA.md.",
         "Reject DUB requests when an episode has no verified DUB route instead of silently playing subtitles",
         "Prefer explicit language tags from individual files while preserving the existing episode catalogue",
         "Preserved compatibility with previously saved onepace-index episode links",
