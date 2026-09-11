@@ -8,12 +8,12 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 112,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-112.zip",
+  "bundleVersion": 113,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-113.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
-      "file": "modules/Anikoto-5.0.0.zip",
+      "file": "modules/Anikoto-5.0.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -22,6 +22,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png?v=20260812-2"
       },
       "changelog": [
+        "5.0.2: Owner-approved promotion of 5.0.1-beta.3 with unchanged playback JavaScript. Version advances past beta numbering for existing app updater compatibility.",
+        "5.0.2: Fresh exact-episode fallback routes, fake-stream rejection, bounded lookups, checked quality choices and source captions/markers.",
+        "5.0.2: 30-title probe: 52 available Sub/Dub cases resolved, 51 decoded first attempt; the remaining case decoded on a fresh retry. Eight unavailable Dub requests were correctly rejected.",
+        "5.0.2: Native phone certification remains incomplete. An automated Dub opening-audio flag remains documented despite later English dialogue evidence. No app-side retry or lifecycle changes. See docs/ANIKOTO_5_0_2_RELEASE_QA.md.",
         "5.0.0: Owner-approved release of beta.14 with checked quality choices, including 1080p, 720p and 360p where supplied by the primary server.",
         "5.0.0: Improved exact-episode fallback, bounded backup lookups and subtitle-route ordering; retains provider subtitle and marker metadata.",
         "5.0.0: Source availability varies. Prior intermittent resolution and caption gaps remain; simulator certification is incomplete. This module update does not fix app-side saved-copy retry behavior.",
