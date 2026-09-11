@@ -222,7 +222,7 @@
       ]
     },
     {
-      "file": "modules/Miruro-4.1.0.zip",
+      "file": "modules/Miruro-4.1.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -230,12 +230,12 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/miruro.png"
       },
       "changelog": [
+        "4.1.2: Fixed Re:ZERO search and episode mapping collision with Jujutsu Kaisen using Dice token similarity and season isolation",
+        "4.1.2: Added query relevance re-ranking across AniList and Kitsu to prioritize exact series matches over spinoffs and commercials",
+        "4.1.2: Resilient multi-provider stream pipeline supporting both direct MP4 and HLS video segments with in-memory stream caching",
+        "4.1.2: Robust Kitsu fallback search when AniList is degraded or rate-limited",
         "4.1.0: Owner-approved beta.1 source unchanged; no silent Dub-to-Sub fallback, fresh retry links and exact episode lookup.",
-        "4.1.0: Provider-specific server/caption metadata and valid supplied markers; availability depends on the source. Burned-in subtitles are not selectable tracks.",
-        "4.0.1: Preserve the correct HLS or MP4 type and required headers for each resolved stream",
-        "4.0.0: Rebuilt on-device anime stream pipeline resolving Cloudflare bot walls and broken downloads",
-        "Direct multi-provider video stream resolution with verified MPEG-TS segments for seamless playback and downloads",
-        "Fast AniList GraphQL search, discovery feeds, and complete episode mapping with sub & dub support"
+        "4.0.1: Preserve the correct HLS or MP4 type and required headers for each resolved stream"
       ]
     },
     {
