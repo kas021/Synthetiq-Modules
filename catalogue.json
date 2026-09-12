@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 121,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-121.zip",
+  "bundleVersion": 122,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-122.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "file": "modules/Aniworld-1.1.1.zip",
+      "file": "modules/Aniworld-1.1.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "German Anime",
@@ -378,6 +378,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/aniworld.png?v=20260812-2"
       },
       "changelog": [
+        "1.1.2: Include movie/special sections with source titles and language availability; support movie playback URLs.",
+        "1.1.2: Refresh season and episode lists instead of retaining an indefinite module-runtime cache. Existing episode URLs and host resolvers unchanged.",
+        "1.1.2: Standard S2 PASS; five-series catalogue check and 9/9 available-language short AV decode samples. One absent German Dub correctly rejected; physical device and full offline playback not certified.",
         "1.1.1: Owner-approved promotion of 1.1.0-beta.6; tested playback JavaScript unchanged. German Dub and Japanese Sub with available English/German captions.",
         "1.1.1: Frozen 50-series sweep decoded 221/231 available-language samples (Sub 118/124, Dub 103/107); nine absent-language cases and five unresolved search identities recorded separately.",
         "1.1.1: Available server/quality choices and season/episode mapping checked. Known failed episodes and incomplete native audio certification remain documented in docs/ANIWORLD_1_1_1_RELEASE.md.",
