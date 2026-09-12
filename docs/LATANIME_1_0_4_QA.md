@@ -19,6 +19,9 @@ S2 standard run 2026-09-12T00-58-25-939Z_s2_latanime-v1_6ba5870b:
 Boruto simulator playback, seek/pause and Spanish audio evidence passed. First
 and middle media samples passed; latest media sample failed STREAM_DECODE_FAILED.
 Do not interpret the tool's top-level PASS as all-samples success.
+Manual simulator-log review also found audio-device initialization failures
+despite the automated PASS. Video advanced, but audible simulator output is not
+certified. The Spanish speech evidence came from a separate audio sample.
 
 Failed matrix cases: Dr. Stone S4 Castellano E37 (timeout), Overlord: El Reino
 Sagrado Castellano E1, Gintama: Yoshiwara en llamas Castellano E1, Dragon Ball Z
