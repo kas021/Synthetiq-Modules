@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 117,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-117.zip",
+  "bundleVersion": 118,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-118.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "file": "modules/Aniworld-1.0.1.zip",
+      "file": "modules/Aniworld-1.1.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "German Anime",
@@ -379,6 +379,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/aniworld.png?v=20260812-2"
       },
       "changelog": [
+        "1.1.1: Owner-approved promotion of 1.1.0-beta.6; tested playback JavaScript unchanged. German Dub and Japanese Sub with available English/German captions.",
+        "1.1.1: Frozen 50-series sweep decoded 221/231 available-language samples (Sub 118/124, Dub 103/107); nine absent-language cases and five unresolved search identities recorded separately.",
+        "1.1.1: Available server/quality choices and season/episode mapping checked. Known failed episodes and incomplete native audio certification remain documented in docs/ANIWORLD_1_1_1_RELEASE.md.",
         "Added Aniworld German anime catalogue (search, seasons, episodes, discovery)",
         "VidMoly HLS with Deutsch / EN-Sub / DE-Sub audio routes",
         "Search fallback forms for apostrophe and alternate-wording title misses",
