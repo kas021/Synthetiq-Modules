@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 120,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-120.zip",
+  "bundleVersion": 121,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-121.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -388,7 +388,7 @@
       ]
     },
     {
-      "file": "modules/MegaKino-1.0.3.zip",
+      "file": "modules/MegaKino-1.1.1.zip",
       "presentation": {
         "category": "Movies",
         "purpose": "German Movies & Series",
@@ -397,9 +397,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/megakino.png"
       },
       "changelog": [
-        "1.0.3: German movie and series catalogue with GXPlayer and VOE adaptive HLS stream resolution",
-        "1.0.3: Discovery homepage with featured films and latest series carousels",
-        "1.0.3: German-dubbed audio stream validation and offline download support"
+        "1.1.1: Updated catalogue domain, preserved saved links, paginated feeds and server/quality choices",
+        "Owner-approved promotion of beta.3; playback code unchanged. 30/30 short host AV samples passed",
+        "Not fully certified: simulator no sound, S2 music-sample language flag, physical playback and full offline checks outstanding. See docs/MEGAKINO_1_1_1_RELEASE.md"
       ]
     },
     {
