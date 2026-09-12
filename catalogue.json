@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 116,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-116.zip",
+  "bundleVersion": 117,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-117.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "file": "modules/Anime-Sama-1.0.8.zip",
+      "file": "modules/Anime-Sama-1.1.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "French Anime",
@@ -254,6 +254,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anime-sama.png"
       },
       "changelog": [
+        "1.1.1: Owner-approved promotion of 1.1.0-beta.9; JavaScript unchanged. Filters scan-only and empty/unreleased catalogue entries while retaining anime adaptations.",
+        "1.1.1: Bounded catalogue availability checks; transient failures are not cached as permanent unavailability.",
+        "1.1.1: Fresh 30-title matrix decoded video and audio in 142/152 short samples; ten returned no stream, six Dub cases were unavailable and one search identity was unresolved. Native certification remains incomplete.",
         "1.0.8: Pre-resolve direct physical Sibnet storage CDN endpoints with followRedirects:false for instant MP4 downloads",
         "1.0.8: Added Vidmoly HLS multi-host fallback for full series stream coverage",
         "1.0.8: Official vertical portrait title covers and horizontal background banners for all anime"
@@ -470,20 +473,6 @@
         "1.0.2: Dynamic SUB and Italian DUB companion switching with true Italian audio",
         "1.0.1: Resolved Flutter JsService nativeHttp JSON body decoding for home discovery and search",
         "1.0.0: Initial AnimeUnity Italian anime streaming library release"
-      ]
-    },
-    {
-      "file": "modules/AnimeKai-4.0.0.zip",
-      "presentation": {
-        "category": "Anime",
-        "purpose": "English Anime",
-        "language": "English Sub/Dub",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animekai.png"
-      },
-      "changelog": [
-        "4.0.0: Added AnimeKai English anime source",
-        "Live media routes probed across a broad catalogue sweep",
-        "Published as a beta source; availability remains dependent on the upstream site"
       ]
     },
     {
