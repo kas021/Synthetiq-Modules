@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 118,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-118.zip",
+  "bundleVersion": 119,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-119.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "file": "modules/X-Stream-1.2.2.zip",
+      "file": "modules/X-Stream-1.3.1.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -207,11 +207,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
       },
       "changelog": [
-        "1.2.2: English audio enforcement rejecting foreign & Spanish dub stream ladders and inspecting HLS audio track languages",
-        "1.2.1: ultra-fast parallel stream & quality resolution with in-flight request deduplication",
-        "1.2.1: verified 1080p/4K HLS and genuine media validation across Videasy, LookMovie, Vidzee, Hubcloud, and MoviesAPI",
-        "1.2.1: robust LookMovie 480p and subtitle fallback for titles with expired CDN storage",
-        "1.2.0: replaced the suspended catalogue host with TMDB-backed home, search, discovery and endless feeds"
+        "1.3.1: Owner-approved promotion of beta.4; JavaScript unchanged",
+        "Explicit provider servers and quality choices with source-specific subtitles and headers",
+        "Fix singleton-provider retries and expire cached video links; retain media and language gates",
+        "QA: 27/30 short host AV samples; S2 PARTIAL. Three coverage gaps and incomplete physical audio/offline checks remain. See docs/XSTREAM_1_3_1_RELEASE.md"
       ]
     },
     {
