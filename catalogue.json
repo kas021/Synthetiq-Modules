@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 114,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-114.zip",
+  "bundleVersion": 115,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-115.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "file": "modules/Latanime-1.0.3.zip",
+      "file": "modules/Latanime-1.0.4.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Spanish & Catalan Anime",
@@ -306,9 +306,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/latanime.png"
       },
       "changelog": [
-        "1.0.3: Added Latanime Spanish and Catalan anime catalogue",
-        "Returns dubbed audio only; unavailable subtitles fail clearly instead of substituting audio",
-        "Flutter runtime, media decoding, and Spanish audio verification passed"
+        "1.0.4: Fix title artwork and lazy episode thumbnails; expose resolved server alternatives with their own headers",
+        "Preserves Spanish/Catalan dubbed routes and legacy stream fields; does not substitute unavailable Sub audio",
+        "Owner-approved limited release: 23/30 short AV decodes passed; five HTTP-resolution failures and two CDN timeouts remain",
+        "Boruto simulator playback, seeking and pause passed; browser-only fallback and full offline playback remain unverified"
       ]
     },
     {
