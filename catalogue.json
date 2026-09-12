@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 119,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-119.zip",
+  "bundleVersion": 120,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-120.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "file": "modules/STCine-1.0.5.zip",
+      "file": "modules/STCine-1.1.1.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -222,9 +222,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/stcine.png?v=20260812-2"
       },
       "changelog": [
-        "1.0.5: Filter future-dated catalogue records and restore released home-feed coverage",
-        "1.0.5: Add exact-title and compatible-year matching to prevent wrong provider titles",
-        "1.0.5: Preserve verified provider stream resolution and movie episode mapping"
+        "Paginated discovery, complete season mapping and bounded provider resolution.",
+        "Server/quality choices preserve source headers and multilingual captions.",
+        "Owner-approved promotion of beta.3 with unchanged JavaScript: 28/30 short host AV probes; S2 PARTIAL. Physical sound, full offline playback and quality-switch caption behavior remain unverified."
       ]
     },
     {
