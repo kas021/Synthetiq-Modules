@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 115,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-115.zip",
+  "bundleVersion": 116,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-116.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "file": "modules/Shahiid-2.0.1.zip",
+      "file": "modules/Shahiid-2.1.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Arabic Anime",
@@ -513,6 +513,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/shahiid.png"
       },
       "changelog": [
+        "2.1.1: Home opens show catalogues instead of individual episodes; fixes long-list pagination and special episode mapping",
+        "2.1.1: Adds server choices, truthful quality labels, poster parsing and short-lived repeated-search caching",
+        "2.1.1: Owner-approved release with known upstream unavailable episodes; see docs/SHAHIID_2_1_1_RELEASE.md",
         "2.0.1: Fixed movie dub availability to accurately reflect sub-only titles (e.g. Look Back)",
         "2.0.0: Full overhaul for restructured series, seasons, and dubbed seasons catalogue hierarchy",
         "2.0.0: High-speed multi-mirror resolver with verified 1080p MP4 and master HLS streaming",
