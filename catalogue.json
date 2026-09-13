@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 123,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-123.zip",
+  "bundleVersion": 124,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-124.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -144,6 +144,22 @@
         "1.0.1: Scoped episode parsing and prevented genre leaks across all drama series",
         "1.0.0: Official DramaCool (dramacool9.com.ro) Asian dramas, movies, and shows with English subtitles",
         "1.0.0: Full Contract V4 discoveryHome and discoveryFeed support with carousels and paginated feeds"
+      ]
+    },
+    {
+      "file": "modules/Drama-Direct-0.1.0-beta.9.zip",
+      "presentation": {
+        "category": "Drama",
+        "purpose": "Drama Direct (Experimental)",
+        "recommended": false,
+        "language": "Original audio / source subtitles"
+      },
+      "changelog": [
+        "Owner-approved public availability of the unchanged 0.1.0-beta.9 prototype; not a fully certified stable release. Existing DramaCool remains unchanged.",
+        "Fresh MegaVid provider lookup without DramaCool pages, verified episode identity, available source subtitles, MP4/HLS handling and bounded retries.",
+        "25/25 regression tests passed. 73/85 sampled episodes returned valid media candidates; 12 failed at the provider. This is not a native playback success rate.",
+        "Known app-side HLS proxy encoding failure with Japanese audio labels; some sustained HLS playback failures and provider coverage gaps remain. Physical-device and full offline certification are incomplete.",
+        "The package retains its original Private Prototype display name to preserve the exact tested bytes. See docs/DRAMA_DIRECT_BETA_9_RELEASE.md for evidence and limitations."
       ]
     },
     {
