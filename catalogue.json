@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 124,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-124.zip",
+  "bundleVersion": 125,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-125.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "file": "modules/DramaFun-3.0.2.zip",
+      "file": "modules/DramaFun-4.0.1.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Spanish Drama",
@@ -356,7 +356,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/dramafun.png?v=20260812-2"
       },
       "changelog": [
-        "Bundle 80 certified release"
+        "4.0.1: Owner-approved promotion of beta.6 with byte-identical playback JavaScript; featured/paginated browsing, fresh checked providers and source quality metadata.",
+        "4.0.1: Repairs JSON and HTML caption-track parsing; source-provided tracks only, never invented translations.",
+        "4.0.1: 29/30 resolved, 28/30 short host decodes; two failures remain. No external captions in the sample. App-side quality loss after switching and native sound remain unresolved. See docs/DRAMAFUN_4_0_1_RELEASE.md."
       ]
     },
     {
