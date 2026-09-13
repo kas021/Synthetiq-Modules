@@ -8,8 +8,8 @@
     "image": "weebcentral-v2",
     "music": "synthetiq-music-hub-v1"
   },
-  "bundleVersion": 122,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-122.zip",
+  "bundleVersion": 123,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-123.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -570,6 +570,25 @@
         "1.0.3: Added StreamingUnity movie and TV catalogue with home discovery, search, title details, and multi-season episode mapping",
         "1.0.3: Added adaptive VixCloud HLS resolution with English SUB and verified Italian DUB routing",
         "1.0.3: Exposed provider subtitle and audio-track metadata while preserving required playback headers"
+      ]
+    },
+    {
+      "file": "modules/Synthetiq-Flux-1.0.0.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Synthetiq Flux Anime",
+        "recommended": false,
+        "language": "English Sub/Dub",
+        "languages": [
+          "sub",
+          "dub"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-flux-1.0.0.png"
+      },
+      "changelog": [
+        "1.0.0: Owner-approved release as Synthetiq Flux with supplied artwork. Formerly Anikoto 2 0.1.0-beta.7; playback JavaScript unchanged.",
+        "1.0.0: Independent anime catalogue and provider-direct playback with available server, quality and subtitle choices.",
+        "1.0.0: Previous exact-code S2 quick PASS; native device, full offline and broad audio-language certification remain incomplete. See docs/SYNTHETIQ_FLUX_1_0_0_RELEASE.md."
       ]
     }
   ]
