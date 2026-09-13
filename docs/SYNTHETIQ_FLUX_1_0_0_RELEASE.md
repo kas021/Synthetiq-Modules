@@ -7,7 +7,9 @@ Existing beta users can update the same module; official AniKoto is unchanged.
 No app, account, backend or default-source changes.
 
 Only manifest branding, version, status, description and presentation changed.
-The supplied PNG is preserved unchanged as a versioned repository icon.
+The supplied artwork is downscaled to 256px for the repository's 256KB icon
+limit; the original user PNG is untouched. The initial publication stopped
+before asset/index publication on this size validation, then was corrected.
 
 Package SHA256: 395b9609be7e49f6b41046841756b5040ffeb074ce7b985f66b3c706ef83bb08.
 Byte-identical playback JS SHA256:
