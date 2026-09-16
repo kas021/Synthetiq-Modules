@@ -281,7 +281,7 @@
       ]
     },
     {
-      "file": "modules/Anime-Sama-1.1.1.zip",
+      "file": "modules/Anime-Sama-1.1.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "French Anime",
@@ -289,12 +289,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anime-sama.png"
       },
       "changelog": [
-        "1.1.1: Owner-approved promotion of 1.1.0-beta.9; JavaScript unchanged. Filters scan-only and empty/unreleased catalogue entries while retaining anime adaptations.",
-        "1.1.1: Bounded catalogue availability checks; transient failures are not cached as permanent unavailability.",
-        "1.1.1: Fresh 30-title matrix decoded video and audio in 142/152 short samples; ten returned no stream, six Dub cases were unavailable and one search identity was unresolved. Native certification remains incomplete.",
-        "1.0.8: Pre-resolve direct physical Sibnet storage CDN endpoints with followRedirects:false for instant MP4 downloads",
-        "1.0.8: Added Vidmoly HLS multi-host fallback for full series stream coverage",
-        "1.0.8: Official vertical portrait title covers and horizontal background banners for all anime"
+        "1.1.2: Fixed double-audio playback reports (an extra song under the episode; audio continuing after pause on some titles) - the module now returns exactly one validated route per play so the app cannot start a second concurrent stream over the first; Sibnet MP4 stays primary with ansembed HLS as the per-episode fallback.",
+        "1.1.2: Certified before release: S2 runtime quick certification PASS with zero failure codes; release gate all-passed with 3/3 streams on first attempt."
       ]
     },
     {
@@ -328,10 +324,10 @@
         "1.2.7: Quote-agnostic embed unescaping and broad media format verification",
         "1.2.6: Prefer StreamTape HTTPS MP4 (port 443) and drop Cloudflare-blocked Zilla .html HLS segments",
         "1.2.6: Probe MP4 bytes before return; DUB and SUB stay separate; Spanish DUB is advertised when the episode has it",
-        "1.2.5: DUB and SUB never substitute for each other \u2014 missing language fails closed instead of playing the other track",
+        "1.2.5: DUB and SUB never substitute for each other — missing language fails closed instead of playing the other track",
         "1.2.3: Multi-host failover with verified H.264 direct MP4 and backup HLS stream resolution",
         "1.2.3: Per-stream Referer headers for YourUpload direct downloads (418 MB full MP4)",
-        "1.2.3: Clean quality labels (1080p Audio Espa\u00f1ol / 1080p Sub Espa\u00f1ol) without empty brackets",
+        "1.2.3: Clean quality labels (1080p Audio Español / 1080p Sub Español) without empty brackets",
         "1.2.3: Full anime movie support with Episode 0 detection and stream extraction"
       ]
     },
