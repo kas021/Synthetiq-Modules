@@ -469,7 +469,7 @@
       ]
     },
     {
-      "file": "modules/Atsu-4.0.3.zip",
+      "file": "modules/Atsu-4.0.4.zip",
       "presentation": {
         "category": "Manga",
         "purpose": "Manga",
@@ -477,6 +477,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/atsu.png?v=20260812-2"
       },
       "changelog": [
+        "4.0.4: Fixed app-bridge compatibility (GET requests no longer carry an empty body) and added search pagination.",
+        "4.0.4: Cover art now prefers app-decodable WebP variants and all static assets load directly from the CDN host (atsu.moe/static redirect). Chapter pages keep the source's own format.",
+        "4.0.4: Verified through the real app runtime (home, search, details, chapters, page images and image download probes) on multiple titles.",
         "Bundle 80 certified release"
       ]
     },
