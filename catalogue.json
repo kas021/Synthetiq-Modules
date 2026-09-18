@@ -614,6 +614,114 @@
         "1.0.3: Added adaptive VixCloud HLS resolution with English SUB and verified Italian DUB routing",
         "1.0.3: Exposed provider subtitle and audio-track metadata while preserving required playback headers"
       ]
+    },
+    {
+      "file": "modules/MGRead-LikeManga-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mgread.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (mgread) with Player compatibility for search, details, chapters and page images."
+      ]
+    },
+    {
+      "file": "modules/MangaKatana-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mangakatana.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (mangakatana) with Player compatibility for search, details, chapters and page images."
+      ]
+    },
+    {
+      "file": "modules/MangaWorld-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "Italian",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mangaworld.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (mangaworld) with Player compatibility for search, details, chapters and page images."
+      ]
+    },
+    {
+      "file": "modules/Poseidon-Scans-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "French",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/poseidon-scans.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (poseidon-scans) with Player compatibility for search, details, chapters and page images."
+      ]
+    },
+    {
+      "file": "modules/Comic-Growl-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "Japanese",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/comicgrowl.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (comicgrowl) with Player compatibility for search, details, chapters and page images."
+      ]
+    },
+    {
+      "file": "modules/YSK-Comics-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yskcomics.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (yskcomics) with Player compatibility for search, details, chapters and page images."
+      ]
+    },
+    {
+      "file": "modules/Haikyuu-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/haikyuu.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (haikyuu) with Player compatibility for search, details, chapters and page images."
+      ]
+    },
+    {
+      "file": "modules/Black-Clover-Online-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/black-clover.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (black-clover) with Player compatibility for search, details, chapters and page images."
+      ]
+    },
+    {
+      "file": "modules/The-Beginning-After-The-End-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/beginning-after-the-end.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (beginning-after-the-end) with Player compatibility for search, details, chapters and page images."
+      ]
     }
   ]
 }
