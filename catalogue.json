@@ -626,6 +626,20 @@
       "changelog": [
         "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (mangakatana) with Player compatibility for search, details, chapters and page images."
       ]
+    },
+    {
+      "file": "modules/Alpha-Movies-0.2.0-beta.2.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Multi-source movies & TV (Beta)",
+        "recommended": false,
+        "language": "Original audio / any-language subtitles",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/alpha-movies.png?v=20260919-1"
+      },
+      "changelog": [
+        "0.2.0-beta.2: First public beta of the Alpha Movies engine - three independent stream sources (Vidrock + Videasy + Stream Unity) behind one pipeline; every play returns multiple validated servers so a dead link no longer dead-ends. Posters now load via a cached image resolver; alternate-language audio sources are surfaced (labelled after English) and multi-audio streams show their track languages. Not the default movie source - install alongside Synthetiq Movies.",
+        "Owner-approved public beta for all-user testing; device-side certification and full playback QA are intentionally ongoing. Playback reports welcome in the Discord support channels."
+      ]
     }
   ]
 }
