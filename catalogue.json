@@ -628,6 +628,18 @@
       ]
     },
     {
+      "file": "modules/MGRead-LikeManga-1.0.0.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Manga",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mgread.png?v=20260918-1"
+      },
+      "changelog": [
+        "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (mgread) with Player compatibility for search, details, chapters and page images."
+      ]
+    },
+    {
       "file": "modules/Alpha-Movies-0.2.0-beta.2.zip",
       "presentation": {
         "category": "Movies & TV",
