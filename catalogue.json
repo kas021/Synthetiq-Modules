@@ -638,6 +638,20 @@
       ]
     },
     {
+      "file": "modules/ColorizedManga-1.0.0-beta.1.zip",
+      "presentation": {
+        "category": "Manga",
+        "purpose": "Colorized Manga",
+        "recommended": false,
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/colorizedmanga.png?v=20260921-1"
+      },
+      "changelog": [
+        "1.0.0-beta.1: Initial public beta converted from the Colorized Manga source module for Synthetiq Player's image/manga reader contract.",
+        "Verified search, details, chapters, discovery feeds, ordered page images, and live reader image probes across One Piece, Naruto, Bleach, and Demon Slayer."
+      ]
+    },
+    {
       "file": "modules/Alpha-Movies-0.2.0-beta.2.zip",
       "presentation": {
         "category": "Movies & TV",
