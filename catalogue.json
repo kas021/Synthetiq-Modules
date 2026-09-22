@@ -677,7 +677,7 @@
       ]
     },
     {
-      "file": "modules/MovieDB-0.1.0-beta.8.zip",
+      "file": "modules/MovieDB-0.1.0-beta.9.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Fast one-call movie & TV streams (Beta)",
@@ -686,6 +686,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
       },
       "changelog": [
+        "0.1.0-beta.9: The player's server list now offers every verified route - the primary VidLove server plus live VidZen backups (Purstream / PlayIMDb) whenever the title has them, each independently validated. Server names now match the site's own naming (VidLove / VidZen) instead of internal source codes, and VidZen's relative server URLs resolve correctly.",
         "0.1.0-beta.8: First public beta of the MovieDB engine (moviedb.wiki) - one-call playback resolve: a single request returns the adaptive HLS stream plus every subtitle language the source carries (English first; up to 150+ tracks on some titles). Two independent stream providers with automatic failover and seven per-source variants; every resolve is byte-validated and a background prefetch starts playback instantly. Movies and full seasons/episodes with real paginated discovery feeds. Not the default movie source - install alongside Synthetiq Movies.",
         "Owner-approved public beta for all-user testing. Source-side notes: subtitle availability varies by title (some classics carry none) and can be momentarily flaky - the module retries automatically. Original audio; dubs are not labelled because the source does not carry them. Playback reports welcome in the Discord support channels."
       ]
