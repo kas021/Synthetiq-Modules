@@ -675,6 +675,20 @@
         "0.2.0-beta.2: First public beta of the Alpha Movies engine - three independent stream sources (Vidrock + Videasy + Stream Unity) behind one pipeline; every play returns multiple validated servers so a dead link no longer dead-ends. Posters now load via a cached image resolver; alternate-language audio sources are surfaced (labelled after English) and multi-audio streams show their track languages. Not the default movie source - install alongside Synthetiq Movies.",
         "Owner-approved public beta for all-user testing; device-side certification and full playback QA are intentionally ongoing. Playback reports welcome in the Discord support channels."
       ]
+    },
+    {
+      "file": "modules/MovieDB-0.1.0-beta.8.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Fast one-call movie & TV streams (Beta)",
+        "recommended": false,
+        "language": "Original audio / any-language subtitles",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
+      },
+      "changelog": [
+        "0.1.0-beta.8: First public beta of the MovieDB engine (moviedb.wiki) - one-call playback resolve: a single request returns the adaptive HLS stream plus every subtitle language the source carries (English first; up to 150+ tracks on some titles). Two independent stream providers with automatic failover and seven per-source variants; every resolve is byte-validated and a background prefetch starts playback instantly. Movies and full seasons/episodes with real paginated discovery feeds. Not the default movie source - install alongside Synthetiq Movies.",
+        "Owner-approved public beta for all-user testing. Source-side notes: subtitle availability varies by title (some classics carry none) and can be momentarily flaky - the module retries automatically. Original audio; dubs are not labelled because the source does not carry them. Playback reports welcome in the Discord support channels."
+      ]
     }
   ]
 }
