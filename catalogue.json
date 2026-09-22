@@ -111,7 +111,7 @@
       ]
     },
     {
-      "file": "modules/Anikage-1.1.1.zip",
+      "file": "modules/Anikage-1.1.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (SUB / DUB)",
@@ -120,6 +120,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikage.png"
       },
       "changelog": [
+        "1.1.2: Owner-approved public release — restored playback: the player host shipped an encrypted stream descriptor (now decrypted in-module, cross-verified), and segments are classified by bytes (the CDN serves real video behind .jpg/webp labels) instead of content-type.",
+        "1.1.2: Resolution/validation caches and request dedupe keep normal browsing inside the source's request budget; verified live — streams resolve, zero 429s, app-runtime playback passes.",
         "1.1.1: Owner-approved distribution of the unchanged testing package. Retains its beta label; not fully certified.",
         "1.1.1: Checked server alternatives, recovered source-provided subtitle links and marker metadata where available; stop provider cascades during rate limits.",
         "1.1.1: Long-distance seeks and downloads may remain slow. Some episodes fail resolution or decoding; audio-language and native seek certification remain incomplete. No app-code changes.",
