@@ -444,7 +444,7 @@
       ]
     },
     {
-      "file": "modules/WeebCentral-4.1.11.zip",
+      "file": "modules/WeebCentral-4.1.12.zip",
       "presentation": {
         "category": "Manga",
         "purpose": "Manga",
@@ -453,6 +453,7 @@
         "recommended": true
       },
       "changelog": [
+        "4.1.12: Owner-approved public release — series removed from the source now report an honest “currently unavailable” message (chapter list + details note) instead of a pointless retry prompt.",
         "4.1.11: Metadata-only Photo Recommended visibility and embedded logo fix. Content loading code unchanged.",
         "Restored complete chapter lists through the Flutter JavaScript runtime",
         "Keeps Home discovery on recently active titles with chapter-bearing exact IDs",
