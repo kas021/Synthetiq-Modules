@@ -135,7 +135,7 @@
       ]
     },
     {
-      "file": "modules/YFlix-1.1.1.zip",
+      "file": "modules/YFlix-1.1.2.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV Shows (HD Streams)",
@@ -144,6 +144,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yflix.png"
       },
       "changelog": [
+        "1.1.2: Owner-approved public release — titles that ship without artwork (e.g. upcoming 2026 films) no longer show the site's template logo; the real poster is resolved from each title's own page (cached, bounded). Playback code unchanged.",
         "1.1.1: Owner-approved public release — restored playback: the backup provider dropped TMDB ids, so lookups now use an exact title+year identity match (never substitutes a different film); subtitle tracks are forwarded as absolute URLs, deduped per language, all languages kept.",
         "1.1.1: Resolvers race so the first working source wins — a dead provider no longer delays playback (verified ~3.7s resolves with full subtitle sets).",
         "1.1.0: Owner-approved beta.1 source unchanged; fresh playback links, episode ID fixes and provider-specific server/caption metadata.",
