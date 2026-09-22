@@ -382,7 +382,7 @@
       ]
     },
     {
-      "file": "modules/ToonTales-3.0.0.zip",
+      "file": "modules/ToonTales-3.0.1.zip",
       "presentation": {
         "category": "Specialist",
         "purpose": "Cartoons",
@@ -390,6 +390,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/toontales.png?v=20260812-2"
       },
       "changelog": [
+        "3.0.1: Owner-approved public release — fixed instant failures on strict HTTP clients (bodyless GET requests no longer carry an empty-string body); catalogue + real MP4 playback verified through the app runtime.",
         "Bundle 80 certified release"
       ]
     },
