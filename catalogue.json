@@ -428,7 +428,7 @@
       ]
     },
     {
-      "file": "modules/MegaKino-1.1.1.zip",
+      "file": "modules/MegaKino-1.1.2.zip",
       "presentation": {
         "category": "Movies",
         "purpose": "German Movies & Series",
@@ -437,6 +437,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/megakino.png"
       },
       "changelog": [
+        "1.1.2: Owner-approved public release — followed the source's domain rotation and its new cookie-session gate; search results now expose href; the hero row respects the app's 8-item limit.",
         "1.1.1: Updated catalogue domain, preserved saved links, paginated feeds and server/quality choices",
         "Owner-approved promotion of beta.3; playback code unchanged. 30/30 short host AV samples passed",
         "Not fully certified: simulator no sound, S2 music-sample language flag, physical playback and full offline checks outstanding. See docs/MEGAKINO_1_1_1_RELEASE.md"
