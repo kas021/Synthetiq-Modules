@@ -588,7 +588,7 @@
       ]
     },
     {
-      "file": "modules/JustAnime-1.0.0.zip",
+      "file": "modules/JustAnime-1.0.1.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (SUB / DUB)",
@@ -596,6 +596,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/justanime.png"
       },
       "changelog": [
+        "1.0.1: Owner-approved public release — implemented the advertised discovery home (hero + Trending/Popular/Airing/Latest rows with feed pages) and fixed home cards missing artwork.",
         "1.0.0: Official JustAnime (justanime.to) comprehensive anime streaming catalogue with high-speed direct MP4 and HLS video playback",
         "1.0.0: Dual audio synchronization for SUB and DUB tracks across multiple resolvers (AnimeGG, AniNeko, MegaPlay)",
         "1.0.0: AniList metadata integration, rich synopsis, episode descriptions, and thumbnails",
