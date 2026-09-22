@@ -622,7 +622,7 @@
       ]
     },
     {
-      "file": "modules/MangaKatana-1.0.0.zip",
+      "file": "modules/MangaKatana-1.0.2.zip",
       "presentation": {
         "category": "Manga",
         "purpose": "Manga",
@@ -630,6 +630,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mangakatana.png?v=20260918-1"
       },
       "changelog": [
+        "1.0.2: Owner-approved public release — search works again (source burst-window pacing + retry), synopsis descriptions restored, home/feed section caps and pagination flags corrected.",
         "1.0.0: Initial release — converted from the Synthetiq Manga sources catalogue (mangakatana) with Player compatibility for search, details, chapters and page images."
       ]
     },
