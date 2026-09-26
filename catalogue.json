@@ -13,7 +13,7 @@
   "minAppVersion": "8.0.0",
   "modules": [
     {
-      "file": "modules/Synthetiq-Anime-1.0.2.zip",
+      "file": "modules/Synthetiq-Anime-1.0.4.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime",
@@ -26,6 +26,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-anime-1.0.2.png"
       },
       "changelog": [
+        "1.0.4: Vidhawk-independent AniKage rescue source (labelled; used only when the primary has no verified media), byte-first segment validation, probe byte-cap fix for in-app playback, fair provider sweep and stalled-request caps. Fixes the module being fully dark during the Vidhawk media-relay outage.",
+        "1.0.4: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue sources do not carry remain unavailable with an honest message.",
         "1.0.2: Owner-approved public promotion of 1.0.1-beta.5, with the supplied Synthetiq Anime artwork; playback JavaScript unchanged.",
         "Fresh provider links, available server alternatives, and provider captions with language labels.",
         "Short probes decoded 30/30 Sub and 29/30 Dub samples. These are not full-device playback or spoken-language certification.",
