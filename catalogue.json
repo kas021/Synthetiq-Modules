@@ -421,7 +421,7 @@
       ]
     },
     {
-      "file": "modules/MegaKino-1.1.2.zip",
+      "file": "modules/MegaKino-1.1.4.zip",
       "presentation": {
         "category": "Movies",
         "purpose": "German Movies & Series",
@@ -430,6 +430,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/megakino.png"
       },
       "changelog": [
+        "1.1.4: Search fixed — the source moved to a new domain and switched to GET-based search; the module now follows the current host safely and uses the new search format, with pagination. Searching for series and movies works again.",
+        "1.1.4: Session hardening against the source's cookie gate and domain rotation — a stale domain can no longer take the whole catalogue down.",
         "1.1.2: Owner-approved public release — followed the source's domain rotation and its new cookie-session gate; search results now expose href; the hero row respects the app's 8-item limit.",
         "1.1.1: Updated catalogue domain, preserved saved links, paginated feeds and server/quality choices",
         "Owner-approved promotion of beta.3; playback code unchanged. 30/30 short host AV samples passed",
