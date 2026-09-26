@@ -196,7 +196,7 @@
       ]
     },
     {
-      "file": "modules/One-Pace-3.0.5.zip",
+      "file": "modules/One-Pace-3.0.6.zip",
       "presentation": {
         "category": "Specialist",
         "purpose": "One Piece",
@@ -204,6 +204,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/one-pace.png?v=20260812-2"
       },
       "changelog": [
+        "3.0.6: Real episode still artwork from the source CDN replaces the onepace.net favicon on cards and details.",
+        "3.0.6: April Fools title deduplication; module sub/dub flags verified to mirror the source exactly (486/486, 0 mismatches) — the reported dub gaps (e.g. #166 → #219) are genuinely absent on the source site itself.",
         "3.0.5: Owner-approved promotion of 3.0.4-beta.1; playback code unchanged. Version advances past beta numbering for updater compatibility.",
         "CC routes are English Dub with Closed Captions, never a Japanese Sub fallback. Refresh expired list metadata and support parsed JSON responses.",
         "42/42 sampled quality routes decoded; 16/16 independent seek probes passed. Reported iPhone repeated-seek crash remains unresolved; native simulator build timed out before tests. See docs/ONE_PACE_3_0_5_QA.md.",
