@@ -35,3 +35,27 @@ labelled AniKage rescue chain in every Vidhawk-dependent module.
 - Release gate: ALL_PASSED 3/3 titles (`ts_media`) for both modules; Anikoto beta.3 certified earlier.
 - S2 quick app-runtime: stream + media decode OK, zero failure codes (Anime ~9.0 s, Flux ~1.7 s).
 - Baseline contrasts: old versions fail identically-or-worse in the same windows (empty streams).
+
+---
+
+## Batch 2 — held-candidate promotion (2026-09-26, owner: "publish to all users now")
+
+| Module | Old → New | Commit | ZIP | Certified SHA-256 |
+|---|---|---|---|---|
+| AnimeAV1 | 1.2.8 → 1.3.0-beta.3 | `dd7d6f8` | AnimeAV1-1.3.0-beta.3.zip | 570737ff97ca1bb29753162a4025c513e976f13bc57dabc05e044521cea68782 |
+| One Pace | 3.0.5 → 3.0.6 | `038c312` | One-Pace-3.0.6.zip | 9e2199589ede6aa5aeb6ebfa6cfd29543ddb04e224695d331327b86a50f08b25 |
+
+- Tag: `pre-av1-onepace-20260926` → `0565c90` (pushed before edits).
+- CI run `36248318014` — success. Post-publish: both release assets downloaded and SHA-256-matched
+  byte-for-byte; signed index entries carry signatures (minAppVersion 8.0.0).
+- Rollback: `git revert 038c312 dd7d6f8` → push; or `git reset --hard pre-av1-onepace-20260926` (force).
+
+### Excluded / unchanged
+
+- **TVApp-Live 0.1.0-beta.7** — excluded per owner instruction ("leave live tv out"); it was never in the
+  official catalogue and the live-TV experience needs app 9.0.0. Remains held at
+  `~/Desktop/standalone-tvapp-live/dist/TVApp-Live-0.1.0-beta.7.zip`
+  (SHA-256 `14f6484fc79f5277b401286dffcf12284cf797c4b77de2ed396d9c2963e7c6f6`).
+- Testing-catalogue side (kas021/Module-Testing-PL): commit `b05c5fb` — AnimeAV1 beta.3 retired (file
+  preserved); Anikoto / Synthetiq Anime / Synthetiq Flux candidates auto-retired to `_module_history/`
+  (production superseded); index = 7 candidates, bundle `Testing-83`.
