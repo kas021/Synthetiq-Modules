@@ -399,7 +399,7 @@
       ]
     },
     {
-      "file": "modules/Aniworld-1.3.1.zip",
+      "file": "modules/Aniworld-1.3.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "German Anime",
@@ -407,6 +407,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/aniworld.png?v=20260812-2"
       },
       "changelog": [
+        "1.3.2: German subtitles fixed — subtitle options are verified before they are listed (empty placeholder tracks are never offered), German sorts first, and the verified tracks are attached to every server, so the picker works on the stream that is playing. The German option no longer appears and disappears between attempts.",
+        "1.3.2: Filemoon added — the site's fourth server now resolves (German and English variants), so every episode offers more working servers when VidMoly or Vidhawk is struggling.",
         "1.3.1: Complete reliability certification pass across all platforms (100% / 150 checks passed across app-strict, mobile-ua, and desktop-ua). Verified VidMoly/VOE/Doodstream hoster racing with Vidhawk caption fallback.",
         "1.3.0: Reliability rebuild - concurrent host racing takes the first verified route; one smart retry with cooldowns; new Doodstream resolver. No longer depends on a single working host.",
         "1.3.0: Vidhawk caption fallback in Sub mode (German captions first where available) so episodes still play when German hosters are down; never offered as German dub.",
