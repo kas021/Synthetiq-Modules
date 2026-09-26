@@ -59,3 +59,32 @@ labelled AniKage rescue chain in every Vidhawk-dependent module.
 - Testing-catalogue side (kas021/Module-Testing-PL): commit `b05c5fb` — AnimeAV1 beta.3 retired (file
   preserved); Anikoto / Synthetiq Anime / Synthetiq Flux candidates auto-retired to `_module_history/`
   (production superseded); index = 7 candidates, bundle `Testing-83`.
+
+---
+
+## Batch 3 — German-module fixes (2026-09-26, owner: "if everything is good and all edge cases are tested publish")
+
+Immediate predecessor state: Anikoto 5.0.4-beta.4 + Aniworld 1.3.1 promoted minutes earlier in `a4e7a37`
+(bot-signed `4a9ee9d`). This batch supersedes Aniworld 1.3.1 — it keeps the live build's behaviour
+(including the `trending` discovery-feed alias) and adds the Filemoon server + the certified subtitle repair.
+
+| Module | Old → New | Commit | ZIP | Certified SHA-256 |
+|---|---|---|---|---|
+| Aniworld | 1.3.1 → 1.3.2 | `9399ed3` | Aniworld-1.3.2.zip | 0a56360b7e14e121d48fca5ec749f540751fd56c85852557efc279bc50ffd3ff |
+| MegaKino | 1.1.2 → 1.1.4 | `1af632b` | MegaKino-1.1.4.zip | 5a1770f0a9b5ba40dfe964121e0a46cfb3d5de2a27f75cdf2702f6723f88343d |
+
+- Tag: `pre-german-fixes-20260926` → `4a9ee9d` (pushed before edits).
+- CI run `36275385915` — success. Bot commit `060d9b5` (signed catalogue).
+- Post-publish verification: signed index entries (version + sha256 + non-empty signature, minAppVersion
+  8.0.0) AND both release assets downloaded (`module-aniworld-v1-v1.3.2`, `module-megakino-v1-v1.1.4`)
+  and SHA-256-matched byte-for-byte against the certified ZIPs.
+- Certification evidence: Aniworld 1.3.2 — S2 quick PASS (run `2026-09-26T22-05-02-902Z_s2_aniworld-v1_0a52a235`),
+  gate ALL_PASSED (3/3 titles, first attempt), fixtures 8/8 (Filemoon 3 incl. both fail-closed cases +
+  subtitle 5), FIPS-197 AES-256 vector + synthetic GCM round-trips + a live-captured payload decrypt,
+  live probe = 4 servers per episode (Vidmoly DE/EN + Filemoon DE Subs/EN Subs). MegaKino 1.1.4 —
+  S2 quick dub PASS (`2026-09-26T20-49-02-109Z_s2_megakino-v1_e8654777`), gate ALL_PASSED,
+  search regression 4/4 vs 3/4 fail on the frozen 1.1.2 baseline.
+- Rollback: single — `git revert 1af632b 9399ed3` → push (CI republishes the signed index pointing at
+  1.3.1 / 1.1.2 — old ZIPs stay in `modules/`, releases stay live); emergency — `git reset --hard
+  pre-german-fixes-20260926` + `git push --force-with-lease origin main`.
+- Superseded ZIPs kept: Aniworld 1.3.1 (live since 22:01Z), Aniworld 1.3.0, MegaKino 1.1.2.
