@@ -35,7 +35,7 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Flux-1.0.1.zip",
+      "file": "modules/Synthetiq-Flux-1.0.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Synthetiq Flux Anime",
@@ -48,10 +48,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-flux-1.0.0.png"
       },
       "changelog": [
-        "1.0.1: Metadata-only Recommended visibility fix for ZIP and repository installs. Playback JavaScript unchanged from 1.0.0.",
-        "1.0.0: Owner-approved release as Synthetiq Flux with supplied artwork. Formerly Anikoto 2 0.1.0-beta.7; playback JavaScript unchanged.",
-        "1.0.0: Independent anime catalogue and provider-direct playback with available server, quality and subtitle choices.",
-        "1.0.0: Previous exact-code S2 quick PASS; native device, full offline and broad audio-language certification remain incomplete. See docs/SYNTHETIQ_FLUX_1_0_0_RELEASE.md."
+        "1.0.2: Vidhawk-independent AniKage rescue source (labelled; used only when Vidhawk has no verified media), MegaPlay descriptor decrypt, byte-first validation with elevated probe caps, fair provider sweep and stalled-request caps. Fixes the module being fully dark during the Vidhawk media-relay outage.",
+        "1.0.2: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue sources do not carry remain unavailable with an honest message.",
+        "1.0.1: Metadata-only Recommended visibility fix for ZIP and repository installs. Playback JavaScript unchanged from 1.0.0."
       ]
     },
     {
