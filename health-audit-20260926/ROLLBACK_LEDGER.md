@@ -88,3 +88,32 @@ Immediate predecessor state: Anikoto 5.0.4-beta.4 + Aniworld 1.3.1 promoted minu
   1.3.1 / 1.1.2 — old ZIPs stay in `modules/`, releases stay live); emergency — `git reset --hard
   pre-german-fixes-20260926` + `git push --force-with-lease origin main`.
 - Superseded ZIPs kept: Aniworld 1.3.1 (live since 22:01Z), Aniworld 1.3.0, MegaKino 1.1.2.
+
+---
+
+## Batch 4 — Trio playback repairs (2026-09-27, owner: "ok publish moduels to all users anyways")
+
+Supersedes the newly published German batch's Anikoto generation (5.0.4-beta.4 → 5.0.5-beta.2) and the
+live Flux 1.0.2 / Anime 1.0.4. Root change: rescue routes now survive the released app's probe byte-cap
+(2 MB → 4 MB in-app hint), accept size-capped reachability as evidence, and prefer routes without
+player-broken segment names (`brokenRefs === 0`). AniKoto deadline 3000 → 5000 ms.
+
+| Module | Old → New | Commit | ZIP | Certified SHA-256 |
+|---|---|---|---|---|
+| Synthetiq Flux | 1.0.2 → 1.0.3-beta.4 | `ff46045` | Synthetiq-Flux-1.0.3-beta.4.zip | 0be9b5ff36ab62c77b5c4b902ac6aff8191dee2afcbd894c91cab14d847fc7bd |
+| Synthetiq Anime | 1.0.4 → 1.0.5-beta.2 | `5cc9982` | Synthetiq-Anime-1.0.5-beta.2.zip | 9f2e60c3b0284c26da5ffc9222d01047ca154b64b9d9570104ea39c1a0687bb4 |
+| Anikoto | 5.0.4-beta.4 → 5.0.5-beta.2 | `07faf4a` | Anikoto-5.0.5-beta.2.zip | 15e0637a91e856bf791a85ff04d26734d881e6164bf5ebe4d2273a9d6b73ad23 |
+
+- Tag: `pre-trio-publish-20260927` (pushed before edits). CI run `36281645746` — success. Bot commit `d28874a`.
+- Post-publish verification: signed index entries (new version + exact sha256 + non-empty signature) fetched via
+  the repo contents API, AND all three release assets downloaded and SHA-256-matched byte-for-byte.
+- Certification evidence: real Flutter app-runtime matrix 4/4 PASS on released 8.6 (`10613cc9`) — Flux sub 5.2 s,
+  Anime sub 9.1 s, AniKoto sub 2.5 s + dub 2.6 s (resolution + playability + download probe). S2 quick: Flux PASS,
+  Anime PASS, Anikoto PARTIAL with zero failure codes (quick profile). Node `--test` suites 21/21 in-repo.
+- Known limitation (not module-fixable): mid-play freeze on iOS/iPadOS/macOS/Windows when proxied providers serve
+  `.html`-disguised segment refs — released app `/segment.mp4` dispatch defect; app-side fix exists in the app
+  worktree (commit `f94816f2`, owner lane, NOT shipped). Android unaffected.
+- Rollback: `git revert 07faf4a 5cc9982 ff46045` → push (CI republishes the signed index pointing at the
+  previous versions; old ZIPs stay in `modules/`); emergency — `git reset --hard pre-trio-publish-20260927`
+  + `git push --force-with-lease origin main`.
+- Superseded ZIPs kept: Flux 1.0.2, Anime 1.0.4, Anikoto 5.0.4-beta.4.
