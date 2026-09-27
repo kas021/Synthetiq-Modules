@@ -86,7 +86,7 @@
       ]
     },
     {
-      "file": "modules/Anikoto-5.0.4-beta.4.zip",
+      "file": "modules/Anikoto-5.0.5-beta.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -95,13 +95,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png?v=20260812-2"
       },
       "changelog": [
+        "5.0.5-beta.2: Restores stream resolution on the current rescue CDN routes (Sub and Dub). Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), extending the resolution deadline (3s to 5s), accepting size-capped reachability, and preferring routes without player-broken segment names. Subtitle tracks unchanged; verified on the released app runtime and S2.",
         "5.0.4-beta.4: Fixed random skipping during playback (disguised .html segments mapped and served as genuine MPEG-TS video/mp2t). AES-CBC player stream descriptor decrypt support, improved fallback rate-limit handling, and normalized subtitle language tags.",
         "5.0.4-beta.3: Vidhawk-independent AniKage rescue chain (labelled; used only when the primary has no verified media), MegaPlay descriptor decrypt fix, MAL-keyed rescue lookups, subtitle language tags. Fixes titles that went dark during the Vidhawk media-relay outage.",
-        "5.0.4-beta.3: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue chain does not carry remain unavailable with an honest message.",
-        "5.0.2: Owner-approved promotion of 5.0.1-beta.3 with unchanged playback JavaScript. Version advances past beta numbering for existing app updater compatibility.",
-        "5.0.2: Fresh exact-episode fallback routes, fake-stream rejection, bounded lookups, checked quality choices and source captions/markers.",
-        "5.0.2: 30-title probe: 52 available Sub/Dub cases resolved, 51 decoded first attempt; the remaining case decoded on a fresh retry. Eight unavailable Dub requests were correctly rejected.",
-        "5.0.2: Native phone certification remains incomplete. An automated Dub opening-audio flag remains documented despite later English dialogue evidence. No app-side retry or lifecycle changes. See docs/ANIKOTO_5_0_2_RELEASE_QA.md."
+        "5.0.4-beta.3: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue chain does not carry remain unavailable with an honest message."
       ]
     },
     {
