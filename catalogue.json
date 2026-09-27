@@ -325,7 +325,7 @@
       ]
     },
     {
-      "file": "modules/AnimeAV1-1.3.0-beta.3.zip",
+      "file": "modules/AnimeAV1-1.3.0-beta.4.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Spanish Anime",
@@ -333,11 +333,12 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"
       },
       "changelog": [
+        "1.3.0-beta.4: Playback restored after the site rotated its server lineup — adds UPNShare and Voe as first-class hosts so episodes keep resolving from the site itself.",
+        "1.3.0-beta.4: Independent rescue chain (EchoVideo / MegaPlay) now starts in parallel with the site hosts — if the site hosts and the previous fallback are down, the module still finds a verified stream instead of failing.",
+        "1.3.0-beta.4: Every offered server is byte-verified (real media segments) before it is shown, and dead relays are skipped in milliseconds.",
         "1.3.0-beta.3: Reject the unplayable port-183 MP4Upload route in every runtime — the previous guard used the browser URL global, absent in-app and in the default test runner, so the route could still slip through and stall SUB playback (the reported One Piece S1E351 SUB failure).",
         "1.3.0-beta.3: Labelled multi-language subtitle backbone failover for SUB mode with positive segment validation and real caption languages forwarded (English first); site hosts remain primary.",
-        "1.3.0-beta.3: Per-host cooldowns honouring 429/403 and Retry-After; wider positive media classes (TS sync without content-type, PNG-wrapped TS, wider fMP4 set).",
-        "1.2.8: Reject non-standard port 183 MP4Upload URLs that cause 60-second player timeouts on mobile/iOS",
-        "1.2.8: High-speed multi-source Spanish anime fallback with seekable HLS and multi-language subtitle tracks"
+        "1.3.0-beta.3: Per-host cooldowns honouring 429/403 and Retry-After; wider positive media classes (TS sync without content-type, PNG-wrapped TS, wider fMP4 set)."
       ]
     },
     {
