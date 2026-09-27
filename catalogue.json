@@ -5,8 +5,7 @@
   "enabled": true,
   "defaultModules": {
     "video": "anikoto-v4",
-    "image": "weebcentral-v2",
-    "music": "synthetiq-music-gateway-v1"
+    "image": "weebcentral-v2"
   },
   "bundleVersion": 127,
   "bundleFile": "bundles/Synthetiq-Module-Bundle-127.zip",
@@ -503,27 +502,6 @@
         "4.0.4: Cover art now prefers app-decodable WebP variants and all static assets load directly from the CDN host (atsu.moe/static redirect). Chapter pages keep the source's own format.",
         "4.0.4: Verified through the real app runtime (home, search, details, chapters, page images and image download probes) on multiple titles.",
         "Bundle 80 certified release"
-      ]
-    },
-    {
-      "moduleId": "synthetiq-music-gateway-v1",
-      "moduleFamilyId": "synthetiq_music_gateway",
-      "moduleIdentity": "SP-MUS-3006-MUSIC-GATEWAY",
-      "moduleIdentityNumber": 3006,
-      "contentType": "music",
-      "version": "1.4.3",
-      "file": "modules/Synthetiq-Music-Gateway-1.4.3.zip",
-      "sha256": "990cb4e7c5cb6ee90252a29c069a4b4165e6761e30e821b77d3bb8980eaa859f",
-      "presentation": {
-        "category": "Music",
-        "purpose": "Music search, playback and Smart Radio",
-        "recommended": true,
-        "language": "Multi-language"
-      },
-      "changelog": [
-        "Owner-approved public promotion of the exact iPhone-tested Gateway 1.4.3 package; package bytes and stable source identity unchanged.",
-        "Exact-artist search, paginated songs/releases and source-owned album navigation.",
-        "Strict recording matching and source suggestions. Availability depends on the upstream provider."
       ]
     },
     {
