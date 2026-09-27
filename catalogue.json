@@ -86,7 +86,7 @@
       ]
     },
     {
-      "file": "modules/AniPM-0.1.0-beta.2.zip",
+      "file": "modules/AniPM-0.1.0-beta.3.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (AniPM)",
@@ -99,6 +99,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anipm.png?v=20260927-1"
       },
       "changelog": [
+        "0.1.0-beta.3: Fixes from owner testing - subtitles now load in the player on every platform (the AniPM engine's own caption files are unreachable for the app's downloader, so the reachable English caption set now serves both engines and the caption menu works whichever server you pick). The home page is now a full browse experience: a Featured row plus paginated rows and an endless All Anime grid backed by the full 8,900+ title catalogue.",
         "0.1.0-beta.2: First public release of the AniPM engine (ani.pm) - English anime with search, home feed and full episode lists (Sub/Dub flags on every episode). Two playback engines with server switcher: AniPM - adaptive-quality streams with English captions and opening/ending skip markers; MegaPlay - backup server. The module picks a reachable engine automatically per device. Certified: house tester 26/26, real app-runtime Sub+Dub pass, S2 quick Grade PASS.",
         "Owner-approved all-user release. Notes: the AniPM engine serves iOS/iPadOS; other platforms resolve on MegaPlay automatically. A known app-side mid-play issue on some desktop platforms is being fixed in the app itself; Android and iOS playback are complete."
       ]
