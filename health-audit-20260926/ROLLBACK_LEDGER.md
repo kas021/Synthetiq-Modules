@@ -117,3 +117,31 @@ player-broken segment names (`brokenRefs === 0`). AniKoto deadline 3000 → 5000
   previous versions; old ZIPs stay in `modules/`); emergency — `git reset --hard pre-trio-publish-20260927`
   + `git push --force-with-lease origin main`.
 - Superseded ZIPs kept: Flux 1.0.2, Anime 1.0.4, Anikoto 5.0.4-beta.4.
+
+---
+
+## Batch 5 — AniPM first public release (2026-09-27, owner: "publish for me to check now to all suers")
+
+First publish of `anipm-v1` (ani.pm English anime engine — the AniKoto reliability alternative the owner
+asked for). New module: nothing superseded; identity `SP-VID-084-ANIPM` provisioned per publish approval.
+
+| Module | Old → New | Commit | ZIP | Certified SHA-256 |
+|---|---|---|---|---|
+| AniPM | (new) → 0.1.0-beta.2 | `3a6313e` | AniPM-0.1.0-beta.2.zip | a64f63ff8a932947e79b63f3eec4e36a844d25f83104a2007176471e1e83f8a0 |
+
+- Tag: `pre-anipm-publish-20260927` (pushed before edits). CI run `36284353463` — success. Bot commit `b5533ec`.
+- Post-publish verification: signed index entry fetched (moduleId `anipm-v1`, version `0.1.0-beta.2`, exact
+  sha256, non-empty signature, `packageUrl` release asset), release asset downloaded and SHA-256-matched
+  byte-for-byte, icon URL (`assets/module-icons/anipm.png?v=20260927-1`) live HTTP 200 `image/png`.
+- Certification evidence (final bytes): unit suites 18/18; house tester 26/26 PASS; real app-runtime Sub+Dub
+  legs ALL PASS on released 8.6 (playability 206, download probe walked playlist — 45,045 bytes,
+  `hlsHasSegments:true`); S2 quick Grade PASS, failureCodes `[]` (run `2026-09-27T00-53-37-326Z_s2_anipm-v1_eb33bb43`).
+  Report: `dev_assets/modules/_development/anipm-v1/HERMES-ANIPM-2026-09-27.md` (+ `~/Downloads` copy).
+- Architecture: ani.pm-native API; dual engines — AniPM (settlar; iOS/iPadOS — Cloudflare client asymmetry
+  detected and skipped elsewhere) + MegaPlay backup (all platforms; nexabloom media). Extensionless media
+  URLs; per-track Referer headers on caption tracks.
+- Known limitation (app-side, shared with Batch 4 trio): macOS/Windows mid-play proxy `.html`-ref defect
+  (`f94816f2`, owner lane, NOT shipped). Android/iOS playback complete.
+- Rollback: `git revert 3a6313e` → push (CI republishes the signed index without the module; ZIP stays in
+  `modules/`); emergency — `git reset --hard pre-anipm-publish-20260927` + `git push --force-with-lease origin main`.
+- Superseded ZIPs kept: none (first release).
