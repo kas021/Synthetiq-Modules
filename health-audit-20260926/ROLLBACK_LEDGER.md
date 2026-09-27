@@ -175,3 +175,32 @@ subtitles in any Sub or Dub mode). Module-side only; beta.2 history untouched.
 - Rollback: `git revert 49d7c15` → push (index republishes pointing back at beta.2; both ZIPs remain in
   `modules/`); emergency — `git reset --hard pre-anipm-b3-publish-20260927` + `git push --force-with-lease origin main`.
 - Superseded ZIPs kept: AniPM-0.1.0-beta.2.zip (still in `modules/`, never deleted).
+
+## Batch 7 — AnimeAV1 1.3.0-beta.4 source-host rescue (2026-09-27, owner-approved: "Yes — publish AnimeAV1 1.3.0-beta.4 to all users now")
+
+Owner report: "ok Anime AV1 why isnt it working rn". Live diagnosis: the site rotated its embed lineup to
+UPNShare (animeav1.uns.bio) + Voe while beta.3 implemented only MP4Upload (correctly rejected as the
+unplayable port-183 class) + the Vidhawk fallback — and the Vidhawk relay is in a 502 outage (fresh
+tickets confirm: race/play 200, every proxy track 502). Every resolution ended
+"AnimeAV1 SUB hosts could not provide verified media" (<1 s), reproduced on One Piece ep1 + ep351.
+
+| Module | Old → New | Commit | ZIP | Certified SHA-256 |
+|---|---|---|---|---|
+| AnimeAV1 | 1.3.0-beta.3 → 1.3.0-beta.4 | `f9c824f` | AnimeAV1-1.3.0-beta.4.zip | 3b039a10a2952569bb879d6a18ca9f979ccdc53cbfecfe72dd3a2241b0fc6175 |
+
+- Tag: `pre-av1-b4-publish-20260927` (pushed before edits). CI run `36357558443` — success. Bot commit `e9ba4b3`.
+- Post-publish verification: signed index entry (version `1.3.0-beta.4`, exact sha256, non-empty signature,
+  `packageUrl` release asset `module-animeav1-v1-v1.3.0-beta.4`); release asset downloaded and
+  SHA-256-matched byte-for-byte.
+- Fix contents: site hosts UPNShare + Voe added; independent AniKage (EchoVideo / MegaPlay) rescue starts
+  concurrently with the site hosts; byte-first validation retained; dead relays skipped fast.
+- Certification evidence (final bytes): house tester 31/31 PASS; release gate ALL_PASSED
+  ("READY FOR OWNER DEVICE TEST", queries One Piece / Jujutsu Kaisen / Solo Leveling); S2 quick Grade PASS,
+  failureCodes `[]` (run `2026-09-27T22-43-50-998Z_s2_animeav1-v1_fac172d5`); app-runtime SUB (One Piece)
+  + DUB (Solo Leveling) all-pass incl. playability + download probe.
+- Registry: AnimeAV1 was missing from `dev_assets/modules/module_registry.json` — added as entry #45
+  (`SP-VID-060-ANIMEAV1`, family `animeav1_v1`) with the certified ZIP staged at
+  `dev_assets/modules/AnimeAV1-1.3.0-beta.4.zip`.
+- Rollback: `git revert f9c824f` → push (index republishes pointing back at beta.3; both ZIPs remain in
+  `modules/`); emergency — `git reset --hard pre-av1-b4-publish-20260927` + `git push --force-with-lease origin main`.
+- Superseded ZIPs kept: AnimeAV1-1.3.0-beta.3.zip (still in `modules/`, never deleted).
