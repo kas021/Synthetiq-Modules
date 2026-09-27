@@ -149,3 +149,29 @@ asked for). New module: nothing superseded; identity `SP-VID-084-ANIPM` provisio
   `presentation.recommended` flipped to `true` and the entry repositioned directly above Anikoto
   (`c13dde4`, CI `36284582964`, bot `be14021`). Presentation-only — same certified bytes (`a64f63ff…`).
   Rollback of this ordering change: `git revert c13dde4` → push.
+
+## Batch 6 — AniPM 0.1.0-beta.3 defect fixes (2026-09-27, owner-approved: "Yes — publish AniPM 0.1.0-beta.3 to all users now")
+
+Fix build for the two owner-reported defects on the live 0.1.0-beta.2 (no endless scroll on home; no
+subtitles in any Sub or Dub mode). Module-side only; beta.2 history untouched.
+
+| Module | Old → New | Commit | ZIP | Certified SHA-256 |
+|---|---|---|---|---|
+| AniPM | 0.1.0-beta.2 → 0.1.0-beta.3 | `49d7c15` | AniPM-0.1.0-beta.3.zip | 610acac3d6ce301623f462c4d5a90d9bce9cc81a2b8931fe1575c746fed25311 |
+
+- Tag: `pre-anipm-b3-publish-20260927` (pushed before edits). CI run `36285666590` — success. Bot commit `27f0033`.
+- Post-publish verification: signed index entry fetched (moduleId `anipm-v1`, version `0.1.0-beta.3`, exact
+  sha256, non-empty signature, `packageUrl` release asset `module-anipm-v1-v0.1.0-beta.3`); release asset
+  downloaded and SHA-256-matched byte-for-byte; catalogue position re-verified (AniPM index 4, directly
+  above Anikoto index 5, `recommended:true` kept).
+- Fixes: (1) `discovery_v1` capability — Featured hero + paginated rows + endless "All Anime" grid via
+  `/api/anime/catalog` (8,955 titles / ~299 pages); legacy `search('')` home kept as fallback. (2) captions —
+  settlar's `media.settlar.io` caption URLs 403 every non-NSURLSession client and outranked the reachable
+  MegaPlay set; the reachable set (per-track Referer headers) is now preferred top-level and mirrored onto
+  the settlar route.
+- Certification evidence (final bytes): unit suites 20/20; house tester 30/30 PASS (incl. discovery legs);
+  app-runtime Sub+Dub ALL PASS on released 8.6 (subtitles:1 live, playability 206, playlist walked); S2
+  quick Grade PASS, failureCodes `[]` (run `2026-09-27T01-19-27-322Z_s2_anipm-v1_8660221b`).
+- Rollback: `git revert 49d7c15` → push (index republishes pointing back at beta.2; both ZIPs remain in
+  `modules/`); emergency — `git reset --hard pre-anipm-b3-publish-20260927` + `git push --force-with-lease origin main`.
+- Superseded ZIPs kept: AniPM-0.1.0-beta.2.zip (still in `modules/`, never deleted).
