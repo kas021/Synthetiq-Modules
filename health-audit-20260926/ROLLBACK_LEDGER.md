@@ -145,3 +145,7 @@ asked for). New module: nothing superseded; identity `SP-VID-084-ANIPM` provisio
 - Rollback: `git revert 3a6313e` → push (CI republishes the signed index without the module; ZIP stays in
   `modules/`); emergency — `git reset --hard pre-anipm-publish-20260927` + `git push --force-with-lease origin main`.
 - Superseded ZIPs kept: none (first release).
+- Update (same day, owner: "push the new module AniPM to recommended above Anikoto for now"): catalogue
+  `presentation.recommended` flipped to `true` and the entry repositioned directly above Anikoto
+  (`c13dde4`, CI `36284582964`, bot `be14021`). Presentation-only — same certified bytes (`a64f63ff…`).
+  Rollback of this ordering change: `git revert c13dde4` → push.
