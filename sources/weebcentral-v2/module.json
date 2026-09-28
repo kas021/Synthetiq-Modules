@@ -1,0 +1,48 @@
+{
+  "id": "weebcentral-v2",
+  "name": "WeebCentral",
+  "contentType": "image",
+  "contractVersion": 4,
+  "moduleVersion": "4.1.13",
+  "moduleFamilyId": "weebcentral-v2",
+  "moduleIdentity": "SP-IMG-1004-WEEBCENTRAL",
+  "moduleIdentityNumber": 1004,
+  "releaseTrack": "stable",
+  "config": {
+    "runtime": {
+      "entry": "index.js",
+      "mode": "local"
+    },
+    "capabilities": {
+      "discovery_v1": true
+    },
+    "caps": {
+      "homeMaxResults": 30,
+      "maxResponseBytes": 5242880,
+      "timeoutMs": 30000,
+      "maxConcurrentRequests": 4
+    },
+    "baseUrl": "https://weebcentral.com",
+    "legacyModuleIds": [
+      "weebcentral"
+    ],
+    "supportsEpisodeMarkers": false,
+    "markerCatalog": "none",
+    "presentation": {
+      "category": "Manga",
+      "purpose": "Manga",
+      "language": "English",
+      "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/weebcentral.png?v=20260812-2",
+      "recommended": true
+    }
+  },
+  "description": "Version 4.1.13 - Preserves complete chapter lists and the source's chapter, special, and volume order.",
+  "moduleStatus": "active",
+  "presentation": {
+    "category": "Manga",
+    "purpose": "Manga",
+    "language": "English",
+    "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/weebcentral.png?v=20260812-2",
+    "recommended": true
+  }
+}

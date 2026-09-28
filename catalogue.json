@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 128,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-128.zip",
+  "bundleVersion": 129,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-129.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -455,7 +455,7 @@
       ]
     },
     {
-      "file": "modules/WeebCentral-4.1.12.zip",
+      "file": "modules/WeebCentral-4.1.13.zip",
       "presentation": {
         "category": "Manga",
         "purpose": "Manga",
@@ -464,6 +464,7 @@
         "recommended": true
       },
       "changelog": [
+        "4.1.13: Fixes chapter order on titles using #, Episode, or Collar labels, including To Your Eternity. Preserves WeebCentral's newest-first order for chapters, specials, and volumes.",
         "4.1.12: Owner-approved public release — series removed from the source now report an honest “currently unavailable” message (chapter list + details note) instead of a pointless retry prompt.",
         "4.1.11: Metadata-only Photo Recommended visibility and embedded logo fix. Content loading code unchanged.",
         "Restored complete chapter lists through the Flutter JavaScript runtime",
