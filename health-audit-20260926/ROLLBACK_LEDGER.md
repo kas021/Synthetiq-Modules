@@ -204,3 +204,22 @@ tickets confirm: race/play 200, every proxy track 502). Every resolution ended
 - Rollback: `git revert f9c824f` → push (index republishes pointing back at beta.3; both ZIPs remain in
   `modules/`); emergency — `git reset --hard pre-av1-b4-publish-20260927` + `git push --force-with-lease origin main`.
 - Superseded ZIPs kept: AnimeAV1-1.3.0-beta.3.zip (still in `modules/`, never deleted).
+
+## Batch 8 — Mugiwara 1.1.0-beta.5: app-side playback fix + catalogue repair (2026-09-28, owner-approved: "ok fix and send to users")
+- Published: Mugiwara-1.1.0-beta.5.zip — supersedes live 1.0.4 (zip kept in `modules/`). Certified SHA
+  `be79e89310c221091d52c7cc7aaf15ba5aeda2a7b87a74fe9ea66d45901be857`; release asset byte-verified equal.
+- Commit `fac5026` + signer bot `f58e203`; tag `pre-mugiwara-b5-publish-20260928`; CI run `36477750265` success.
+- Cause (proven in the app runtime): Sibnet's 302 Location is protocol-relative (`//dv97…`); live 1.0.4 accepted
+  only `https://` (the tester's node-fetch normalizes it to absolute, masking the defect) so the app received the
+  UNRESOLVED router URL and the reachability leg timed out (`TimeoutException`, Monster ep1). beta.5 accepts both
+  forms, resolves against the base URL, and byte-verifies each route before returning it.
+- Also in beta.5: One Piece 61 → 1,220 episodes; `imageHeaders` (poster-403 class); Special A seasons; film
+  aliases; full-catalogue home feed (1,234 titles).
+- Certification: house PASS; release gate ALL_PASSED (live 1.0.4 FAILS the same gate — special-a 0 eps, One Piece
+  61, dandadan 12); module regressions 16/16; app-runtime Sub+Dub ALL PASS; S2 standard GRADE PASS zero failure
+  codes (run `2026-09-28T20-05-14-324Z_s2_mugiwara-v1_f7224a96`; simulator video advanced, audio-device caveat).
+- Registry: `dev_assets/modules/module_registry.json` mugiwara-v1 → `1.1.0-beta.5` (was stale at 1.0.0).
+- Rollback: `git revert fac5026` → push (index republishes to 1.0.4; both ZIPs remain in `modules/`); emergency —
+  `git reset --hard pre-mugiwara-b5-publish-20260928` + `git push --force-with-lease origin main`.
+- Known open (owner reports, NOT fixed by beta.5 — app-lifecycle class): duplicate playback after background/resume;
+  frozen frame after language-switch resume.
