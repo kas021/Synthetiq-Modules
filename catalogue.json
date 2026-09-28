@@ -577,7 +577,7 @@
       ]
     },
     {
-      "file": "modules/Mugiwara-1.0.4.zip",
+      "file": "modules/Mugiwara-1.1.0-beta.5.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "French Anime",
@@ -585,6 +585,12 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/mugiwara.png"
       },
       "changelog": [
+        "1.1.0-beta.5: Playback fixed — Sibnet links are now resolved to the final signed video URL on every platform, so episodes that previously spun and never loaded now play.",
+        "1.1.0-beta.5: One Piece expanded to its full 1,200+ episode list (was capped at 61), including arcs, specials and alternate cuts.",
+        "1.1.0-beta.5: Home banners and poster artwork fixed — featured images no longer fail to load.",
+        "1.1.0-beta.5: Special A seasons and film titles now resolve correctly.",
+        "1.1.0-beta.5: Home feed rebuilt on the full catalogue (1,200+ titles) with endless paging.",
+        "1.1.0-beta.5: Every offered server is verified (real video bytes) before it is shown; dead mirrors are skipped instantly.",
         "1.0.4: Restored missing titles across entire 1200+ catalogue in search and browse (e.g. Orb: On the Movements of the Earth)",
         "1.0.4: Restored all anime poster cover images using official Mugiwara static CDN",
         "1.0.4: Added Ansembed 1080p Master HLS stream fallback for removed Sibnet videos (e.g. Dan Da Dan)",
