@@ -223,3 +223,17 @@ tickets confirm: race/play 200, every proxy track 502). Every resolution ended
   `git reset --hard pre-mugiwara-b5-publish-20260928` + `git push --force-with-lease origin main`.
 - Known open (owner reports, NOT fixed by beta.5 — app-lifecycle class): duplicate playback after background/resume;
   frozen frame after language-switch resume.
+
+## Batch 9 — Bundle 128 rebuild: repository-import crash unblock (2026-09-28; owner "you fix it")
+
+- Published: `bundles/Synthetiq-Module-Bundle-128.zip` (41 modules at current signed versions, sha
+  `7cd209ee6cb29438ef4978bc356b9446b26d2bffd9c7e7dfabd67839fc4ab3db`); `catalogue.json` `bundleVersion 127 → 128`.
+- Commit `6af1355` → CI `36492937828` success → signed bot commit `027a474`; release `bundle-128` live (public).
+- Verification: live index `bundle.version=128` + sha match; release asset byte-equal; skip-predicate 41/41 —
+  the app's refresh loop performs ZERO writes for fresh imports (crash path not entered; AniPM/Alpha Movies now inside).
+- Context: users' "Repository import failed during installation: Unsupported operation: Cannot modify an unmodifiable
+  list" — the app's repository-import refresh loop (`_installCurrentRepositoryEntries`, writes at L693/695) mutates the
+  `List.unmodifiable` handed via `onImported` (producer L297, consumer L564) whenever the bootstrap bundle lags the
+  index. Bundle 128 removes the live trigger; app-side 1-line fix queued for Codex.
+- ROLLBACK: do NOT `git revert 6af1355` — `build_repository.mjs` REJECTS bundle-version downgrades. Roll FORWARD
+  (rebuild + bump to a higher number), or revert catalogue+bundle together only with a higher-numbered rebuilt bundle.
