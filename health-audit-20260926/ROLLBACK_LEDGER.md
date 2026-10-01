@@ -237,3 +237,24 @@ tickets confirm: race/play 200, every proxy track 502). Every resolution ended
   index. Bundle 128 removes the live trigger; app-side 1-line fix queued for Codex.
 - ROLLBACK: do NOT `git revert 6af1355` — `build_repository.mjs` REJECTS bundle-version downgrades. Roll FORWARD
   (rebuild + bump to a higher number), or revert catalogue+bundle together only with a higher-numbered rebuilt bundle.
+
+## Batch 10 — Retire 4 modules: Ev01, YASTREAM, Latanime, STCine (Bundle 130) (2026-10-01; owner: "can you do that… disable… code still exist")
+
+- Published: catalogue entries removed for `modules/Ev01-1.0.4.zip`, `modules/YASTREAM-1.0.0.zip`,
+  `modules/Latanime-1.0.4.zip`, `modules/STCine-1.1.1.zip`; `bundleVersion 129 → 130`; new
+  `bundles/Synthetiq-Module-Bundle-130.zip` (37 modules, sha256
+  `b0a383a945baeefaeba0dd60f5ca4b841bad84f0a78859bf7c3a5459675b8d47`, 508,000 B).
+- Commit `fb83a41` → CI `36902832618` success → signed bot commit `4bf97f7` (+ auto tag `bundle-130`);
+  tag `pre-retire-bundle130-20261001` marks the pre-retire state.
+- Reason (evidence in `module-reports/catalogue-trim-review/HERMES-CATALOGUE-TRIM-2026-10-01.md`):
+  Ev01 source = HTTP 451 (legal block); YASTREAM search returns 0 for every query; Latanime source
+  down (503 from two networks); STCine redundant (same last-mile family as YFlix/X-Stream).
+- Verification (live): signed index `bundle.version=130` + sha match; raw catalogue 37 modules, no
+  retired entries; release asset byte-equal; retired module release assets remain live (HTTP 206)
+  and all four ZIPs remain in `modules/` (immutable, re-listing = one-line edit + bundle roll-forward).
+  **StreamingUnity 1.0.4 RETAINED** (owner-directed keep + improve; v1.1.0 labeling spec in the report).
+- User effect: retired modules disappear from browse for fresh installs and drop out of future bundles;
+  existing installs keep working (nothing uninstalls them).
+- ROLLBACK: do NOT plain-revert (`build_repository.mjs` rejects bundle downgrades). Roll FORWARD:
+  re-add the four catalogue entries + bump bundle (131) + rebuild + push. Pre-retire tag:
+  `pre-retire-bundle130-20261001`.
