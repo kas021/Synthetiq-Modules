@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 129,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-129.zip",
+  "bundleVersion": 130,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-130.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -197,21 +197,6 @@
       ]
     },
     {
-      "file": "modules/YASTREAM-1.0.0.zip",
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Asian Movies & TV (Beta)",
-        "recommended": false,
-        "language": "Original audio / Subtitles",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yastream.png"
-      },
-      "changelog": [
-        "1.0.0 beta: YASTREAM Asian catalogues, search, details, episodes, HLS streams and subtitles.",
-        "Flutter runtime and sampled live extraction verified. Full playback certification remains incomplete; device feedback requested.",
-        "Original audio with subtitles; dubbed streams are not supported."
-      ]
-    },
-    {
       "file": "modules/One-Pace-3.0.6.zip",
       "presentation": {
         "category": "Specialist",
@@ -263,20 +248,6 @@
         "Explicit provider servers and quality choices with source-specific subtitles and headers",
         "Fix singleton-provider retries and expire cached video links; retain media and language gates",
         "QA: 27/30 short host AV samples; S2 PARTIAL. Three coverage gaps and incomplete physical audio/offline checks remain. See docs/XSTREAM_1_3_1_RELEASE.md"
-      ]
-    },
-    {
-      "file": "modules/STCine-1.1.1.zip",
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Movies & TV",
-        "language": "English",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/stcine.png?v=20260812-2"
-      },
-      "changelog": [
-        "Paginated discovery, complete season mapping and bounded provider resolution.",
-        "Server/quality choices preserve source headers and multilingual captions.",
-        "Owner-approved promotion of beta.3 with unchanged JavaScript: 28/30 short host AV probes; S2 PARTIAL. Physical sound, full offline playback and quality-switch caption behavior remain unverified."
       ]
     },
     {
@@ -342,21 +313,6 @@
       ]
     },
     {
-      "file": "modules/Latanime-1.0.4.zip",
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Spanish & Catalan Anime",
-        "language": "Spanish / Catalan",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/latanime.png"
-      },
-      "changelog": [
-        "1.0.4: Fix title artwork and lazy episode thumbnails; expose resolved server alternatives with their own headers",
-        "Preserves Spanish/Catalan dubbed routes and legacy stream fields; does not substitute unavailable Sub audio",
-        "Owner-approved limited release: 23/30 short AV decodes passed; five HTTP-resolution failures and two CDN timeouts remain",
-        "Boruto simulator playback, seeking and pause passed; browser-only fallback and full offline playback remain unverified"
-      ]
-    },
-    {
       "file": "modules/Kartoons-1.1.6.zip",
       "presentation": {
         "category": "Cartoons",
@@ -398,20 +354,6 @@
       "changelog": [
         "3.0.1: Owner-approved public release — fixed instant failures on strict HTTP clients (bodyless GET requests no longer carry an empty-string body); catalogue + real MP4 playback verified through the app runtime.",
         "Bundle 80 certified release"
-      ]
-    },
-    {
-      "file": "modules/Ev01-1.0.4.zip",
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Movies",
-        "language": "English",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/ev01.png?v=20260812-2"
-      },
-      "changelog": [
-        "Added Synthetiq One English subtitle fallback for supported TMDB titles",
-        "Preserved verified media and download routes",
-        "Handles parsed JSON consistently in the Flutter module runtime"
       ]
     },
     {
