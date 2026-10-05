@@ -649,6 +649,20 @@
         "0.1.0-beta.8: First public beta of the MovieDB engine (moviedb.wiki) - one-call playback resolve: a single request returns the adaptive HLS stream plus every subtitle language the source carries (English first; up to 150+ tracks on some titles). Two independent stream providers with automatic failover and seven per-source variants; every resolve is byte-validated and a background prefetch starts playback instantly. Movies and full seasons/episodes with real paginated discovery feeds. Not the default movie source - install alongside Synthetiq Movies.",
         "Owner-approved public beta for all-user testing. Source-side notes: subtitle availability varies by title (some classics carry none) and can be momentarily flaky - the module retries automatically. Original audio; dubs are not labelled because the source does not carry them. Playback reports welcome in the Discord support channels."
       ]
+    },
+    {
+      "file": "modules/CimaClub-1.0.0.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Arabic subtitled movies, series and anime",
+        "recommended": false,
+        "language": "Arabic (subtitled)",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/cimacub.png?v=20261005-1"
+      },
+      "changelog": [
+        "1.0.0: First release of the CimaClub engine (w.cimacub.com) - Arabic subtitled movies, series and anime. The catalogue is read straight from the site's own WordPress API (search, newest-episode home rows and a paged feed), so titles and posters come from the source itself. Playback follows each episode's watch page to its MixDrop servers and resolves the player's signed mp4 url per play - those links expire in about four hours, so nothing is cached, and the mirror list cascades automatically until a live one answers. Not the default movie source; install alongside your others.",
+        "Owner-approved public release for all-user testing. Source-side notes: some mirror links are already dead at the host and get skipped automatically, and the alternative DoodStream servers sit behind a bot wall so they are not offered. Subtitles on this site are burned into the source video. Playback reports welcome in the Discord support channels."
+      ]
     }
   ]
 }
