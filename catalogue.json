@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 130,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-130.zip",
+  "bundleVersion": 131,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-131.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
