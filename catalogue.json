@@ -633,7 +633,7 @@
       ]
     },
     {
-      "file": "modules/CimaClub-1.0.0.zip",
+      "file": "modules/CimaClub-1.1.0.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Arabic subtitled movies, series and anime",
@@ -642,6 +642,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/cimacub.png?v=20261005-1"
       },
       "changelog": [
+        "1.1.0: Much faster home screen (the newest row and the three themed rows now load together instead of one after another: measured 8.4s -> 1.3s), plus verified server handling. Only the mirror family that can actually deliver video is offered: the site's DoodStream servers sit behind a bot wall, and its cybervynx servers were traced to playlists filled with ad images rather than video, so they are skipped instead of showing an option that cannot play. Source-side note: individual mirrors often go dead at the host - those episodes report honestly that no link is available rather than playing nothing.",
         "1.0.0: First release of the CimaClub engine (w.cimacub.com) - Arabic subtitled movies, series and anime. The catalogue is read straight from the site's own WordPress API (search, newest-episode home rows and a paged feed), so titles and posters come from the source itself. Playback follows each episode's watch page to its MixDrop servers and resolves the player's signed mp4 url per play - those links expire in about four hours, so nothing is cached, and the mirror list cascades automatically until a live one answers. Not the default movie source; install alongside your others.",
         "Owner-approved public release for all-user testing. Source-side notes: some mirror links are already dead at the host and get skipped automatically, and the alternative DoodStream servers sit behind a bot wall so they are not offered. Subtitles on this site are burned into the source video. Playback reports welcome in the Discord support channels."
       ]
