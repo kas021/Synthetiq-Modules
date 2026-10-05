@@ -63,3 +63,41 @@ testing. New module, so this is an **append** publish (not update-in-place): ide
 3. **Emergency full revert to pre-publish state:**
    `git reset --hard pre-cimacub-publish-20261005 && git push --force-with-lease origin main`
    (last resort — the house route is roll-forward).
+
+---
+
+# CimaClub 1.0.0 → 1.1.0 (2026-10-05, same day)
+
+Owner report: an episode failed with "This source could not provide a working video link", and the home
+screen was slow. Both investigated at the module boundary.
+
+- Published: `modules/CimaClub-1.1.0.zip` replaces 1.0.0 in `catalogue.json` (same identity
+  `SP-VID-287-CIMACLUB`, lineage untouched); `bundleVersion 133 → 134`.
+- Commits: `c44b576` (module + catalogue), `9ae533d` (bundle 134); tag `pre-cimacub-1.1.0-20261005`.
+- Certified bytes: sha256 `68a47a7dcc475c37427ca665409157bceb8903b55682e7aa2e41b2b59db252b3`; gate
+  ALL_PASSED (Package/Home/Search/Details PASS, Streams 2/2 `mp4_bytes`).
+- Changed: home rows load in parallel (8.4 s → 1.3 s measured); DoodStream (Cloudflare bot wall) and
+  cybervynx (playlists carrying TikTok ad PNGs, verified segment-level) are no longer offered.
+- Superseded ZIPs kept: `modules/CimaClub-1.0.0.zip` stays in place (rollback = catalogue edit).
+- ROLLBACK: re-point the entry at `CimaClub-1.0.0.zip` and roll the bundle FORWARD (135); a plain
+  revert of `9ae533d` alone is rejected by the bundle downgrade check.
+
+## Coverage evidence for 1.1.0
+
+8 titles × 4 sampled episodes (first/second/middle/last), 2026-10-05:
+
+| show | episodes | sampled result |
+|---|---|---|
+| four hands two sonatas | 12 | ep1✗ ep2✗ ep7✓ ep12✓ |
+| a love other than yours | 6 | ep1✓ ep2✓ ep4✓ ep6✓ |
+| anna pigeon | 9 | ep1✗ ep2✗ ep5✗ ep9✓ |
+| the ordinary jackpot | 8 | ep1✓ ep2✓ ep5✓ ep8✗ |
+| one piece (window) | 2 | ep1✓ ep2✓ |
+| gayong | 1 | ep1✓ |
+| detective conan | 14 | ep1202✗ ep1203✗ ep1209✗ ep1215✓ |
+| the batman | 1 | ep1✗ |
+
+**14/24 sampled episodes resolve (58%).** A failing episode was verified by hand: all three MixDrop
+mirrors deleted at the host (`/f/<ref>` → "File not found", no `wurl`), DoodStream bot-walled,
+cybervynx ad-stuffed → no playable source exists for that episode.
+
