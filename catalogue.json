@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 131,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-131.zip",
+  "bundleVersion": 132,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-132.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -64,24 +64,6 @@
       "changelog": [
         "Added the Fastest catalogue label",
         "Runtime remains unchanged from 1.2.9"
-      ]
-    },
-    {
-      "file": "modules/Synthetiq-Movies-1.2.5.zip",
-      "presentation": {
-        "category": "Movies & TV",
-        "purpose": "Most Reliable Movies",
-        "recommended": true,
-        "language": "English",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-movies.png?v=20260818-1"
-      },
-      "changelog": [
-        "1.2.5: Owner-approved beta.5 playback code promoted unchanged",
-        "English StreamUnity routing with available server alternatives",
-        "Cinejoy-first subtitles with Wyzie fallback and bounded on-demand caching",
-        "Available Arabic and other subtitle languages appear in the normal player list",
-        "Reject obvious non-English script mismatches in English subtitle candidates",
-        "Background cross-provider 4K enrichment is not included"
       ]
     },
     {
