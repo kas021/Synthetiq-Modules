@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 137,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-137.zip",
+  "bundleVersion": 138,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-138.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Flux-1.0.3-beta.4.zip",
+      "file": "modules/Synthetiq-Flux-1.0.3-beta.5.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Synthetiq Flux Anime",
@@ -47,6 +47,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-flux-1.0.0.png"
       },
       "changelog": [
+        "1.0.3-beta.5: Fixes episodes that loaded slowly and then failed with \"no verified playable source\". The provider needs 17-45s to answer the FIRST (cold) call for an episode and sometimes never answers, while the next call for the same episode is instant - so the play path now asks twice (both servers in parallel, 9s cap per round, 19s budget) instead of giving up after one 10s round. Cold episodes now play via the labelled AniKage rescue; warm episodes are unchanged. Catalogue, subtitles, quality labels and language isolation untouched.",
+        "1.0.3-beta.5: Verified: gate ALL_PASSED (one piece 1180 episodes, attack on titan 25, streams 2/2 real TS media); house tester PASSED with 0 warnings; cold episode measured playable at 18.0s.",
         "1.0.3-beta.4: Restores stream resolution on the current rescue CDN routes. Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), accepting size-capped reachability, and preferring routes without player-broken segment names. Sub/Dub and subtitles unchanged; verified on the released app runtime and S2.",
         "1.0.2: Vidhawk-independent AniKage rescue source (labelled; used only when Vidhawk has no verified media), MegaPlay descriptor decrypt, byte-first validation with elevated probe caps, fair provider sweep and stalled-request caps. Fixes the module being fully dark during the Vidhawk media-relay outage.",
         "1.0.2: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue sources do not carry remain unavailable with an honest message."
