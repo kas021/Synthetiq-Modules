@@ -657,7 +657,7 @@
         "Owner-approved public release for all-user testing. Source-side notes: some mirror links are already dead at the host and get skipped automatically, and the alternative DoodStream servers sit behind a bot wall so they are not offered. Subtitles on this site are burned into the source video. Playback reports welcome in the Discord support channels."
       ]    },
     {
-      "file": "modules/Anime4up-1.0.0-beta.9.zip",
+      "file": "modules/Anime4up-1.0.0-beta.10.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Arabic Anime",
@@ -670,8 +670,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anime4up.png?v=20261006-1"
       },
       "changelog": [
-        "1.0.0-beta.9: Fixes episodes that ended with no playable servers. The module read JSON responses through text(), and the app runtime returns an EMPTY text() for JSON (the parsed value is only exposed through json()) - so every Share4Max mirror list was lost, and only the HTML-based hosts could ever play. JSON is now read through json(); the Share4Max payload parser also accepts both payload shapes, and its phase is bounded to 9s so it cannot spend the whole episode budget.",
-        "1.0.0-beta.9: Verified on 6 live Share4Max shares (6/6 resolve after the fix, 0/6 before; avg 4.5s), 20/20 offline parser checks, 2,000 real episode URLs accepted. Community-built module, first catalogue release.",
+        "1.0.0-beta.10: Fixes episodes that ended with no playable servers. The module read JSON responses through text(), and the app runtime returns an EMPTY text() for JSON (the parsed value is only exposed through json()) - so every Share4Max mirror list was lost, and only the HTML-based hosts could ever play. JSON is now read through json(); the Share4Max payload parser also accepts both payload shapes, and its phase is bounded to 9s so it cannot spend the whole episode budget.",
+        "1.0.0-beta.10: Identity assigned SP-VID-101-ANIME4UP (number 101; 100 belongs to Synthetiq-One in the video range - the signed pipeline rejects duplicates). Community module, first catalogue release.",
+        "1.0.0-beta.10: Verified on 6 live Share4Max shares (6/6 resolve after the fix, 0/6 before; avg 4.5s), 20/20 offline parser checks, 2,000 real episode URLs accepted. Community-built module, first catalogue release.",
         "1.0.0-beta.8: Community build - Arabic anime catalogue from anime4up with Share4Max mirror resolution prioritised for direct playback."
       ]
     }
