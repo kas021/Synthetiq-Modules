@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 136,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-136.zip",
+  "bundleVersion": 137,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-137.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -485,7 +485,7 @@
       ]
     },
     {
-      "file": "modules/Shahiid-2.1.1.zip",
+      "file": "modules/Shahiid-2.1.2.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Arabic Anime",
@@ -493,6 +493,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/shahiid.png"
       },
       "changelog": [
+        "2.1.2: Long series now enumerate to the end of a season (direct page walk, batched, up to ~1240 episodes with a 12s budget) instead of stopping at 500 - One Piece went from 530 to 860 reachable episodes in 13.3s, and the tail episode (1180) plays.",
+        "2.1.2: Film/landing entries that live under /seasons/ but carry no player now return an empty list with a log line instead of throwing, so they no longer surface as a broken screen.",
+        "2.1.2: Search ranks single specials, films and OVA reels below real seasons, so searching a long show no longer opens a one-episode special first.",
+        "2.1.2: Release gate ALL_PASSED (Package/Home/Search/Details/Streams 3/3); house tester PASS 28 / FAIL 0. Arabic sub/dub isolation and the player chain are unchanged.",
         "2.1.1: Home opens show catalogues instead of individual episodes; fixes long-list pagination and special episode mapping",
         "2.1.1: Adds server choices, truthful quality labels, poster parsing and short-lived repeated-search caching",
         "2.1.1: Owner-approved release with known upstream unavailable episodes; see docs/SHAHIID_2_1_1_RELEASE.md",
