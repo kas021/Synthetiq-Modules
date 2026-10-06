@@ -1,0 +1,304 @@
+{
+  "runId": "2026-10-06T15-27-33-336Z_s2_xstream-v1_6f1754fd",
+  "grade": "PARTIAL",
+  "failureCodes": [],
+  "runtimeOk": true,
+  "media": [
+    {
+      "label": "first",
+      "ok": true,
+      "failureCodes": []
+    },
+    {
+      "label": "middle",
+      "ok": true,
+      "failureCodes": []
+    },
+    {
+      "label": "latest",
+      "ok": true,
+      "failureCodes": []
+    }
+  ],
+  "simulator": {
+    "ok": true,
+    "observedMs": 126836,
+    "checkpoints": [
+      {
+        "status": "error",
+        "positionMs": 6297,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 11344,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 22731,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 27777,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 32782,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 37829,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 42834,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 47839,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 52886,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 57891,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 62896,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 67942,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 72947,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 77952,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 82999,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 88004,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 93009,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 98056,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 103061,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 108066,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 113113,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 118118,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 123123,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      },
+      {
+        "status": "error",
+        "positionMs": 128128,
+        "durationMs": 2709077,
+        "playing": true,
+        "buffering": false,
+        "error": "Could not open/initialize audio device -> no sound."
+      }
+    ],
+    "final": {
+      "status": "error",
+      "positionMs": 133258,
+      "durationMs": 2709077,
+      "playing": true,
+      "buffering": false,
+      "error": "Could not open/initialize audio device -> no sound."
+    }
+  },
+  "simulatorOk": true,
+  "language": [
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "subtitle",
+      "detected": "unknown",
+      "skipped": true,
+      "contradiction": false
+    },
+    {
+      "kind": "audio",
+      "detected": "en",
+      "skipped": false,
+      "contradiction": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "moviedb-wiki-v1",
+  "name": "MovieDB",
+  "contentType": "video",
+  "contractVersion": 4,
+  "moduleVersion": "0.1.0-beta.12",
+  "moduleFamilyId": "moviedb_wiki_v1",
+  "moduleIdentity": "SP-VID-083-MOVIEDB",
+  "moduleIdentityNumber": 83,
+  "releaseTrack": "beta",
+  "moduleStatus": "trial",
+  "description": "MovieDB movies and TV with provider server choices, available subtitles, fresh-link retries and media-response checks. Availability and quality vary by title and provider. Public beta for all-user testing; not every quality or device workflow is certified. Playback reports are welcome in Discord.",
+  "presentation": {
+    "category": "Movies & TV",
+    "purpose": "Movies & TV Shows — fast multi-source streams",
+    "recommended": false,
+    "language": "Original audio",
+    "languages": [
+      "sub"
+    ]
+  },
+  "config": {
+    "language": "English",
+    "contentLanguage": "en",
+    "contentRegion": "US",
+    "contentType": "video",
+    "presentation": {
+      "category": "Movies & TV",
+      "purpose": "Movies & TV Shows — fast multi-source streams",
+      "recommended": false,
+      "language": "Original audio",
+      "languages": [
+        "sub"
+      ]
+    },
+    "capabilities": {
+      "discovery_v1": true
+    },
+    "runtime": {
+      "entry": "index.js",
+      "mode": "local"
+    },
+    "caps": {
+      "homeMaxResults": 40,
+      "maxResponseBytes": 5242880,
+      "timeoutMs": 30000,
+      "maxConcurrentRequests": 4
+    },
+    "baseUrl": "https://www.moviedb.wiki",
+    "streamHeaders": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "Referer": "https://player.vidlove.cc/"
+    }
+  },
+  "version": "0.1.0-beta.12"
+}

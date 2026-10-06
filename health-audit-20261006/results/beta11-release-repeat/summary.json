@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-06T15:26:02.309Z",
+  "zip": "MovieDB-0.1.0-beta.11.zip",
+  "sha256": "a47b14eb297cdb88f08c2ee88cc50609c78811d31f53ccc78646c8974ad09a81",
+  "mode": "repeat",
+  "corpusSha256": "0bd1a52006837099d6e8bc7eddd520fdf9fa2cc1e08a564709aef1f2db0c7f35",
+  "execution": "local-mac; no distributed workers used in this release-preparation run",
+  "scope": "triage, not full distributed certification",
+  "summary": {
+    "titles": 4,
+    "exactSearch": 4,
+    "details": 4,
+    "artwork": 4,
+    "episodeLists": 4,
+    "sampledEpisodes": 8,
+    "resolvedFirst": 8,
+    "decodedAttempts": 24,
+    "decodedPassed": 24,
+    "titleAllSampledResolved": 4,
+    "titleAllSampledDecoded": 4
+  }
+}

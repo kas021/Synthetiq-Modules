@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 134,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-134.zip",
+  "bundleVersion": 135,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-135.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "file": "modules/X-Stream-1.3.2.zip",
+      "file": "modules/X-Stream-1.3.3.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -226,7 +226,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
       },
       "changelog": [
-        "1.3.2: Fixes a cold-start stall that could surface a resolved title as \"no working video link\" - the module now returns the first VERIFIED route instead of waiting for every provider to exhaust its retry budget, and the per-provider timeouts were retuned (measured cold resolve on the same title: 15.6s -> 3.3s). JavaScript only; servers, routes and identity unchanged.",
+        "1.3.3: Fixes Fresh Retry getting stuck after earlier provider failures; prevents stale requests overwriting refreshed links; respects provider cooldowns. Keeps 1.3.2's faster verified-route startup.",
+        "Stricter film and season matching avoids substituting a different title or episode. Availability and quality still depend on the providers; this update does not make every title playable.",
+        "Owner-approved reliability release. Automated runtime and decoder evidence is recorded in the release notes; physical-device acceptance and full language certification remain incomplete.",
         "Explicit provider servers and quality choices with source-specific subtitles and headers",
         "Fix singleton-provider retries and expire cached video links; retain media and language gates",
         "QA: 27/30 short host AV samples; S2 PARTIAL. Three coverage gaps and incomplete physical audio/offline checks remain. See docs/XSTREAM_1_3_1_RELEASE.md"
@@ -618,7 +620,7 @@
       ]
     },
     {
-      "file": "modules/MovieDB-0.1.0-beta.9.zip",
+      "file": "modules/MovieDB-0.1.0-beta.12.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Fast one-call movie & TV streams (Beta)",
@@ -627,7 +629,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
       },
       "changelog": [
-        "0.1.0-beta.9: The player's server list now offers every verified route - the primary VidLove server plus live VidZen backups (Purstream / PlayIMDb) whenever the title has them, each independently validated. Server names now match the site's own naming (VidLove / VidZen) instead of internal source codes, and VidZen's relative server URLs resolve correctly.",
+        "0.1.0-beta.12: Verified backup servers can start playback without waiting for a stalled primary; resolution and optional subtitle waits are bounded. Fresh retries bypass stale and failed cache entries, and obsolete requests cannot overwrite newer results. Invalid media responses and broken quality routes are skipped; headers and subtitles stay attached to their own route.",
+        "Quality labels follow available manifest dimensions, not invented qualities. Provider labels and availability can still be inaccurate. Automated decoder samples passed; not every advertised quality or physical-device workflow is certified.",
         "0.1.0-beta.8: First public beta of the MovieDB engine (moviedb.wiki) - one-call playback resolve: a single request returns the adaptive HLS stream plus every subtitle language the source carries (English first; up to 150+ tracks on some titles). Two independent stream providers with automatic failover and seven per-source variants; every resolve is byte-validated and a background prefetch starts playback instantly. Movies and full seasons/episodes with real paginated discovery feeds. Not the default movie source - install alongside Synthetiq Movies.",
         "Owner-approved public beta for all-user testing. Source-side notes: subtitle availability varies by title (some classics carry none) and can be momentarily flaky - the module retries automatically. Original audio; dubs are not labelled because the source does not carry them. Playback reports welcome in the Discord support channels."
       ]

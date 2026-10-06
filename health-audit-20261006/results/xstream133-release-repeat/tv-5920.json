@@ -1,0 +1,2177 @@
+{
+  "id": 5920,
+  "kind": "tv",
+  "title": "The Mentalist",
+  "module": "xstream-v1",
+  "version": "1.3.3",
+  "sha256": "63534f4b3a4a5e2bd15c4e1ddefd96fc20cc2009ea1eb851bc46c34d3c0a7148",
+  "at": "2026-10-06T15:26:39.060Z",
+  "steps": {
+    "search": {
+      "ok": true,
+      "count": 4,
+      "ms": 58,
+      "error": "",
+      "classification": "EXACT_ID"
+    },
+    "details": {
+      "ok": true,
+      "ms": 188,
+      "error": "",
+      "description": true
+    },
+    "artwork": {
+      "ok": true,
+      "status": 200
+    },
+    "episodes": {
+      "ok": true,
+      "count": 151,
+      "ms": 962,
+      "error": ""
+    }
+  },
+  "network": [
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 56
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 94
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 61
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 164
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 279
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 205
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 307
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 39
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 68
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 195
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 89
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 177
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 736
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 265
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 97
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 13
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 630
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 102
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 169
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 118
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 17
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 2318
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 73
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 45
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 629
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 96
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 12
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 115
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 104
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 36
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 642
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 107
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 32
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 100
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "host": "one.synthetiq.uk",
+      "status": 200,
+      "ms": 75
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 26
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 137
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 164
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 10
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 98
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 303
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 66
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 46
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 155
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 102
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 602
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 95
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 13
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 171
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 207
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 564
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 97
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 163
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 111
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 22
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 564
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 94
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 12
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 2315
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 32
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 562
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 35
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 107
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 111
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 51
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 40
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 122
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "host": "one.synthetiq.uk",
+      "status": 200,
+      "ms": 80
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 97
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 109
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 13
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 158
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 75
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 206
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 41
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 186
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 141
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 648
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 106
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 98
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 30
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 221
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 635
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 102
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 97
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 99
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 13
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 2120
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 551
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 110
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 15
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 40
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 30
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 24
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 692
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 71
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 103
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 34
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 104
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 46
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "host": "one.synthetiq.uk",
+      "status": 200,
+      "ms": 168
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 29
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 149
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 149
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 127
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 11
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 43
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 296
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 128
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 212
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 600
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 123
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 94
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 16
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 219
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 625
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 95
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 105
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 105
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 14
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 2183
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 648
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 191
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 92
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 12
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 169
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 128
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 80
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 104
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 535
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 101
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 192
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 56
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 157
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 112
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 50
+    },
+    {
+      "host": "one.synthetiq.uk",
+      "status": 200,
+      "ms": 271
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 25
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 108
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 17
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 116
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 209
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 93
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 78
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 111
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 569
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 140
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 88
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 103
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 13
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 155
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 219
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 560
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 98
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 150
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 98
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 11
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 520
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 101
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 11
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 2318
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 53
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 57
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 571
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 40
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 106
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 153
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 148
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 105
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 80
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 126
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 120
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 96
+    },
+    {
+      "host": "one.synthetiq.uk",
+      "status": 200,
+      "ms": 59
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 100
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 112
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 20
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 128
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 67
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 225
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 50
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 205
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 102
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 663
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 159
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 97
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 16
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 221
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 583
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 138
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 99
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 99
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 14
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 563
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 104
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 14
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 2247
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 131
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 52
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 42
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 28
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 614
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 106
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 68
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 100
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 54
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 61
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 37
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 25
+    },
+    {
+      "host": "one.synthetiq.uk",
+      "status": 200,
+      "ms": 63
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 43
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 101
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 64
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 11
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 131
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 329
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 147
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 491
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 154
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 95
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 14
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 912
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 224
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 569
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 119
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 95
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 102
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 1335
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 97
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 129
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 15
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 137
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 66
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 148
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 541
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 93
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 15
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 480
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 96
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 187
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 885
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 181
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 211
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 414
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 61
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 78
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 152
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 139
+    },
+    {
+      "host": "one.synthetiq.uk",
+      "status": 200,
+      "ms": 71
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 88
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 156
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 97
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 358
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 371
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 50
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 296
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 122
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 93
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 172
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 709
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 224
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 237
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 97
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 14
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 625
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 102
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 171
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 1540
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 56
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 107
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 14
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 94
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 70
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 179
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 635
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 100
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 69
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 13
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 168
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 88
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 562
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 185
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 96
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 12439
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 111
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 108
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 49
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 167
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 137
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 1453
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 54
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 60
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 234
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 141
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 600
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 197
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 90
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 8244
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 2208
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 2027
+    },
+    {
+      "host": "one.synthetiq.uk",
+      "status": 200,
+      "ms": 59
+    },
+    {
+      "host": "api.themoviedb.org",
+      "status": 200,
+      "ms": 115
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 122
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 129
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 40
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 87
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 222
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 41
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 216
+    },
+    {
+      "host": "api.speedracelight.com",
+      "status": 502,
+      "ms": 98
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 646
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 180
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 92
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 17
+    },
+    {
+      "host": "moviesapi.to",
+      "status": 200,
+      "ms": 313
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 575
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 118
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 100
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 14146
+    },
+    {
+      "host": "www.lookmovie2.to",
+      "status": 200,
+      "ms": 1399
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 57
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 96
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 20
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 55
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 69
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 288
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 521
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 51
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 200,
+      "ms": 95
+    },
+    {
+      "host": "goodstream.cc",
+      "status": 403,
+      "ms": 17
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 64
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 99
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 77
+    },
+    {
+      "host": "srv321.choosed.cyou",
+      "status": 200,
+      "ms": 51
+    },
+    {
+      "host": "goodstream.one",
+      "status": 200,
+      "ms": 612
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 138
+    },
+    {
+      "host": "one.synthetiq.uk",
+      "status": 200,
+      "ms": 226
+    },
+    {
+      "host": "dl.vidzee.wtf",
+      "status": 404,
+      "ms": 705
+    }
+  ],
+  "matchedTitle": "The Mentalist",
+  "samples": [
+    {
+      "index": 0,
+      "season": 1,
+      "episode": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "fresh": false,
+          "coldContext": false,
+          "ok": true,
+          "ms": 4438,
+          "error": "",
+          "qualities": [
+            "480p"
+          ],
+          "route": {
+            "host": "srv321.choosed.cyou",
+            "fingerprint": "4296333e296b8315"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 854,
+                "height": 480
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "data",
+                "codec": "timed_id3"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 1,
+          "fresh": true,
+          "coldContext": true,
+          "ok": true,
+          "ms": 4493,
+          "error": "",
+          "qualities": [
+            "480p"
+          ],
+          "route": {
+            "host": "srv321.choosed.cyou",
+            "fingerprint": "9a15529d5f3d0429"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 854,
+                "height": 480
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "data",
+                "codec": "timed_id3"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 2,
+          "fresh": true,
+          "coldContext": false,
+          "ok": true,
+          "ms": 4256,
+          "error": "",
+          "qualities": [
+            "480p"
+          ],
+          "route": {
+            "host": "srv321.choosed.cyou",
+            "fingerprint": "6f5bb1c12a9c0100"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 854,
+                "height": 480
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "data",
+                "codec": "timed_id3"
+              }
+            ],
+            "error": ""
+          }
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "season": 4,
+      "episode": 6,
+      "attempts": [
+        {
+          "attempt": 0,
+          "fresh": false,
+          "coldContext": false,
+          "ok": true,
+          "ms": 4440,
+          "error": "",
+          "qualities": [
+            "480p"
+          ],
+          "route": {
+            "host": "srv321.choosed.cyou",
+            "fingerprint": "f6d04a907fcaa192"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 854,
+                "height": 480
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "data",
+                "codec": "timed_id3"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 1,
+          "fresh": true,
+          "coldContext": true,
+          "ok": true,
+          "ms": 4525,
+          "error": "",
+          "qualities": [
+            "480p"
+          ],
+          "route": {
+            "host": "srv321.choosed.cyou",
+            "fingerprint": "d7bb823b151b1964"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 854,
+                "height": 480
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "data",
+                "codec": "timed_id3"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 2,
+          "fresh": true,
+          "coldContext": false,
+          "ok": true,
+          "ms": 4315,
+          "error": "",
+          "qualities": [
+            "480p"
+          ],
+          "route": {
+            "host": "srv321.choosed.cyou",
+            "fingerprint": "76434411f368700d"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 854,
+                "height": 480
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "data",
+                "codec": "timed_id3"
+              }
+            ],
+            "error": ""
+          }
+        }
+      ]
+    },
+    {
+      "index": 150,
+      "season": 7,
+      "episode": 13,
+      "attempts": [
+        {
+          "attempt": 0,
+          "fresh": false,
+          "coldContext": false,
+          "ok": true,
+          "ms": 7284,
+          "error": "",
+          "qualities": [
+            "480p"
+          ],
+          "route": {
+            "host": "srv321.choosed.cyou",
+            "fingerprint": "a1cd4809c3a77ed0"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 720
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "data",
+                "codec": "timed_id3"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 1,
+          "fresh": true,
+          "coldContext": true,
+          "ok": true,
+          "ms": 13949,
+          "error": "",
+          "qualities": [
+            "480p"
+          ],
+          "route": {
+            "host": "srv321.choosed.cyou",
+            "fingerprint": "bc130cc6c7ecea0b"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 720
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "data",
+                "codec": "timed_id3"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 2,
+          "fresh": true,
+          "coldContext": false,
+          "ok": true,
+          "ms": 3691,
+          "error": "",
+          "qualities": [
+            "480p"
+          ],
+          "route": {
+            "host": "srv321.choosed.cyou",
+            "fingerprint": "66b604c81504bacf"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 720
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "data",
+                "codec": "timed_id3"
+              }
+            ],
+            "error": ""
+          }
+        }
+      ]
+    }
+  ]
+}

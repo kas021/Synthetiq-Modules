@@ -1,0 +1,410 @@
+{
+  "id": 550,
+  "kind": "movie",
+  "title": "Fight Club",
+  "module": "moviedb-wiki-v1",
+  "version": "0.1.0-beta.12",
+  "sha256": "8d2d1f840805ae283795cfd446199ac8f1df82f98c8dadcfe766c210b1a240d8",
+  "at": "2026-10-06T15:33:19.584Z",
+  "steps": {
+    "search": {
+      "ok": true,
+      "count": 18,
+      "ms": 364,
+      "error": "",
+      "classification": "EXACT_ID"
+    },
+    "details": {
+      "ok": true,
+      "ms": 120,
+      "error": "",
+      "description": true
+    },
+    "artwork": {
+      "ok": true,
+      "status": 200
+    },
+    "episodes": {
+      "ok": true,
+      "count": 1,
+      "ms": 1,
+      "error": ""
+    }
+  },
+  "network": [
+    {
+      "host": "www.moviedb.wiki",
+      "status": 200,
+      "ms": 361
+    },
+    {
+      "host": "www.moviedb.wiki",
+      "status": 200,
+      "ms": 113
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 104
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 106
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 200,
+      "ms": 66
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 32
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 221
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 206,
+      "ms": 79
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 285
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 342
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1032
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 998
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 219
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 237
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 31
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 60
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 194
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 200,
+      "ms": 26
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 30
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 206,
+      "ms": 26
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 241
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 562
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 193
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 218
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 114
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 1098
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 1104
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1159
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 199
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 208
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 21
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 40
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 210
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 107
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1538
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 200,
+      "ms": 30
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 172
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 132
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 206,
+      "ms": 27
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 462
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 252
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 281
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 189
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 145
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 130
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 1072
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1120
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 503,
+      "ms": 177
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 223
+    }
+  ],
+  "matchedTitle": "Fight Club",
+  "samples": [
+    {
+      "index": 0,
+      "season": 0,
+      "episode": 0,
+      "attempts": [
+        {
+          "attempt": 0,
+          "fresh": false,
+          "coldContext": false,
+          "ok": true,
+          "ms": 603,
+          "error": "",
+          "qualities": [
+            "1080p"
+          ],
+          "route": {
+            "host": "free.finepulfe.xyz",
+            "fingerprint": "a6ba98f8f088c91a"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 534
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 1,
+          "fresh": true,
+          "coldContext": true,
+          "ok": true,
+          "ms": 590,
+          "error": "",
+          "qualities": [
+            "1080p"
+          ],
+          "route": {
+            "host": "free.finepulfe.xyz",
+            "fingerprint": "a6ba98f8f088c91a"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 534
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 2,
+          "fresh": true,
+          "coldContext": false,
+          "ok": true,
+          "ms": 651,
+          "error": "",
+          "qualities": [
+            "1080p"
+          ],
+          "route": {
+            "host": "free.finepulfe.xyz",
+            "fingerprint": "a6ba98f8f088c91a"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 534
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              }
+            ],
+            "error": ""
+          }
+        }
+      ]
+    }
+  ]
+}

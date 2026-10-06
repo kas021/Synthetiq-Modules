@@ -1,0 +1,69 @@
+{
+  "version": "0.1.0-beta.9",
+  "ok": true,
+  "error": "",
+  "ms": 1870,
+  "candidates": 2,
+  "network": [
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 81
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 130
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 48
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 234
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 318
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 503,
+      "ms": 379
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 267
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 124
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 388
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 126
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 275
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 203
+    }
+  ]
+}

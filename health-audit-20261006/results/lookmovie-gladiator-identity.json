@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-06",
+  "source": "LookMovie public movies search, Gladiator query",
+  "requested": {"title":"Gladiator","year":2000,"imdb":"tt0172495"},
+  "rows": [
+    {"title":"Gladiator Underground","year":2025,"slug":"34966032-gladiator-underground-2025"},
+    {"title":"Gladiator II","year":2024,"slug":"9218128-gladiator-ii-2024"},
+    {"title":"Gladiators","year":2024,"slug":"34722478-gladiators-2024"}
+  ],
+  "conclusion": "No exact requested identity in this response. The old prefix scoring accepts these candidates; beta.3 rejects all three. Earlier baseline stream content was not fingerprinted, so this does not identify which film an earlier baseline stream contained."
+}

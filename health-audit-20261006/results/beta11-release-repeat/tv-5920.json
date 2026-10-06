@@ -1,0 +1,1111 @@
+{
+  "id": 5920,
+  "kind": "tv",
+  "title": "The Mentalist",
+  "module": "moviedb-wiki-v1",
+  "version": "0.1.0-beta.11",
+  "sha256": "a47b14eb297cdb88f08c2ee88cc50609c78811d31f53ccc78646c8974ad09a81",
+  "at": "2026-10-06T15:24:38.180Z",
+  "steps": {
+    "search": {
+      "ok": true,
+      "count": 4,
+      "ms": 300,
+      "error": "",
+      "classification": "EXACT_ID"
+    },
+    "details": {
+      "ok": true,
+      "ms": 98,
+      "error": "",
+      "description": true
+    },
+    "artwork": {
+      "ok": true,
+      "status": 200
+    },
+    "episodes": {
+      "ok": true,
+      "count": 151,
+      "ms": 0,
+      "error": ""
+    }
+  },
+  "network": [
+    {
+      "host": "www.moviedb.wiki",
+      "status": 200,
+      "ms": 295
+    },
+    {
+      "host": "www.moviedb.wiki",
+      "status": 200,
+      "ms": 97
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 43
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 90
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 35
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 503,
+      "ms": 421
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 271
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 276
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 279
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 209
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 206
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 275
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 312
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 84
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 325
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 198
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 27
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 61
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 111
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 30
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 133
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 302
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 167
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 229
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 107
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 278
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1373
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 198
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 26
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 34
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 75
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 27
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 141
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 210
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 187
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 129
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 72
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 249
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 172
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1403
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 352
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 23
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 26
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 75
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 35
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 35
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 137
+    },
+    {
+      "host": "c.sublime.st",
+      "status": 200,
+      "ms": 306
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 131
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 462
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 243
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 212
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 181
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 254
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 584
+    },
+    {
+      "host": "c.sublime.st",
+      "status": 200,
+      "ms": 85
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 226
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1550
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 152
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 22
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 26
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 92
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 94
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 19
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 65
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 182
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 307
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 115
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 213
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 152
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 310
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 196
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 77
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 237
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 145
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1547
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 50
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 27
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 224
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 89
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 37
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 140
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 204
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 94
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 144
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 155
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 299
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 147
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 82
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 311
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1466
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 133
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 23
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 35
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 264
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 77
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 29
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 111
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 56
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 171
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 126
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 209
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 70
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 117
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 70
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 241
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 86
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1585
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 272
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 27
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 36
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 64
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 48
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 306
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 132
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 214
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 145
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 145
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 107
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 161
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 77
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 69
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 111
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 71
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 234
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 77
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 2216
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 25
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 31
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 116
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 43
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 115
+    },
+    {
+      "host": "d.sublime.st",
+      "status": 200,
+      "ms": 98
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 446
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 93
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 108
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 163
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 235
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 136
+    },
+    {
+      "host": "c.sublime.st",
+      "status": 200,
+      "ms": 152
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 241
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 275
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 1268
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 284
+    }
+  ],
+  "matchedTitle": "The Mentalist",
+  "samples": [
+    {
+      "index": 0,
+      "season": 1,
+      "episode": 1,
+      "attempts": [
+        {
+          "attempt": 0,
+          "fresh": false,
+          "coldContext": false,
+          "ok": true,
+          "ms": 1794,
+          "error": "",
+          "qualities": [
+            "720p",
+            "360p"
+          ],
+          "route": {
+            "host": "d.sublime.st",
+            "fingerprint": "3824bb7c4e34d0f2"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 720
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 1,
+          "fresh": true,
+          "coldContext": true,
+          "ok": true,
+          "ms": 1095,
+          "error": "",
+          "qualities": [
+            "720p",
+            "360p"
+          ],
+          "route": {
+            "host": "d.sublime.st",
+            "fingerprint": "6617604b716c1a66"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 720
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 2,
+          "fresh": true,
+          "coldContext": false,
+          "ok": true,
+          "ms": 965,
+          "error": "",
+          "qualities": [
+            "720p",
+            "360p"
+          ],
+          "route": {
+            "host": "d.sublime.st",
+            "fingerprint": "b27f33d6c60ee947"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 720
+              }
+            ],
+            "error": ""
+          }
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "season": 4,
+      "episode": 6,
+      "attempts": [
+        {
+          "attempt": 0,
+          "fresh": false,
+          "coldContext": false,
+          "ok": true,
+          "ms": 1904,
+          "error": "",
+          "qualities": [
+            "1080p",
+            "720p",
+            "360p"
+          ],
+          "route": {
+            "host": "a2.sublime.st",
+            "fingerprint": "e439fd78f066aa2a"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1920,
+                "height": 1080
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 1,
+          "fresh": true,
+          "coldContext": true,
+          "ok": true,
+          "ms": 1434,
+          "error": "",
+          "qualities": [
+            "1080p",
+            "720p",
+            "360p"
+          ],
+          "route": {
+            "host": "a2.sublime.st",
+            "fingerprint": "50074572890a9166"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1920,
+                "height": 1080
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 2,
+          "fresh": true,
+          "coldContext": false,
+          "ok": true,
+          "ms": 1308,
+          "error": "",
+          "qualities": [
+            "1080p",
+            "720p",
+            "360p"
+          ],
+          "route": {
+            "host": "a2.sublime.st",
+            "fingerprint": "ceabef5d8e6eb37d"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1920,
+                "height": 1080
+              }
+            ],
+            "error": ""
+          }
+        }
+      ]
+    },
+    {
+      "index": 150,
+      "season": 7,
+      "episode": 13,
+      "attempts": [
+        {
+          "attempt": 0,
+          "fresh": false,
+          "coldContext": false,
+          "ok": true,
+          "ms": 1250,
+          "error": "",
+          "qualities": [
+            "1080p",
+            "720p",
+            "360p"
+          ],
+          "route": {
+            "host": "a2.sublime.st",
+            "fingerprint": "b5356813823b2af3"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1920,
+                "height": 1080
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 1,
+          "fresh": true,
+          "coldContext": true,
+          "ok": true,
+          "ms": 1174,
+          "error": "",
+          "qualities": [
+            "1080p",
+            "720p",
+            "360p"
+          ],
+          "route": {
+            "host": "a2.sublime.st",
+            "fingerprint": "14f1a7d3665ef458"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1920,
+                "height": 1080
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 2,
+          "fresh": true,
+          "coldContext": false,
+          "ok": true,
+          "ms": 1343,
+          "error": "",
+          "qualities": [
+            "1080p",
+            "720p",
+            "360p"
+          ],
+          "route": {
+            "host": "a2.sublime.st",
+            "fingerprint": "80d108c82509d348"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1920,
+                "height": 1080
+              }
+            ],
+            "error": ""
+          }
+        }
+      ]
+    }
+  ]
+}

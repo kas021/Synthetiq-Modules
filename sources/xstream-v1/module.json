@@ -1,0 +1,53 @@
+{
+  "id": "xstream-v1",
+  "name": "X-Stream",
+  "contentType": "video",
+  "contractVersion": 4,
+  "moduleVersion": "1.3.3",
+  "version": "1.3.3",
+  "description": "Owner-approved reliability update: faster verified-route startup, identity-safe matching, exact season lookup and fresh provider recovery. Source availability varies; physical-device acceptance remains incomplete.",
+  "moduleFamilyId": "xstream_v1",
+  "moduleIdentity": "SP-VID-048-XSTREAM",
+  "moduleIdentityNumber": 48,
+  "releaseTrack": "stable",
+  "moduleStatus": "active",
+  "presentation": {
+    "category": "Movies & TV",
+    "purpose": "Movies & TV",
+    "language": "English",
+    "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
+  },
+  "config": {
+    "language": "English",
+    "contentLanguage": "en",
+    "presentation": {
+      "category": "Movies & TV",
+      "purpose": "Movies & TV",
+      "language": "English",
+      "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
+    },
+    "runtime": {
+      "entry": "index.js",
+      "mode": "local"
+    },
+    "capabilities": {
+      "discovery_v1": true
+    },
+    "caps": {
+      "homeMaxResults": 40,
+      "maxResponseBytes": 2000000,
+      "timeoutMs": 30000,
+      "maxConcurrentRequests": 6
+    },
+    "baseUrl": "https://xstream.free.nf",
+    "streamHeaders": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "Referer": "https://pixeldrain.com/",
+      "Accept": "video/mp4,video/*,application/vnd.apple.mpegurl,*/*"
+    },
+    "imageHeaders": {
+      "Referer": "https://www.themoviedb.org/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+    }
+  }
+}

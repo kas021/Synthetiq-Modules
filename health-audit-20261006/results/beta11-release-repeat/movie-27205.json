@@ -1,0 +1,350 @@
+{
+  "id": 27205,
+  "kind": "movie",
+  "title": "Inception",
+  "module": "moviedb-wiki-v1",
+  "version": "0.1.0-beta.11",
+  "sha256": "a47b14eb297cdb88f08c2ee88cc50609c78811d31f53ccc78646c8974ad09a81",
+  "at": "2026-10-06T15:25:07.530Z",
+  "steps": {
+    "search": {
+      "ok": true,
+      "count": 13,
+      "ms": 554,
+      "error": "",
+      "classification": "EXACT_ID"
+    },
+    "details": {
+      "ok": true,
+      "ms": 142,
+      "error": "",
+      "description": true
+    },
+    "artwork": {
+      "ok": true,
+      "status": 200
+    },
+    "episodes": {
+      "ok": true,
+      "count": 1,
+      "ms": 0,
+      "error": ""
+    }
+  },
+  "network": [
+    {
+      "host": "www.moviedb.wiki",
+      "status": 200,
+      "ms": 553
+    },
+    {
+      "host": "www.moviedb.wiki",
+      "status": 200,
+      "ms": 140
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 107
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 119
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 32
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 200,
+      "ms": 108
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 206,
+      "ms": 118
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 232
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 503,
+      "ms": 552
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 1016
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1225
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 236
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 503,
+      "ms": 336
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 22
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 68
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 200,
+      "ms": 37
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 38
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 206,
+      "ms": 33
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 503,
+      "ms": 256
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 125
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 545
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 503,
+      "ms": 1031
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 1095
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1117
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 403
+    },
+    {
+      "host": "api.vidlove.cc",
+      "status": 200,
+      "ms": 76
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 454
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 155
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 200,
+      "ms": 26
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 65
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 167
+    },
+    {
+      "host": "free.finepulfe.xyz",
+      "status": 206,
+      "ms": 22
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 319
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 370
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 200,
+      "ms": 1064
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 1122
+    },
+    {
+      "host": "vidzen.fun",
+      "status": 403,
+      "ms": 965
+    },
+    {
+      "host": "a2.sublime.st",
+      "status": 200,
+      "ms": 152
+    }
+  ],
+  "matchedTitle": "Inception",
+  "samples": [
+    {
+      "index": 0,
+      "season": 0,
+      "episode": 0,
+      "attempts": [
+        {
+          "attempt": 0,
+          "fresh": false,
+          "coldContext": false,
+          "ok": true,
+          "ms": 639,
+          "error": "",
+          "qualities": [
+            "1080p"
+          ],
+          "route": {
+            "host": "free.finepulfe.xyz",
+            "fingerprint": "8e1d33af984bd1b7"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 534
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 1,
+          "fresh": true,
+          "coldContext": true,
+          "ok": true,
+          "ms": 603,
+          "error": "",
+          "qualities": [
+            "1080p"
+          ],
+          "route": {
+            "host": "free.finepulfe.xyz",
+            "fingerprint": "8e1d33af984bd1b7"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 534
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              }
+            ],
+            "error": ""
+          }
+        },
+        {
+          "attempt": 2,
+          "fresh": true,
+          "coldContext": false,
+          "ok": true,
+          "ms": 679,
+          "error": "",
+          "qualities": [
+            "1080p"
+          ],
+          "route": {
+            "host": "free.finepulfe.xyz",
+            "fingerprint": "8e1d33af984bd1b7"
+          },
+          "media": {
+            "ok": true,
+            "requestedSeconds": 5,
+            "actualSeconds": 5,
+            "paced": false,
+            "streams": [
+              {
+                "type": "video",
+                "codec": "h264",
+                "width": 1280,
+                "height": 534
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              },
+              {
+                "type": "audio",
+                "codec": "aac"
+              }
+            ],
+            "error": ""
+          }
+        }
+      ]
+    }
+  ]
+}

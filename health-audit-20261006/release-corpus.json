@@ -1,0 +1,9 @@
+{
+  "scope": "Bounded release regression sample, not catalogue-wide certification",
+  "titles": [
+    {"kind": "tv", "id": 5920, "title": "The Mentalist"},
+    {"kind": "movie", "id": 27205, "title": "Inception"},
+    {"kind": "tv", "id": 1399, "title": "Game of Thrones"},
+    {"kind": "movie", "id": 550, "title": "Fight Club"}
+  ]
+}

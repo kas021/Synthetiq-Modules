@@ -1,0 +1,21 @@
+@everyone
+
+**MovieDB and X-Stream updates are available**
+
+I've been working on the issue where a movie or episode plays once, then refuses to load when you return or retry.
+
+**What I've improved:**
+- MovieDB: better handling of old video links and failed retries.
+- X-Stream: fixes for retries getting stuck after earlier failures, while keeping the faster video startup.
+- X-Stream also checks titles and seasons more carefully to avoid opening the wrong result.
+
+**Please update both modules:**
+1. Open your module list in the app.
+2. Check for updates.
+3. Update **MovieDB to 0.1.0-beta.12** and **X-Stream to 1.3.3**.
+
+You do not need to reinstall the app.
+
+These changes should make retrying and reopening videos more reliable. Some titles or video qualities may still be unavailable from the providers.
+
+If something still fails, please report the module, show or movie, episode, and your device in <#1478096303991820300> so I can investigate.

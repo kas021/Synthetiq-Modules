@@ -1,0 +1,62 @@
+{
+  "runId": "2026-10-06T15-21-52-043Z_s2_moviedb-wiki-v1_ef3bb46c",
+  "grade": "FAIL",
+  "failureCodes": [
+    "STREAM_DECODE_FAILED"
+  ],
+  "runtimeOk": true,
+  "streamMs": 1584,
+  "candidates": [
+    {
+      "label": "first",
+      "host": "d.sublime.st",
+      "urlFingerprint": "337be4e07dfa11cf",
+      "headerNames": [
+        "User-Agent",
+        "Referer"
+      ],
+      "failureCodes": [
+        "STREAM_DECODE_FAILED"
+      ]
+    },
+    {
+      "label": "middle",
+      "host": "a2.sublime.st",
+      "urlFingerprint": "17afa6f9a5549a47",
+      "headerNames": [
+        "User-Agent",
+        "Referer"
+      ],
+      "failureCodes": [
+        "STREAM_DECODE_FAILED"
+      ]
+    },
+    {
+      "label": "latest",
+      "host": "a2.sublime.st",
+      "urlFingerprint": "7963c69a674665bc",
+      "headerNames": [
+        "User-Agent",
+        "Referer"
+      ],
+      "failureCodes": [
+        "STREAM_DECODE_FAILED"
+      ]
+    }
+  ],
+  "supplementary": {
+    "firstMiddleLatestDecodedSeconds": [
+      5,
+      5,
+      5
+    ],
+    "firstMiddleLatestHeights": [
+      720,
+      1080,
+      1080
+    ],
+    "simulatorRun": "2026-10-06T15-23-44-082Z_moviedb-beta11-simulator",
+    "simulatorOpenPassed": false,
+    "sameUrlLater": "provider 5xx"
+  }
+}

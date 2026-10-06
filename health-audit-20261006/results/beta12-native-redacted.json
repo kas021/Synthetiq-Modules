@@ -1,0 +1,242 @@
+{
+  "runId": "2026-10-06T15-33-31-677Z_s2_moviedb-wiki-v1_502f4a35",
+  "grade": "FAIL",
+  "failureCodes": [
+    "LANGUAGE_CONTRADICTION"
+  ],
+  "runtimeOk": true,
+  "media": [
+    {
+      "label": "first",
+      "ok": true,
+      "failureCodes": []
+    },
+    {
+      "label": "middle",
+      "ok": true,
+      "failureCodes": []
+    },
+    {
+      "label": "latest",
+      "ok": true,
+      "failureCodes": []
+    }
+  ],
+  "simulatorOk": true,
+  "simulatorObservedMs": 120412,
+  "simulatorAudioDeviceUnavailable": true,
+  "subtitleFlags": [
+    {
+      "label": "Arabic Hi5",
+      "declared": "und",
+      "detected": "ar",
+      "confidence": 0.996
+    },
+    {
+      "label": "Brazilian10",
+      "declared": "und",
+      "detected": "pt",
+      "confidence": 0.594
+    },
+    {
+      "label": "Brazilian11",
+      "declared": "und",
+      "detected": "pt",
+      "confidence": 0.604
+    },
+    {
+      "label": "Brazilian2",
+      "declared": "und",
+      "detected": "pt",
+      "confidence": 0.599
+    },
+    {
+      "label": "Brazilian3",
+      "declared": "und",
+      "detected": "pt",
+      "confidence": 0.599
+    },
+    {
+      "label": "Brazilian7",
+      "declared": "und",
+      "detected": "pt",
+      "confidence": 0.577
+    },
+    {
+      "label": "Brazilian8",
+      "declared": "und",
+      "detected": "pt",
+      "confidence": 0.576
+    },
+    {
+      "label": "Brazilian9",
+      "declared": "und",
+      "detected": "pt",
+      "confidence": 0.604
+    },
+    {
+      "label": "Bulgarian",
+      "declared": "bg",
+      "detected": "en",
+      "confidence": 1
+    },
+    {
+      "label": "Chinese",
+      "declared": "zh",
+      "detected": "es",
+      "confidence": 1
+    },
+    {
+      "label": "Chinese (traditional)",
+      "declared": "zh",
+      "detected": "en",
+      "confidence": 1
+    },
+    {
+      "label": "Croatian",
+      "declared": "hr",
+      "detected": "pt",
+      "confidence": 0.879
+    },
+    {
+      "label": "Croatian2",
+      "declared": "hr",
+      "detected": "pt",
+      "confidence": 0.879
+    },
+    {
+      "label": "Croatian3",
+      "declared": "hr",
+      "detected": "pt",
+      "confidence": 0.872
+    },
+    {
+      "label": "Czech",
+      "declared": "cs",
+      "detected": "pt",
+      "confidence": 0.959
+    },
+    {
+      "label": "Czech2",
+      "declared": "cs",
+      "detected": "pt",
+      "confidence": 0.955
+    },
+    {
+      "label": "Czech3",
+      "declared": "cs",
+      "detected": "pt",
+      "confidence": 0.96
+    },
+    {
+      "label": "Czech4",
+      "declared": "cs",
+      "detected": "pt",
+      "confidence": 0.959
+    },
+    {
+      "label": "Hebrew",
+      "declared": "he",
+      "detected": "en",
+      "confidence": 1
+    },
+    {
+      "label": "Hebrew2",
+      "declared": "he",
+      "detected": "en",
+      "confidence": 1
+    },
+    {
+      "label": "Indonesian",
+      "declared": "id",
+      "detected": "en",
+      "confidence": 0.939
+    },
+    {
+      "label": "Korean",
+      "declared": "ko",
+      "detected": "en",
+      "confidence": 0.667
+    },
+    {
+      "label": "Persian",
+      "declared": "fa",
+      "detected": "ar",
+      "confidence": 0.991
+    },
+    {
+      "label": "Persian2",
+      "declared": "fa",
+      "detected": "ar",
+      "confidence": 0.991
+    },
+    {
+      "label": "Persian3",
+      "declared": "fa",
+      "detected": "ar",
+      "confidence": 0.991
+    },
+    {
+      "label": "Persian4",
+      "declared": "fa",
+      "detected": "ar",
+      "confidence": 0.984
+    },
+    {
+      "label": "Russian",
+      "declared": "ru",
+      "detected": "en",
+      "confidence": 0.875
+    },
+    {
+      "label": "Russian2",
+      "declared": "ru",
+      "detected": "en",
+      "confidence": 1
+    },
+    {
+      "label": "Serbian",
+      "declared": "sr",
+      "detected": "pt",
+      "confidence": 0.872
+    },
+    {
+      "label": "Serbian2",
+      "declared": "sr",
+      "detected": "en",
+      "confidence": 1
+    },
+    {
+      "label": "Serbian3",
+      "declared": "sr",
+      "detected": "pt",
+      "confidence": 0.81
+    },
+    {
+      "label": "Vietnamese2",
+      "declared": "vi",
+      "detected": "es",
+      "confidence": 0.571
+    }
+  ],
+  "review": {
+    "detectorSupportedLanguages": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "pt",
+      "ja",
+      "ar",
+      "hi",
+      "el"
+    ],
+    "unknownLanguageTreatedAsContradiction": true,
+    "missingModuleAliases": [
+      "Brazilian",
+      "Arabic Hi"
+    ],
+    "upstreamChineseSampleMojibake": true,
+    "physicalDeviceAcceptance": false
+  }
+}
