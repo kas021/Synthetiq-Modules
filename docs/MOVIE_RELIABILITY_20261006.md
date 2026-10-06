@@ -5,7 +5,9 @@
 Current proposed packages: MovieDB 0.1.0-beta.12 and X-Stream 1.3.3.
 Beta.10 and beta.11 are superseded local candidates, not published versions.
 
-**Current decision: prepared and held, NOT approved for live publication.**
+**Current decision: owner explicitly approved publication with the known
+limitations on 2026-10-06. No Discord announcement or ping is authorized.**
+This overrides the earlier release hold, not the recorded test grades.
 MovieDB final S2 run 2026-10-06T15-33-31-677Z_s2_moviedb-wiki-v1_502f4a35
 passed runtime, all three media checks, and simulator playback/pause/seek
 (120412 ms observed progress). Its aggregate grade is FAIL because subtitle
@@ -17,9 +19,10 @@ words or embedded English promotional text, and treats `und` as a contradictory
 language rather than unknown. The module also lacks aliases for Brazilian and
 Arabic HI labels, and one upstream Chinese sample contains mojibake. These are
 separate issues; neither dropping tracks nor relabelling them to satisfy the
-detector is an acceptable release fix. Preserve the raw FAIL and resolve the
-metadata/encoding and verifier coverage questions before publishing MovieDB.
-No live push or Discord announcement has occurred. App code is untouched.
+detector is an acceptable release fix. Preserve the raw FAIL; metadata/encoding
+and verifier coverage remain follow-up work accepted for this release by the
+owner. Publication is pending CI and public-asset verification at this entry.
+App code is untouched. Do not send the prepared Discord announcement.
 
 Lead compared three independent Luna reviews against the implementation and
 native evidence. Chosen change: race the three existing initial providers,
@@ -60,9 +63,8 @@ test fixed it. That failed run remains 2026-10-06T15-18-38-923Z_s2_moviedb-wiki-
 
 ## Historical hold evidence - not published
 
-These packages and catalogue changes are a local release proposal only. No
-production update or Discord announcement was sent. Do not merge or publish
-this proposal until the failures below are resolved and verification repeated.
+The following records the earlier local-only release hold. It is retained as
+historical evidence; the later owner approval above supersedes that decision.
 
 - MovieDB beta.10: two fresh The Mentalist standard runs failed with
   `resolve budget exceeded` before media verification. Run IDs:
