@@ -101,3 +101,50 @@ screen was slow. Both investigated at the module boundary.
 mirrors deleted at the host (`/f/<ref>` → "File not found", no `wurl`), DoodStream bot-walled,
 cybervynx ad-stuffed → no playable source exists for that episode.
 
+---
+
+# CimaClub 1.1.0 → 1.2.0 (2026-10-06) — episode coverage fix
+
+Owner feedback: "some episodes aren't working" — the servers list is not enough.
+
+**Root cause:** the module only read the `data-watch` server list. The site repeats its players in a
+download section that can carry an **extra mirror the server list omits**. On the reported episode all
+three listed MixDrop mirrors were deleted at the host, while the download-only ref
+`mixdrop.top/f/1nvjog1nal8z1n` was alive and served real mp4 (`206 video/mp4`, `ftyp`).
+
+**Change:** `watchServers` now harvests refs from the server list **and** every `/e/`, `/f/`, `/d/`
+player link on the page, maps `/f/`+`/d/` to the `/e/` embed, and dedupes per family+ref so the same
+file is not fetched twice. JavaScript only; identity unchanged.
+
+- Certified bytes: sha256 `3ddee1d22400b00963d5085b92efd648f36e64128c8af0a9dffbea55b995de86`;
+  gate ALL_PASSED — and the Streams phase now passes on `four hands two sonatas`, the show from the
+  report.
+- **Measured coverage: 14/24 → 21/24 sampled episodes (58% → 88%)** across 8 titles × 4 episodes:
+
+| show | before | after |
+|---|---|---|
+| four hands two sonatas | ep1✗ ep2✗ ep7✓ ep12✓ | ep1✓ ep2✓ ep7✓ ep12✓ |
+| a love other than yours | 4/4 | 4/4 |
+| anna pigeon | ep1✗ ep2✗ ep5✗ ep9✓ | ep1✓ ep2✓ ep5✓ ep9✓ |
+| the ordinary jackpot | ep1✓ ep2✓ ep5✓ ep8✗ | ep1✓ ep2✓ ep5✓ ep8✓ |
+| detective conan | ep1202✗ ep1203✗ ep1209✗ ep1215✓ | ep1202✓ ep1203✗ ep1209✗ ep1215✓ |
+| one piece / gayong | ✓ | ✓ |
+| the batman | ✗ | ✗ (all mirrors dead at host) |
+
+- Home/feed also measured: 5 sections in ~1.0 s, feed 50 items in ~0.8 s.
+- Commits: `90f5acc` (module + catalogue), `5385b16` (bundle roll-forward); tag
+  `pre-cimacub-1.2.0-20261005`.
+
+## Bundle incident (worth remembering)
+
+My first bundle build for this release reused number **135**, which commit `845a89a` (movie-candidate
+batch, another agent) had already created. CI's immutable-package check rejected the push
+("Immutable package was modified: bundles/…-135.zip"), correctly. Fix applied in `5385b16`: 135 restored
+byte-for-byte from `845a89a` and the catalogue rolled forward to **136**. Lesson: check
+`git log -- bundles/Synthetiq-Module-Bundle-<n>.zip` before choosing a bundle number — never assume the
+next number is free in a shared repo.
+
+- ROLLBACK: re-point the catalogue entry at `modules/CimaClub-1.1.0.zip` and roll the bundle FORWARD
+  (137). 135 must never be rebuilt again.
+
+
