@@ -319,3 +319,41 @@ alternate server). Code bytes otherwise untouched.
 - Superseded ZIP kept: `modules/AniPM-0.1.0-beta.3.zip`.
 - ROLLBACK: point the catalogue entry back at `modules/AniPM-0.1.0-beta.3.zip` and roll the bundle
   FORWARD (142), or revert `69d86ce` alone — old release assets stay live.
+
+---
+
+# Synthetiq Anime 1.0.5-beta.2 → 1.0.5-beta.3 (2026-10-07) — season-aware search ordering
+
+Owner report: searching a show name returned the show, but reaching its other seasons required
+typing the show name WITH the season ("Show Name Season 2"); a show-name search should return all
+seasons and related entries.
+
+Cause (module-side, presentation): the seasons were present in AniList's results but its
+`SEARCH_MATCH` ranking interleaved them with movies/OVAs/specials — e.g. "my hero academia" listed
+S1, FINAL, More, BATTLE HEROES, S4, Two Heroes, S2(7th), S6, S7, S3(10th), S5 — so the first
+screenful on a phone hid every season.
+
+Change: client-side season-aware ordering — seasons/parts of the same series grouped with their
+best-matching entry, sorted base → Cour/Part → Season 2 → Season 3 → … → movies/OVAs/specials;
+unrelated results keep relevance order. Result cards now carry `year`. No extra network calls;
+streams/episodes/subtitles paths untouched (diff = helpers + two call sites + card fields).
+
+## Evidence (on the certified bytes)
+
+- Post-fix ordering: my hero academia S1(2016)→S7→FINAL→extras; classroom S1(2017)→S2(2022)→
+  S3(2024)→4th→5th; spy x family S1→Cour 2→S2→S3→movie.
+- Relevance sanity: "naruto" → Naruto first; "one piece" → ONE PIECE first.
+- House tester: PASS 31 / FAIL 0 / WARN 0. Release gate: ALL_PASSED (streams 2/2 segment-OK).
+
+## Publish trail
+
+- ZIP: `modules/Synthetiq-Anime-1.0.5-beta.3.zip`, sha256
+  `9f03899641ba3aab8f45eb069312ed9ead6a5d8b53dc01fb461d7a1064e4ebd7`.
+- Tag `pre-sanime-beta3-20261007`. Commit `38f371f` (ZIP + catalogue + bundle 142). CI run
+  `37694604723` success.
+- Post-publish verified: signed index v1.0.5-beta.3 sha == certified; release asset byte-identical;
+  bundle 142 asset byte-identical (`a421caceab…`); fix present in the published `index.js`
+  (`orderSeasons` at both call sites).
+- Superseded ZIP kept: `modules/Synthetiq-Anime-1.0.5-beta.2.zip`.
+- ROLLBACK: point the catalogue entry back at `modules/Synthetiq-Anime-1.0.5-beta.2.zip` and roll
+  the bundle FORWARD (143), or revert `38f371f` alone — old release assets stay live.
