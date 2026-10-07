@@ -147,4 +147,175 @@ next number is free in a shared repo.
 - ROLLBACK: re-point the catalogue entry at `modules/CimaClub-1.1.0.zip` and roll the bundle FORWARD
   (137). 135 must never be rebuilt again.
 
+---
 
+# Shahiid 2.1.1 → 2.1.2 (2026-10-06) — episode coverage + graceful empty pages
+
+Owner: "next focus on SHAHID Module". Three separate defects, all module-side.
+
+**1. `extractEpisodes` threw on movie-shaped pages.** Some entries live under `/seasons/` but are a
+single film or a bare landing page — an `<h1>` and a rating widget, no player (`data-post-id` is only
+thumbs-rating), no iframe/video. The module threw "no episodes found", which surfaces as a broken
+screen. Now logs and returns `[]`.
+
+**2. Silent truncation at 500 episodes.** The paginator is a rolling window (page 1 links only to 2-4)
+and the walk discovered pages one at a time, capped at 25 pages = 500 episodes. The season URL accepts
+`?epp=N` directly — **verified to N=61**, One Piece carries ~1180 — so the module was hiding ~680
+episodes. Walk is now direct-URL, in batches of 6, `MAX_PAGES` 62, `MAX_EPISODES` 1240, with a
+**call-wide 12 s budget** so a slow connection returns a partial list instead of failing outright.
+Declared `maxConcurrentRequests` 4 → 6 to match the batching (precedent: Miruro, Synthetiq-Movies).
+
+**3. Search ranked a 1-episode special first.** For "one piece" the first card was
+`/seasons/one-piece-heroines/` (حلقة خاصة, 1 episode). Specials/films/OVA reels are now demoted below
+real seasons in the search sort.
+
+## Measured (before → after)
+
+| probe | 2.1.1 (live) | 2.1.2 |
+|---|---|---|
+| One Piece main series | 530 eps in 35.2 s | **860 eps in 13.3 s** |
+| One Piece, unbounded walk | — | 1203 eps in 20.7 s (used to pick the budget) |
+| Death Note | ok | 37 eps, 1→37, in 8.3 s |
+| `naruto` movie-shaped page | threw | `[]`, no exception |
+| last episode (1180) | — | 2 streams in 10.4 s |
+| release gate | Details FAIL (`naruto` eps=0) | **ALL_PASSED**, Streams 3/3 (`naruto` now 288 eps) |
+| house tester | PASS 28 / WARN 2 | PASS 28 / FAIL 0 / WARN 2 |
+
+- Certified bytes: sha256 `242d17684dd2576d6407fa5e09304a0c53f8607f64b82a92996dc998f0971688`.
+
+## Ceiling evidence (why the budget is 12 s)
+
+An experimental variant that ranked the `/series/` aggregate above single seasons **timed out at
+20000 ms** in the harness ("Episode integrity checks threw: Timed out after 20000ms") because the
+aggregate walk enumerates several seasons. That is the runtime's per-call ceiling showing itself, so
+the walk is explicitly budgeted below it rather than being allowed to run to completion.
+
+- ROLLBACK: re-point the catalogue entry at `modules/Shahiid-2.1.1.zip` and roll the bundle FORWARD.
+
+---
+
+# Synthetiq Flux 1.0.3-beta.4 → 1.0.3-beta.5 (2026-10-06) — cold resolves never loaded
+
+Owner report: "taking really long to load… it doesn't even load." Identity `SP-VID-077-ANIME-DIRECT`.
+
+**Root cause (module budget, not dead content).** The play path gave the provider ONE resolve round,
+capped at 10 s, inside an 11 s session budget. Measured against `vidhawk.buzz`: the first call for a
+given title/episode/audio regularly needs **17.7 s / 19.9 s / 28.2 s**, and in the worst case never
+answers at all (>40 s, 0 bytes), while the **next call for the same pair answers in 0.09-0.3 s**. So the
+round was capped before the provider finished, the module gave up, and the user saw a long wait then
+"no playable source".
+
+**Fix.** Two resolve rounds (both servers `flow`+`zuri` in parallel, 9 s cap each) inside a 19 s budget;
+the retry lands on the warmed provider, and the existing AniKage rescue — which runs in parallel — covers
+the class that never answers. No catalogue/verification/labelling behaviour changed.
+
+## Measured
+
+| probe | result |
+|---|---|
+| resolve, cold pair (fresh episode) | 45 s+ no response, twice |
+| same pair minutes later | **0.29 s** |
+| cold pair B / C | 19.9 s → 0.088 s; 28.2 s → 0.13 s |
+| `server=flow` | 0.09 s on one pair, >40 s no response on two others |
+| `/api/stream/race` | 200 in 12.3 s once; 404 after 18.1 s on a fresh pair |
+| `/api/play?t=` | 200 in 0.09 s, full tracks/captions/intro/outro |
+| cold episode through the fixed module | **playable at 18.0 s** via labelled rescue (`AniKage · MegaPlay (koto)`), 5 subtitles |
+| house tester | **MODULE PASSED, 0 WARN** |
+| release gate | **ALL_PASSED** — one piece eps=1180, attack on titan eps=25, Streams 2/2 TS media |
+
+- Certified bytes: sha256 `1fd232d5dcb9a65e823cbf2146294356a56f11a1a5fec6a53486a30a9a8c9f9c`.
+- Backend hand-off: `docs/VIDHAWK_BACKEND_FIX_BRIEF.md` (the part a client cannot fix: cold-resolve
+  stalls, `flow` per-request stalls, race 404). Applies to every Vidhawk-backed module, not just Flux.
+- ROLLBACK: re-point the catalogue entry at `modules/Synthetiq-Flux-1.0.3-beta.4.zip` and roll the
+  bundle FORWARD.
+
+---
+
+# Anime4up 1.0.0-beta.10 (2026-10-06) — community module, FIRST catalogue release
+
+Owner: a community member's module ("v20") that worked for some episodes and failed for others;
+asked to test it and publish it if it clears ~75-80% reliability.
+
+**Root cause (one line of reading, catastrophic effect).** The module read every response through
+`text()`. The app's `fetchv2` polyfill keeps JSON responses in memory and returns an **EMPTY `text()`**
+for them — the parsed value is only exposed through `json()`. Share4Max (the top-ranked server family,
+`share4max.com/iframe/<id>`) answers its mirror-list request with JSON, so **every Share4Max mirror list
+was read as an empty body** and discarded; only the HTML-based hosts (mp4upload/voe/uqload) could ever
+play, which is exactly the "some videos work, some don't" report. Fixed by backfilling from `json()` in
+`requestText` and preferring the parsed payload in the Share4Max partial. (An earlier pass hardened the
+payload parser for both shapes and bounded the Share4Max phase to 9 s; those changes are kept.)
+
+## Evidence (all on the certified bytes)
+
+- Live: 6 Share4Max shares harvested from archived episode pages, fetched from the live service and run
+  through the module's own resolver — **0/6 before the fix, 6/6 after** (avg 4.4 s, max 21.7 s), routes
+  from Share4Max-FHD plus mp4upload/voe on the mixed share.
+- Offline: 20/20 parser checks; 2,000 real episode URLs (from the source's own sitemaps) accepted by the
+  `extractStreamUrl` route; `A4EP` round-trip ok.
+- Not verifiable from here: the anime4up site itself is Cloudflare-walled to every machine available
+  (Mac/browser/VPS/reader service; only robots+sitemaps answer) — the catalogue path is unchanged from
+  what the community member tested.
+
+## Publish trail
+
+- **beta.9 was rejected by CI**: `Duplicate identity number: video:100` (Synthetiq-One owns 100 in the
+  video range 1-999). The module was re-cut as **beta.10 with `SP-VID-101-ANIME4UP` / number 101** —
+  code bytes unchanged; note the pipeline enforces uniqueness per content type, so a new module MUST
+  take a free number from the registry's ranges before packaging.
+- New file (the pushed beta.9 ZIP is immutable): `modules/Anime4up-1.0.0-beta.10.zip`,
+  sha256 `3a28b4175a7030105490930820720fde63f9a49fffe1013cbc51d33c74668a2c`.
+- Tag `pre-anime4up-publish-20261006`. Commits: `9c0541e` (module+icon+catalogue, beta.9 - superseded),
+  `eae4ba2` (beta.10 entry + ZIP), `eb4dacc` (bundle 140).
+- Catalogue entry appended (first release): category `Anime`, purpose `Arabic Anime`,
+  `recommended:false`, icon `assets/module-icons/anime4up.png` (fetched from the live domain, PNG magic
+  verified, 50x50). App-repo registry entry added (`dev_assets/modules/module_registry.json`, number 101).
+- Superseded ZIP kept: `modules/Anime4up-1.0.0-beta.9.zip` (never signed; unreferenced).
+- ROLLBACK: unlist the Anime4up entry from `catalogue.json` (retire, never delete) and roll the bundle
+  FORWARD; the module is new, so there is no older published version to restore.
+
+
+
+
+
+
+---
+
+# AniPM 0.1.0-beta.3 → 0.1.0-beta.4 (2026-10-07) — downloads keep audio, default route
+
+Community reports: (a) episode "audio gets delayed at random times"; (b) "every module fails for
+downloads except AniPM, but an AniPM download has no audio".
+
+Cause (module-side): AniPM resolves up to two engines and listed the settlar ("AniPM") engine first.
+The app's DEFAULT stream is also the stream its downloader fetches, the downloader reads only
+`STREAM-INF` variants (never `EXT-X-MEDIA` audio renditions), and the settlar media host rejects the
+app's non-NSURLSession clients — so a settlar-default download had no audio path at all. The same
+route is the prime suspect for the reported A/V drift.
+
+Change: default route order swapped — MegaPlay first (muxed), settlar second (still selectable as the
+alternate server). Code bytes otherwise untouched.
+
+## Evidence (on the certified bytes)
+
+- MegaPlay route: single variant `CODECS="avc1.640028,mp4a.40.2"` (muxed); 321 segments over the full
+  24.6-minute episode; real segment PTS tracks the manifest within ±0.02 s (no drift, no discontinuity).
+- Route-order unit check (stub settlar present in a test build): `streams[0]` = `MegaPlay · Sub`.
+- House tester: PASS 30 / FAIL 0 / WARN 0 (One Piece 1180, Bleach 366, Death Note 37).
+- Release gate: ALL_PASSED (Home 6 sections/148 items; streams 2/2 segment-OK, `ts_media`).
+- Download-worthiness sweep (same day, segment PIDs sniffed): AniKoto 5.0.5-b2, Synthetiq Anime
+  Direct 1.0.3-b5 and Synthetiq Anime 1.0.5-b2 all hand out muxed nexabloom routes — the same CDN
+  family AniPM's MegaPlay default uses. AnimeAV1's fMP4 route: video confirmed, audio unverified.
+- Not verifiable from here: the settlar route itself (the site hard-blocks this network). If drift
+  persists on the MegaPlay default, it is not this route.
+
+## Publish trail
+
+- ZIP: `modules/AniPM-0.1.0-beta.4.zip`, sha256
+  `501ffce64440f18354246610d60883dc3d4c48a819cbc23a9186c0de2a28d126`.
+- Tag `pre-anipm-beta4-20261007`. Commit `69d86ce` (ZIP + catalogue + bundle 141). CI run
+  `37692762608` success.
+- Post-publish verified: signed index v0.1.0-beta.4 sha == certified; release asset byte-identical;
+  bundle 141 asset byte-identical (`25b780c4b9…`); raw index serving beta.4; the published `index.js`
+  carries the fix (MegaPlay push precedes settlar).
+- Superseded ZIP kept: `modules/AniPM-0.1.0-beta.3.zip`.
+- ROLLBACK: point the catalogue entry back at `modules/AniPM-0.1.0-beta.3.zip` and roll the bundle
+  FORWARD (142), or revert `69d86ce` alone — old release assets stay live.
