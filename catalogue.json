@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 142,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-142.zip",
+  "bundleVersion": 143,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-143.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -471,13 +471,15 @@
       ]
     },
     {
-      "file": "modules/KickAssAnime-4.1.0.zip",
+      "file": "modules/KickAssAnime-4.2.0.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime",
-        "language": "English Sub/Dub"
+        "language": "English Sub/Dub",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/kickassanime.png?v=20261008-1"
       },
       "changelog": [
+        "4.2.0: Search now finds titles the way users type them - generated punctuation variants (colon at any word boundary, 'dr.' forms, year parentheses, tail-tokens fallback) plus merged results take the natural-query hit rate to 24/24 (was 22/24) and a season-qualified hard set from 2/8 to 8/8. Season/part variants of a show are grouped and ordered (base, Cour/Part, Season 2, 3..., then specials/OVAs/movies) with release years on cards. The home now serves 6 rows (adds Recently Added, Popular Shows and Coming Soon) in one parallel fan-out. Module icon added.",
         "4.1.0: Correct provider subtitle language labels, including wrapped metadata; unknown tracks are no longer labelled English",
         "4.1.0: Expose usable server alternatives with matching captions and headers; preserve audio-safe Auto quality",
         "4.1.0: Bounded primary recovery and alternate episode-page fallback; 25/30 sampled titles passed media probes, known unavailable titles documented",
