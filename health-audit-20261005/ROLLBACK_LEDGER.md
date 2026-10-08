@@ -357,3 +357,43 @@ streams/episodes/subtitles paths untouched (diff = helpers + two call sites + ca
 - Superseded ZIP kept: `modules/Synthetiq-Anime-1.0.5-beta.2.zip`.
 - ROLLBACK: point the catalogue entry back at `modules/Synthetiq-Anime-1.0.5-beta.2.zip` and roll
   the bundle FORWARD (143), or revert `38f371f` alone — old release assets stay live.
+
+---
+
+# KickAssAnime 4.1.0 → 4.2.0 (2026-10-08) — search, seasons, home + module icon
+
+Owner: "lets look into kiss ass anime and make it a top tier module", then "release ... make sure
+the PFP for the module is correctly shown". Released live with bundle 143.
+
+## Fixes (module-side)
+
+1. **Search**: the catalogue matches titles literally and the module stopped at the first variant
+   that answered. Added generated punctuation variants (colon at every word boundary, `. ` forms,
+   year parentheses, tail-tokens fallback) + result merging. Natural 24-query list 22/24 → 24/24;
+   season-qualified hard set 2/8 → 8/8.
+2. **Seasons**: family-grouped ordering (base → Cour/Part → Season 2 → 3 → … → specials/OVAs/movies)
+   + year/type on cards.
+3. **Home**: 3 → 6 rows (Recently Added / Popular Shows parsed from the site's server-rendered
+   payloads incl. IIFE arg-ref resolution; Coming Soon from `/api/schedule`); one parallel
+   fan-out; 711 ms; 0 duplicate hrefs; 0 items without images.
+4. **Icon**: the entry had NO `iconUrl` and no icon file (blank tile for users). Added
+   `assets/module-icons/kickassanime.png` (192x192 from the source's own favicon, transparent
+   corners) + the entry's iconUrl.
+
+## Evidence (certified bytes)
+
+- House tester PASS 32/0/0 · release gate ALL_PASSED · S2 quick **grade PASS**
+  (READY_FOR_EXPLICIT_RELEASE_REVIEW).
+- Byte-hash verified before/after every harness run; post-publish: release asset and bundle 143
+  byte-identical; icon URL 200 / image/png / 192x192 / byte-identical to the committed blob.
+
+## Publish trail
+
+- ZIP: `modules/KickAssAnime-4.2.0.zip`, sha256
+  `4f31c3cd519a37ecf552e838f6d4e3b41fa72e8ab91f5489ff8c326b4bc8748f`.
+- Tag `pre-kaa-420-20261008`. Commit `3817f95` (ZIP + icon + catalogue + bundle 143). CI run
+  `37853480723` success.
+- Bundle 143 sha256 `886db553b6d2931bb27d43fe3d4d0c33f68be20b6b1c6a060acb1109c8851d70`.
+- Superseded ZIP kept: `modules/KickAssAnime-4.1.0.zip`.
+- ROLLBACK: point the entry back at `modules/KickAssAnime-4.1.0.zip` and roll the bundle FORWARD
+  (144), or revert `3817f95` alone (the icon addition reverts with it).
