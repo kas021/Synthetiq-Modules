@@ -397,3 +397,44 @@ the PFP for the module is correctly shown". Released live with bundle 143.
 - Superseded ZIP kept: `modules/KickAssAnime-4.1.0.zip`.
 - ROLLBACK: point the entry back at `modules/KickAssAnime-4.1.0.zip` and roll the bundle FORWARD
   (144), or revert `3817f95` alone (the icon addition reverts with it).
+
+
+# MovieDB 0.1.0-beta.12 → 0.1.0-beta.13 (2026-10-09) — play every format the source serves (direct MP4/TS)
+
+## Issue (owner report)
+
+"The source could not provide a working video link" on titles that play on moviedb.wiki;
+reproduced on live beta.12 with The Mentalist S1E1 — stream resolve empty after ~15 s.
+
+## Cause
+
+The resolver required HLS (`#EXTM3U`) on every candidate route and discarded everything else.
+VidLove/moviebox now serves many titles as direct MP4 (The Mentalist S1E1: 626 MB video/mp4,
+1920x1080 H.264+AAC, Range honoured); every direct-file route was thrown away.
+
+## Fix (module-side)
+
+Range-first route fetch (never drags the file; over-cap drop can no longer eat the deadline);
+non-playlist routes accepted when byte-verified (mp4 `ftyp|styp|moof` or TS `0x47` via 4 KB probe;
+`video/*` content-type as the dropped-body fallback); same acceptance in the variant walk;
+inline-manifest check rejects only HTML error pages; `probeSegment` byte-first (no
+suffix/content-type-only rejections); `streamType` emitted per route (top-level + each servers[]).
+
+## Evidence (certified bytes)
+
+- Resolve battery 4 titles (The Mentalist / Gladiator / Friends / Breaking Bad): all RESOLVED
+  540–6,813 ms, direct MP4; before: all empty.
+- House tester PASS 30/0/1 WARN (Bleach count — identical on live beta.12; pre-existing).
+- Release gate ALL_PASSED — 3/3 streams segment-verified (mp4_bytes), attempts=1.
+- SHA stable across the whole battery.
+
+## Publish trail
+
+- ZIP: `modules/MovieDB-0.1.0-beta.13.zip`, sha256
+  `109180c8c90c74011780d796cec733dc68fb256742ef630064ea1ef36467325c`.
+- Tag `pre-moviedb-b13-20261009`. Commit `f3f842d` (ZIP + catalogue + bundle 144). CI run
+  `37962544581` success. Served release asset byte-identical; fix present in shipped JS.
+- Bundle 144 sha256 `dd900d979088d6773fe9bff7d26757933b7134c057b161d8762d0e097e513c88`.
+- Superseded ZIP kept: `modules/MovieDB-0.1.0-beta.12.zip`.
+- ROLLBACK: point the entry back at `modules/MovieDB-0.1.0-beta.12.zip` and roll the bundle
+  FORWARD (145), or revert `f3f842d` alone.
