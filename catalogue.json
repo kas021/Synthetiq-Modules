@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 143,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-143.zip",
+  "bundleVersion": 144,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-144.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -630,7 +630,7 @@
       ]
     },
     {
-      "file": "modules/MovieDB-0.1.0-beta.12.zip",
+      "file": "modules/MovieDB-0.1.0-beta.13.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Fast one-call movie & TV streams (Beta)",
@@ -639,6 +639,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
       },
       "changelog": [
+        "0.1.0-beta.13: Streams are accepted in every format the source serves — direct MP4 and TS files now play exactly like HLS, with the format detected from the actual bytes instead of assumed. Fixes titles (e.g. The Mentalist) that played on the site but showed “no playable stream” in the app.",
         "0.1.0-beta.12: Verified backup servers can start playback without waiting for a stalled primary; resolution and optional subtitle waits are bounded. Fresh retries bypass stale and failed cache entries, and obsolete requests cannot overwrite newer results. Invalid media responses and broken quality routes are skipped; headers and subtitles stay attached to their own route.",
         "Quality labels follow available manifest dimensions, not invented qualities. Provider labels and availability can still be inaccurate. Automated decoder samples passed; not every advertised quality or physical-device workflow is certified.",
         "0.1.0-beta.8: First public beta of the MovieDB engine (moviedb.wiki) - one-call playback resolve: a single request returns the adaptive HLS stream plus every subtitle language the source carries (English first; up to 150+ tracks on some titles). Two independent stream providers with automatic failover and seven per-source variants; every resolve is byte-validated and a background prefetch starts playback instantly. Movies and full seasons/episodes with real paginated discovery feeds. Not the default movie source - install alongside Synthetiq Movies.",
