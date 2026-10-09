@@ -632,7 +632,7 @@
       ]
     },
     {
-      "file": "modules/MovieDB-0.1.0-beta.13.zip",
+      "file": "modules/MovieDB-0.1.0-beta.14.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Fast one-call movie & TV streams (Beta)",
@@ -641,6 +641,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
       },
       "changelog": [
+        "0.1.0-beta.14: Quality labels for direct-file routes now show the REAL resolution, read from the file's own header (The Mentalist shows 1080p instead of a generic “Auto”; letterboxed titles show their true height, e.g. 816p). No extra network cost — the bytes were already fetched during validation.",
         "0.1.0-beta.13: Streams are accepted in every format the source serves — direct MP4 and TS files now play exactly like HLS, with the format detected from the actual bytes instead of assumed. Fixes titles (e.g. The Mentalist) that played on the site but showed “no playable stream” in the app.",
         "0.1.0-beta.12: Verified backup servers can start playback without waiting for a stalled primary; resolution and optional subtitle waits are bounded. Fresh retries bypass stale and failed cache entries, and obsolete requests cannot overwrite newer results. Invalid media responses and broken quality routes are skipped; headers and subtitles stay attached to their own route.",
         "Quality labels follow available manifest dimensions, not invented qualities. Provider labels and availability can still be inaccurate. Automated decoder samples passed; not every advertised quality or physical-device workflow is certified.",
