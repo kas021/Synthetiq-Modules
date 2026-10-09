@@ -438,3 +438,62 @@ suffix/content-type-only rejections); `streamType` emitted per route (top-level 
 - Superseded ZIP kept: `modules/MovieDB-0.1.0-beta.12.zip`.
 - ROLLBACK: point the entry back at `modules/MovieDB-0.1.0-beta.12.zip` and roll the bundle
   FORWARD (145), or revert `f3f842d` alone.
+
+# Alpha Movies 0.2.0-beta.2 → 0.2.0-beta.3 (2026-10-09) — embedded subtitles + poster/title fixes
+
+Owner instruction: *"if it's working, I want to do send the update over to all users"* — publish the
+certified 0.2.0-beta.3 candidate to production for all users.
+
+## Pre-publish tag
+
+- `pre-alphamovies-b03-20261009` (pushed to origin BEFORE any edits)
+
+## Publish commits
+
+| Module | Old → New | Commit | ZIP | Certified SHA-256 |
+|---|---|---|---|---|
+| Alpha Movies | 0.2.0-beta.2 → 0.2.0-beta.3 | `694c01d` | Alpha-Movies-0.2.0-beta.3.zip | 169a207b996f135ec2b5d2aa8d81ca5d32904454e75dc74b2c42cb7356580e7c |
+
+| Bundle | Version | Commit | File | SHA-256 |
+|---|---|---|---|---|
+| Synthetiq-Module-Bundle | 144 → 145 | `56a2be5` | bundles/Synthetiq-Module-Bundle-145.zip | 70d3aac8d21c480dfdbd1104c669e02938ec9ac4e08caad915ad460021450907 |
+
+Bot signed-index commit: `dc9690e`. CI run `37988975679` success.
+
+## Certification evidence (on the exact published bytes)
+
+- Suites 91/91 · release gate ALL_PASSED 3/3 first attempt (inception/breaking bad/severance) ·
+  app-runtime ALL PASS on 8.5.33 AND 9.0.71+250 (Breaking Bad with 6 subtitles) · S2 quick: runtime
+  PASS both runs, media decode PASS / 2-of-3 on the second (sample flake; same route class decoded in
+  run A + both runtime legs) · house tester PASS 30 / FAIL 1 (documented extension-less-master
+  artifact, production parity).
+
+## Coverage evidence
+
+- Matrix instant: HOME 3 sections / 32 items in 1.97 s; episodes 5/13 (38%) sampled.
+- Hand-verified the two 0/4 titles on BOTH builds with the same refs — One Piece
+  `alpha:tv:37854:1999:1` and The Batman `alpha:tv:2022:1:1`: beta.3 returns 2 accepted servers each;
+  live beta.2 returns **0 candidates** ("The provider did not answer for this title"). Coverage
+  strictly widens; the matrix percentage is an aggregator-mirror instant, not a regression.
+
+## Post-publish verification (live)
+
+- Signed index (API): alpha-movies `0.2.0-beta.3`, sha256 matches certified, signature present.
+- Release asset `module-alpha-movies-v0.2.0-beta.3` downloaded: sha256 byte-identical; fix phrases
+  present in the shipped JS (`caption payload trimmed…`, `embeddedSubRenditions`).
+- Bundle 145: raw index sha == local build; raw catalogue + bundleVersion flipped on poll.
+- Icon: raw URL 200 `image/png`, byte-identical to the committed blob.
+- Superseded ZIP kept: `modules/Alpha-Movies-0.2.0-beta.2.zip`.
+
+## Module facts a rollback would drop
+
+Embedded in-manifest subtitles (English-first, 6–8 languages measured); Wikidata title identity
+(unblocks title-keyed providers — One Piece/The Batman resolve only on this version); TVMaze poster
+fallback; `MM:SS` caption-timestamp parser fix; 2 MiB bridge payload budget; scalar-free failure
+snapshots.
+
+## Rollback recipes
+
+- Single revert: `git revert 694c01d` + rebuild the bundle FORWARD (146) in the same pass.
+- Emergency: restore the beta.2 entry from tag `pre-alphamovies-b03-20261009` and roll the bundle
+  forward — never a bundle downgrade.
