@@ -497,3 +497,64 @@ snapshots.
 - Single revert: `git revert 694c01d` + rebuild the bundle FORWARD (146) in the same pass.
 - Emergency: restore the beta.2 entry from tag `pre-alphamovies-b03-20261009` and roll the bundle
   forward — never a bundle downgrade.
+
+# MovieDB 0.1.0-beta.13 → 0.1.0-beta.14 (2026-10-09) — real quality label for direct-file routes
+
+Owner instruction: *"for the mental episode one is showing the quality as auto... what is auto? It
+probably knows what the number is, but it's not showing it. Why? Investigate this."* — fixed and
+published.
+
+## Cause
+
+The Mentalist S1E1 is a single fixed-resolution MP4 (no adaptive ladder): the module accepted the
+route but never read its pixel size, so the only quality entry was labelled 'Auto'. The resolution
+(1920×1080) sits in the file's `tkhd` box — inside the 64 KB Range the module already fetches to
+validate the route — and was simply never parsed.
+
+## Change
+
+`mp4VideoDims()` reads the video track height (16.16 fixed point; v0/v1 offsets + a ±16-byte drift
+window; plausibility gate) at BOTH direct-media acceptance sites. Height-only (UTF-8 decoding of the
+body destroys 0x80 bytes; heights like 1080 = 0x0438 survive). Zero extra requests; unreadable dims
+fall back to 'Auto' exactly as before.
+
+## Pre-publish tag
+
+- `pre-moviedb-b14-20261009` (pushed to origin BEFORE any edits)
+
+## Publish commits
+
+| Module | Old → New | Commit | ZIP | Certified SHA-256 |
+|---|---|---|---|---|
+| MovieDB | 0.1.0-beta.13 → 0.1.0-beta.14 | `d6aa139` | MovieDB-0.1.0-beta.14.zip | e1187d6bc571dcb24c1c8340378bf1f191f8cdd7bef8b8d553258e818ba9f3d6 |
+
+| Bundle | Version | Commit | File | SHA-256 |
+|---|---|---|---|---|
+| Synthetiq-Module-Bundle | 145 → 146 | `6a1cf50` | bundles/Synthetiq-Module-Bundle-146.zip | c262387fd5f87f7e8a6f4415332319bfdd3848c1005615aca926d2ea541e3916 |
+
+Bot signed-index commit: `bc133c6`. CI run `37997858009` success.
+
+## Certification evidence (on the exact published bytes)
+
+- Live: mentalist quality '1080p' (height 1080), resolve 1.4–2 s, download probe 206 video/mp4;
+  Gladiator '816p' cross-checked against raw bytes (tkhd=816) — reader accuracy proven on real files
+  + synthetic v0/v1/multi-track/negative cases.
+- House tester PASS 31 / FAIL 0 / WARN 1 · app runtime ALL PASS on 8.5.33 AND 9.0.71+250 · gate 2/3
+  (gladiator provider window; re-probed OK minutes later) · S2 quick runtime+decode PASS (frame/
+  continuity codes on one large-MP4 sample only — HLS-oriented legs; ffprobe read the same file).
+- Subtitle note: counts for this title swung 102→73→64→0 provider-side during the evening (0 at the
+  certification instant in BOTH node and app instruments) — source-side variance, not module.
+
+## Post-publish verification (live)
+
+- Signed index (API): moviedb-wiki-v1 `0.1.0-beta.14`, sha256 matches certified, signature present.
+- Release asset `module-moviedb-wiki-v1-v0.1.0-beta.14` downloaded: sha256 byte-identical;
+  `mp4VideoDims` present in the shipped JS.
+- Bundle 146 sha matches local build; raw catalogue + bundleVersion flipped on poll.
+- Superseded ZIP kept: `modules/MovieDB-0.1.0-beta.13.zip`.
+
+## Rollback recipes
+
+- Single revert: `git revert d6aa139` + rebuild the bundle FORWARD (147) in the same pass.
+- Emergency: restore the beta.13 entry from tag `pre-moviedb-b14-20261009` and roll the bundle
+  forward — never a bundle downgrade.
