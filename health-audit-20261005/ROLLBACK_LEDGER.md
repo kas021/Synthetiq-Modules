@@ -558,3 +558,66 @@ Bot signed-index commit: `bc133c6`. CI run `37997858009` success.
 - Single revert: `git revert d6aa139` + rebuild the bundle FORWARD (147) in the same pass.
 - Emergency: restore the beta.13 entry from tag `pre-moviedb-b14-20261009` and roll the bundle
   forward — never a bundle downgrade.
+
+# MegaKino 1.1.4 -> 1.1.5 (2026-10-11) — module unusable after the source rotated its host
+
+Owner instruction: *"contineu also look into the megakino module for movies idk what its called user
+reports not working"* — cause found, fixed, certified, then released on *"if its good release"*.
+
+## Cause
+
+The source rotated its numbered address again (`megakino19.com` -> `20` -> `21` -> **`megakino23.com`**,
+every older host 301-forwarding). The module pinned `21`/`20` and reached the site THROUGH those
+redirects, which breaks this source's `yg_token` session handshake: the cookie is minted on the host
+that actually answered, so the module's next request arrives without it, the token gate never clears and
+**every call returns an empty page** — search empty, no servers on any title. Reproduced on the live
+1.1.4 bytes: house tester `--search "Inception"` -> "No results — skipping downstream tests" ->
+MODULE FAILED (matches the 2026-10-05 deep-dive row `Inception -> episodes=0 streams=0`).
+
+## Change
+
+- Self-healing host resolution: once per session the module probes its seed hosts with
+  `followRedirects:false` and adopts the host the source itself redirects to (bounded hops), so future
+  rotations are followed without a new build.
+- Seed/fallback list refreshed to `23 -> 22 -> 21 -> 20`; the page loader now rewrites any
+  `megakino<digits>.com` origin (rather than one pinned string) when walking those fallbacks.
+- `config.baseUrl` aligned to the live host. Player resolution (VOE / GXPlayer), episode/season logic
+  and identity `SP-VID-062-MEGAKINO` (#62, stable track) unchanged.
+
+## Pre-publish tag
+
+`pre-megakino-1.1.5-20261011`
+
+## Publish commits
+
+- `aa6f27c` — MegaKino 1.1.5 (ZIP + `catalogue.json`: `file` -> `modules/MegaKino-1.1.5.zip`, changelog
+  prepended, superseded 1.1.2/1.1.1/beta.3 lines dropped).
+- `c8a2459` — bundle 147 rebuild (38 members) + `bundleVersion`/`bundleFile` bump.
+
+## Certification evidence (on the exact published bytes)
+
+- ZIP sha256 `6dd028c503a9b95e94293308cb907be6467092a523cd7480696fb54bb1647f24`.
+- House tester PASS: movie "Inception" -> 1 result / 1 episode / stream `Deutsch dub · VOE` with a real
+  `video/mp2t` range sample (65 536 B); series "Breaking Bad" -> 5 season entries (the source lists each
+  season separately; S5 = 16 eps, correct) + discovery home 3 sections / feed 20 items.
+- Release gate ALL_PASSED (`Inception,Breaking Bad`, both `ts_media`, first attempt each).
+- App runtimes 8.5.33 and 9.0.71: ALL PASS (home 36 items, search 405 ms, stream 593 ms real CDN HLS,
+  playability 200, download probe 200 / 175 KB, `servers=['VOE']`).
+- S2 quick: PARTIAL with ZERO failure codes (`--lang dub`) — runtime PASS, media decode PASS, simulator
+  NOT RUN (quick profile). With S2's default `--lang sub` the same bytes grade FAIL purely because the
+  module correctly refuses SUB for this German-dub-only catalogue — recorded as a harness-flag lesson in
+  the module-ops skill, not a module defect.
+
+## Post-publish verification (live)
+
+- CI `Validate and publish catalogue` run 38183641029: success.
+- Signed index (API): `megakino-v1` **1.1.5**, identity `SP-VID-062-MEGAKINO` #62, sha256 matches
+  certified, signature present; bundle 147 sha256 `370ea610f59d0e94ad6e04f535e862e26b43bf5e3a570b649f2854571260676c`
+  matches the local build; 38 modules.
+- Release asset `module-megakino-v1-v1.1.5`: downloaded 200, sha256 byte-identical to the certified ZIP,
+  and the shipped `index.js` carries the fix (`siteResolved` / `followRedirects: false`, host list
+  20/21/22/23) — the fix is inside the bytes users download.
+- Published-URL release gate against the live repo: **ALL_PASSED incl. Repo phase** (bundle 147 sha
+  match + inner ZIP sha match).
+- Superseded ZIP kept: `modules/MegaKino-1.1.4.zip` (release asset still 200). Raw (app-facing) index
+  flipped to 1.1.5 / bundle 147 on the first poll.
