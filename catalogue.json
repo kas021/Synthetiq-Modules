@@ -367,7 +367,7 @@
       ]
     },
     {
-      "file": "modules/MegaKino-1.1.4.zip",
+      "file": "modules/MegaKino-1.1.5.zip",
       "presentation": {
         "category": "Movies",
         "purpose": "German Movies & Series",
@@ -376,12 +376,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/megakino.png"
       },
       "changelog": [
+        "1.1.5: Fixed the module not working — the source moved to a new address again and the module kept calling the old one, which broke the source's login handshake. Search came back empty and nothing played. The module now asks the source where it lives and follows its own redirect on start, so the next move is followed automatically.",
+        "1.1.5: Verified before release — a movie and a series both play with real video segments, on both app lines (8.5.33 and 9.0.71), release gate ALL_PASSED.",
         "1.1.4: Search fixed — the source moved to a new domain and switched to GET-based search; the module now follows the current host safely and uses the new search format, with pagination. Searching for series and movies works again.",
-        "1.1.4: Session hardening against the source's cookie gate and domain rotation — a stale domain can no longer take the whole catalogue down.",
-        "1.1.2: Owner-approved public release — followed the source's domain rotation and its new cookie-session gate; search results now expose href; the hero row respects the app's 8-item limit.",
-        "1.1.1: Updated catalogue domain, preserved saved links, paginated feeds and server/quality choices",
-        "Owner-approved promotion of beta.3; playback code unchanged. 30/30 short host AV samples passed",
-        "Not fully certified: simulator no sound, S2 music-sample language flag, physical playback and full offline checks outstanding. See docs/MEGAKINO_1_1_1_RELEASE.md"
+        "1.1.4: Session hardening against the source's cookie gate and domain rotation — a stale domain can no longer take the whole catalogue down."
       ]
     },
     {
