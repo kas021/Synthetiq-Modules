@@ -151,7 +151,7 @@
       ]
     },
     {
-      "file": "modules/DramaCool-1.0.1.zip",
+      "file": "modules/DramaCool-1.0.2.zip",
       "presentation": {
         "category": "Drama",
         "purpose": "Asian Drama (Korean / Chinese / Japanese)",
@@ -160,10 +160,10 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/dramacool.png"
       },
       "changelog": [
+        "1.0.2: Subtitles fixed — the source's player API (which carries the caption tracks) was unreadable to the module, so episodes played without the subtitles the site itself shows. The module now reads it, prefers the player that carries captions, and delivers every track with the headers it needs — English first, auto-selected.",
+        "1.0.2: Also fixed the empty home row and hardened captions (HLS subtitle renditions are surfaced; a stale caption link is hidden instead of showing a broken option). Verified on both app lines and S2 with captions confirmed in-app — up to 6 languages per episode.",
         "1.0.1: Fixed multi-server stream extraction (KissKH, VidHide, VidBasic, Vidmoly) for 2026 dramas",
-        "1.0.1: Scoped episode parsing and prevented genre leaks across all drama series",
-        "1.0.0: Official DramaCool (dramacool9.com.ro) Asian dramas, movies, and shows with English subtitles",
-        "1.0.0: Full Contract V4 discoveryHome and discoveryFeed support with carousels and paginated feeds"
+        "1.0.1: Scoped episode parsing and prevented genre leaks across all drama series"
       ]
     },
     {
