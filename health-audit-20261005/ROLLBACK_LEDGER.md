@@ -621,3 +621,65 @@ MODULE FAILED (matches the 2026-10-05 deep-dive row `Inception -> episodes=0 str
   match + inner ZIP sha match).
 - Superseded ZIP kept: `modules/MegaKino-1.1.4.zip` (release asset still 200). Raw (app-facing) index
   flipped to 1.1.5 / bundle 147 on the first poll.
+
+# DramaCool 1.0.1 -> 1.0.2 (2026-10-15) — subtitles were missing in the app though the site shows them
+
+Owner instruction: *"ok for Player we are missing subtitles on Dramacool pls check"* — cause found,
+fixed, certified, then released on *"ok send update to module"*.
+
+## Cause
+
+Three module-side defects, one symptom (episodes played but no subtitles):
+1. The source's player API — which returns the stream URL AND the caption tracks — is JSON. The app
+   bridge parses JSON natively and hands modules an empty `text()` with the payload behind `json()`;
+   the module only read `text()`, so that API always read as empty and the module fell through to
+   embeds that carry no captions.
+2. Route selection returned the FIRST playable embed; on many episodes the caption-bearing embed
+   (megavid/KissKH, 6 tracks) sits behind a caption-less one (VidBasic).
+3. Caption URLs are referer-gated and tracks carried no per-track headers (the app strips
+   referer/origin when a track inherits stream headers) -> 403 even when a track was found.
+
+## Change
+
+- `request()` reads every contract shape: `text()` -> `json()` -> `body`.
+- Caption-aware route preference in `extractStreamUrl` (bounded 14 s, first playable route kept as
+  fallback) — streams stop losing captions the source serves.
+- Per-track headers + `srclang` on every caption track (English default/auto-selected).
+- HLS masters scanned for `TYPE=SUBTITLES` renditions (direct .vtt/.srt only); VidHide `.vtt` finds
+  carry headers; VidBasic's AES `?sub=` caption token decrypted and PROBE-GATED (stale upstream ->
+  hidden instead of a broken menu entry).
+- `searchResults('')` (the app runtime's home request) now returns the home cards (was `[]`).
+
+## Pre-publish tag
+
+`pre-dramacool-1.0.2-20261015`
+
+## Publish commits
+
+- `efb4107` — DramaCool 1.0.2 (ZIP + `catalogue.json`: file swap, changelog prepended).
+- `96f2a0f` — bundle 148 rebuild (38 members) + bundleVersion/bundleFile bump.
+- Testing repo `kas021/Module-Testing-PL` in the same pass: commit `2d0711f`, bundle 141, verifier
+  PASS (40 modules) — same certified bytes, so testing-bound installs see the fix too.
+
+## Certification evidence (on the exact published bytes)
+
+- ZIP sha256 `311718668b9c95837ec60cb3df0f6bb716c7bed030afccbca20476f9fa29a43a`.
+- Captions confirmed IN-APP: app runtimes 8.5.33 + V9 both ALL PASS with `stream subs=6` (English
+  default, Arabic, Indonesian, Malay, Khmer, Dutch — real SRT cues verified with the per-track
+  headers the module emits).
+- House tester PASS 28/0/3; S2 quick **PASS, zero failure codes**
+  (`READY_FOR_EXPLICIT_RELEASE_REVIEW`); module fixture test (route preference + track shape) green.
+- Gate: Package/Home/Search/Details/R* PASS; Streams phase = the known `seg_html` classifier
+  false-fail on the VidBasic CDN (real MPEG-TS bytes under `text/html`; sniffed byte-first: 0x47
+  sync + "FFmpeg Service01"). **Parity measured**: the live 1.0.1 fails those titles identically.
+
+## Post-publish verification (live)
+
+- CI `Validate and publish catalogue` run 38721160291: success.
+- Signed index (API): `dramacool-v1` **1.0.2**, sha256 matches certified, signature present; bundle
+  148 sha256 `2617bc3253220a4ed89cce85176b91f8991d4dea05f035ec5c2417b3a92a2db2` matches the local build.
+- Release asset `module-dramacool-v1-v1.0.2` downloaded: byte-identical; fix markers present in the
+  shipped JS (`homeCards` / `subLangCode` / JSON recovery).
+- Published-URL gate incl. Repo phase: **Repo PASS** (bundle 148 + inner ZIP sha match); raw
+  (app-facing) index flipped to 1.0.2 / bundle 148.
+- Superseded ZIP kept: `modules/DramaCool-1.0.1.zip` (release asset still 200).
