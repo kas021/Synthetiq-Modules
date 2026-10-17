@@ -683,3 +683,64 @@ Three module-side defects, one symptom (episodes played but no subtitles):
 - Published-URL gate incl. Repo phase: **Repo PASS** (bundle 148 + inner ZIP sha match); raw
   (app-facing) index flipped to 1.0.2 / bundle 148.
 - Superseded ZIP kept: `modules/DramaCool-1.0.1.zip` (release asset still 200).
+
+## Synthetiq Anime 1.0.5-beta.3 -> 1.0.5-beta.4 (2026-10-17) — rescue routes reported a bare, duplicated "Auto" instead of the real resolution
+
+### Cause
+Owner report: "no 1080p option, only Auto, and subtitles never appear" on Bungo Stray Dogs.
+Probed at the provider layer: the primary **Vidhawk** origin is down globally — `resolve`/`play` answer
+200 with sub+dub tracks and captions, but every media master returns
+`502 {"error":"upstream_error","upstreamStatus":525}` on `proxy.vidhawk.buzz` (Cloudflare 525, origin
+TLS failure). Reproduced on Bungo Stray Dogs, One Piece and Attack on Titan, on both advertised
+servers (`flow`, `zuri`), and across six header variants — provider-side, not our headers.
+Playback therefore fell back to the AniKage **EchoVideo** route, whose master is a single
+`RESOLUTION=1280x720` variant and whose `getSources` payload contains no caption tracks at all
+(captions absent upstream, honest zero).
+Module defect: that rescue route hardcoded `qualities: [{label:'Auto', url}]` and `packStream`
+prepended another `Auto` for the same URL, so the player menu showed two identical "Auto" rows and
+never the real height. "Requires Plus" in the panel is Auto Skip (an app subscription feature), not
+a quality gate.
+
+### Change
+`probeQualities()` derives labels+heights from the master the probe already fetched (existing
+`parseQualities`), used by the direct-HLS, MegaPlay, EchoVideo and player-page rescue routes;
+`packStream` merges qualities by URL, keeps `Auto` only for 2+ real heights (genuinely adaptive) or
+unknown dimensions, and sets `quality`/`defaultQuality` to the emitted default label. Version only;
+identity `SP-VID-074-SYNTHETIQ-ANIME` #74 unchanged.
+
+### Pre-publish tag
+`pre-synthetiq-anime-1.0.5-beta.4-20261017`
+
+### Publish commits
+- `8f3409b` — module ZIP + catalogue entry (production)
+- `d7ca22b` — bundle 149 (38 members, skip-gate OK)
+- testing repo `f5a6cd6` — TEST variant (same code + the channel's catalogueMapping/sourceFallbacks),
+  bundle 147
+- Superseded ZIP kept: `modules/Synthetiq-Anime-1.0.5-beta.3.zip` (release asset still live)
+
+### Certification evidence (on the exact published bytes)
+- `contract_check.py` OK
+- House tester `test_module.js --search "Bungo Stray Dogs"`: **PASS 30 / FAIL 0 / WARN 0**
+- Release gate: **ALL_PASSED**, streams **3/3** segment-OK (Bungo Stray Dogs 12 eps, One Piece 1180,
+  Attack on Titan 25)
+- Payload before/after on the same episode: `quality: Auto` + `qualities: [Auto, Auto]` →
+  `quality: 720p`, `qualities: [720p (height 720)]`, one entry
+- Media bytes: master 200, single variant 1280x720, child segments real MPEG-TS (`0x47`, 500-520 KB)
+- Production ZIP sha256 `692ee00d320740a47a03eb329ee11fb3a19ec9fca61bb2cc267d30a6e9dc2f14`
+- TEST ZIP sha256 `58b3be1fd70f09963c8d83b5bf8f489718805d6218f8c38686fcb943841479a3`
+
+### Post-publish verification (live)
+- CI `39055242435` success; release asset `Synthetiq-Anime-1.0.5-beta.4.zip` downloaded and
+  byte-identical to the certified ZIP (sha256 match)
+- Signed index (API): `synthetiq-anime-v1 1.0.5-beta.4`, sha256 `692ee00d…`, non-empty signature,
+  bundle 149; raw index flipped to the same version
+- Published-URL gate incl. Repo phase: **Repo PASS** (bundle 149 + inner ZIP sha match)
+- Testing raw index: 1.0.5-beta.4 / sha `58b3be1f…` / bundle 147; raw ZIP byte-identical
+- Stream re-check during the video-provider outage is flapping per episode (E12 resolves 720p,
+  E1 refused at the time of writing) because Vidhawk is down and the fallback pool is per-episode —
+  source availability, not the label change.
+
+### Rollback recipes
+- Single module: `git revert 8f3409b` (catalogue points back at 1.0.5-beta.3, ZIP retained).
+- With bundle: revert `d7ca22b` too, then rebuild the bundle FORWARD (downgrades are rejected).
+- Emergency: restore `catalogue.json` from `pre-synthetiq-anime-1.0.5-beta.4-20261017`.
