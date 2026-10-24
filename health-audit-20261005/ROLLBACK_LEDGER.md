@@ -744,3 +744,54 @@ identity `SP-VID-074-SYNTHETIQ-ANIME` #74 unchanged.
 - Single module: `git revert 8f3409b` (catalogue points back at 1.0.5-beta.3, ZIP retained).
 - With bundle: revert `d7ca22b` too, then rebuild the bundle FORWARD (downgrades are rejected).
 - Emergency: restore `catalogue.json` from `pre-synthetiq-anime-1.0.5-beta.4-20261017`.
+
+## DramaCool 1.0.2 -> 1.0.3 (2026-10-24) — VidMoly captions were never read (BL dramas had no subtitles)
+
+### Cause
+Owner report: "BL dramas play but no subtitles."
+VidMoly keeps its captions **outside the HLS manifest** — the embed document carries a jwplayer
+`baseTracks` array:
+`{ file: 'https://srt.vidmoly.me/srt/02137/refzlboguttu_English.srt', label: 'English', kind: 'captions' }`.
+`resolveVidmoly` only scanned the master playlist for `EXT-X-MEDIA` renditions, so those tracks were
+dropped and playback had no captions. Reproduced on the live 1.0.2 bytes with **KinnPorsche**
+(0 subtitles, route `box-1583-q.vmeas.cloud`), while vidbasic-hosted titles returned 1.
+`srt.vidmoly.me` serves the files publicly (200, text/plain, 36,299 B, real SRT cues).
+
+### Change
+`subsFromVidmolyTracks(html, origin)` parses `{file,label,kind:'captions'}` objects, merges them with
+media-playlist renditions (dedupe by URL) and attaches per-track `Referer`/`Origin` headers.
+Also: `parseCards` now drops cards without a poster (the tester's home quality gate flagged blank tiles).
+
+### Pre-publish tag
+`pre-dramacool-1.0.3-20261019`
+
+### Publish commits
+- `4cb418e` — module ZIP + catalogue entry (production)
+- `73983fd` — bundle 150 (38 members, skip-gate OK)
+- `7d2b1a6` — testing repo (same bytes), bundle 150
+- Superseded ZIP kept: `modules/DramaCool-1.0.2.zip` (release asset still live)
+
+### Certification evidence (on the exact published bytes)
+- House tester: **PASS, 0 FAIL** (3 WARN = documented Wikipedia cross-checks)
+- Release gate: FAIL only on the known VidBasic `seg_html` classifier; **parity re-run on live 1.0.2
+  at the same time produced the identical `seg_html` ×6**
+- Direct probe: KinnPorsche **SUBS 0 → 1** (English SRT, 200 / 36 KB / valid cues);
+  TharnType 1 (unchanged), Bad Buddy 1 (unchanged)
+- Honest zero: Love in the Air has no caption track on its only route (vidbasic `key=` → plain HLS)
+- KinnPorsche's 4 episodes = the source page lists 4 (site ceiling, not an extractor bug)
+- ZIP sha256 `abfed0370656fc7ae1c2e5e011148ffba2f982b385370c1a10aa6d891213a6e7`
+
+### Post-publish verification (live)
+- CI `40141594961` success; release asset `module-dramacool-v1-v1.0.3` byte-identical to the certified ZIP
+- Signed index: `dramacool-v1 1.0.3`, sha256 `abfed037…`, signature present, bundle 150
+- Testing raw index + raw ZIP: 1.0.3 / `abfed037…`, bundle 150, byte-identical
+
+### Follow-up found by the same-day live sweep
+`drama-direct-v1` was the only catalogue entry without `presentation.iconUrl` (blank tile). Source
+serves no icon (`/favicon.ico` and `/favicon.png` both 404), so a generated 512×512 RGBA tile was
+added in commit `5c468db`; CI `40141894897` signed the index and the icon answers 200 `image/png`.
+
+### Rollback recipes
+- Single module: `git revert 4cb418e` (catalogue returns to 1.0.2; ZIP retained).
+- With bundle: revert `73983fd` too, then rebuild the bundle FORWARD (downgrades rejected).
+- Emergency: restore `catalogue.json` from `pre-dramacool-1.0.3-20261019`.
