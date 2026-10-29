@@ -795,3 +795,67 @@ added in commit `5c468db`; CI `40141894897` signed the index and the icon answer
 - Single module: `git revert 4cb418e` (catalogue returns to 1.0.2; ZIP retained).
 - With bundle: revert `73983fd` too, then rebuild the bundle FORWARD (downgrades rejected).
 - Emergency: restore `catalogue.json` from `pre-dramacool-1.0.3-20261019`.
+
+# MovieDB 0.1.0-beta.14 → 0.1.0-beta.15 (2026-10-29) — dead catalogue source + dead stream API
+
+## Cause
+`www.moviedb.wiki` answers **403 Cloudflare** (no catalogue) and `api.vidlove.cc` no longer resolves
+(no streams). Search returned `[]` and every resolve ended "no playable stream".
+
+## Change
+TMDB catalogue fallback (search / details / episodes / home / empty-query browse) + MoviesAPI/VidSpark
+as the first stream provider (public `x-player-key`, two host draws because the CDN rotates and some
+hosts answer 429, playlist-level validation for AES `.json` segments, English captions). The original
+vidlove/vidzen chain stays behind it. Identity `SP-VID-083-MOVIEDB` unchanged.
+
+## Pre-publish tag
+`pre-movie-repair-20261029`
+
+## Publish commits
+`b7bc28c` (module + catalogue), `aedca92` (bundle 151). CI run `40971639429` — success.
+
+## Certification evidence (on the exact published bytes)
+Release gate **ALL_PASSED** (Package/Home/Search/Details PASS; Streams 1/1 segment-OK, `probe=ts_media`).
+Scripted matrix **32/33**; the one red line was Dune Part Two, which the provider does not encode
+(`result:false`, 0 sources) — the module's honest "no stream" was correct. TRON: Ares plays 804p with
+1 subtitle. SHA-256 `78b3b4afdd3b372227ee6a4f2de3336b25a8f389593353aee8e6f315f05f0cbb`.
+
+## Post-publish verification (live)
+Signed index `moviedb-wiki-v1 0.1.0-beta.15`, SHA `78b3b4af…`, signature present. Release asset
+downloaded and byte-identical. Bundle 151 signed, `0655391f…`.
+
+## Rollback recipes
+- Single module: `git revert b7bc28c` (catalogue returns to beta.14; ZIP retained).
+- With bundle: revert `aedca92` too, then rebuild the bundle FORWARD (downgrades rejected).
+- Emergency: restore `catalogue.json` from `pre-movie-repair-20261029`.
+
+# Alpha Movies 0.2.0-beta.3 → 0.2.0-beta.4 (2026-10-29) — both providers dead
+
+## Cause
+Videasy's backend is **NXDOMAIN** (provider gone, not moved) and StreamingUnity's player iframe 404s.
+Catalogue worked; every `extractStreamUrl` ended "Every server for this title failed media validation."
+
+## Change
+MoviesAPI/VidSpark added as the first stream attempt (movie + TV paths wired; upstream TV currently
+502), two sequential draws (no timers in the sandbox), playlist validation, English captions from
+`sources[0].tracks`; the original chain stays as fallback. Identity `SP-VID-079-ALPHA-MOVIES` unchanged.
+
+## Pre-publish tag
+`pre-movie-repair-20261029`
+
+## Publish commits
+`c116cdd` (module + catalogue), `aedca92` (bundle 151). CI run `40971639429` — success.
+
+## Certification evidence (on the exact published bytes)
+Release gate **ALL_PASSED** (Streams 1/1 segment-OK, `probe=media_bytes`). Direct probe
+`alpha:movie:533533:1` → stream OK, 1 English subtitle, 1 server. SHA-256
+`fa442fd94cb07e66d054d9ffa79dd7e569ba144e0db10ae8ab3b54fe2206f329`.
+
+## Post-publish verification (live)
+Signed index `alpha-movies 0.2.0-beta.4`, SHA `fa442fd9…`, signature present. Release asset downloaded
+and byte-identical. Bundle 151 signed.
+
+## Rollback recipes
+- Single module: `git revert c116cdd` (catalogue returns to beta.3; ZIP retained).
+- With bundle: revert `aedca92` too, then rebuild the bundle FORWARD.
+- Emergency: restore `catalogue.json` from `pre-movie-repair-20261029`.
