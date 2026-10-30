@@ -227,7 +227,7 @@
       ]
     },
     {
-      "file": "modules/X-Stream-1.3.3.zip",
+      "file": "modules/X-Stream-1.3.4.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -235,6 +235,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
       },
       "changelog": [
+        "1.3.4: Playback restored. The old embed page stopped exposing its player for most titles, so the module now resolves through the provider's own JSON player API (the page route stays as a fallback). Results also carry the primary URL, its headers and real quality labels (e.g. 536p) instead of a bare Auto. Verified on the exact bytes: release gate ALL_PASSED, 16/17 sampled titles, 12 subtitle tracks on a movie.",
         "1.3.3: Fixes Fresh Retry getting stuck after earlier provider failures; prevents stale requests overwriting refreshed links; respects provider cooldowns. Keeps 1.3.2's faster verified-route startup.",
         "Stricter film and season matching avoids substituting a different title or episode. Availability and quality still depend on the providers; this update does not make every title playable.",
         "Owner-approved reliability release. Automated runtime and decoder evidence is recorded in the release notes; physical-device acceptance and full language certification remain incomplete.",
