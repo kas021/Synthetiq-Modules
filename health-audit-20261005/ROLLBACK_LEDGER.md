@@ -859,3 +859,40 @@ and byte-identical. Bundle 151 signed.
 - Single module: `git revert c116cdd` (catalogue returns to beta.3; ZIP retained).
 - With bundle: revert `aedca92` too, then rebuild the bundle FORWARD.
 - Emergency: restore `catalogue.json` from `pre-movie-repair-20261029`.
+
+# X-Stream 1.3.3 → 1.3.4 (2026-10-30) — dead MoviesAPI embed route + contract gap
+
+## Cause
+The module listed `moviesapi` as a provider but resolved it by loading the movie page and looking for
+a `vidora.stream` iframe, which the service no longer serves for most titles. The result also broke the
+app contract: no top-level `url`, and `streams` carried objects where the app/gate read flat label/url
+pairs, so a resolved stream still looked empty.
+
+## Change
+MoviesAPI's JSON player API is tried first (public `x-player-key`, two parallel draws, playlist-level
+validation, media-playlist URL for probe compatibility); the HTML scrape stays as fallback. Provider
+timeout 5s → 9s. Results now carry top-level `url` + primary headers, flat `streams`, rich data in
+`servers`, and a real `height` so labels show e.g. 536p instead of `auto`. Identity `SP-VID-048-XSTREAM`
+unchanged.
+
+## Pre-publish tag
+`pre-xstream-134-20261030`
+
+## Publish commits
+`27aac9f` (module + catalogue), `34b2cc4` (bundle 152). CI run `41111016755` — success.
+
+## Certification evidence (on the exact published bytes)
+Release gate **ALL_PASSED** (Package/Home/Search/Details PASS; Streams 1/1 segment-OK, `probe=media_bytes`).
+Pre-publish matrix **16/17** across TRON: Ares, Superman, A Minecraft Movie and F1 — the single miss was
+"Superman" matching the *Superman & Lois* series, which the provider does not encode (honest no-stream).
+TRON: Ares resolved 536p with 12 subtitle tracks. SHA-256 `bbbfedc4b81fc36aae90f8b9a3e3629c3598658a50a86dcde83d6566e3bb090d`.
+
+## Post-publish verification (live)
+Signed index `xstream-v1 1.3.4`, SHA `bbbfedc4…`, signature present; release asset downloaded and
+byte-identical. Bundle 152 signed, `a85341d2…`. Testing carries the certified code as
+`1.3.4-beta.2` (SHA `23ade944…`) in testing bundle 152 (`21e37261…`), raw ZIP byte-identical.
+
+## Rollback recipes
+- Single module: `git revert 27aac9f` (catalogue returns to 1.3.3; ZIP retained).
+- With bundle: revert `34b2cc4` too, then rebuild the bundle FORWARD (downgrades rejected).
+- Emergency: restore `catalogue.json` from `pre-xstream-134-20261030`.
