@@ -896,3 +896,45 @@ byte-identical. Bundle 152 signed, `a85341d2…`. Testing carries the certified 
 - Single module: `git revert 27aac9f` (catalogue returns to 1.3.3; ZIP retained).
 - With bundle: revert `34b2cc4` too, then rebuild the bundle FORWARD (downgrades rejected).
 - Emergency: restore `catalogue.json` from `pre-xstream-134-20261030`.
+
+# AniKage 1.1.2 → 1.1.3 (2026-11-05) — provider tokens treated as non-URLs
+
+## Cause
+The source's `/episodes/<n>/sources` endpoint now returns an opaque token in `sources[].url`
+(e.g. `AccUU6Kv…`), not an `https://` URL. The module accepted only `http(s)://` sources, so every
+live provider (wave/koto/megg) was discarded and the module reported "no checked stream". `neko`,
+`dib` and `kiwi` additionally answer 400 "unknown provider".
+
+## Change
+Opaque tokens are expanded through the source's own `PUBLIC_PROXY_URL` (`https://og.bakayaro.live/<token>`),
+which returns a real HLS master; the live providers are tried first. Quality is read from the master's
+`RESOLUTION` (720p/360p) instead of a bare `Auto`. Identity `SP-VID-063-ANIKAGE` unchanged.
+
+## Test update (disclosed)
+`scripts/anikage_module.test.cjs` asserted the module must NEVER request `og.bakayaro.live`. That rule
+predates this source change (introduced 1.1.1) and now contradicts the verified source behaviour: the
+proxy is the site's own player route and answers 200 with a playable master. The assertion now checks
+the new contract — token sources are expanded through the proxy, while embed routes stay direct — and
+still asserts invalid tokens add no servers. All 13 tests pass; no other assertion was weakened.
+
+## Pre-publish tag
+`pre-anikage-113-20261105`
+
+## Publish commits
+`7e823fe` (module + catalogue), `ce84d5a` (bundle 153), `42031365296`'s commit (test update). CI first
+run `42031197646` failed on the outdated test; after the disclosed update, run `42031365296` succeeded.
+
+## Certification evidence (on the exact published bytes)
+Release gate **ALL_PASSED** (Frieren, Streams 1/1 segment-OK, `probe=media_bytes`). Episode probes:
+Frieren ep1/ep2 **720p**, One Piece ep1/ep2 **360p**. SHA-256
+`70002c6570c46129d00e71c9cf623f7b44bc2ddea2cb559933b10ede1554fff4`.
+
+## Post-publish verification (live)
+Signed index `anikage-v1 1.1.3`, SHA `70002c65…`, signature present; release asset byte-identical.
+Bundle 153 signed (`22c2cc6c…`). Testing carries the same certified bytes in testing bundle 153
+(`47d0b98e…`).
+
+## Rollback recipes
+- Single module: `git revert 7e823fe` (catalogue returns to 1.1.2; ZIP retained).
+- With bundle: revert `ce84d5a` too, then rebuild the bundle FORWARD (downgrades rejected).
+- Emergency: restore `catalogue.json` from `pre-anikage-113-20261105`.
