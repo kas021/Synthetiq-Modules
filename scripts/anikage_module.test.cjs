@@ -116,6 +116,9 @@ test('retain more than four checked alternatives with route-specific headers and
       embeds: Array.from({ length: 6 }, (_, i) => ({ server: 'Server ' + i, type: 'softsub',
         url: `https://otakuhg.test/e/${i}?caption_1=https://captions.test/${i}.vtt&sub_1=English` })) });
     if (url.includes('otakuhg.test')) return response(`https://cdn.test/${url.match(/\/e\/(\d+)/)[1]}.m3u8`, 'text/html');
+    // Source payloads now carry opaque tokens for direct sources; the site's own player resolves
+    // them through PUBLIC_PROXY_URL. A bad token must not become a server.
+    if (url.includes('og.bakayaro.live')) return response('video bytes', 'video/mp2t');
     if (url.endsWith('.m3u8')) return response('#EXTM3U\nseg.ts', 'application/vnd.apple.mpegurl');
     assert.match(headers.Referer, /otakuhg/);
     return response('video bytes', 'video/mp2t');
@@ -127,7 +130,10 @@ test('retain more than four checked alternatives with route-specific headers and
     assert.equal(server.subtitles[0].url, `https://captions.test/${i}.vtt`);
     assert.equal(server.intro.start, 0); assert.match(server.headers.Referer, new RegExp('/e/' + i));
   });
-  assert.equal(requested.some(url => url.includes('bakayaro')), false);
+  // Contract change (source now returns tokens instead of URLs): token sources must be expanded
+  // through the source's own proxy, while embeds stay direct. Invalid tokens add no servers.
+  assert.equal(requested.some(url => url.includes('og.bakayaro.live/opaque-token')), true);
+  assert.equal(result.servers.length, 6);
 });
 test('wrong language or episode response is never accepted as the requested stream', async () => {
   let embedRequests = 0;
