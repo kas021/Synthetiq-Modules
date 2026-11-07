@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 153,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-153.zip",
+  "bundleVersion": 154,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-154.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "file": "modules/AnimeAV1-1.3.0-beta.4.zip",
+      "file": "modules/AnimeAV1-1.3.0-beta.9.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Spanish Anime",
@@ -299,6 +299,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeav1.png?v=20260814-1"
       },
       "changelog": [
+        "1.3.0-beta.9: Reduces repeated catalogue requests and rate-limit pressure, corrects unknown language availability after failed checks, and keeps HLS master streams when separate audio/caption tracks are present. Previous tests decoded 30 of 30 attempted routes; this is not a guarantee for every title, language or device.",
         "1.3.0-beta.4: Playback restored after the site rotated its server lineup — adds UPNShare and Voe as first-class hosts so episodes keep resolving from the site itself.",
         "1.3.0-beta.4: Independent rescue chain (EchoVideo / MegaPlay) now starts in parallel with the site hosts — if the site hosts and the previous fallback are down, the module still finds a verified stream instead of failing.",
         "1.3.0-beta.4: Every offered server is byte-verified (real media segments) before it is shown, and dead relays are skipped in milliseconds.",
