@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 158,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-158.zip",
+  "bundleVersion": 159,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-159.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "file": "modules/Synthetiq-Flux-1.0.3-beta.5.zip",
+      "file": "modules/Synthetiq-Flux-1.0.3-beta.10.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Synthetiq Flux Anime",
@@ -50,6 +50,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq-flux-1.0.0.png"
       },
       "changelog": [
+        "1.0.3-beta.10: Prefers a validated Koto route and improves video-variant selection while preserving external HLS renditions. Owner-requested live-test release with limited testing; Wave fallback, captions and device acceptance remain unverified.",
         "1.0.3-beta.5: Fixes episodes that loaded slowly and then failed with \"no verified playable source\". The provider needs 17-45s to answer the FIRST (cold) call for an episode and sometimes never answers, while the next call for the same episode is instant - so the play path now asks twice (both servers in parallel, 9s cap per round, 19s budget) instead of giving up after one 10s round. Cold episodes now play via the labelled AniKage rescue; warm episodes are unchanged. Catalogue, subtitles, quality labels and language isolation untouched.",
         "1.0.3-beta.5: Verified: gate ALL_PASSED (one piece 1180 episodes, attack on titan 25, streams 2/2 real TS media); house tester PASSED with 0 warnings; cold episode measured playable at 18.0s.",
         "1.0.3-beta.4: Restores stream resolution on the current rescue CDN routes. Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), accepting size-capped reachability, and preferring routes without player-broken segment names. Sub/Dub and subtitles unchanged; verified on the released app runtime and S2.",
@@ -72,7 +73,7 @@
       ]
     },
     {
-      "file": "modules/AniPM-0.1.0-beta.4.zip",
+      "file": "modules/AniPM-0.1.0-beta.9.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "English Anime (AniPM)",
@@ -85,6 +86,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anipm.png?v=20260927-1"
       },
       "changelog": [
+        "0.1.0-beta.9: Adds an alternative Koto playback route when the primary source fails, with exact-title, episode and advertised-audio checks. Owner-requested live-test release; the primary provider denial is not fixed, and caption/audio/device acceptance remains unverified.",
         "0.1.0-beta.4: Fixes user reports on downloads and playback - the module now defaults to its muxed video+audio engine (single stream whose timestamps were verified against the manifest across a full episode), so downloads keep their audio and A/V drift is gone; the AniPM engine remains selectable as the alternate server.",
         "0.1.0-beta.3: Fixes from owner testing - subtitles now load in the player on every platform (the AniPM engine's own caption files are unreachable for the app's downloader, so the reachable English caption set now serves both engines and the caption menu works whichever server you pick). The home page is now a full browse experience: a Featured row plus paginated rows and an endless All Anime grid backed by the full 8,900+ title catalogue.",
         "0.1.0-beta.2: First public release of the AniPM engine (ani.pm) - English anime with search, home feed and full episode lists (Sub/Dub flags on every episode). Two playback engines with server switcher: AniPM - adaptive-quality streams with English captions and opening/ending skip markers; MegaPlay - backup server. The module picks a reachable engine automatically per device. Certified: house tester 26/26, real app-runtime Sub+Dub pass, S2 quick Grade PASS.",
@@ -92,7 +94,7 @@
       ]
     },
     {
-      "file": "modules/Anikoto-5.0.5-beta.2.zip",
+      "file": "modules/AniKoto-5.0.5-beta.7.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -101,6 +103,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png?v=20260812-2"
       },
       "changelog": [
+        "5.0.5-beta.7: Updates provider response and token handling, same-episode/audio checks and Retry-After handling. Experimental owner-requested live-test release: repeated-open failures and source/DNS availability remain unresolved. Do not treat this as a certified reopen fix.",
         "5.0.5-beta.2: Restores stream resolution on the current rescue CDN routes (Sub and Dub). Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), extending the resolution deadline (3s to 5s), accepting size-capped reachability, and preferring routes without player-broken segment names. Subtitle tracks unchanged; verified on the released app runtime and S2.",
         "5.0.4-beta.4: Fixed random skipping during playback (disguised .html segments mapped and served as genuine MPEG-TS video/mp2t). AES-CBC player stream descriptor decrypt support, improved fallback rate-limit handling, and normalized subtitle language tags.",
         "5.0.4-beta.3: Vidhawk-independent AniKage rescue chain (labelled; used only when the primary has no verified media), MegaPlay descriptor decrypt fix, MAL-keyed rescue lookups, subtitle language tags. Fixes titles that went dark during the Vidhawk media-relay outage.",
