@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 155,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-155.zip",
+  "bundleVersion": 157,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-157.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -498,7 +498,7 @@
       ]
     },
     {
-      "file": "modules/Shahiid-2.1.2.zip",
+      "file": "modules/Shahiid-2.1.3-beta.3.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Arabic Anime",
@@ -506,6 +506,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/shahiid.png"
       },
       "changelog": [
+        "2.1.3-beta.3: Ranks exact Naruto and One Piece search matches ahead of related series, specials and arcs. Existing playback and language handling are unchanged. Source availability varies; owner phone acceptance is pending.",
         "2.1.2: Long series now enumerate to the end of a season (direct page walk, batched, up to ~1240 episodes with a 12s budget) instead of stopping at 500 - One Piece went from 530 to 860 reachable episodes in 13.3s, and the tail episode (1180) plays.",
         "2.1.2: Film/landing entries that live under /seasons/ but carry no player now return an empty list with a log line instead of throwing, so they no longer surface as a broken screen.",
         "2.1.2: Search ranks single specials, films and OVA reels below real seasons, so searching a long show no longer opens a one-episode special first.",
