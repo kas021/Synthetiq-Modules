@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 160,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-160.zip",
+  "bundleVersion": 161,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-161.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -646,7 +646,7 @@
       ]
     },
     {
-      "file": "modules/MovieDB-0.1.0-beta.15.zip",
+      "file": "modules/MovieDB-0.1.0-beta.25.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Fast one-call movie & TV streams (Beta)",
@@ -655,6 +655,9 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
       },
       "changelog": [
+        "0.1.0-beta.25: Owner-approved LIVE BETA, not full player/device certification. Updates the current player route and subtitle handling; captions arriving within the existing resolve deadline are retained, captionless cached results refresh, and fresh retries cannot be overwritten by older requests.",
+        "Local short-video and English-caption checks, allowing up to three attempts: development 39/42 video and 38/42 captions; separate holdout 9/10 for both. First-attempt caption success was 29/42 and 5/10. These are not first-open guarantees, full-length tests or verification of every language. The exact V9 Flutter runtime passed; full S2 and physical-device acceptance remain incomplete.",
+        "Source availability, subtitle timing and older public-app compatibility still need user testing. Report the title, episode and module version if a stream or subtitle fails. Previous packages remain available for rollback; no other movie modules changed in this release.",
         "0.1.0-beta.15: Revived the catalogue and playback after the old source disappeared. Search, details, episodes and the home row fall back to TMDB, and streams come from the MoviesAPI/VidSpark provider with English subtitles; the original providers stay behind it as fallbacks. Verified on the exact bytes: release gate ALL_PASSED, TRON: Ares plays at 804p with a subtitle track.",
         "0.1.0-beta.14: Quality labels for direct-file routes now show the REAL resolution, read from the file's own header (The Mentalist shows 1080p instead of a generic “Auto”; letterboxed titles show their true height, e.g. 816p). No extra network cost — the bytes were already fetched during validation.",
         "0.1.0-beta.13: Streams are accepted in every format the source serves — direct MP4 and TS files now play exactly like HLS, with the format detected from the actual bytes instead of assumed. Fixes titles (e.g. The Mentalist) that played on the site but showed “no playable stream” in the app.",
