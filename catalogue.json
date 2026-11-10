@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 161,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-161.zip",
+  "bundleVersion": 162,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-162.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "file": "modules/AniKoto-5.0.5-beta.7.zip",
+      "file": "modules/AniKoto-5.0.6-beta.3.zip",
       "presentation": {
         "category": "Anime",
         "purpose": "Anime",
@@ -103,6 +103,7 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/anikoto.png?v=20260812-2"
       },
       "changelog": [
+        "5.0.6-beta.3: Faster cached lookups with verified embed IDs, provider-scoped caches, safer fallback language checks and preserved external audio/subtitle playlists. Stops returning unrelated videos when embed metadata is unavailable. Owner-approved LIVE BETA: sampled media, runtime and regression checks passed; full certification and native phone acceptance remain pending. S2 retains the same opening-language detector flag observed on the previous live build. Existing source availability and backup-only-Dub limitations remain.",
         "5.0.5-beta.7: Updates provider response and token handling, same-episode/audio checks and Retry-After handling. Experimental owner-requested live-test release: repeated-open failures and source/DNS availability remain unresolved. Do not treat this as a certified reopen fix.",
         "5.0.5-beta.2: Restores stream resolution on the current rescue CDN routes (Sub and Dub). Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), extending the resolution deadline (3s to 5s), accepting size-capped reachability, and preferring routes without player-broken segment names. Subtitle tracks unchanged; verified on the released app runtime and S2.",
         "5.0.4-beta.4: Fixed random skipping during playback (disguised .html segments mapped and served as genuine MPEG-TS video/mp2t). AES-CBC player stream descriptor decrypt support, improved fallback rate-limit handling, and normalized subtitle language tags.",
