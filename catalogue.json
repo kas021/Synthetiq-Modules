@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 162,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-162.zip",
+  "bundleVersion": 163,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-163.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -701,6 +701,18 @@
         "1.0.0-beta.10: Identity assigned SP-VID-101-ANIME4UP (number 101; 100 belongs to Synthetiq-One in the video range - the signed pipeline rejects duplicates). Community module, first catalogue release.",
         "1.0.0-beta.10: Verified on 6 live Share4Max shares (6/6 resolve after the fix, 0/6 before; avg 4.5s), 20/20 offline parser checks, 2,000 real episode URLs accepted. Community-built module, first catalogue release.",
         "1.0.0-beta.8: Community build - Arabic anime catalogue from anime4up with Share4Max mirror resolution prioritised for direct playback."
+      ]
+    },
+    {
+      "file": "modules/Movy-0.1.0-beta.4.zip",
+      "presentation": {
+        "category": "Movies & TV",
+        "purpose": "Movies & TV (Beta)",
+        "recommended": false,
+        "language": "Original audio; source subtitles"
+      },
+      "changelog": [
+        "0.1.0-beta.4: New Movy beta for movies and TV. Fresh provider links, source-supplied captions with corrected language labels, separate HLS/MP4 quality groups, real season/episode numbering, bounded requests and provider cooldowns. Availability and subtitle coverage vary; not full-film or physical-device certification."
       ]
     }
   ]
