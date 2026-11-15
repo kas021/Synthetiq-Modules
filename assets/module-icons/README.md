@@ -13,6 +13,7 @@ Direct logo sources verified on 2026-08-12 include:
 - Anime-Sama: the site's official `logo_icon.png`
 - Atsu: `/favicon/apple-touch-icon.png`
 - DramaFun: `/favicons/android-icon-192x192.png`
+- FRAnime: `/logos/apple-touch-icon.png` (verified 2026-11-15)
 - Senshi: `/assets/favicon-3ErN9bbp.ico` converted losslessly to PNG
 - STCine: `/icons/icon-192.png`
 - ToonTales: `/wp-content/uploads/ToonTales.png`
