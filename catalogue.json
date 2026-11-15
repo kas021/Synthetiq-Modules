@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 164,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-164.zip",
+  "bundleVersion": 165,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-165.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "file": "modules/YFlix-1.1.2.zip",
+      "file": "modules/YFlix-1.1.3-beta.2.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV Shows (HD Streams)",
@@ -146,6 +146,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/yflix.png"
       },
       "changelog": [
+        "1.1.3-beta.2: yflix.ws is legally blocked in some regions (HTTP 451 in the UK). Search, details, episodes and Home now fall back to a TMDB catalogue, and playback resolves by IMDb id through a working HLS provider. The dead Videasy route is disabled.",
+        "1.1.3-beta.2: 20-title test (12 films + first episode of 8 series; playlist and first media segment must load): 20/20, up from 0/20. Exact-byte Flutter runtime passed for a film and a series. Links saved from the old site may not resolve where the site is blocked.",
         "1.1.2: Owner-approved public release — titles that ship without artwork (e.g. upcoming 2026 films) no longer show the site's template logo; the real poster is resolved from each title's own page (cached, bounded). Playback code unchanged.",
         "1.1.1: Owner-approved public release — restored playback: the backup provider dropped TMDB ids, so lookups now use an exact title+year identity match (never substitutes a different film); subtitle tracks are forwarded as absolute URLs, deduped per language, all languages kept.",
         "1.1.1: Resolvers race so the first working source wins — a dead provider no longer delays playback (verified ~3.7s resolves with full subtitle sets).",
@@ -181,8 +183,7 @@
         "category": "Drama",
         "purpose": "Drama Direct (Experimental)",
         "recommended": false,
-        "language": "Original audio / source subtitles"
-      ,
+        "language": "Original audio / source subtitles",
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/drama-direct.png?v=20261024-1"
       },
       "changelog": [
@@ -236,7 +237,7 @@
       ]
     },
     {
-      "file": "modules/X-Stream-1.3.4.zip",
+      "file": "modules/X-Stream-1.3.5-beta.1.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -244,6 +245,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
       },
       "changelog": [
+        "1.3.5-beta.1: Playback reliability — the provider's own servers now fail on most titles, so when they return nothing playable the module falls back to an isolated backup resolver (movie and series episodes by TMDB id). The backup carries original audio only and is never used for Dub.",
+        "1.3.5-beta.1: 20-title test (12 films + first episode of 8 series; playlist and first media segment must load): 20/20, up from 5/20. Exact-byte Flutter runtime passed. Physical-device acceptance not yet done.",
         "1.3.4: Playback restored. The old embed page stopped exposing its player for most titles, so the module now resolves through the provider's own JSON player API (the page route stays as a fallback). Results also carry the primary URL, its headers and real quality labels (e.g. 536p) instead of a bare Auto. Verified on the exact bytes: release gate ALL_PASSED, 16/17 sampled titles, 12 subtitle tracks on a movie.",
         "1.3.3: Fixes Fresh Retry getting stuck after earlier provider failures; prevents stale requests overwriting refreshed links; respects provider cooldowns. Keeps 1.3.2's faster verified-route startup.",
         "Stricter film and season matching avoids substituting a different title or episode. Availability and quality still depend on the providers; this update does not make every title playable.",
@@ -384,7 +387,7 @@
       ]
     },
     {
-      "file": "modules/MegaKino-1.1.5.zip",
+      "file": "modules/MegaKino-1.1.6-beta.2.zip",
       "presentation": {
         "category": "Movies",
         "purpose": "German Movies & Series",
@@ -393,6 +396,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/megakino.png"
       },
       "changelog": [
+        "1.1.6-beta.2: The source moved again (megakino28). The resolver now follows longer redirect chains and probes the next numbered hosts, so further moves are followed automatically. German dub is still never returned for a Sub request.",
+        "1.1.6-beta.2: 20-title test (12 films + first episode of 8 series; playlist and first media segment must load): 16/20, up from 0/20. Exact-byte Flutter runtime passed.",
         "1.1.5: Fixed the module not working — the source moved to a new address again and the module kept calling the old one, which broke the source's login handshake. Search came back empty and nothing played. The module now asks the source where it lives and follows its own redirect on start, so the next move is followed automatically.",
         "1.1.5: Verified before release — a movie and a series both play with real video segments, on both app lines (8.5.33 and 9.0.71), release gate ALL_PASSED.",
         "1.1.4: Search fixed — the source moved to a new domain and switched to GET-based search; the module now follows the current host safely and uses the new search format, with pagination. Searching for series and movies works again.",
@@ -576,14 +581,16 @@
       ]
     },
     {
-      "file": "modules/StreamingUnity-1.0.4.zip",
+      "file": "modules/StreamingUnity-1.0.5-beta.3.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "StreamingUnity Movies & TV",
-        "language": "English",
+        "language": "Italian",
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/streamingunity.png"
       },
       "changelog": [
+        "1.0.5-beta.3: The site and its old player host are blocked or offline. Search, details, episodes and Home now use a TMDB catalogue; playback uses the VixSrc player and only returns streams with an Italian audio track, labelled Dub (never shown as Sub).",
+        "1.0.5-beta.3: 20-title test (12 films + first episode of 8 series; playlist and first media segment must load): 20/20, up from 0/20. Exact-byte Flutter runtime passed for a film and a series. Links saved from the old site may not resolve.",
         "1.0.4: Fixed episode routing by using the current title ID plus episode ID iframe endpoint",
         "1.0.4: Prevented unrelated Gravitas Ventures or Paramount media from being returned for One Piece episodes",
         "1.0.4: Verified distinct episode 1 and episode 2 HLS routes for SUB and DUB",
@@ -650,7 +657,7 @@
       ]
     },
     {
-      "file": "modules/MovieDB-0.1.0-beta.25.zip",
+      "file": "modules/MovieDB-0.1.0-beta.26.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Fast one-call movie & TV streams (Beta)",
@@ -659,6 +666,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
       },
       "changelog": [
+        "0.1.0-beta.26: Playback reliability — when the current player route returns nothing playable, an isolated backup resolver is tried (TMDB id; original audio only, never used for Dub).",
+        "0.1.0-beta.26: 20-title test (12 films + first episode of 8 series; playlist and first media segment must load): 20/20, up from 6/20. Exact-byte Flutter runtime passed. Physical-device acceptance not yet done.",
         "0.1.0-beta.25: Owner-approved LIVE BETA, not full player/device certification. Updates the current player route and subtitle handling; captions arriving within the existing resolve deadline are retained, captionless cached results refresh, and fresh retries cannot be overwritten by older requests.",
         "Local short-video and English-caption checks, allowing up to three attempts: development 39/42 video and 38/42 captions; separate holdout 9/10 for both. First-attempt caption success was 29/42 and 5/10. These are not first-open guarantees, full-length tests or verification of every language. The exact V9 Flutter runtime passed; full S2 and physical-device acceptance remain incomplete.",
         "Source availability, subtitle timing and older public-app compatibility still need user testing. Report the title, episode and module version if a stream or subtitle fails. Previous packages remain available for rollback; no other movie modules changed in this release.",
@@ -685,7 +694,8 @@
         "1.1.0: Much faster home screen (the newest row and the three themed rows now load together instead of one after another: measured 8.4s -> 1.3s), plus verified server handling. Only the mirror family that can actually deliver video is offered: the site's DoodStream servers sit behind a bot wall, and its cybervynx servers were traced to playlists filled with ad images rather than video, so they are skipped instead of showing an option that cannot play. Source-side note: individual mirrors often go dead at the host - those episodes report honestly that no link is available rather than playing nothing.",
         "1.0.0: First release of the CimaClub engine (w.cimacub.com) - Arabic subtitled movies, series and anime. The catalogue is read straight from the site's own WordPress API (search, newest-episode home rows and a paged feed), so titles and posters come from the source itself. Playback follows each episode's watch page to its MixDrop servers and resolves the player's signed mp4 url per play - those links expire in about four hours, so nothing is cached, and the mirror list cascades automatically until a live one answers. Not the default movie source; install alongside your others.",
         "Owner-approved public release for all-user testing. Source-side notes: some mirror links are already dead at the host and get skipped automatically, and the alternative DoodStream servers sit behind a bot wall so they are not offered. Subtitles on this site are burned into the source video. Playback reports welcome in the Discord support channels."
-      ]    },
+      ]
+    },
     {
       "file": "modules/Anime4up-1.0.0-beta.10.zip",
       "presentation": {
@@ -720,4 +730,3 @@
     }
   ]
 }
-
