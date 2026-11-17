@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 166,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-166.zip",
+  "bundleVersion": 167,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-167.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "file": "modules/X-Stream-1.3.5-beta.1.zip",
+      "file": "modules/X-Stream-1.3.5-beta.2.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV",
@@ -245,6 +245,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/xstream.png"
       },
       "changelog": [
+        "1.3.5-beta.2: Fixed a V9 app bug where the built-in Movy backup replaced X-Stream's own search and episode handlers. The backup is now fully isolated and uses the fixed Movy 0.1.0-beta.5 subtitle logic.",
+        "1.3.5-beta.2: Tested on the V9 app runtime: 15/15 sample videos loaded and 14/15 had working English subtitles. Some English subtitles come from a third-party service with a shared daily limit and can be missing late in the day (UTC).",
         "1.3.5-beta.1: Playback reliability — the provider's own servers now fail on most titles, so when they return nothing playable the module falls back to an isolated backup resolver (movie and series episodes by TMDB id). The backup carries original audio only and is never used for Dub.",
         "1.3.5-beta.1: 20-title test (12 films + first episode of 8 series; playlist and first media segment must load): 20/20, up from 5/20. Exact-byte Flutter runtime passed. Physical-device acceptance not yet done.",
         "1.3.4: Playback restored. The old embed page stopped exposing its player for most titles, so the module now resolves through the provider's own JSON player API (the page route stays as a fallback). Results also carry the primary URL, its headers and real quality labels (e.g. 536p) instead of a bare Auto. Verified on the exact bytes: release gate ALL_PASSED, 16/17 sampled titles, 12 subtitle tracks on a movie.",
@@ -657,7 +659,7 @@
       ]
     },
     {
-      "file": "modules/MovieDB-0.1.0-beta.26.zip",
+      "file": "modules/MovieDB-0.1.0-beta.27.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Fast one-call movie & TV streams (Beta)",
@@ -666,6 +668,8 @@
         "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/moviedb.png?v=20260922-1"
       },
       "changelog": [
+        "0.1.0-beta.27: Fixed a V9 app bug where the built-in Movy backup replaced MovieDB's own search and episode handlers, so titles opened Movy links and failed to play. The backup is now fully isolated and uses the fixed Movy 0.1.0-beta.5 subtitle logic.",
+        "0.1.0-beta.27: When moviedb.wiki is down, search, details and home now switch to TMDB after one 12 s check instead of hanging. Tested with the site offline: 21/21 sample titles played; English subtitles on 13/21 (was 5/21).",
         "0.1.0-beta.26: Playback reliability — when the current player route returns nothing playable, an isolated backup resolver is tried (TMDB id; original audio only, never used for Dub).",
         "0.1.0-beta.26: 20-title test (12 films + first episode of 8 series; playlist and first media segment must load): 20/20, up from 6/20. Exact-byte Flutter runtime passed. Physical-device acceptance not yet done.",
         "0.1.0-beta.25: Owner-approved LIVE BETA, not full player/device certification. Updates the current player route and subtitle handling; captions arriving within the existing resolve deadline are retained, captionless cached results refresh, and fresh retries cannot be overwritten by older requests.",
@@ -717,7 +721,7 @@
       ]
     },
     {
-      "file": "modules/Movy-0.1.0-beta.4.zip",
+      "file": "modules/Movy-0.1.0-beta.5.zip",
       "presentation": {
         "category": "Movies & TV",
         "purpose": "Movies & TV (Beta)",
@@ -725,6 +729,8 @@
         "language": "Original audio; source subtitles"
       },
       "changelog": [
+        "0.1.0-beta.5: Subtitles fixed. Many titles (e.g. Prison Break, Breaking Bad, Dune) showed no subtitles because the first servers asked carry none and real WebVTT files named \".m3u8\" were discarded. Those files are now checked and kept, and when the playing servers have no working English track the next servers are asked for subtitles only (bounded to about 3.5 s). Dead default English tracks are dropped and duplicate languages merged.",
+        "0.1.0-beta.5: Tested on the V9 app runtime: working English subtitles on 20/21 sample titles (was 6/21), every title still plays; timing spot-checked against the spoken audio at 0:25, 10:00 and 20:00.",
         "0.1.0-beta.4: New Movy beta for movies and TV. Fresh provider links, source-supplied captions with corrected language labels, separate HLS/MP4 quality groups, real season/episode numbering, bounded requests and provider cooldowns. Availability and subtitle coverage vary; not full-film or physical-device certification."
       ]
     },
