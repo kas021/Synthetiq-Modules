@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 167,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-167.zip",
+  "bundleVersion": 168,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-168.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -746,6 +746,19 @@
         "1.1.0-beta.1: New French anime source with about 2,500 series and films. VOSTFR (Japanese audio, French subtitles) and VF (French dub) are kept separate and never substituted for each other.",
         "1.1.0-beta.1: Episodes keep the site's own numbering (One Piece runs 1-1180 across its arcs); half-episodes such as 1004.5 are listed under a Specials season.",
         "1.1.0-beta.1: Tested before release on the V9 app runtime: 78/80 sampled episodes across 20 series played; spoken language matched the label on every sample; 2-minute in-player playback and offline playback of a downloaded episode passed. Some older episodes are unavailable where the site's own video was deleted."
+      ]
+    },
+    {
+      "file": "modules/DocumentaryArea-1.0.0-beta.1.zip",
+      "presentation": {
+        "category": "Documentaries",
+        "purpose": "Documentaries",
+        "language": "English",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/documentaryarea.png"
+      },
+      "changelog": [
+        "1.0.0-beta.1: New documentary source with about 2,800 free documentaries (history, war, nature, wildlife, space, science, biographies and more), SD or HD as the site serves it, with English subtitles where provided.",
+        "1.0.0-beta.1: Tested on the V9 app runtime: 15/15 sampled documentaries played with working English subtitles; 2-minute in-player playback passed; a full documentary downloaded completely; subtitle timing matched the audio."
       ]
     }
   ]
