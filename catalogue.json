@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 168,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-168.zip",
+  "bundleVersion": 169,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-169.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -759,6 +759,19 @@
       "changelog": [
         "1.0.0-beta.1: New documentary source with about 2,800 free documentaries (history, war, nature, wildlife, space, science, biographies and more), SD or HD as the site serves it, with English subtitles where provided.",
         "1.0.0-beta.1: Tested on the V9 app runtime: 15/15 sampled documentaries played with working English subtitles; 2-minute in-player playback passed; a full documentary downloaded completely; subtitle timing matched the audio."
+      ]
+    },
+    {
+      "file": "modules/AnimeWorld-1.0.0-beta.1.zip",
+      "presentation": {
+        "category": "Anime",
+        "purpose": "Italian Anime",
+        "language": "Italian (SUB ITA / ITA)",
+        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/animeworld.png"
+      },
+      "changelog": [
+        "1.0.0-beta.1: New Italian anime source. SUB ITA (Japanese audio, Italian subtitles) and ITA (Italian dub) are combined into one series and never substituted for each other. English titles are searchable (e.g. Attack on Titan finds L'attacco dei Giganti).",
+        "1.0.0-beta.1: Tested on the V9 app runtime: 42/42 sampled sub and dub episodes across 11 series played; spoken language matched the label; 2-minute in-player playback and a full episode download passed."
       ]
     }
   ]
