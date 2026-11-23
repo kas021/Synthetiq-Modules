@@ -7,8 +7,8 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 169,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-169.zip",
+  "bundleVersion": 170,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-170.zip",
   "minAppVersion": "8.0.0",
   "modules": [
     {
@@ -56,20 +56,6 @@
         "1.0.3-beta.4: Restores stream resolution on the current rescue CDN routes. Fixes titles failing to load on the released app by raising the in-app probe budget (2MB to 4MB), accepting size-capped reachability, and preferring routes without player-broken segment names. Sub/Dub and subtitles unchanged; verified on the released app runtime and S2.",
         "1.0.2: Vidhawk-independent AniKage rescue source (labelled; used only when Vidhawk has no verified media), MegaPlay descriptor decrypt, byte-first validation with elevated probe caps, fair provider sweep and stalled-request caps. Fixes the module being fully dark during the Vidhawk media-relay outage.",
         "1.0.2: Rescue routes pass the same positive media validation as primary routes and are never substituted across languages; episodes the rescue sources do not carry remain unavailable with an honest message."
-      ]
-    },
-    {
-      "file": "modules/Synthetiq-One-1.3.0.zip",
-      "presentation": {
-        "category": "Anime",
-        "purpose": "Fastest Anime",
-        "recommended": true,
-        "language": "English Dub",
-        "iconUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/main/assets/module-icons/synthetiq.png?v=20260812-2"
-      },
-      "changelog": [
-        "Added the Fastest catalogue label",
-        "Runtime remains unchanged from 1.2.9"
       ]
     },
     {
