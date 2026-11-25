@@ -22,10 +22,33 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Select release scope
+        id: scope
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          scope=root
+          if [[ "${GITHUB_EVENT_NAME}" == push ]]; then
+            git cat-file -e "${BEFORE}^{commit}"
+            changed="$(git diff --name-only "$BEFORE" "$GITHUB_SHA")"
+            if grep -q '^v9/live/' <<< "$changed"; then
+              if grep -qvE '^(v9/live/|\.github/workflows/publish\.yml$)' <<< "$changed"; then
+                echo "Do not combine a root release and a scoped V9 release"; exit 1
+              fi
+              if git cat-file -e "$BEFORE:v9/live/repository.json" 2>/dev/null; then
+                test "$changed" == v9/live/disable.json
+                scope=v9-disable
+              else
+                test ! -e v9/live/repository.json
+                scope=v9
+              fi
+            fi
+          fi
+          echo "lane=$scope" >> "$GITHUB_OUTPUT"
       - name: Reject changed immutable packages
         if: github.event.before != '0000000000000000000000000000000000000000'
         run: |
-          changed="$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- modules bundles || true)"
+          changed="$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- modules bundles v9/live/artifacts || true)"
           for file in $changed; do
             if [[ ( "$file" == modules/Synthetiq-One-1.2.9.zip || "$file" == modules/Synthetiq-One-1.3.0.zip ) && ! -e "$file" ]]; then
               echo "Allowing removal of archived Synthetiq One package: $file"
@@ -49,19 +72,34 @@ jobs:
       - name: Generate and validate signed index
         env:
           MODULE_REPOSITORY_SIGNING_JWK: ${{ secrets.MODULE_REPOSITORY_SIGNING_JWK }}
-        run: node scripts/build_repository.mjs
+          RELEASE_SCOPE: ${{ steps.scope.outputs.lane }}
+        run: |
+          if [[ "$RELEASE_SCOPE" == v9* ]]; then
+            disable=0
+            if [[ "$RELEASE_SCOPE" == v9-disable ]]; then disable=1; fi
+            V9_DISABLE="$disable" V9_VERIFY_PUBLIC=1 node v9/live/build.mjs official "$GITHUB_SHA"
+          else
+            node scripts/build_repository.mjs
+          fi
       - name: Publish immutable versioned release assets
+        if: steps.scope.outputs.lane == 'root'
         env:
           GH_TOKEN: ${{ github.token }}
         run: node scripts/publish_releases.mjs
       - name: Publish signed index to the default branch
+        env:
+          RELEASE_SCOPE: ${{ steps.scope.outputs.lane }}
         run: |
-          if git diff --quiet -- repository.json SHA256SUMS; then
-            exit 0
+          if [[ "$RELEASE_SCOPE" == v9* ]]; then
+            test "$GITHUB_REF" == refs/heads/main
+            git diff --exit-code -- repository.json catalogue.json SHA256SUMS modules bundles
+            git add -- v9/live/repository.json
+          else
+            if git diff --quiet -- repository.json SHA256SUMS; then exit 0; fi
+            git add repository.json SHA256SUMS
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add repository.json SHA256SUMS
           git commit -m "Publish signed module catalogue [skip ci]"
           git push
       - uses: actions/upload-artifact@v4
@@ -70,3 +108,4 @@ jobs:
           path: |
             repository.json
             SHA256SUMS
+            v9/live/repository.json
