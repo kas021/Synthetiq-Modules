@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "repositoryId": "synthetiq-official-v9-live",
+  "name": "Synthetiq Player V9 Live TV",
+  "enabled": true,
+  "publishedAtMs": 1795647480000,
+  "bundle": {
+    "version": 1,
+    "minAppVersion": "9.0.112",
+    "packagePath": "/kas021/Synthetiq-Modules/ffd68a2b41d3108327e443b64b112188ef2f1aee/v9/live/artifacts/Player-V9-Live-1.zip",
+    "packageUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/ffd68a2b41d3108327e443b64b112188ef2f1aee/v9/live/artifacts/Player-V9-Live-1.zip",
+    "sha256": "3b579612a1617edbc6b34a5322c48eae74a345121f471a3aed2984cc068c1012",
+    "signature": "7YQzhDjsJW+6Qq2ff6pzad1K1bgP/Tw//3m/OQn5I2M23GSjM3V7IbZmMnpD09qmwAdhuhdaUZmzb92385YrPg=="
+  },
+  "modules": [
+    {
+      "moduleId": "dw-live-v1",
+      "moduleFamilyId": "dw_live_v1",
+      "moduleIdentity": "SP-VID-110-DW-LIVE",
+      "moduleIdentityNumber": 110,
+      "contentType": "video",
+      "version": "0.1.0-beta.4",
+      "minAppVersion": "9.0.112",
+      "publishedAtMs": 1795647480000,
+      "packagePath": "/kas021/Synthetiq-Modules/ffd68a2b41d3108327e443b64b112188ef2f1aee/v9/live/artifacts/DW-Live-0.1.0-beta.4.zip",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/ffd68a2b41d3108327e443b64b112188ef2f1aee/v9/live/artifacts/DW-Live-0.1.0-beta.4.zip",
+      "sha256": "20a1bcee77a5e1f909547431f95912eb23f2d48cb3853d567d77acd547dd6405",
+      "presentation": {
+        "category": "Live TV",
+        "purpose": "DW",
+        "recommended": false
+      },
+      "changelog": [
+        "Optional V9 Live TV catalogue; existing source selections are unchanged."
+      ],
+      "signature": "Kjm8Qhdhzq3p+SDQXK3dNiwTKwIPbHfAuGAmK/3GCun7lonL7SOgMqpxsS2Uge9JfAdodz3dK4mvcPcjU6MQGg=="
+    },
+    {
+      "moduleId": "public-sports-live-v1",
+      "moduleFamilyId": "public_sports_live_v1",
+      "moduleIdentity": "SP-VID-111-PUBLIC-SPORTS-LIVE",
+      "moduleIdentityNumber": 111,
+      "contentType": "video",
+      "version": "0.1.0-beta.5",
+      "minAppVersion": "9.0.112",
+      "publishedAtMs": 1795647480000,
+      "packagePath": "/kas021/Synthetiq-Modules/ffd68a2b41d3108327e443b64b112188ef2f1aee/v9/live/artifacts/Public-Sports-Live-0.1.0-beta.5.zip",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/ffd68a2b41d3108327e443b64b112188ef2f1aee/v9/live/artifacts/Public-Sports-Live-0.1.0-beta.5.zip",
+      "sha256": "41dff901e53ba0269a04b644b7a59c675dbcab4b4b40198a4b2e4040a596d094",
+      "presentation": {
+        "category": "Live TV",
+        "purpose": "Public Sports",
+        "recommended": false
+      },
+      "changelog": [
+        "Optional V9 Live TV catalogue; existing source selections are unchanged."
+      ],
+      "signature": "imm6Es7hoOwmbFMhQPsXHxDNGuCiCAkM+7VShqUQnMREFww6o+USUfLTTPEBVrpxe2Ol/WeAqBzdOfcGsWCAjw=="
+    },
+    {
+      "moduleId": "public-tv-live-v1",
+      "moduleFamilyId": "public_tv_live_v1",
+      "moduleIdentity": "SP-VID-113-PUBLIC-TV-LIVE",
+      "moduleIdentityNumber": 113,
+      "contentType": "video",
+      "version": "0.1.0-beta.5",
+      "minAppVersion": "9.0.112",
+      "publishedAtMs": 1795647480000,
+      "packagePath": "/kas021/Synthetiq-Modules/ffd68a2b41d3108327e443b64b112188ef2f1aee/v9/live/artifacts/Public-TV-Live-0.1.0-beta.5.zip",
+      "packageUrl": "https://raw.githubusercontent.com/kas021/Synthetiq-Modules/ffd68a2b41d3108327e443b64b112188ef2f1aee/v9/live/artifacts/Public-TV-Live-0.1.0-beta.5.zip",
+      "sha256": "34fc7e1a54aec2686935e681d2e1637ff51fe2ac4690d739510662ee9ac0898c",
+      "presentation": {
+        "category": "Live TV",
+        "purpose": "Public TV",
+        "recommended": false
+      },
+      "changelog": [
+        "Optional V9 Live TV catalogue; existing source selections are unchanged."
+      ],
+      "signature": "6g3agHVzIuZml052VJVznmZdTPubq69A3Ip36OzjoHQzUGplHzoklpWwKb/a4lVjxD3TcKIc4/AAyHAa7neukQ=="
+    }
+  ],
+  "signature": "oaNrgm6Ybd55Cuu7/lSl7jQRTrDbQqJHGYzkOKflJmKSI6i+kxAsMhlwtOHVcb1PF/9O5Gp4RVt1Jk7/CTae2g=="
+}
