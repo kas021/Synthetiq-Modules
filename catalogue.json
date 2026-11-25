@@ -7,9 +7,9 @@
     "video": "anikoto-v4",
     "image": "weebcentral-v2"
   },
-  "bundleVersion": 170,
-  "bundleFile": "bundles/Synthetiq-Module-Bundle-170.zip",
-  "minAppVersion": "8.0.0",
+  "bundleVersion": 171,
+  "bundleFile": "bundles/Synthetiq-Module-Bundle-171.zip",
+  "minAppVersion": "9.0.112",
   "modules": [
     {
       "file": "modules/Synthetiq-Anime-1.0.5-beta.8.zip",
@@ -758,6 +758,39 @@
       "changelog": [
         "1.0.0-beta.1: New Italian anime source. SUB ITA (Japanese audio, Italian subtitles) and ITA (Italian dub) are combined into one series and never substituted for each other. English titles are searchable (e.g. Attack on Titan finds L'attacco dei Giganti).",
         "1.0.0-beta.1: Tested on the V9 app runtime: 42/42 sampled sub and dub episodes across 11 series played; spoken language matched the label; 2-minute in-player playback and a full episode download passed."
+      ]
+    },
+    {
+      "file": "modules/DW-Live-0.1.0-beta.4.zip",
+      "presentation": {
+        "category": "Live TV",
+        "purpose": "DW",
+        "recommended": false
+      },
+      "changelog": [
+        "Available in the normal Player V9 repository. Requires Player 9.0.112 or later."
+      ]
+    },
+    {
+      "file": "modules/Public-Sports-Live-0.1.0-beta.5.zip",
+      "presentation": {
+        "category": "Live TV",
+        "purpose": "Public Sports",
+        "recommended": false
+      },
+      "changelog": [
+        "Available in the normal Player V9 repository. Requires Player 9.0.112 or later."
+      ]
+    },
+    {
+      "file": "modules/Public-TV-Live-0.1.0-beta.5.zip",
+      "presentation": {
+        "category": "Live TV",
+        "purpose": "Public TV",
+        "recommended": false
+      },
+      "changelog": [
+        "Available in the normal Player V9 repository. Requires Player 9.0.112 or later."
       ]
     }
   ]
